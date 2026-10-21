@@ -1,0 +1,14 @@
+{
+  "name": "Lectura fàcil",
+  "short_name": "Lectura fàcil",
+  "description": "Llibres de lectura fàcil en català amb traducció a la llengua de l'alumne.",
+  "lang": "ca",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e7ecea",
+  "theme_color": "#1f6670",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

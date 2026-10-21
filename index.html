@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lectura fàcil · Biblioteca</title>
+  <meta name="description" content="Llibres de lectura fàcil en català amb traducció automàtica a la llengua de l’alumne nouvingut, diccionari, veu i paraules desades.">
+  <meta name="theme-color" content="#1f6670">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Salta al contingut</a>
+
+  <!-- ===================== Library ===================== -->
+  <div id="view-library" hidden>
+    <header class="bar">
+      <div class="bar-in">
+        <div class="brand"><b>Lectura fàcil</b><span>Llibres en català amb traducció a la teva llengua</span></div>
+        <div class="controls">
+          <div class="ctl"><label for="libLang">La meva llengua · <i>My language</i></label><select id="libLang"></select></div>
+          <div class="ctl spacer"><span class="lbl">&nbsp;</span>
+            <div class="btns">
+              <button type="button" class="btn settingsBtn" title="Configura el traductor">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/></svg>Traductor</button>
+              <button type="button" class="btn" id="helpBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><path d="M12 17.5h.01"/></svg>Ajuda</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="lib" id="main">
+      <section aria-labelledby="libTitle">
+        <h1 id="libTitle">Biblioteca</h1>
+        <p class="lead">Tria un llibre. Cada frase en català té la traducció al costat, i pots clicar qualsevol paraula per saber què vol dir.</p>
+        <div id="bookList" class="grid" aria-live="polite"></div>
+      </section>
+
+      <section class="add" aria-labelledby="addTitle">
+        <h2 id="addTitle">Afegeix un llibre <small>· professorat</small></h2>
+        <div class="drop" id="drop">
+          <div>
+            <b>Puja un text ja adaptat</b>
+            <span>EPUB, Word (.docx), PDF, HTML, text o un fitxer de Lectura fàcil (.json). Arrossega’l aquí o tria’l.</span>
+          </div>
+          <div class="btns">
+            <button type="button" class="btn primary" id="addFile">Tria un fitxer</button>
+            <button type="button" class="btn" id="addPaste">Enganxa un text</button>
+            <button type="button" class="btn" id="addUrl">Obre un enllaç</button>
+          </div>
+        </div>
+        <p id="addStatus" class="muted" aria-live="polite"></p>
+      </section>
+
+      <footer class="foot">
+        <p>Els llibres, les traduccions i les paraules desades es guarden només en aquest navegador.
+          Si fas servir un traductor en línia, les frases s’envien a aquest servei per traduir-les.</p>
+        <p><a href="https://github.com/vmoren12/lecturafacil" rel="noopener">Codi font</a> · Llicència MIT</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- ===================== Reader ===================== -->
+  <div id="view-reader" hidden>
+    <header class="bar">
+      <div class="bar-in">
+        <button type="button" class="ibtn" id="backBtn" aria-label="Torna a la biblioteca" title="Biblioteca">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg></button>
+        <div class="brand"><b id="rTitle"></b><span id="rSub"></span></div>
+        <div class="controls">
+          <div class="ctl"><label for="chap">Capítol · <i>Chapter</i></label><select id="chap"></select></div>
+          <div class="ctl" id="lvlWrap" hidden><span class="lbl">Nivell · <i>Level</i></span><div class="seg" id="lvl"></div></div>
+          <div class="ctl"><label for="trLang">Traducció · <i>Translation</i></label><select id="trLang"></select></div>
+          <div class="ctl spacer"><span class="lbl">&nbsp;</span>
+            <div class="btns">
+              <div class="dd">
+                <button type="button" class="btn" id="textBtn" aria-controls="textMenu" aria-expanded="false" title="Lletra, vista i veu"><b class="aa">Aa</b></button>
+                <div class="menu" id="textMenu" hidden></div>
+              </div>
+              <button type="button" class="btn" id="hideBtn" aria-pressed="false" title="Amaga la traducció per practicar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 5.1A10 10 0 0 1 12 5c6 0 10 7 10 7a17 17 0 0 1-3.2 3.9M6.6 6.6C3.9 8.4 2 12 2 12s4 7 10 7a9.6 9.6 0 0 0 5.4-1.6"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/></svg>Amaga</button>
+              <button type="button" class="btn" id="wordsBtn" aria-pressed="false">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Paraules <span id="wcount"></span></button>
+              <div class="dd">
+                <button type="button" class="btn" id="toolsBtn" aria-controls="toolsMenu" aria-expanded="false" aria-label="Eines del professorat" title="Eines">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg></button>
+                <div class="menu right" id="toolsMenu" hidden></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" id="teacherBadge" class="badge" hidden title="Clica per sortir del mode docent">Mode docent · clica una traducció per corregir-la</button>
+    </header>
+
+    <main id="readerMain">
+      <div class="book">
+        <article class="spread" id="spread" aria-live="polite"></article>
+        <nav class="pager" aria-label="Pàgines">
+          <button type="button" class="navb" id="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>Enrere</button>
+          <div class="progress"><div class="track"><div class="fill" id="fill"></div></div><small id="ptext"></small></div>
+          <button type="button" class="btn" id="readBtn" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Escolta la pàgina</span></button>
+          <button type="button" class="navb" id="next">Endavant<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+        </nav>
+        <div class="legend">
+          <span>Passa el ratolí o toca una frase: es marca l’original i la traducció.</span>
+          <span>Clica una paraula per veure què vol dir.</span>
+          <span><em>Paraula</em> = paraula important o del glossari.</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="pop" id="pop" hidden role="dialog" aria-label="Paraula"></div>
+  <aside class="drawer" id="drawer" hidden aria-label="Les meves paraules"></aside>
+  <div class="toast" id="toast" hidden role="status"></div>
+  <noscript><p class="noscript">Aquesta aplicació necessita JavaScript.</p></noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

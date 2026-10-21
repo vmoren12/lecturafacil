@@ -1,0 +1,9 @@
+# Local copies of copyrighted books: they are read by the app on this computer
+# only and must not be published (see README, "Llibres amb drets d'autor").
+data/local/
+data/library.local.json
+*.epub
+
+node_modules/
+.DS_Store
+Thumbs.db

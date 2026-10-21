@@ -1,0 +1,2700 @@
+{
+ "format": "lecturafacil",
+ "version": 1,
+ "id": "illa-del-tresor-mostra",
+ "title": "L’illa del tresor",
+ "subtitle": "Mostra adaptada · capítols 1 i 2",
+ "author": "Robert Louis Stevenson",
+ "lang": "ca",
+ "description": "Adaptació pròpia en dos nivells (fàcil i molt fàcil) dels dos primers capítols, amb traducció revisada a l’anglès i a l’urdú i un diccionari de paraules amb definicions fàcils.",
+ "credits": [
+  "Obra original: Robert Louis Stevenson, Treasure Island (1883), domini públic.",
+  "Adaptació a lectura fàcil, traduccions i diccionari: projecte Lectura fàcil."
+ ],
+ "levels": [
+  {
+   "id": "facil",
+   "label": "Fàcil"
+  },
+  {
+   "id": "molt",
+   "label": "Molt fàcil"
+  }
+ ],
+ "sections": [
+  {
+   "kind": "chapter",
+   "n": 1,
+   "title": "El vell mariner",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Em dic Jim Hawkins.",
+       "Ara us explicaré la història de l’illa del tresor.",
+       "Tot va començar fa molts anys, quan jo era un nen.",
+       "Els meus pares tenien una posada a prop del mar.",
+       "La posada es deia Almirall Benbow."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia, un vell mariner va arribar a la posada.",
+       "Era alt i fort, i tenia la pell fosca pel sol.",
+       "Tenia una cicatriu llarga a la cara.",
+       "Portava un bagul gran i pesat.",
+       "Mentre caminava, cantava una cançó de pirates:",
+       "«Quinze homes sobre el bagul del mort, i una ampolla de rom!»"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—M’agrada aquest lloc —va dir el mariner—. Hi ve molta gent?",
+       "El meu pare li va dir que no, que hi venia poca gent.",
+       "—Doncs em quedaré aquí —va dir—. Digueu-me capità.",
+       "Va llançar unes monedes d’or sobre la taula.",
+       "Des d’aquell dia, tothom el va anomenar «el capità»."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità parlava molt poc.",
+       "Durant el dia caminava per la costa amb una ullera.",
+       "A la nit s’asseia a prop del foc i bevia rom.",
+       "Cada dia preguntava: «Heu vist cap mariner pel camí?»",
+       "Tenia por d’alguna cosa, però no sabíem de què."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia, el capità em va cridar.",
+       "—Noi, vols guanyar diners? —em va preguntar.",
+       "—Cada mes et donaré una moneda de plata.",
+       "—Només has de vigilar si arriba un mariner amb una sola cama.",
+       "—Si el veus, avisa’m de seguida."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Aquell mariner amb una sola cama em feia molta por.",
+       "Les nits de tempesta, somiava amb ell.",
+       "En els meus malsons, saltava i corria darrere meu.",
+       "Em despertava amb molta por."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Algunes nits, el capità bevia massa rom.",
+       "Llavors cantava cançons de mar amb una veu molt forta.",
+       "També explicava històries terribles de pirates, tempestes i baralles.",
+       "Tothom havia d’escoltar en silenci.",
+       "Si algú parlava, el capità donava un cop fort a la taula."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Van passar els mesos i el capità no pagava.",
+       "El meu pare estava malalt i tenia por de demanar-li els diners.",
+       "Només una persona no tenia por del capità: el doctor Livesey.",
+       "Una tarda, el doctor va venir a veure el meu pare."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità va començar a cantar la seva cançó i va picar la taula.",
+       "—Silenci! —va cridar.",
+       "El doctor el va mirar i va continuar parlant amb calma.",
+       "Llavors el capità va treure un ganivet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Guardeu aquest ganivet ara mateix —va dir el doctor—.",
+       "—Sóc metge, però també sóc jutge.",
+       "—Si no em feu cas, us enviaré a la presó.",
+       "El capità va guardar el ganivet i es va asseure, enfadat.",
+       "Des d’aquella nit, el capità va estar més tranquil."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Em dic Jim.",
+       "Visc amb els meus pares en una posada.",
+       "Una posada és una casa on la gent dorm i menja.",
+       "La posada és a prop del mar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia arriba un mariner vell.",
+       "És alt i fort.",
+       "Té una cicatriu a la cara.",
+       "Porta un bagul gran.",
+       "Canta una cançó de pirates."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Em quedo aquí —diu el mariner.",
+       "—Digueu-me capità.",
+       "Paga amb monedes d’or.",
+       "Ara tothom li diu «el capità»."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità parla poc.",
+       "De dia, mira el mar amb una ullera.",
+       "De nit, beu rom a prop del foc.",
+       "El capità té por."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia, el capità em parla.",
+       "—Mira el camí cada dia.",
+       "—Si veus un mariner amb una sola cama, avisa’m.",
+       "—Et pagaré una moneda cada mes.",
+       "Jo tinc por d’aquest mariner."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "A la nit, el capità beu molt.",
+       "Canta fort i explica històries de pirates.",
+       "La gent de la posada té por.",
+       "El capità no paga."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia ve el doctor Livesey.",
+       "El capità crida: «Silenci!»",
+       "Treu un ganivet.",
+       "El doctor no té por."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Guardeu el ganivet —diu el doctor.",
+       "—Sóc metge i també jutge.",
+       "El capità guarda el ganivet.",
+       "Està enfadat, però no diu res."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 2,
+   "title": "Gos Negre",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Un matí d’hivern, el capità va sortir a passejar per la platja.",
+       "Jo estava parant la taula per esmorzar.",
+       "Llavors va entrar un home desconegut.",
+       "Era pàl·lid i li faltaven dos dits de la mà esquerra.",
+       "Semblava tranquil, però em va fer por."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Vine aquí, noi —em va dir—.",
+       "—Aquesta és la taula del meu amic Bill?",
+       "Li vaig dir que no coneixia cap Bill.",
+       "—És la taula d’un mariner que es diu capità —vaig dir.",
+       "—Té una cicatriu a la cara? —va preguntar—. Doncs és ell!"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "L’home va mirar per la porta, com un gat que espera un ratolí.",
+       "Després em va agafar del braç.",
+       "—Ens amagarem darrere la porta —va dir—. Li farem una sorpresa.",
+       "Jo tremolava de por.",
+       "L’home tenia la mà a prop del ganivet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Per fi, el capità va entrar a la posada.",
+       "—Bill! —va cridar el desconegut.",
+       "El capità es va girar i es va posar blanc, com si veiés un fantasma.",
+       "—Gos Negre! —va dir amb una veu tremolosa.",
+       "—Sí, sóc jo, el teu vell company —va dir l’altre."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Què vols? —va preguntar el capità.",
+       "—Vull parlar amb tu, com a vells amics —va respondre Gos Negre.",
+       "Vaig portar rom i ells es van asseure a la taula.",
+       "Gos Negre em va dir que sortís de la sala.",
+       "Des de fora, jo sentia les seves veus, però no entenia res."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, van començar a cridar.",
+       "Vaig sentir soroll de cadires i de ganivets.",
+       "Després, un crit de dolor.",
+       "Gos Negre va sortir corrent, amb l’espatlla plena de sang.",
+       "El capità el va perseguir, però Gos Negre es va escapar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità va tornar a la posada molt cansat.",
+       "—Rom! —va demanar—. Me n’he d’anar d’aquí!",
+       "Vaig anar a buscar el rom i vaig sentir un cop fort.",
+       "El capità havia caigut a terra.",
+       "Tenia els ulls tancats i respirava amb dificultat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "La meva mare i jo no sabíem què fer.",
+       "Per sort, en aquell moment va arribar el doctor Livesey.",
+       "—No està ferit —va dir el doctor—. Està molt malalt per culpa del rom.",
+       "El doctor el va curar i el capità va obrir els ulls.",
+       "—On és Gos Negre? —va preguntar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Oblideu Gos Negre —va dir el doctor—.",
+       "—Si continueu bevent rom, morireu aviat.",
+       "Entre tots dos, el vam portar al llit.",
+       "El capità es va adormir de seguida.",
+       "Però jo sabia que aquella història no s’acabava aquí."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Un matí, el capità va a la platja.",
+       "Un home entra a la posada.",
+       "Li falten dos dits de la mà.",
+       "Es diu Gos Negre."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—On és el meu amic Bill? —pregunta.",
+       "Bill és el nom real del capità.",
+       "Gos Negre s’amaga darrere la porta.",
+       "Jo tinc molta por."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità torna.",
+       "Veu Gos Negre i es posa blanc.",
+       "Els dos homes parlen a la taula.",
+       "Després es barallen amb ganivets."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Gos Negre té sang a l’espatlla.",
+       "Gos Negre fuig corrent.",
+       "El capità cau a terra.",
+       "Està molt malalt."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Arriba el doctor Livesey.",
+       "El doctor ajuda el capità.",
+       "—No beveu més rom —diu el doctor.",
+       "—Si en beveu, morireu."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Portem el capità al llit.",
+       "El capità dorm.",
+       "Però el perill no s’acaba."
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "dict": {
+  "a": {
+   "p": "prep.",
+   "d": "Indica on vas o on ets.",
+   "en": "to, at, in",
+   "ur": "کو، میں، پر"
+  },
+  "al": {
+   "p": "prep. + art.",
+   "d": "a + el.",
+   "en": "to the, at the",
+   "ur": "(a + el) کو، میں، پر"
+  },
+  "del": {
+   "p": "prep. + art.",
+   "d": "de + el.",
+   "en": "of the, from the",
+   "ur": "(de + el) کا، کی، کے"
+  },
+  "pel": {
+   "p": "prep. + art.",
+   "d": "per + el.",
+   "en": "through the, along the, by the",
+   "ur": "(per + el) سے، میں"
+  },
+  "amb": {
+   "p": "prep.",
+   "d": "Indica companyia o la cosa que fas servir.",
+   "en": "with",
+   "ur": "کے ساتھ، سے"
+  },
+  "de": {
+   "p": "prep.",
+   "d": "Indica de qui és una cosa o d’on ve.",
+   "en": "of, from",
+   "ur": "کا، کی، کے؛ سے",
+   "f": [
+    "de",
+    "d"
+   ]
+  },
+  "des": {
+   "p": "prep.",
+   "d": "Des de: a partir d’un moment o d’un lloc.",
+   "en": "since, from",
+   "ur": "سے (وقت یا جگہ)"
+  },
+  "en": {
+   "p": "prep. / pron.",
+   "d": "1. Dins de: en una posada. 2. D’això: si en beveu. 3. Me n’he d’anar: m’he d’anar d’aquí.",
+   "en": "in; of it, some",
+   "ur": "میں؛ اس میں سے",
+   "f": [
+    "en",
+    "n"
+   ]
+  },
+  "per": {
+   "p": "prep.",
+   "d": "Indica per on passes o per a què és una cosa.",
+   "en": "for, through, along, by",
+   "ur": "کے لیے، سے، میں سے"
+  },
+  "sobre": {
+   "p": "prep.",
+   "d": "A dalt d’una cosa.",
+   "en": "on, on top of",
+   "ur": "پر، کے اوپر"
+  },
+  "entre": {
+   "p": "prep.",
+   "d": "Al mig de dues coses. Entre tots dos: junts.",
+   "en": "between; together",
+   "ur": "درمیان؛ مل کر"
+  },
+  "durant": {
+   "p": "prep.",
+   "d": "Mentre passa una cosa.",
+   "en": "during",
+   "ur": "کے دوران"
+  },
+  "darrere": {
+   "p": "adv.",
+   "d": "A la part de l’esquena. El contrari de davant.",
+   "en": "behind",
+   "ur": "پیچھے"
+  },
+  "prop": {
+   "p": "adv.",
+   "d": "A prop: a poca distància.",
+   "en": "near",
+   "ur": "قریب"
+  },
+  "fora": {
+   "p": "adv.",
+   "d": "A l’exterior, no a dins.",
+   "en": "outside",
+   "ur": "باہر"
+  },
+  "aquí": {
+   "p": "adv.",
+   "d": "En aquest lloc.",
+   "en": "here",
+   "ur": "یہاں"
+  },
+  "on": {
+   "p": "adv.",
+   "d": "En quin lloc.",
+   "en": "where",
+   "ur": "کہاں، جہاں"
+  },
+  "com": {
+   "p": "adv.",
+   "d": "Igual que. Com si: com si fos veritat.",
+   "en": "like, as",
+   "ur": "جیسے، کی طرح"
+  },
+  "quan": {
+   "p": "conj.",
+   "d": "En el moment que.",
+   "en": "when",
+   "ur": "جب"
+  },
+  "que": {
+   "p": "conj. / pron.",
+   "d": "Uneix dues parts d’una frase.",
+   "en": "that, who, which",
+   "ur": "کہ، جو"
+  },
+  "què": {
+   "p": "pron.",
+   "d": "Pregunta per una cosa.",
+   "en": "what",
+   "ur": "کیا"
+  },
+  "i": {
+   "p": "conj.",
+   "d": "Uneix dues paraules o dues frases.",
+   "en": "and",
+   "ur": "اور"
+  },
+  "però": {
+   "p": "conj.",
+   "d": "Indica una cosa contrària.",
+   "en": "but",
+   "ur": "لیکن"
+  },
+  "si": {
+   "p": "conj.",
+   "d": "En cas que.",
+   "en": "if",
+   "ur": "اگر"
+  },
+  "sí": {
+   "p": "adv.",
+   "d": "Resposta positiva.",
+   "en": "yes",
+   "ur": "ہاں"
+  },
+  "no": {
+   "p": "adv.",
+   "d": "Resposta negativa. Serveix per negar.",
+   "en": "no, not",
+   "ur": "نہیں"
+  },
+  "doncs": {
+   "p": "conj.",
+   "d": "Llavors, per tant.",
+   "en": "then, so",
+   "ur": "تو پھر"
+  },
+  "mentre": {
+   "p": "conj.",
+   "d": "Al mateix temps que.",
+   "en": "while, as",
+   "ur": "جب، دوران"
+  },
+  "llavors": {
+   "p": "adv.",
+   "d": "En aquell moment.",
+   "en": "then",
+   "ur": "تب، پھر"
+  },
+  "després": {
+   "p": "adv.",
+   "d": "Més tard.",
+   "en": "then, after, later",
+   "ur": "پھر، بعد میں"
+  },
+  "ara": {
+   "p": "adv.",
+   "d": "En aquest moment.",
+   "en": "now",
+   "ur": "اب"
+  },
+  "mateix": {
+   "p": "adj.",
+   "d": "Ara mateix: en aquest moment exacte.",
+   "en": "same; right (now)",
+   "ur": "وہی؛ ابھی"
+  },
+  "també": {
+   "p": "adv.",
+   "d": "A més a més.",
+   "en": "also, too",
+   "ur": "بھی"
+  },
+  "només": {
+   "p": "adv.",
+   "d": "Solament, res més.",
+   "en": "only",
+   "ur": "صرف، بس"
+  },
+  "molt": {
+   "p": "adv. / adj.",
+   "d": "Una quantitat gran.",
+   "en": "very, a lot, many",
+   "ur": "بہت",
+   "f": [
+    "molt",
+    "molta",
+    "molts"
+   ]
+  },
+  "poc": {
+   "p": "adv. / adj.",
+   "d": "Una quantitat petita.",
+   "en": "little, few",
+   "ur": "کم، تھوڑا",
+   "f": [
+    "poc",
+    "poca"
+   ]
+  },
+  "massa": {
+   "p": "adv.",
+   "d": "Més del que cal.",
+   "en": "too much",
+   "ur": "بہت زیادہ"
+  },
+  "més": {
+   "p": "adv.",
+   "d": "Una quantitat més gran.",
+   "en": "more",
+   "ur": "زیادہ، اور"
+  },
+  "aviat": {
+   "p": "adv.",
+   "d": "D’aquí a poc temps.",
+   "en": "soon",
+   "ur": "جلد"
+  },
+  "seguida": {
+   "p": "adv.",
+   "d": "De seguida: ara mateix, molt ràpid.",
+   "en": "at once, right away",
+   "ur": "فوراً"
+  },
+  "sobte": {
+   "p": "adv.",
+   "d": "De sobte: de cop, sense avisar.",
+   "en": "suddenly",
+   "ur": "اچانک"
+  },
+  "fi": {
+   "p": "nom f.",
+   "d": "El final. Per fi: finalment.",
+   "en": "end; at last",
+   "ur": "آخر؛ آخرکار"
+  },
+  "sort": {
+   "p": "nom f.",
+   "d": "Quan passa una cosa bona. Per sort: afortunadament.",
+   "en": "luck; luckily",
+   "ur": "قسمت؛ خوش قسمتی سے"
+  },
+  "culpa": {
+   "p": "nom f.",
+   "d": "Per culpa de: a causa d’una cosa dolenta.",
+   "en": "fault; because of",
+   "ur": "قصور؛ کی وجہ سے"
+  },
+  "tot": {
+   "p": "pron. / adj.",
+   "d": "Totes les coses, sense deixar res. Tots dos: les dues persones.",
+   "en": "all, everything",
+   "ur": "سب، سارا",
+   "f": [
+    "tot",
+    "tots"
+   ]
+  },
+  "tothom": {
+   "p": "pron.",
+   "d": "Totes les persones.",
+   "en": "everyone",
+   "ur": "ہر کوئی، سب لوگ"
+  },
+  "algú": {
+   "p": "pron.",
+   "d": "Una persona, però no sabem qui.",
+   "en": "someone",
+   "ur": "کوئی"
+  },
+  "algun": {
+   "p": "adj.",
+   "d": "Un o uns quants, però no sabem quins.",
+   "en": "some",
+   "ur": "کچھ، کوئی",
+   "f": [
+    "alguna",
+    "algunes"
+   ]
+  },
+  "cap": {
+   "p": "adj.",
+   "d": "En preguntes i frases negatives: ni un.",
+   "en": "any; no",
+   "ur": "کوئی (بھی)"
+  },
+  "res": {
+   "p": "pron.",
+   "d": "Cap cosa.",
+   "en": "nothing, anything",
+   "ur": "کچھ نہیں"
+  },
+  "cada": {
+   "p": "adj.",
+   "d": "Tots, un per un.",
+   "en": "every, each",
+   "ur": "ہر"
+  },
+  "altre": {
+   "p": "adj. / pron.",
+   "d": "Una persona o cosa diferent.",
+   "en": "other",
+   "ur": "دوسرا"
+  },
+  "sol": {
+   "p": "adj.",
+   "d": "Només un. Una sola cama: només una cama.",
+   "en": "only, single, alone",
+   "ur": "صرف ایک، اکیلا",
+   "f": [
+    "sola"
+   ]
+  },
+  "sol_n": {
+   "w": "sol",
+   "p": "nom m.",
+   "d": "L’estrella que ens dona llum i calor de dia.",
+   "en": "sun",
+   "ur": "سورج، دھوپ",
+   "f": [
+    "sol"
+   ]
+  },
+  "dos": {
+   "p": "num.",
+   "d": "El número 2. Tots dos: les dues persones.",
+   "en": "two",
+   "ur": "دو"
+  },
+  "quinze": {
+   "p": "num.",
+   "d": "El número 15.",
+   "en": "fifteen",
+   "ur": "پندرہ"
+  },
+  "un": {
+   "p": "art.",
+   "d": "Es posa davant d’un nom. Vol dir també el número 1.",
+   "en": "a, an, one",
+   "ur": "ایک",
+   "f": [
+    "un",
+    "una",
+    "unes"
+   ]
+  },
+  "el": {
+   "p": "art. / pron.",
+   "d": "Article: es posa davant del nom (el, la, els, les, l’). També vol dir «a ell».",
+   "en": "the; him, it",
+   "ur": "(اسم سے پہلے لگنے والا لفظ)؛ اسے",
+   "f": [
+    "el",
+    "la",
+    "l",
+    "els",
+    "les"
+   ]
+  },
+  "aquell": {
+   "p": "adj.",
+   "d": "Per a coses que són lluny.",
+   "en": "that",
+   "ur": "وہ",
+   "f": [
+    "aquell",
+    "aquella"
+   ]
+  },
+  "aquest": {
+   "p": "adj.",
+   "d": "Per a coses que són a prop.",
+   "en": "this",
+   "ur": "یہ",
+   "f": [
+    "aquest",
+    "aquesta"
+   ]
+  },
+  "jo": {
+   "p": "pron.",
+   "d": "La persona que parla.",
+   "en": "I",
+   "ur": "میں"
+  },
+  "tu": {
+   "p": "pron.",
+   "d": "La persona amb qui parles.",
+   "en": "you",
+   "ur": "تم"
+  },
+  "ell": {
+   "p": "pron.",
+   "d": "Un home o un noi del qual parlem.",
+   "en": "he, him",
+   "ur": "وہ، اسے"
+  },
+  "ells": {
+   "p": "pron.",
+   "d": "Unes persones de les quals parlem.",
+   "en": "they, them",
+   "ur": "وہ (سب)"
+  },
+  "em": {
+   "p": "pron.",
+   "d": "A mi. Em dic Jim: el meu nom és Jim.",
+   "en": "me, myself",
+   "ur": "مجھے",
+   "f": [
+    "em",
+    "me",
+    "m"
+   ]
+  },
+  "et": {
+   "p": "pron.",
+   "d": "A tu.",
+   "en": "you, to you",
+   "ur": "تمہیں"
+  },
+  "li": {
+   "p": "pron.",
+   "d": "A ell, a ella.",
+   "en": "him, her, to him",
+   "ur": "اسے، اس کو"
+  },
+  "ens": {
+   "p": "pron.",
+   "d": "A nosaltres.",
+   "en": "us, ourselves",
+   "ur": "ہمیں، ہم"
+  },
+  "us": {
+   "p": "pron.",
+   "d": "A vosaltres. També a vós (una persona, amb respecte).",
+   "en": "you, to you",
+   "ur": "آپ کو، تمہیں"
+  },
+  "es": {
+   "p": "pron.",
+   "d": "A si mateix. Va amb alguns verbs: es diu, es va asseure.",
+   "en": "himself, herself, themselves",
+   "ur": "خود (فعل کے ساتھ)",
+   "f": [
+    "es",
+    "s"
+   ]
+  },
+  "hi": {
+   "p": "pron.",
+   "d": "En aquest lloc o en aquell lloc.",
+   "en": "there, here",
+   "ur": "وہاں، یہاں"
+  },
+  "meu": {
+   "p": "adj.",
+   "d": "De mi.",
+   "en": "my, mine",
+   "ur": "میرا، میری، میرے",
+   "f": [
+    "meu",
+    "meus",
+    "meva"
+   ]
+  },
+  "teu": {
+   "p": "adj.",
+   "d": "De tu.",
+   "en": "your",
+   "ur": "تمہارا"
+  },
+  "seu": {
+   "p": "adj.",
+   "d": "D’ell, d’ella o d’ells.",
+   "en": "his, her, their",
+   "ur": "اس کا، ان کا، اپنا",
+   "f": [
+    "seva",
+    "seves"
+   ]
+  },
+  "va": {
+   "p": "verb auxiliar",
+   "d": "1. Va + verb = passat: va arribar (va venir abans). 2. Del verb anar: va a la platja.",
+   "en": "(past tense) did; goes",
+   "ur": "ماضی بتانے والا لفظ: va arribar = آیا؛ جاتا ہے",
+   "f": [
+    "va",
+    "vaig",
+    "vam",
+    "van"
+   ]
+  },
+  "anar": {
+   "p": "verb",
+   "d": "Moure’s cap a un lloc.",
+   "en": "to go",
+   "ur": "جانا"
+  },
+  "acabar": {
+   "p": "verb",
+   "d": "Arribar al final.",
+   "en": "to end, to finish",
+   "ur": "ختم ہونا",
+   "f": [
+    "acaba",
+    "acabava"
+   ]
+  },
+  "adormir": {
+   "p": "verb",
+   "d": "Començar a dormir.",
+   "en": "to fall asleep",
+   "ur": "سو جانا"
+  },
+  "agafar": {
+   "p": "verb",
+   "d": "Prendre amb la mà.",
+   "en": "to take, to grab",
+   "ur": "پکڑنا"
+  },
+  "agradar": {
+   "p": "verb",
+   "d": "Trobar una cosa bona o bonica.",
+   "en": "to like",
+   "ur": "پسند آنا",
+   "f": [
+    "agrada"
+   ]
+  },
+  "ajudar": {
+   "p": "verb",
+   "d": "Fer alguna cosa per algú que ho necessita.",
+   "en": "to help",
+   "ur": "مدد کرنا",
+   "f": [
+    "ajuda"
+   ]
+  },
+  "amagar": {
+   "p": "verb",
+   "d": "Posar-se on ningú no et veu.",
+   "en": "to hide",
+   "ur": "چھپنا، چھپانا",
+   "f": [
+    "amaga",
+    "amagarem"
+   ],
+   "k": 1
+  },
+  "anomenar": {
+   "p": "verb",
+   "d": "Donar un nom a algú.",
+   "en": "to call, to name",
+   "ur": "نام سے پکارنا"
+  },
+  "arribar": {
+   "p": "verb",
+   "d": "Venir a un lloc.",
+   "en": "to arrive",
+   "ur": "پہنچنا، آنا",
+   "f": [
+    "arriba",
+    "arribar"
+   ]
+  },
+  "asseure": {
+   "p": "verb",
+   "d": "Posar-se en una cadira.",
+   "en": "to sit down",
+   "ur": "بیٹھنا",
+   "f": [
+    "asseia",
+    "asseure"
+   ]
+  },
+  "avisar": {
+   "p": "verb",
+   "d": "Dir una cosa important a algú.",
+   "en": "to tell, to warn",
+   "ur": "بتانا، خبردار کرنا",
+   "f": [
+    "avisa"
+   ],
+   "k": 1
+  },
+  "barallar": {
+   "p": "verb",
+   "d": "Lluitar amb una altra persona.",
+   "en": "to fight",
+   "ur": "لڑنا",
+   "f": [
+    "barallen"
+   ]
+  },
+  "beure": {
+   "p": "verb",
+   "d": "Prendre un líquid.",
+   "en": "to drink",
+   "ur": "پینا",
+   "f": [
+    "beu",
+    "bevent",
+    "beveu",
+    "bevia"
+   ],
+   "k": 1
+  },
+  "buscar": {
+   "p": "verb",
+   "d": "Intentar trobar una cosa. Anar a buscar: anar a portar.",
+   "en": "to look for, to fetch",
+   "ur": "ڈھونڈنا، لانا"
+  },
+  "caure": {
+   "p": "verb",
+   "d": "Anar a terra sense voler.",
+   "en": "to fall",
+   "ur": "گرنا",
+   "f": [
+    "cau",
+    "caigut"
+   ],
+   "k": 1
+  },
+  "caminar": {
+   "p": "verb",
+   "d": "Anar a peu.",
+   "en": "to walk",
+   "ur": "چلنا",
+   "f": [
+    "caminava"
+   ]
+  },
+  "cantar": {
+   "p": "verb",
+   "d": "Fer música amb la veu.",
+   "en": "to sing",
+   "ur": "گانا گانا",
+   "f": [
+    "canta",
+    "cantar",
+    "cantava"
+   ]
+  },
+  "començar": {
+   "p": "verb",
+   "d": "Fer la primera part d’una cosa.",
+   "en": "to start, to begin",
+   "ur": "شروع کرنا"
+  },
+  "conèixer": {
+   "p": "verb",
+   "d": "Saber qui és una persona.",
+   "en": "to know (a person)",
+   "ur": "جاننا، پہچاننا",
+   "f": [
+    "coneixia"
+   ]
+  },
+  "continuar": {
+   "p": "verb",
+   "d": "No parar de fer una cosa.",
+   "en": "to keep on, to continue",
+   "ur": "جاری رکھنا",
+   "f": [
+    "continuar",
+    "continueu"
+   ]
+  },
+  "córrer": {
+   "p": "verb",
+   "d": "Anar molt ràpid amb les cames. Sortir corrent: sortir molt ràpid.",
+   "en": "to run",
+   "ur": "دوڑنا، بھاگنا",
+   "f": [
+    "corria",
+    "corrent"
+   ]
+  },
+  "cridar": {
+   "p": "verb",
+   "d": "1. Parlar molt fort. 2. Dir a algú que vingui.",
+   "en": "to shout; to call",
+   "ur": "چلانا؛ بلانا",
+   "f": [
+    "crida",
+    "cridar"
+   ],
+   "k": 1
+  },
+  "curar": {
+   "p": "verb",
+   "d": "Fer que una persona malalta estigui bé.",
+   "en": "to treat, to heal",
+   "ur": "علاج کرنا"
+  },
+  "demanar": {
+   "p": "verb",
+   "d": "Dir que vols una cosa.",
+   "en": "to ask for",
+   "ur": "مانگنا"
+  },
+  "despertar": {
+   "p": "verb",
+   "d": "Deixar de dormir.",
+   "en": "to wake up",
+   "ur": "جاگنا",
+   "f": [
+    "despertava"
+   ]
+  },
+  "dir": {
+   "p": "verb",
+   "d": "Parlar, explicar amb paraules. Dir-se: tenir un nom (em dic Jim).",
+   "en": "to say, to tell; to be called",
+   "ur": "کہنا؛ نام ہونا",
+   "f": [
+    "deia",
+    "dic",
+    "digueu",
+    "dir",
+    "diu"
+   ]
+  },
+  "donar": {
+   "p": "verb",
+   "d": "Passar una cosa a una altra persona. Donar un cop: picar.",
+   "en": "to give",
+   "ur": "دینا",
+   "f": [
+    "donaré",
+    "donava"
+   ]
+  },
+  "dormir": {
+   "p": "verb",
+   "d": "Descansar amb els ulls tancats.",
+   "en": "to sleep",
+   "ur": "سونا",
+   "f": [
+    "dorm"
+   ]
+  },
+  "entendre": {
+   "p": "verb",
+   "d": "Saber què vol dir una cosa.",
+   "en": "to understand",
+   "ur": "سمجھنا",
+   "f": [
+    "entenia"
+   ]
+  },
+  "entrar": {
+   "p": "verb",
+   "d": "Anar a dins.",
+   "en": "to go in, to come in",
+   "ur": "اندر آنا، داخل ہونا",
+   "f": [
+    "entra",
+    "entrar"
+   ]
+  },
+  "enviar": {
+   "p": "verb",
+   "d": "Fer anar algú o una cosa a un lloc.",
+   "en": "to send",
+   "ur": "بھیجنا",
+   "f": [
+    "enviaré"
+   ]
+  },
+  "escapar": {
+   "p": "verb",
+   "d": "Fugir d’un perill.",
+   "en": "to escape, to get away",
+   "ur": "بچ نکلنا"
+  },
+  "escoltar": {
+   "p": "verb",
+   "d": "Posar atenció al que sents.",
+   "en": "to listen",
+   "ur": "دھیان سے سننا"
+  },
+  "esmorzar": {
+   "p": "verb",
+   "d": "Menjar al matí.",
+   "en": "to have breakfast",
+   "ur": "ناشتہ کرنا"
+  },
+  "esperar": {
+   "p": "verb",
+   "d": "Estar quiet fins que passi una cosa.",
+   "en": "to wait",
+   "ur": "انتظار کرنا",
+   "f": [
+    "espera"
+   ]
+  },
+  "estar": {
+   "p": "verb",
+   "d": "Trobar-se d’una manera o en un lloc.",
+   "en": "to be (how, where)",
+   "ur": "ہونا (حالت یا جگہ)",
+   "f": [
+    "estar",
+    "estava",
+    "està"
+   ]
+  },
+  "explicar": {
+   "p": "verb",
+   "d": "Dir una cosa perquè els altres l’entenguin.",
+   "en": "to tell, to explain",
+   "ur": "سنانا، بتانا",
+   "f": [
+    "explica",
+    "explicaré",
+    "explicava"
+   ]
+  },
+  "faltar": {
+   "p": "verb",
+   "d": "No hi és una cosa que hi hauria de ser.",
+   "en": "to be missing",
+   "ur": "کم ہونا، نہ ہونا",
+   "f": [
+    "faltaven",
+    "falten"
+   ]
+  },
+  "fer": {
+   "p": "verb",
+   "d": "Actuar, crear. Fer por: espantar. Fer cas: obeir. Fa molts anys: molt de temps abans.",
+   "en": "to do, to make",
+   "ur": "کرنا، بنانا",
+   "f": [
+    "fa",
+    "farem",
+    "feia",
+    "fer",
+    "feu"
+   ]
+  },
+  "fugir": {
+   "p": "verb",
+   "d": "Anar-se’n corrent per por.",
+   "en": "to run away",
+   "ur": "بھاگ جانا",
+   "f": [
+    "fuig"
+   ],
+   "k": 1
+  },
+  "girar": {
+   "p": "verb",
+   "d": "Girar-se: fer mitja volta.",
+   "en": "to turn round",
+   "ur": "مڑنا"
+  },
+  "guanyar": {
+   "p": "verb",
+   "d": "Rebre diners per una feina.",
+   "en": "to earn, to win",
+   "ur": "کمانا، جیتنا"
+  },
+  "guardar": {
+   "p": "verb",
+   "d": "Posar una cosa al seu lloc.",
+   "en": "to put away, to keep",
+   "ur": "واپس رکھنا، سنبھالنا",
+   "f": [
+    "guarda",
+    "guardar",
+    "guardeu"
+   ]
+  },
+  "haver": {
+   "p": "verb auxiliar",
+   "d": "Ajuda a fer el passat (heu vist). Haver de: ser necessari (has de vigilar).",
+   "en": "to have (helper); must",
+   "ur": "مددگار فعل؛ haver de = ضروری ہونا",
+   "f": [
+    "has",
+    "havia",
+    "he",
+    "heu"
+   ]
+  },
+  "llançar": {
+   "p": "verb",
+   "d": "Tirar una cosa amb força.",
+   "en": "to throw",
+   "ur": "پھینکنا"
+  },
+  "menjar": {
+   "p": "verb",
+   "d": "Prendre aliments.",
+   "en": "to eat",
+   "ur": "کھانا",
+   "f": [
+    "menja"
+   ]
+  },
+  "mirar": {
+   "p": "verb",
+   "d": "Fer servir els ulls per veure.",
+   "en": "to look, to watch",
+   "ur": "دیکھنا",
+   "f": [
+    "mira",
+    "mirar"
+   ]
+  },
+  "morir": {
+   "p": "verb",
+   "d": "Deixar de viure.",
+   "en": "to die",
+   "ur": "مرنا",
+   "f": [
+    "morireu"
+   ]
+  },
+  "oblidar": {
+   "p": "verb",
+   "d": "No recordar.",
+   "en": "to forget",
+   "ur": "بھولنا",
+   "f": [
+    "oblideu"
+   ]
+  },
+  "obrir": {
+   "p": "verb",
+   "d": "El contrari de tancar.",
+   "en": "to open",
+   "ur": "کھولنا"
+  },
+  "pagar": {
+   "p": "verb",
+   "d": "Donar diners per una cosa.",
+   "en": "to pay",
+   "ur": "پیسے دینا، ادا کرنا",
+   "f": [
+    "paga",
+    "pagaré",
+    "pagava"
+   ],
+   "k": 1
+  },
+  "parar": {
+   "p": "verb",
+   "d": "Parar taula: posar plats, gots i coberts a la taula.",
+   "en": "to set (the table)",
+   "ur": "میز لگانا",
+   "f": [
+    "parant"
+   ]
+  },
+  "parlar": {
+   "p": "verb",
+   "d": "Dir paraules.",
+   "en": "to talk, to speak",
+   "ur": "بولنا، بات کرنا",
+   "f": [
+    "parla",
+    "parlant",
+    "parlar",
+    "parlava",
+    "parlen"
+   ]
+  },
+  "passar": {
+   "p": "verb",
+   "d": "Anar endavant (el temps).",
+   "en": "to pass, to go by",
+   "ur": "گزرنا"
+  },
+  "passejar": {
+   "p": "verb",
+   "d": "Caminar per gust.",
+   "en": "to go for a walk",
+   "ur": "سیر کرنا"
+  },
+  "perseguir": {
+   "p": "verb",
+   "d": "Córrer darrere d’algú per agafar-lo.",
+   "en": "to chase",
+   "ur": "پیچھا کرنا"
+  },
+  "picar": {
+   "p": "verb",
+   "d": "Donar cops.",
+   "en": "to bang, to hit",
+   "ur": "مارنا (ہاتھ سے)"
+  },
+  "portar": {
+   "p": "verb",
+   "d": "Dur una cosa d’un lloc a un altre.",
+   "en": "to carry, to bring",
+   "ur": "لے جانا، لانا",
+   "f": [
+    "porta",
+    "portar",
+    "portava",
+    "portem"
+   ]
+  },
+  "posar": {
+   "p": "verb",
+   "d": "Col·locar. Posar-se blanc: tornar-se blanc de por.",
+   "en": "to put; to become",
+   "ur": "رکھنا؛ ہو جانا",
+   "f": [
+    "posa",
+    "posar"
+   ]
+  },
+  "preguntar": {
+   "p": "verb",
+   "d": "Demanar una informació.",
+   "en": "to ask",
+   "ur": "پوچھنا",
+   "f": [
+    "pregunta",
+    "preguntar",
+    "preguntava"
+   ]
+  },
+  "quedar": {
+   "p": "verb",
+   "d": "No marxar d’un lloc.",
+   "en": "to stay",
+   "ur": "رکنا، ٹھہرنا",
+   "f": [
+    "quedaré",
+    "quedo"
+   ]
+  },
+  "respirar": {
+   "p": "verb",
+   "d": "Fer entrar i sortir l’aire del cos.",
+   "en": "to breathe",
+   "ur": "سانس لینا",
+   "f": [
+    "respirava"
+   ]
+  },
+  "respondre": {
+   "p": "verb",
+   "d": "Contestar una pregunta.",
+   "en": "to answer",
+   "ur": "جواب دینا"
+  },
+  "saber": {
+   "p": "verb",
+   "d": "Tenir una informació al cap.",
+   "en": "to know",
+   "ur": "جاننا، معلوم ہونا",
+   "f": [
+    "sabia",
+    "sabíem"
+   ]
+  },
+  "saltar": {
+   "p": "verb",
+   "d": "Fer un bot.",
+   "en": "to jump",
+   "ur": "اچھلنا، کودنا",
+   "f": [
+    "saltava"
+   ]
+  },
+  "semblar": {
+   "p": "verb",
+   "d": "Tenir aspecte de.",
+   "en": "to seem, to look",
+   "ur": "لگنا",
+   "f": [
+    "semblava"
+   ]
+  },
+  "sentir": {
+   "p": "verb",
+   "d": "Notar un so amb les orelles.",
+   "en": "to hear",
+   "ur": "سننا",
+   "f": [
+    "sentia",
+    "sentir"
+   ]
+  },
+  "ser": {
+   "p": "verb",
+   "d": "Verb per dir com és o qui és una persona o una cosa.",
+   "en": "to be",
+   "ur": "ہونا",
+   "f": [
+    "era",
+    "sóc",
+    "és"
+   ]
+  },
+  "somiar": {
+   "p": "verb",
+   "d": "Veure coses mentre dorms.",
+   "en": "to dream",
+   "ur": "خواب دیکھنا",
+   "f": [
+    "somiava"
+   ]
+  },
+  "sortir": {
+   "p": "verb",
+   "d": "Anar a fora.",
+   "en": "to go out, to leave",
+   "ur": "باہر جانا، نکلنا",
+   "f": [
+    "sortir",
+    "sortís"
+   ]
+  },
+  "tenir": {
+   "p": "verb",
+   "d": "Ser l’amo d’una cosa. Tenir por: estar espantat.",
+   "en": "to have",
+   "ur": "پاس ہونا، رکھنا",
+   "f": [
+    "tenia",
+    "tenien",
+    "tinc",
+    "té"
+   ]
+  },
+  "tornar": {
+   "p": "verb",
+   "d": "Venir una altra vegada al mateix lloc.",
+   "en": "to come back",
+   "ur": "واپس آنا",
+   "f": [
+    "torna",
+    "tornar"
+   ]
+  },
+  "tremolar": {
+   "p": "verb",
+   "d": "Moure’s sense voler, per por o per fred.",
+   "en": "to tremble, to shake",
+   "ur": "کانپنا",
+   "f": [
+    "tremolava"
+   ]
+  },
+  "treure": {
+   "p": "verb",
+   "d": "Fer sortir una cosa d’un lloc.",
+   "en": "to take out",
+   "ur": "نکالنا",
+   "f": [
+    "treu",
+    "treure"
+   ]
+  },
+  "venir": {
+   "p": "verb",
+   "d": "Moure’s cap al lloc on és qui parla.",
+   "en": "to come",
+   "ur": "آنا",
+   "f": [
+    "ve",
+    "venia",
+    "venir",
+    "vine"
+   ]
+  },
+  "veure": {
+   "p": "verb",
+   "d": "Notar una cosa amb els ulls.",
+   "en": "to see",
+   "ur": "دیکھنا",
+   "f": [
+    "veiés",
+    "veure",
+    "veus",
+    "vist",
+    "veu"
+   ]
+  },
+  "vigilar": {
+   "p": "verb",
+   "d": "Mirar amb molta atenció.",
+   "en": "to watch out, to keep watch",
+   "ur": "نظر رکھنا، نگرانی کرنا",
+   "k": 1
+  },
+  "viure": {
+   "p": "verb",
+   "d": "Tenir la casa en un lloc.",
+   "en": "to live",
+   "ur": "رہنا",
+   "f": [
+    "visc"
+   ]
+  },
+  "voler": {
+   "p": "verb",
+   "d": "Tenir ganes d’una cosa.",
+   "en": "to want",
+   "ur": "چاہنا",
+   "f": [
+    "vols",
+    "vull"
+   ]
+  },
+  "ampolla": {
+   "p": "nom f.",
+   "d": "Recipient de vidre per a líquids.",
+   "en": "bottle",
+   "ur": "بوتل"
+  },
+  "amic": {
+   "p": "nom m.",
+   "d": "Persona que t’estimes i que t’ajuda.",
+   "en": "friend",
+   "ur": "دوست",
+   "f": [
+    "amic",
+    "amics"
+   ]
+  },
+  "any": {
+   "p": "nom m.",
+   "d": "Dotze mesos.",
+   "en": "year",
+   "ur": "سال",
+   "f": [
+    "anys"
+   ]
+  },
+  "bagul": {
+   "p": "nom m.",
+   "d": "Caixa gran per guardar roba i coses.",
+   "en": "chest, trunk",
+   "ur": "صندوق",
+   "k": 1
+  },
+  "baralla": {
+   "p": "nom f.",
+   "d": "Lluita entre persones.",
+   "en": "fight",
+   "ur": "لڑائی",
+   "f": [
+    "baralles"
+   ]
+  },
+  "braç": {
+   "p": "nom m.",
+   "d": "Part del cos entre l’espatlla i la mà.",
+   "en": "arm",
+   "ur": "بازو"
+  },
+  "cadira": {
+   "p": "nom f.",
+   "d": "Moble per seure.",
+   "en": "chair",
+   "ur": "کرسی",
+   "f": [
+    "cadires"
+   ]
+  },
+  "calma": {
+   "p": "nom f.",
+   "d": "Tranquil·litat. Amb calma: tranquil·lament.",
+   "en": "calm; calmly",
+   "ur": "سکون"
+  },
+  "cama": {
+   "p": "nom f.",
+   "d": "Part del cos per caminar.",
+   "en": "leg",
+   "ur": "ٹانگ",
+   "k": 1
+  },
+  "camí": {
+   "p": "nom m.",
+   "d": "Lloc per on es camina per anar d’un lloc a un altre.",
+   "en": "road, path",
+   "ur": "راستہ"
+  },
+  "capità": {
+   "p": "nom m.",
+   "d": "La persona que mana en un vaixell.",
+   "en": "captain",
+   "ur": "کپتان",
+   "k": 1
+  },
+  "cara": {
+   "p": "nom f.",
+   "d": "Part del davant del cap: ulls, nas, boca.",
+   "en": "face",
+   "ur": "چہرہ"
+  },
+  "cas": {
+   "p": "nom m.",
+   "d": "Fer cas: escoltar i obeir.",
+   "en": "to pay attention, to obey",
+   "ur": "بات ماننا"
+  },
+  "casa": {
+   "p": "nom f.",
+   "d": "Edifici on viu la gent.",
+   "en": "house, home",
+   "ur": "گھر"
+  },
+  "cançó": {
+   "p": "nom f.",
+   "d": "Música amb paraules per cantar.",
+   "en": "song",
+   "ur": "گانا",
+   "f": [
+    "cançó",
+    "cançons"
+   ]
+  },
+  "cicatriu": {
+   "p": "nom f.",
+   "d": "Marca a la pell d’una ferida antiga.",
+   "en": "scar",
+   "ur": "زخم کا نشان",
+   "k": 1
+  },
+  "company": {
+   "p": "nom m.",
+   "d": "Persona que treballa o viatja amb tu.",
+   "en": "companion, shipmate",
+   "ur": "ساتھی"
+  },
+  "cop": {
+   "p": "nom m.",
+   "d": "1. Acció de picar fort. 2. Soroll fort quan cau una cosa.",
+   "en": "blow, bang, thump",
+   "ur": "ضرب؛ زور دار آواز"
+  },
+  "cosa": {
+   "p": "nom f.",
+   "d": "Objecte o fet. Alguna cosa: un objecte o fet que no sabem.",
+   "en": "thing",
+   "ur": "چیز"
+  },
+  "costa": {
+   "p": "nom f.",
+   "d": "Terra al costat del mar.",
+   "en": "coast",
+   "ur": "ساحل"
+  },
+  "crit": {
+   "p": "nom m.",
+   "d": "So molt fort de la veu.",
+   "en": "shout, cry, scream",
+   "ur": "چیخ"
+  },
+  "dia": {
+   "p": "nom m.",
+   "d": "Vint-i-quatre hores. De dia: quan hi ha llum.",
+   "en": "day",
+   "ur": "دن"
+  },
+  "diners": {
+   "p": "nom m.",
+   "d": "Monedes i bitllets per comprar.",
+   "en": "money",
+   "ur": "پیسے"
+  },
+  "dificultat": {
+   "p": "nom f.",
+   "d": "Amb dificultat: costa molt de fer.",
+   "en": "difficulty",
+   "ur": "مشکل"
+  },
+  "dit": {
+   "p": "nom m.",
+   "d": "Cada una de les cinc parts al final de la mà.",
+   "en": "finger",
+   "ur": "انگلی",
+   "f": [
+    "dits"
+   ]
+  },
+  "doctor": {
+   "p": "nom m.",
+   "d": "Metge, persona que cura els malalts.",
+   "en": "doctor",
+   "ur": "ڈاکٹر"
+  },
+  "dolor": {
+   "p": "nom m.",
+   "d": "El que sents quan et fas mal.",
+   "en": "pain",
+   "ur": "درد"
+  },
+  "espatlla": {
+   "p": "nom f.",
+   "d": "Part del cos entre el braç i el coll.",
+   "en": "shoulder",
+   "ur": "کندھا"
+  },
+  "fantasma": {
+   "p": "nom m.",
+   "d": "Esperit d’un mort que fa por.",
+   "en": "ghost",
+   "ur": "بھوت"
+  },
+  "foc": {
+   "p": "nom m.",
+   "d": "Flames que fan llum i calor.",
+   "en": "fire",
+   "ur": "آگ"
+  },
+  "ganivet": {
+   "p": "nom m.",
+   "d": "Eina amb una fulla per tallar.",
+   "en": "knife",
+   "ur": "چاقو",
+   "f": [
+    "ganivet",
+    "ganivets"
+   ],
+   "k": 1
+  },
+  "gat": {
+   "p": "nom m.",
+   "d": "Animal petit de casa que caça ratolins.",
+   "en": "cat",
+   "ur": "بلی"
+  },
+  "gent": {
+   "p": "nom f.",
+   "d": "Persones.",
+   "en": "people",
+   "ur": "لوگ"
+  },
+  "gos": {
+   "p": "nom m.",
+   "d": "Animal de casa que borda. Gos Negre: un pirata, vell company del capità.",
+   "en": "dog (Black Dog: a pirate)",
+   "ur": "کتا (بلیک ڈاگ: ایک قزاق)"
+  },
+  "hivern": {
+   "p": "nom m.",
+   "d": "L’estació de l’any més freda.",
+   "en": "winter",
+   "ur": "سردیوں کا موسم"
+  },
+  "home": {
+   "p": "nom m.",
+   "d": "Persona adulta, masculina.",
+   "en": "man",
+   "ur": "آدمی",
+   "f": [
+    "home",
+    "homes"
+   ]
+  },
+  "història": {
+   "p": "nom f.",
+   "d": "Relat de fets, un conte.",
+   "en": "story",
+   "ur": "کہانی",
+   "f": [
+    "història",
+    "històries"
+   ]
+  },
+  "illa": {
+   "p": "nom f.",
+   "d": "Terra amb aigua per tots els costats.",
+   "en": "island",
+   "ur": "جزیرہ",
+   "k": 1
+  },
+  "jutge": {
+   "p": "nom m.",
+   "d": "Persona que decideix, segons la llei, qui ha fet mal.",
+   "en": "judge",
+   "ur": "جج"
+  },
+  "llit": {
+   "p": "nom m.",
+   "d": "Moble per dormir.",
+   "en": "bed",
+   "ur": "بستر"
+  },
+  "lloc": {
+   "p": "nom m.",
+   "d": "Espai on és una cosa o una persona.",
+   "en": "place",
+   "ur": "جگہ"
+  },
+  "malson": {
+   "p": "nom m.",
+   "d": "Somni que fa por.",
+   "en": "nightmare",
+   "ur": "ڈراؤنا خواب",
+   "f": [
+    "malsons"
+   ],
+   "k": 1
+  },
+  "mar": {
+   "p": "nom m.",
+   "d": "Aigua salada molt gran.",
+   "en": "sea",
+   "ur": "سمندر"
+  },
+  "mare": {
+   "p": "nom f.",
+   "d": "La dona que t’ha tingut.",
+   "en": "mother",
+   "ur": "ماں"
+  },
+  "mariner": {
+   "p": "nom m.",
+   "d": "Persona que treballa en un vaixell.",
+   "en": "sailor",
+   "ur": "ملاح",
+   "k": 1
+  },
+  "matí": {
+   "p": "nom m.",
+   "d": "La primera part del dia.",
+   "en": "morning",
+   "ur": "صبح"
+  },
+  "mes": {
+   "p": "nom m.",
+   "d": "Una part de l’any, uns trenta dies.",
+   "en": "month",
+   "ur": "مہینہ",
+   "f": [
+    "mes",
+    "mesos"
+   ]
+  },
+  "metge": {
+   "p": "nom m.",
+   "d": "Persona que cura els malalts.",
+   "en": "doctor",
+   "ur": "ڈاکٹر"
+  },
+  "moment": {
+   "p": "nom m.",
+   "d": "Un temps molt curt.",
+   "en": "moment",
+   "ur": "لمحہ"
+  },
+  "moneda": {
+   "p": "nom f.",
+   "d": "Diner de metall, petit i rodó.",
+   "en": "coin",
+   "ur": "سکہ",
+   "f": [
+    "moneda",
+    "monedes"
+   ],
+   "k": 1
+  },
+  "mort": {
+   "p": "nom m.",
+   "d": "Persona que ja no viu.",
+   "en": "dead man",
+   "ur": "مردہ"
+  },
+  "mà": {
+   "p": "nom f.",
+   "d": "Part del cos al final del braç, amb cinc dits.",
+   "en": "hand",
+   "ur": "ہاتھ"
+  },
+  "nen": {
+   "p": "nom m.",
+   "d": "Persona petita, de pocs anys.",
+   "en": "child",
+   "ur": "بچہ"
+  },
+  "nit": {
+   "p": "nom f.",
+   "d": "Quan és fosc i dormim.",
+   "en": "night",
+   "ur": "رات",
+   "f": [
+    "nit",
+    "nits"
+   ]
+  },
+  "noi": {
+   "p": "nom m.",
+   "d": "Persona jove, masculina.",
+   "en": "boy",
+   "ur": "لڑکا"
+  },
+  "nom": {
+   "p": "nom m.",
+   "d": "La paraula amb què cridem una persona.",
+   "en": "name",
+   "ur": "نام"
+  },
+  "or": {
+   "p": "nom m.",
+   "d": "Metall groc i molt car.",
+   "en": "gold",
+   "ur": "سونا (دھات)"
+  },
+  "pare": {
+   "p": "nom m.",
+   "d": "L’home que t’ha tingut. Els pares: el pare i la mare.",
+   "en": "father; parents",
+   "ur": "والد؛ والدین",
+   "f": [
+    "pare",
+    "pares"
+   ]
+  },
+  "pell": {
+   "p": "nom f.",
+   "d": "La part de fora del cos.",
+   "en": "skin",
+   "ur": "جلد"
+  },
+  "perill": {
+   "p": "nom m.",
+   "d": "Situació que pot fer mal.",
+   "en": "danger",
+   "ur": "خطرہ",
+   "k": 1
+  },
+  "persona": {
+   "p": "nom f.",
+   "d": "Home, dona, nen o nena.",
+   "en": "person",
+   "ur": "شخص"
+  },
+  "pirata": {
+   "p": "nom m.",
+   "d": "Lladre que roba als vaixells, al mar.",
+   "en": "pirate",
+   "ur": "قزاق، بحری ڈاکو",
+   "f": [
+    "pirates"
+   ],
+   "k": 1
+  },
+  "plata": {
+   "p": "nom f.",
+   "d": "Metall blanc i brillant.",
+   "en": "silver",
+   "ur": "چاندی"
+  },
+  "platja": {
+   "p": "nom f.",
+   "d": "Sorra al costat del mar.",
+   "en": "beach",
+   "ur": "ساحل (ریت والا)"
+  },
+  "por": {
+   "p": "nom f.",
+   "d": "El que sents davant d’un perill. Tenir por: estar espantat.",
+   "en": "fear",
+   "ur": "ڈر، خوف",
+   "k": 1
+  },
+  "porta": {
+   "p": "nom f.",
+   "d": "Per on entres i surts d’una casa o d’una sala.",
+   "en": "door",
+   "ur": "دروازہ"
+  },
+  "posada": {
+   "p": "nom f.",
+   "d": "Casa on la gent paga per dormir i menjar.",
+   "en": "inn",
+   "ur": "سرائے",
+   "k": 1
+  },
+  "presó": {
+   "p": "nom f.",
+   "d": "Lloc tancat on porten les persones que han fet un delicte.",
+   "en": "prison",
+   "ur": "جیل"
+  },
+  "ratolí": {
+   "p": "nom m.",
+   "d": "Animal molt petit amb cua llarga.",
+   "en": "mouse",
+   "ur": "چوہا"
+  },
+  "rom": {
+   "p": "nom m.",
+   "d": "Beguda amb alcohol que beuen els mariners.",
+   "en": "rum",
+   "ur": "رم (شراب)",
+   "k": 1
+  },
+  "sala": {
+   "p": "nom f.",
+   "d": "Habitació gran de la casa.",
+   "en": "room, hall",
+   "ur": "کمرہ، ہال"
+  },
+  "sang": {
+   "p": "nom f.",
+   "d": "Líquid vermell que hi ha dins el cos.",
+   "en": "blood",
+   "ur": "خون"
+  },
+  "silenci": {
+   "p": "nom m.",
+   "d": "Quan no hi ha cap soroll.",
+   "en": "silence",
+   "ur": "خاموشی"
+  },
+  "soroll": {
+   "p": "nom m.",
+   "d": "So fort o molest.",
+   "en": "noise",
+   "ur": "شور"
+  },
+  "sorpresa": {
+   "p": "nom f.",
+   "d": "Una cosa que passa i no l’esperaves.",
+   "en": "surprise",
+   "ur": "حیرانی"
+  },
+  "tarda": {
+   "p": "nom f.",
+   "d": "La part del dia després de dinar.",
+   "en": "afternoon",
+   "ur": "دوپہر، سہ پہر"
+  },
+  "taula": {
+   "p": "nom f.",
+   "d": "Moble per menjar o treballar.",
+   "en": "table",
+   "ur": "میز"
+  },
+  "tempesta": {
+   "p": "nom f.",
+   "d": "Pluja i vent molt forts.",
+   "en": "storm",
+   "ur": "طوفان",
+   "f": [
+    "tempesta",
+    "tempestes"
+   ],
+   "k": 1
+  },
+  "terra": {
+   "p": "nom m.",
+   "d": "El sòl, on posem els peus. Caure a terra.",
+   "en": "floor, ground",
+   "ur": "زمین، فرش"
+  },
+  "tresor": {
+   "p": "nom m.",
+   "d": "Or i coses de molt valor, amagades.",
+   "en": "treasure",
+   "ur": "خزانہ",
+   "k": 1
+  },
+  "ullera": {
+   "p": "nom f.",
+   "d": "Tub per veure les coses que són molt lluny.",
+   "en": "telescope",
+   "ur": "دوربین",
+   "k": 1
+  },
+  "ull": {
+   "p": "nom m.",
+   "d": "Part de la cara per veure.",
+   "en": "eye",
+   "ur": "آنکھ",
+   "f": [
+    "ulls"
+   ]
+  },
+  "veu": {
+   "p": "nom f.",
+   "d": "El so que fem quan parlem.",
+   "en": "voice",
+   "ur": "آواز",
+   "f": [
+    "veu",
+    "veus"
+   ]
+  },
+  "almirall": {
+   "w": "Almirall Benbow",
+   "p": "nom propi",
+   "d": "El nom de la posada. Un almirall és el cap de molts vaixells.",
+   "en": "Admiral Benbow: the name of the inn",
+   "ur": "ایڈمرل بینبو: سرائے کا نام",
+   "f": [
+    "almirall",
+    "benbow"
+   ]
+  },
+  "jim": {
+   "w": "Jim Hawkins",
+   "p": "nom propi",
+   "d": "El noi que explica la història.",
+   "en": "Jim Hawkins: the boy who tells the story",
+   "ur": "جم ہاکنز: وہ لڑکا جو کہانی سناتا ہے",
+   "f": [
+    "jim",
+    "hawkins"
+   ]
+  },
+  "bill": {
+   "w": "Bill",
+   "p": "nom propi",
+   "d": "El nom real del capità.",
+   "en": "Bill: the Captain’s real name",
+   "ur": "بِل: کپتان کا اصل نام"
+  },
+  "livesey": {
+   "w": "Livesey",
+   "p": "nom propi",
+   "d": "El doctor. És una persona valenta i justa.",
+   "en": "Doctor Livesey",
+   "ur": "ڈاکٹر لیوزی"
+  },
+  "negre": {
+   "p": "adj.",
+   "d": "Del color de la nit. Gos Negre: un pirata.",
+   "en": "black",
+   "ur": "کالا"
+  },
+  "alt": {
+   "p": "adj.",
+   "d": "Que fa molta alçada.",
+   "en": "tall",
+   "ur": "لمبا (قد)"
+  },
+  "blanc": {
+   "p": "adj.",
+   "d": "Del color de la neu. Posar-se blanc: perdre el color de la cara per por.",
+   "en": "white",
+   "ur": "سفید"
+  },
+  "cansat": {
+   "p": "adj.",
+   "d": "Sense forces, que necessita descansar.",
+   "en": "tired",
+   "ur": "تھکا ہوا"
+  },
+  "desconegut": {
+   "p": "adj. / nom",
+   "d": "Persona que no coneixes.",
+   "en": "stranger; unknown",
+   "ur": "اجنبی",
+   "k": 1
+  },
+  "enfadat": {
+   "p": "adj.",
+   "d": "Amb ràbia.",
+   "en": "angry",
+   "ur": "غصے میں، ناراض"
+  },
+  "esquerre": {
+   "p": "adj.",
+   "d": "El costat contrari de la dreta.",
+   "en": "left",
+   "ur": "بایاں",
+   "f": [
+    "esquerra"
+   ]
+  },
+  "ferit": {
+   "p": "adj.",
+   "d": "Que té una ferida.",
+   "en": "hurt, wounded",
+   "ur": "زخمی"
+  },
+  "fort": {
+   "p": "adj. / adv.",
+   "d": "1. Amb molta força. 2. Amb molt de volum (una veu forta).",
+   "en": "strong; loud; hard",
+   "ur": "طاقتور؛ اونچی؛ زور سے",
+   "f": [
+    "fort",
+    "forta"
+   ]
+  },
+  "fosc": {
+   "p": "adj.",
+   "d": "Amb poca llum. De color gairebé negre.",
+   "en": "dark",
+   "ur": "گہرا، سانولا",
+   "f": [
+    "fosca"
+   ]
+  },
+  "gran": {
+   "p": "adj.",
+   "d": "De mida que ocupa molt.",
+   "en": "big",
+   "ur": "بڑا"
+  },
+  "llarg": {
+   "p": "adj.",
+   "d": "Que fa molta distància d’una punta a l’altra.",
+   "en": "long",
+   "ur": "لمبا",
+   "f": [
+    "llarga"
+   ]
+  },
+  "malalt": {
+   "p": "adj.",
+   "d": "Que no té bona salut.",
+   "en": "ill, sick",
+   "ur": "بیمار"
+  },
+  "pesat": {
+   "p": "adj.",
+   "d": "Que pesa molt.",
+   "en": "heavy",
+   "ur": "بھاری"
+  },
+  "pàl·lid": {
+   "p": "adj.",
+   "d": "Amb la cara blanca, sense color.",
+   "en": "pale",
+   "ur": "پیلا، زرد"
+  },
+  "ple": {
+   "p": "adj.",
+   "d": "Que no hi cap res més.",
+   "en": "full, covered",
+   "ur": "بھرا ہوا",
+   "f": [
+    "plena"
+   ]
+  },
+  "real": {
+   "p": "adj.",
+   "d": "De veritat.",
+   "en": "real",
+   "ur": "اصل"
+  },
+  "tancat": {
+   "p": "adj.",
+   "d": "No obert.",
+   "en": "closed",
+   "ur": "بند",
+   "f": [
+    "tancats"
+   ]
+  },
+  "terrible": {
+   "p": "adj.",
+   "d": "Que fa molta por.",
+   "en": "terrible",
+   "ur": "خوفناک",
+   "f": [
+    "terribles"
+   ]
+  },
+  "tranquil": {
+   "p": "adj.",
+   "d": "Sense nervis, en calma.",
+   "en": "calm, quiet",
+   "ur": "پرسکون"
+  },
+  "tremolós": {
+   "p": "adj.",
+   "d": "Que tremola.",
+   "en": "shaking, trembling",
+   "ur": "کانپتا ہوا",
+   "f": [
+    "tremolosa"
+   ]
+  },
+  "vell": {
+   "p": "adj.",
+   "d": "Que té molts anys.",
+   "en": "old",
+   "ur": "بوڑھا، پرانا",
+   "f": [
+    "vell",
+    "vells"
+   ]
+  }
+ },
+ "translations": {
+  "en": {
+   "rxlaqm39w1": "The old sailor",
+   "m68isnp89k": "My name is Jim Hawkins.",
+   "17alxfrc0xz": "Now I will tell you the story of Treasure Island.",
+   "ue7sckxfw1": "It all started many years ago, when I was a child.",
+   "o70szsv30w": "My parents had an inn near the sea.",
+   "1jdtxkkvsnm": "The inn was called the Admiral Benbow.",
+   "tr0dfqjfld": "One day, an old sailor arrived at the inn.",
+   "besmsg0pbk": "He was tall and strong, and his skin was dark from the sun.",
+   "17uxfx13eef": "He had a long scar on his face.",
+   "1vs4026d5x2": "He carried a big, heavy chest.",
+   "1pttt7oj6jy": "As he walked, he sang a pirate song:",
+   "1fha1p1ax1g": "“Fifteen men on the dead man’s chest, and a bottle of rum!”",
+   "1r1m0ujtip6": "“I like this place,” said the sailor. “Do many people come here?”",
+   "bl1cfqa0qo": "My father told him no, that few people came.",
+   "1an1u0tt7kf": "“Then I will stay here,” he said. “Call me Captain.”",
+   "l5xx2rjbj2": "He threw some gold coins on the table.",
+   "oawqvoz7vj": "From that day, everyone called him “the Captain”.",
+   "1w3y9hlxh6e": "The Captain spoke very little.",
+   "2ejvzbmd5tv": "During the day he walked along the coast with a telescope.",
+   "22hrozpuci8": "At night he sat near the fire and drank rum.",
+   "an5psr0c44": "Every day he asked: “Have you seen any sailor on the road?”",
+   "12g0oltgkm9": "He was afraid of something, but we did not know what.",
+   "1qolqcuailj": "One day, the Captain called me.",
+   "qp3fdl3mnn": "“Boy, do you want to earn money?” he asked me.",
+   "6kzop7ik9v": "“Every month I will give you a silver coin.”",
+   "pt70j3xbmj": "“You only have to watch out for a sailor with only one leg.”",
+   "28qy1tlsjf7": "“If you see him, tell me at once.”",
+   "1dl0ltn9zq8": "That sailor with only one leg scared me a lot.",
+   "20yf73hsk9q": "On stormy nights, I dreamed about him.",
+   "23p8v89wu9y": "In my nightmares, he jumped and ran after me.",
+   "27lj422scm9": "I woke up very scared.",
+   "127ldi6a68i": "Some nights, the Captain drank too much rum.",
+   "2a7kbhkdxu3": "Then he sang sea songs in a very loud voice.",
+   "5bhx03eh9f": "He also told terrible stories of pirates, storms and fights.",
+   "gnmielq8n7": "Everyone had to listen in silence.",
+   "1arcscr58n3": "If someone spoke, the Captain banged hard on the table.",
+   "nzt2tr1us4": "The months went by and the Captain did not pay.",
+   "2d4wsa5pvcy": "My father was ill and was afraid to ask him for the money.",
+   "118pd3sp29i": "Only one person was not afraid of the Captain: Doctor Livesey.",
+   "1obj2huqujm": "One afternoon, the doctor came to see my father.",
+   "casosvynhc": "The Captain began to sing his song and banged the table.",
+   "i6fsu9dkae": "“Silence!” he shouted.",
+   "1w2wp72f4y5": "The doctor looked at him and kept on talking calmly.",
+   "1i58p83ujxc": "Then the Captain took out a knife.",
+   "9vpb6g7g3a": "“Put that knife away right now,” said the doctor.",
+   "1k6mop8yai4": "“I am a doctor, but I am also a judge.”",
+   "259cfdns7xl": "“If you do not obey me, I will send you to prison.”",
+   "59g639asqq": "The Captain put the knife away and sat down, angry.",
+   "p26crqgw6r": "From that night on, the Captain was calmer.",
+   "1zjnvybv10l": "My name is Jim.",
+   "1whgtfaoih": "I live with my parents in an inn.",
+   "1qh2031h8x6": "An inn is a house where people sleep and eat.",
+   "4eh4kbdc1t": "The inn is near the sea.",
+   "t1trq3ohxe": "One day an old sailor arrives.",
+   "ln9t8pzfzn": "He is tall and strong.",
+   "2ei7eya3rt": "He has a scar on his face.",
+   "2dnzx3oqsy4": "He carries a big chest.",
+   "20valvx95ej": "He sings a pirate song.",
+   "2clegz39aor": "“I am staying here,” says the sailor.",
+   "21wtynh7dsa": "“Call me Captain.”",
+   "2ahrqcqr74i": "He pays with gold coins.",
+   "17zrb5qs11s": "Now everyone calls him “the Captain”.",
+   "2cc4fyyp18h": "The Captain talks very little.",
+   "1mp6vfp7w60": "By day, he looks at the sea with a telescope.",
+   "234va1aoqeq": "At night, he drinks rum near the fire.",
+   "r1wkyhabs3": "The Captain is afraid.",
+   "hislzws3wq": "One day, the Captain talks to me.",
+   "1v77ygif5tp": "“Watch the road every day.”",
+   "fzyzj03xfb": "“If you see a sailor with only one leg, tell me.”",
+   "1fw9ncxqok0": "“I will pay you a coin every month.”",
+   "u55e8rqut5": "I am afraid of this sailor.",
+   "2ezteflcqkh": "At night, the Captain drinks a lot.",
+   "kk3r8vyqqa": "He sings loudly and tells pirate stories.",
+   "25kqkb6lh43": "The people at the inn are afraid.",
+   "1xcwbaexni9": "The Captain does not pay.",
+   "28v02do8uh4": "One day Doctor Livesey comes.",
+   "xntow3n4ci": "The Captain shouts: “Silence!”",
+   "1ek1848jyc3": "He takes out a knife.",
+   "9qjmr4j2dm": "The doctor is not afraid.",
+   "1mk8j1lf8fu": "“Put the knife away,” says the doctor.",
+   "1dqkfwm1q5n": "“I am a doctor and also a judge.”",
+   "27rv6rprl9f": "The Captain puts the knife away.",
+   "186e4w3007a": "He is angry, but he says nothing.",
+   "39zz7j17ga": "Black Dog",
+   "1peimcqhtbj": "One winter morning, the Captain went out for a walk on the beach.",
+   "1q53n5d19zk": "I was setting the table for breakfast.",
+   "v19dlx1rrs": "Then a stranger came in.",
+   "2071qyz6svv": "He was pale and two fingers were missing from his left hand.",
+   "1th2fyhu9du": "He seemed calm, but he scared me.",
+   "16nd1pvjq0r": "“Come here, boy,” he said to me.",
+   "2b8ut9uta94": "“Is this my friend Bill’s table?”",
+   "1rgvuvzt77u": "I told him that I did not know any Bill.",
+   "26wgued9u1j": "“It is the table of a sailor called the Captain,” I said.",
+   "dku873r6z8": "“Does he have a scar on his face?” he asked. “Then it is him!”",
+   "1wxr9ayz6sa": "The man looked out of the door, like a cat waiting for a mouse.",
+   "1dlzuyc3c3f": "Then he took me by the arm.",
+   "pf0zrjiayo": "“We will hide behind the door,” he said. “We will give him a surprise.”",
+   "2cnbwevawtl": "I was trembling with fear.",
+   "29zizs9zw85": "The man had his hand near his knife.",
+   "iq3xwtashv": "At last, the Captain came into the inn.",
+   "1y0c2a8j0bo": "“Bill!” shouted the stranger.",
+   "15xw96x6pkb": "The Captain turned round and went white, as if he saw a ghost.",
+   "29zkn05qwn7": "“Black Dog!” he said in a shaking voice.",
+   "1cnf6x0c5ft": "“Yes, it’s me, your old shipmate,” said the other man.",
+   "4dkv0bwbtu": "“What do you want?” asked the Captain.",
+   "16yx9y1z5v0": "“I want to talk with you, as old friends,” answered Black Dog.",
+   "cbgsh7ummv": "I brought rum and they sat down at the table.",
+   "f5kkh0v1yt": "Black Dog told me to leave the room.",
+   "1g55lq8if71": "From outside, I could hear their voices, but I did not understand anything.",
+   "2dwu1uslni7": "Suddenly, they began to shout.",
+   "uaarz6ry6r": "I heard the noise of chairs and knives.",
+   "phw1o0q3db": "Then, a cry of pain.",
+   "1f2aza1fndh": "Black Dog ran out, with his shoulder covered in blood.",
+   "b3uqf8myu9": "The Captain chased him, but Black Dog got away.",
+   "oebf1umw8r": "The Captain came back to the inn very tired.",
+   "gsqfzvmi2l": "“Rum!” he asked. “I must get away from here!”",
+   "2bm07nji4g6": "I went to get the rum and I heard a loud thump.",
+   "1t1uaxw2zsz": "The Captain had fallen to the floor.",
+   "yekzt24gjw": "His eyes were closed and he was breathing with difficulty.",
+   "ogbv42ya8f": "My mother and I did not know what to do.",
+   "gc015f1j8": "Luckily, at that moment Doctor Livesey arrived.",
+   "44xrgtzo0r": "“He is not hurt,” said the doctor. “He is very ill because of the rum.”",
+   "cuts77fsi6": "The doctor treated him and the Captain opened his eyes.",
+   "16d5tspe6wi": "“Where is Black Dog?” he asked.",
+   "2ss5nydias": "“Forget Black Dog,” said the doctor.",
+   "1lvgqsx4okk": "“If you keep drinking rum, you will die soon.”",
+   "18re8beajq6": "Together, the two of us carried him to bed.",
+   "pt4axwy5r8": "The Captain fell asleep at once.",
+   "it43asgiow": "But I knew that this story did not end here.",
+   "7wavpvwx4x": "One morning, the Captain goes to the beach.",
+   "1bro13q2y3b": "A man comes into the inn.",
+   "c2k5gfv0n4": "Two fingers are missing from his hand.",
+   "zazjmtd17q": "His name is Black Dog.",
+   "2eqgq19j2p4": "“Where is my friend Bill?” he asks.",
+   "bk3z66rwkl": "Bill is the Captain’s real name.",
+   "1a34do3xuyt": "Black Dog hides behind the door.",
+   "wgd84ou12v": "I am very afraid.",
+   "l2e5yyek8u": "The Captain comes back.",
+   "1xk005acrki": "He sees Black Dog and goes white.",
+   "v0moijcb9w": "The two men talk at the table.",
+   "2fb3xuaxc8h": "Then they fight with knives.",
+   "11zalql69f0": "Black Dog has blood on his shoulder.",
+   "2dwqppj81vr": "Black Dog runs away.",
+   "j9vkhr50lq": "The Captain falls to the floor.",
+   "165x4iivuua": "He is very ill.",
+   "405ob75gg8": "Doctor Livesey arrives.",
+   "dgb7x23f96": "The doctor helps the Captain.",
+   "1hs67z34hek": "“Do not drink any more rum,” says the doctor.",
+   "1ul8v8kfbjy": "“If you drink it, you will die.”",
+   "t6jjtrgtbo": "We carry the Captain to bed.",
+   "1p7121rhac1": "The Captain sleeps.",
+   "klctxi32z1": "But the danger is not over."
+  },
+  "ur": {
+   "rxlaqm39w1": "بوڑھا ملاح",
+   "m68isnp89k": "میرا نام جم ہاکنز ہے۔",
+   "17alxfrc0xz": "اب میں آپ کو خزانے والے جزیرے کی کہانی سناؤں گا۔",
+   "ue7sckxfw1": "یہ سب بہت سال پہلے شروع ہوا، جب میں بچہ تھا۔",
+   "o70szsv30w": "میرے والدین کی سمندر کے قریب ایک سرائے تھی۔",
+   "1jdtxkkvsnm": "سرائے کا نام ایڈمرل بینبو تھا۔",
+   "tr0dfqjfld": "ایک دن، ایک بوڑھا ملاح سرائے میں آیا۔",
+   "besmsg0pbk": "وہ لمبا اور طاقتور تھا، اور دھوپ سے اس کی جلد سانولی تھی۔",
+   "17uxfx13eef": "اس کے چہرے پر زخم کا ایک لمبا نشان تھا۔",
+   "1vs4026d5x2": "اس کے پاس ایک بڑا اور بھاری صندوق تھا۔",
+   "1pttt7oj6jy": "چلتے ہوئے وہ قزاقوں کا ایک گانا گا رہا تھا:",
+   "1fha1p1ax1g": "«مردے کے صندوق پر پندرہ آدمی، اور رم کی ایک بوتل!»",
+   "1r1m0ujtip6": "ملاح نے کہا: ”مجھے یہ جگہ پسند ہے۔ کیا یہاں بہت لوگ آتے ہیں؟“",
+   "bl1cfqa0qo": "میرے والد نے اسے بتایا کہ نہیں، یہاں کم لوگ آتے ہیں۔",
+   "1an1u0tt7kf": "اس نے کہا: ”تو پھر میں یہیں رہوں گا۔ مجھے کپتان کہو۔“",
+   "l5xx2rjbj2": "اس نے میز پر سونے کے کچھ سکے پھینکے۔",
+   "oawqvoz7vj": "اس دن سے سب اسے ”کپتان“ کہنے لگے۔",
+   "1w3y9hlxh6e": "کپتان بہت کم بولتا تھا۔",
+   "2ejvzbmd5tv": "دن میں وہ دوربین لے کر ساحل پر گھومتا تھا۔",
+   "22hrozpuci8": "رات کو وہ آگ کے پاس بیٹھ کر رم پیتا تھا۔",
+   "an5psr0c44": "ہر روز وہ پوچھتا تھا: ”کیا تم نے راستے میں کوئی ملاح دیکھا ہے؟“",
+   "12g0oltgkm9": "وہ کسی چیز سے ڈرتا تھا، لیکن ہمیں معلوم نہیں تھا کہ کس چیز سے۔",
+   "1qolqcuailj": "ایک دن کپتان نے مجھے بلایا۔",
+   "qp3fdl3mnn": "اس نے مجھ سے پوچھا: ”لڑکے، کیا تم پیسے کمانا چاہتے ہو؟“",
+   "6kzop7ik9v": "”میں تمہیں ہر مہینے چاندی کا ایک سکہ دوں گا۔“",
+   "pt70j3xbmj": "”تمہیں بس یہ دیکھنا ہے کہ کہیں ایک ٹانگ والا ملاح تو نہیں آ رہا۔“",
+   "28qy1tlsjf7": "”اگر تم اسے دیکھو تو فوراً مجھے بتانا۔“",
+   "1dl0ltn9zq8": "ایک ٹانگ والا وہ ملاح مجھے بہت ڈراتا تھا۔",
+   "20yf73hsk9q": "طوفانی راتوں میں میں اس کے خواب دیکھتا تھا۔",
+   "23p8v89wu9y": "میرے ڈراؤنے خوابوں میں وہ اچھلتا اور میرے پیچھے بھاگتا تھا۔",
+   "27lj422scm9": "میں بہت ڈر کر جاگ جاتا تھا۔",
+   "127ldi6a68i": "کچھ راتوں کو کپتان بہت زیادہ رم پی لیتا تھا۔",
+   "2a7kbhkdxu3": "پھر وہ بہت اونچی آواز میں سمندری گانے گاتا تھا۔",
+   "5bhx03eh9f": "وہ قزاقوں، طوفانوں اور لڑائیوں کی خوفناک کہانیاں بھی سناتا تھا۔",
+   "gnmielq8n7": "سب کو خاموشی سے سننا پڑتا تھا۔",
+   "1arcscr58n3": "اگر کوئی بولتا تو کپتان زور سے میز پر ہاتھ مارتا تھا۔",
+   "nzt2tr1us4": "مہینے گزرتے گئے اور کپتان پیسے نہیں دیتا تھا۔",
+   "2d4wsa5pvcy": "میرے والد بیمار تھے اور اس سے پیسے مانگنے سے ڈرتے تھے۔",
+   "118pd3sp29i": "صرف ایک شخص کپتان سے نہیں ڈرتا تھا: ڈاکٹر لیوزی۔",
+   "1obj2huqujm": "ایک دوپہر ڈاکٹر میرے والد کو دیکھنے آیا۔",
+   "casosvynhc": "کپتان نے اپنا گانا گانا شروع کیا اور میز پر ہاتھ مارا۔",
+   "i6fsu9dkae": "وہ چلایا: ”خاموش!“",
+   "1w2wp72f4y5": "ڈاکٹر نے اس کی طرف دیکھا اور سکون سے باتیں کرتا رہا۔",
+   "1i58p83ujxc": "تب کپتان نے ایک چاقو نکالا۔",
+   "9vpb6g7g3a": "ڈاکٹر نے کہا: ”یہ چاقو ابھی واپس رکھو۔“",
+   "1k6mop8yai4": "”میں ڈاکٹر ہوں، لیکن میں جج بھی ہوں۔“",
+   "259cfdns7xl": "”اگر تم نے میری بات نہ مانی تو میں تمہیں جیل بھیج دوں گا۔“",
+   "59g639asqq": "کپتان نے چاقو رکھ دیا اور غصے میں بیٹھ گیا۔",
+   "p26crqgw6r": "اس رات کے بعد کپتان زیادہ پرسکون رہا۔",
+   "1zjnvybv10l": "میرا نام جم ہے۔",
+   "1whgtfaoih": "میں اپنے والدین کے ساتھ ایک سرائے میں رہتا ہوں۔",
+   "1qh2031h8x6": "سرائے ایک گھر ہے جہاں لوگ سوتے اور کھاتے ہیں۔",
+   "4eh4kbdc1t": "سرائے سمندر کے قریب ہے۔",
+   "t1trq3ohxe": "ایک دن ایک بوڑھا ملاح آتا ہے۔",
+   "ln9t8pzfzn": "وہ لمبا اور طاقتور ہے۔",
+   "2ei7eya3rt": "اس کے چہرے پر زخم کا نشان ہے۔",
+   "2dnzx3oqsy4": "اس کے پاس ایک بڑا صندوق ہے۔",
+   "20valvx95ej": "وہ قزاقوں کا ایک گانا گاتا ہے۔",
+   "2clegz39aor": "ملاح کہتا ہے: ”میں یہیں رہوں گا۔“",
+   "21wtynh7dsa": "”مجھے کپتان کہو۔“",
+   "2ahrqcqr74i": "وہ سونے کے سکوں سے پیسے دیتا ہے۔",
+   "17zrb5qs11s": "اب سب اسے ”کپتان“ کہتے ہیں۔",
+   "2cc4fyyp18h": "کپتان کم بولتا ہے۔",
+   "1mp6vfp7w60": "دن میں وہ دوربین سے سمندر کو دیکھتا ہے۔",
+   "234va1aoqeq": "رات کو وہ آگ کے پاس رم پیتا ہے۔",
+   "r1wkyhabs3": "کپتان ڈرا ہوا ہے۔",
+   "hislzws3wq": "ایک دن کپتان مجھ سے بات کرتا ہے۔",
+   "1v77ygif5tp": "”ہر روز راستے پر نظر رکھو۔“",
+   "fzyzj03xfb": "”اگر تم ایک ٹانگ والا ملاح دیکھو تو مجھے بتانا۔“",
+   "1fw9ncxqok0": "”میں تمہیں ہر مہینے ایک سکہ دوں گا۔“",
+   "u55e8rqut5": "میں اس ملاح سے ڈرتا ہوں۔",
+   "2ezteflcqkh": "رات کو کپتان بہت پیتا ہے۔",
+   "kk3r8vyqqa": "وہ اونچی آواز میں گاتا ہے اور قزاقوں کی کہانیاں سناتا ہے۔",
+   "25kqkb6lh43": "سرائے کے لوگ ڈرتے ہیں۔",
+   "1xcwbaexni9": "کپتان پیسے نہیں دیتا۔",
+   "28v02do8uh4": "ایک دن ڈاکٹر لیوزی آتا ہے۔",
+   "xntow3n4ci": "کپتان چلاتا ہے: ”خاموش!“",
+   "1ek1848jyc3": "وہ ایک چاقو نکالتا ہے۔",
+   "9qjmr4j2dm": "ڈاکٹر نہیں ڈرتا۔",
+   "1mk8j1lf8fu": "ڈاکٹر کہتا ہے: ”چاقو رکھ دو۔“",
+   "1dqkfwm1q5n": "”میں ڈاکٹر ہوں اور جج بھی۔“",
+   "27rv6rprl9f": "کپتان چاقو رکھ دیتا ہے۔",
+   "186e4w3007a": "وہ غصے میں ہے، لیکن کچھ نہیں کہتا۔",
+   "39zz7j17ga": "بلیک ڈاگ",
+   "1peimcqhtbj": "سردیوں کی ایک صبح کپتان ساحل پر سیر کے لیے نکلا۔",
+   "1q53n5d19zk": "میں ناشتے کے لیے میز لگا رہا تھا۔",
+   "v19dlx1rrs": "تب ایک اجنبی آدمی اندر آیا۔",
+   "2071qyz6svv": "اس کا رنگ پیلا تھا اور اس کے بائیں ہاتھ کی دو انگلیاں نہیں تھیں۔",
+   "1th2fyhu9du": "وہ پرسکون لگتا تھا، لیکن مجھے اس سے ڈر لگا۔",
+   "16nd1pvjq0r": "اس نے مجھ سے کہا: ”یہاں آؤ، لڑکے۔“",
+   "2b8ut9uta94": "”کیا یہ میرے دوست بِل کی میز ہے؟“",
+   "1rgvuvzt77u": "میں نے اسے بتایا کہ میں کسی بِل کو نہیں جانتا۔",
+   "26wgued9u1j": "میں نے کہا: ”یہ ایک ملاح کی میز ہے جسے کپتان کہتے ہیں۔“",
+   "dku873r6z8": "اس نے پوچھا: ”کیا اس کے چہرے پر نشان ہے؟ تو پھر وہی ہے!“",
+   "1wxr9ayz6sa": "آدمی نے دروازے سے باہر دیکھا، جیسے بلی چوہے کا انتظار کرتی ہے۔",
+   "1dlzuyc3c3f": "پھر اس نے میرا بازو پکڑ لیا۔",
+   "pf0zrjiayo": "اس نے کہا: ”ہم دروازے کے پیچھے چھپیں گے۔ ہم اسے حیران کر دیں گے۔“",
+   "2cnbwevawtl": "میں ڈر سے کانپ رہا تھا۔",
+   "29zizs9zw85": "آدمی کا ہاتھ چاقو کے قریب تھا۔",
+   "iq3xwtashv": "آخرکار کپتان سرائے میں داخل ہوا۔",
+   "1y0c2a8j0bo": "اجنبی چلایا: ”بِل!“",
+   "15xw96x6pkb": "کپتان مڑا اور اس کا رنگ سفید ہو گیا، جیسے اس نے کوئی بھوت دیکھ لیا ہو۔",
+   "29zkn05qwn7": "اس نے کانپتی آواز میں کہا: ”بلیک ڈاگ!“",
+   "1cnf6x0c5ft": "دوسرے آدمی نے کہا: ”ہاں، میں ہوں، تمہارا پرانا ساتھی۔“",
+   "4dkv0bwbtu": "کپتان نے پوچھا: ”تم کیا چاہتے ہو؟“",
+   "16yx9y1z5v0": "بلیک ڈاگ نے جواب دیا: ”میں تم سے پرانے دوستوں کی طرح بات کرنا چاہتا ہوں۔“",
+   "cbgsh7ummv": "میں رم لایا اور وہ میز پر بیٹھ گئے۔",
+   "f5kkh0v1yt": "بلیک ڈاگ نے مجھے کمرے سے باہر جانے کو کہا۔",
+   "1g55lq8if71": "باہر سے میں ان کی آوازیں سن رہا تھا، لیکن مجھے کچھ سمجھ نہیں آ رہا تھا۔",
+   "2dwu1uslni7": "اچانک وہ چلانے لگے۔",
+   "uaarz6ry6r": "میں نے کرسیوں اور چاقوؤں کا شور سنا۔",
+   "phw1o0q3db": "پھر درد کی ایک چیخ۔",
+   "1f2aza1fndh": "بلیک ڈاگ بھاگ کر باہر نکلا، اس کا کندھا خون سے بھرا ہوا تھا۔",
+   "b3uqf8myu9": "کپتان نے اس کا پیچھا کیا، لیکن بلیک ڈاگ بھاگ نکلا۔",
+   "oebf1umw8r": "کپتان بہت تھکا ہوا سرائے میں واپس آیا۔",
+   "gsqfzvmi2l": "اس نے مانگا: ”رم! مجھے یہاں سے جانا ہے!“",
+   "2bm07nji4g6": "میں رم لینے گیا اور میں نے ایک زور دار آواز سنی۔",
+   "1t1uaxw2zsz": "کپتان زمین پر گر گیا تھا۔",
+   "yekzt24gjw": "اس کی آنکھیں بند تھیں اور وہ مشکل سے سانس لے رہا تھا۔",
+   "ogbv42ya8f": "میری ماں اور میں نہیں جانتے تھے کہ کیا کریں۔",
+   "gc015f1j8": "خوش قسمتی سے، اسی وقت ڈاکٹر لیوزی آ گیا۔",
+   "44xrgtzo0r": "ڈاکٹر نے کہا: ”یہ زخمی نہیں ہے۔ یہ رم کی وجہ سے بہت بیمار ہے۔“",
+   "cuts77fsi6": "ڈاکٹر نے اس کا علاج کیا اور کپتان نے آنکھیں کھولیں۔",
+   "16d5tspe6wi": "اس نے پوچھا: ”بلیک ڈاگ کہاں ہے؟“",
+   "2ss5nydias": "ڈاکٹر نے کہا: ”بلیک ڈاگ کو بھول جاؤ۔“",
+   "1lvgqsx4okk": "”اگر تم رم پیتے رہے تو جلد مر جاؤ گے۔“",
+   "18re8beajq6": "ہم دونوں نے مل کر اسے بستر تک پہنچایا۔",
+   "pt4axwy5r8": "کپتان فوراً سو گیا۔",
+   "it43asgiow": "لیکن میں جانتا تھا کہ یہ کہانی یہاں ختم نہیں ہوئی۔",
+   "7wavpvwx4x": "ایک صبح کپتان ساحل پر جاتا ہے۔",
+   "1bro13q2y3b": "ایک آدمی سرائے میں آتا ہے۔",
+   "c2k5gfv0n4": "اس کے ہاتھ کی دو انگلیاں نہیں ہیں۔",
+   "zazjmtd17q": "اس کا نام بلیک ڈاگ ہے۔",
+   "2eqgq19j2p4": "وہ پوچھتا ہے: ”میرا دوست بِل کہاں ہے؟“",
+   "bk3z66rwkl": "بِل کپتان کا اصل نام ہے۔",
+   "1a34do3xuyt": "بلیک ڈاگ دروازے کے پیچھے چھپ جاتا ہے۔",
+   "wgd84ou12v": "مجھے بہت ڈر لگ رہا ہے۔",
+   "l2e5yyek8u": "کپتان واپس آتا ہے۔",
+   "1xk005acrki": "وہ بلیک ڈاگ کو دیکھتا ہے اور اس کا رنگ سفید ہو جاتا ہے۔",
+   "v0moijcb9w": "دونوں آدمی میز پر بات کرتے ہیں۔",
+   "2fb3xuaxc8h": "پھر وہ چاقوؤں سے لڑتے ہیں۔",
+   "11zalql69f0": "بلیک ڈاگ کے کندھے پر خون ہے۔",
+   "2dwqppj81vr": "بلیک ڈاگ بھاگ جاتا ہے۔",
+   "j9vkhr50lq": "کپتان زمین پر گر جاتا ہے۔",
+   "165x4iivuua": "وہ بہت بیمار ہے۔",
+   "405ob75gg8": "ڈاکٹر لیوزی آتا ہے۔",
+   "dgb7x23f96": "ڈاکٹر کپتان کی مدد کرتا ہے۔",
+   "1hs67z34hek": "ڈاکٹر کہتا ہے: ”اب اور رم مت پیو۔“",
+   "1ul8v8kfbjy": "”اگر تم نے پی تو مر جاؤ گے۔“",
+   "t6jjtrgtbo": "ہم کپتان کو بستر پر لے جاتے ہیں۔",
+   "1p7121rhac1": "کپتان سو جاتا ہے۔",
+   "klctxi32z1": "لیکن خطرہ ختم نہیں ہوتا۔"
+  }
+ }
+}
