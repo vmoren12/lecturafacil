@@ -109,6 +109,12 @@ Les traduccions es guarden per *hash* de cada frase normalitzada, de manera que 
 
 El desplegament a GitHub Pages és automàtic amb GitHub Actions en cada canvi a `main`, després de passar les proves.
 
-## Llicència
+## Autoria i llicència
 
-Codi sota llicència [MIT](LICENSE). Els textos dels llibres tenen la llicència que indica cada llibre.
+© 2026 Víctor Moreno de la Torre, psicòleg i orientador educatiu.
+
+- **Codi:** [MIT](LICENSE).
+- **Continguts** (llibre de mostra, traduccions, diccionari, prompt i textos de l’app): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ca). Es poden copiar, adaptar i compartir citant-ne l’autoria.
+- Els llibres que cada docent afegeix conserven la seva pròpia llicència.
+
+Versió actual: **1.2.0**.

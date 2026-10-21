@@ -136,9 +136,8 @@ textarea { line-height: 1.5; resize: vertical; }
 .drop.over { border-color: var(--accent); background: var(--mark-soft); }
 .drop > div:first-child { flex: 1; min-width: 220px; display: flex; flex-direction: column; }
 .drop span { color: var(--muted); font-size: 14px; }
-.ai-cta { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-top: 12px; padding: 14px 16px; border-radius: 10px; background: var(--mark-soft); }
-.ai-cta > div { flex: 1; min-width: 220px; display: flex; flex-direction: column; }
-.ai-cta span { color: var(--muted); font-size: 14px; }
+.ai-cta { margin: 10px 2px 0; color: var(--muted); font-size: 13.5px; }
+.ai-cta .linkb { font-size: inherit; }
 .ai h2 { display: flex; align-items: center; gap: 8px; }
 .ai h2 svg { width: 22px; height: 22px; color: var(--accent); }
 .ai .step { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 14px; }
@@ -171,6 +170,12 @@ textarea { line-height: 1.5; resize: vertical; }
 @media (max-width: 760px) { .choices, .choices.row { grid-template-columns: 1fr; } }
 .foot { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: 13.5px; }
 .foot p { margin: 0 0 6px; max-width: 80ch; }
+.foot-meta { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 8px 24px; margin-top: 14px; }
+.foot .author { display: flex; flex-direction: column; margin: 0; }
+.foot .author b { color: var(--ink); font-weight: 700; }
+.foot .lic { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.foot .lic a { color: var(--muted); }
+.foot .lic a:hover { color: var(--accent); }
 
 /* ---------- book ---------- */
 #readerMain { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 22px 40px; }
