@@ -13,19 +13,37 @@ const PAGE_LINES = 16;
 
 /* ---------- preferences (per device) ---------- */
 export const P = Object.assign(
-  { lang: "en", fs: 21, lh: 1.6, view: "pages", pos: "side", hide: false, slow: false, focus: false, theme: "auto", voiceTr: false },
+  { lang: "en", lang2: "none", show: "both", fs: 21, lh: 1.6, view: "pages", pos: "side", hide: false, slow: false, focus: false, theme: "auto", voiceTr: false },
   prefs.get("reader", {})
 );
 export const savePrefs = () => prefs.set("reader", P);
 
 /* ---------- state of the open book ---------- */
-const R = { book: null, mem: null, sec: 0, page: 0, level: null, teacher: false, saved: [], token: 0, pages: [], dictIdx: null, glossIdx: null };
+const R = { book: null, mems: {}, pivots: {}, sec: 0, page: 0, level: null, teacher: false, saved: [], token: 0, pages: [], dictIdx: null, glossIdx: null };
 let onExit = () => {};
 export function setExitHandler(fn) { onExit = fn; }
 
 const src = () => R.book.lang || "ca";
-const noTr = () => P.lang === "none" || P.lang === src();
 const sec = () => R.book.sections[R.sec];
+
+/* Two translation languages: the main one and an optional second one.
+   langsAll(): both, for words and vocabulary · langsShown(): the ones the
+   sentences show now (main, second or both, the second one below). */
+const usable = l => l && l !== "none" && l !== src();
+export function langsAll() {
+  return [P.lang, P.lang2].filter((l, i, a) => usable(l) && a.indexOf(l) === i);
+}
+function langsShown() {
+  const all = langsAll();
+  if (all.length < 2) return all;
+  return P.show === "1" ? [all[0]] : P.show === "2" ? [all[1]] : all;
+}
+const noTr = () => !langsShown().length;
+const mem = l => R.mems[l];
+const lhFor = l => tallScript(l) ? Math.max(P.lh + 0.5, 2.1) : P.lh;
+/** lang, direction and font of a text in language l. */
+const trAttrs = l => `lang="${esc(l)}" dir="${isRtl(l) ? "rtl" : "ltr"}" style="--f-tr:${esc(fontFor(l))};--lh-tr:${lhFor(l)}"`;
+const trName = l => langInfo(l).native;
 
 /* ---------- word indexes: book dictionary and glossary ---------- */
 const NOUN_CUE = new Set(["el", "la", "les", "els", "un", "una", "unes", "uns", "seva", "seves", "meva", "l"]);
@@ -74,14 +92,38 @@ export async function openBook(book, { sec = null, lang = null } = {}) {
   R.page = sec != null ? 0 : pos.page || 0;
   R.saved = await kv.get("words:" + book.id, []);
   if (lang) { P.lang = lang; savePrefs(); }
+  R.pivots = {};
   await loadMemory();
   fillChrome();
   render();
 }
 
 async function loadMemory() {
-  R.mem = noTr() ? null : await new TrMemory(R.book, P.lang).load();
+  const mems = {};
+  for (const l of langsAll()) mems[l] = R.mems[l] && R.mems[l].book === R.book ? R.mems[l] : await new TrMemory(R.book, l).load();
+  R.mems = mems;
 }
+
+/* Chrome's built-in translator does not know Catalan: it can translate
+   from an existing English, Spanish or French version of each sentence. */
+const PIVOTS = ["en", "es", "fr"];
+function pivotFor(target) {
+  return async texts => {
+    for (const p of PIVOTS) {
+      if (p !== target && !R.pivots[p]) R.pivots[p] = R.mems[p] || await new TrMemory(R.book, p).load();
+    }
+    return texts.map(t => {
+      for (const p of PIVOTS) {
+        if (p === target) continue;
+        const v = R.pivots[p].get(t);
+        if (v) return { lang: p, text: v };
+      }
+      return null;
+    });
+  };
+}
+/** Translates texts of this book into language l. */
+const tr = (texts, l, opts = {}) => translateTexts(texts, src(), l, Object.assign({ pivot: pivotFor(l), onStatus: m => toast(m) }, opts));
 
 export function closeBook() { stopReading(); closePop(); R.book = null; }
 
@@ -96,14 +138,17 @@ function fillChrome() {
   const lv = $("#lvlWrap");
   lv.hidden = !b.levels;
   if (b.levels) $("#lvl").innerHTML = b.levels.map(l => `<button type="button" data-v="${esc(l.id)}">${esc(l.label)}</button>`).join("");
-  fillLangSelect($("#trLang"));
+  fillLangSelect($("#trLang"), "lang");
+  fillLangSelect($("#trLang2"), "lang2");
 }
 
-export function fillLangSelect(sel) {
+/** Fills a language <select> bound to P.lang (main) or P.lang2 (second). */
+export function fillLangSelect(sel, key = "lang") {
+  const v = P[key];
   const opts = LANGUAGES.filter(l => l.code !== "ca").map(l => `<option value="${l.code}">${esc(l.native)} · ${esc(l.name)}</option>`);
-  const custom = !LANGUAGES.some(l => l.code === P.lang) && P.lang !== "none" ? `<option value="${esc(P.lang)}">${esc(P.lang)}</option>` : "";
-  sel.innerHTML = `<option value="none">Sense traducció</option>${custom}${opts.join("")}`;
-  sel.value = P.lang;
+  const custom = !LANGUAGES.some(l => l.code === v) && v !== "none" ? `<option value="${esc(v)}">${esc(v)}</option>` : "";
+  sel.innerHTML = `<option value="none">${key === "lang" ? "Sense traducció" : "Cap"}</option>${custom}${opts.join("")}`;
+  sel.value = v;
 }
 
 const sectionLabel = s => s.kind === "chapter" ? `${s.n}. ${s.title}` : s.title;
@@ -141,15 +186,21 @@ function buildPages() {
 }
 
 /* ---------- rendering ---------- */
-function trAttrs() {
-  return P.lang === "none" ? "" : `lang="${esc(P.lang)}" dir="${isRtl(P.lang) ? "rtl" : "ltr"}"`;
+function trCell(text) {
+  return langsShown().map((l, i) => {
+    const t = mem(l).get(text);
+    const cls = "trt" + (i ? " sec" : "") + (t == null ? " pending" : mem(l).isReviewed(text) ? "" : " auto");
+    return `<div class="${cls}" ${trAttrs(l)} data-lang="${esc(l)}" data-src="${esc(text)}"${R.teacher ? ' contenteditable="true" spellcheck="false"' : ""}>${t == null ? "…" : esc(t)}</div>`;
+  }).join("");
 }
 
-function trCell(text) {
-  if (noTr()) return "";
-  const t = R.mem.get(text);
-  const cls = t == null ? "trt pending" : "trt" + (R.mem.isReviewed(text) ? "" : " auto");
-  return `<div class="${cls}" ${trAttrs()} data-src="${esc(text)}"${R.teacher ? ' contenteditable="true" spellcheck="false"' : ""}>${t == null ? "…" : esc(t)}</div>`;
+/** Switch, on the translation page, between the main language, the second one or both. */
+function trSwitch() {
+  const all = langsAll();
+  if (all.length < 2) return "";
+  const b = (v, label, extra = "") => `<button type="button" data-show="${v}" aria-pressed="${P.show === v}" ${extra}>${label}</button>`;
+  return `<div class="trswitch seg" role="group" aria-label="Llengua de la traducció (tecla T)" title="Tecla T">
+    ${b("1", esc(trName(all[0])), `lang="${esc(all[0])}"`)}${b("2", esc(trName(all[1])), `lang="${esc(all[1])}"`)}${b("both", "Les dues")}</div>`;
 }
 
 function sentenceHTML(text) {
@@ -177,7 +228,7 @@ function render() {
   const page = R.pages[R.page];
   applyPrefs();
 
-  let h = "";
+  let h = trSwitch();
   if (R.page === 0) {
     const num = s.kind === "chapter" ? `<div class="num">Capítol ${s.n}</div>` : "";
     h += `<div class="row chead"><div class="cell ca">${num}<h2 lang="${esc(src())}">${esc(s.title)}</h2></div>
@@ -203,7 +254,7 @@ function render() {
   if (page.vocab) h += vocabHTML(page.vocab);
   if (R.page === R.pages.length - 1) h += endNav();
   const n = R.page + 1, tot = R.pages.length;
-  h += `<div class="folio"><span>Pàgina ${n} de ${tot}</span><span>${noTr() ? "" : esc(langInfo(P.lang).native)}</span></div>`;
+  h += `<div class="folio"><span>Pàgina ${n} de ${tot}</span><span>${langsShown().map(l => esc(trName(l))).join(" · ")}</span></div>`;
 
   const spread = $("#spread");
   spread.innerHTML = h;
@@ -216,6 +267,7 @@ function render() {
   $("#chap").value = R.sec;
   $$("#lvl button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === R.level));
   $("#trLang").value = P.lang;
+  $("#trLang2").value = P.lang2;
   $("#hideBtn").setAttribute("aria-pressed", P.hide);
   $("#hideBtn").disabled = noTr();
   $("#wcount").textContent = R.saved.length ? `(${R.saved.length})` : "";
@@ -229,15 +281,13 @@ function applyPrefs() {
   const root = document.documentElement;
   root.style.setProperty("--fs", P.fs + "px");
   root.style.setProperty("--lh", P.lh);
-  root.style.setProperty("--f-tr", noTr() ? "var(--f-body)" : fontFor(P.lang));
-  root.style.setProperty("--lh-tr", tallScript(P.lang) ? Math.max(P.lh + 0.5, 2.1) : P.lh);
   const b = document.body;
   b.classList.toggle("hide-tr", P.hide && !noTr());
   b.classList.toggle("no-tr", noTr());
   b.classList.toggle("tr-below", P.pos === "below");
   b.classList.toggle("focus-mode", P.focus);
   b.classList.toggle("teacher", R.teacher);
-  b.classList.toggle("tr-rtl", isRtl(P.lang));
+  b.classList.toggle("tr-two", langsShown().length > 1);
 }
 
 function endNav() {
@@ -251,38 +301,38 @@ function endNav() {
 
 /* ---------- translations on the page ---------- */
 let trError = null;
+const cellsOf = (l, extra = "") => $$(`.trt${extra}[data-lang="${CSS.escape(l)}"]`, $("#spread"));
+
 async function fillTranslations(token) {
-  if (noTr()) return;
-  const cells = $$(".trt.pending", $("#spread"));
-  const texts = R.mem.missing(cells.map(c => c.dataset.src));
-  if (!texts.length) return;
-  for (let i = 0; i < texts.length; i += 20) {
-    const part = texts.slice(i, i + 20);
-    try {
-      const res = await translateTexts(part, src(), P.lang, { onStatus: m => toast(m) });
-      await R.mem.setAuto(part, res);
-      trError = null;
-    } catch (e) {
+  for (const l of langsShown()) {
+    const texts = mem(l).missing(cellsOf(l, ".pending").map(c => c.dataset.src));
+    for (let i = 0; i < texts.length; i += 20) {
+      const part = texts.slice(i, i + 20);
+      try {
+        await mem(l).setAuto(part, await tr(part, l));
+        trError = null;
+      } catch (e) {
+        if (token !== R.token) return;
+        console.warn(e);
+        if (trError !== e.message) toast(`${trName(l)}: ${e.message || "no s'ha pogut traduir."}`, 6000);
+        trError = e.message;
+        cellsOf(l, ".pending").forEach(c => { c.classList.remove("pending"); c.classList.add("fail"); c.innerHTML = `<button type="button" class="linkb" data-retry>Sense traducció · torna-ho a provar</button>`; });
+        break;
+      }
       if (token !== R.token) return;
-      console.warn(e);
-      if (trError !== e.message) toast(e.message || "No s'ha pogut traduir.", 5000);
-      trError = e.message;
-      $$(".trt.pending", $("#spread")).forEach(c => { c.classList.remove("pending"); c.classList.add("fail"); c.innerHTML = `<button type="button" class="linkb" data-retry>Sense traducció · torna-ho a provar</button>`; });
-      return;
+      updateCells(part, l);
     }
-    if (token !== R.token) return;
-    updateCells(part);
   }
 }
 
-function updateCells(texts) {
+function updateCells(texts, l) {
   const set = new Set(texts.map(normalize));
-  $$(".trt", $("#spread")).forEach(c => {
+  cellsOf(l).forEach(c => {
     if (!set.has(normalize(c.dataset.src))) return;
-    const t = R.mem.get(c.dataset.src);
+    const t = mem(l).get(c.dataset.src);
     if (t == null) return;
     c.classList.remove("pending", "fail");
-    c.classList.toggle("auto", !R.mem.isReviewed(c.dataset.src));
+    c.classList.toggle("auto", !mem(l).isReviewed(c.dataset.src));
     c.textContent = t;
   });
 }
@@ -305,25 +355,23 @@ function vocabEntries(s) {
 
 const glossById = id => (R.book.glossary || []).find(g => g.id === id);
 
+/** Known translation of a vocabulary item in language l ("" if none yet). */
+function itemTr(it, l) {
+  if (it.k) return R.book.dict[it.k][l] || mem(l).word("d:" + it.k) || "";
+  if (it.g) { const g = glossById(it.g); return g ? mem(l).get(g.def) || "" : ""; }
+  return (mem(l).word("w:" + it.form) || {}).t || "";
+}
+
 function vitemHTML(it, removable) {
-  let ca, def = "", tr = "";
-  if (it.k) {
-    const e = R.book.dict[it.k];
-    ca = headword(it.k); def = e.d;
-    tr = noTr() ? "" : e[P.lang] || R.mem.word("d:" + it.k) || "";
-  } else if (it.g) {
-    const g = glossById(it.g); if (!g) return "";
-    ca = g.term; def = g.def;
-    tr = noTr() ? "" : R.mem.get(g.def) || "";
-  } else {
-    ca = it.form; def = it.d || "";
-    tr = noTr() ? "" : (R.mem.word("w:" + it.form) || {}).t || "";
-  }
+  let ca, def = "";
+  if (it.k) { const e = R.book.dict[it.k]; ca = headword(it.k); def = e.d; }
+  else if (it.g) { const g = glossById(it.g); if (!g) return ""; ca = g.term; def = g.def; }
+  else { ca = it.form; def = it.d || ""; }
   const data = it.k ? `data-k="${esc(it.k)}"` : it.g ? `data-g="${esc(it.g)}"` : `data-form="${esc(it.form)}"`;
   return `<div class="vitem" ${data} tabindex="0" role="button">
     <span class="vca" lang="${esc(src())}">${esc(ca)}</span>
     ${def ? `<span class="vdef" lang="${esc(src())}">${esc(def)}</span>` : ""}
-    ${noTr() ? "" : `<span class="vtr${tr ? "" : " pending"}" ${trAttrs()}>${tr ? esc(tr) : "…"}</span>`}
+    ${langsAll().map((l, i) => { const t = itemTr(it, l); return `<span class="vtr${i ? " sec" : ""}${t ? "" : " pending"}" ${trAttrs(l)}>${t ? esc(t) : "…"}</span>`; }).join("")}
     ${removable ? `<button type="button" class="ibtn sm" data-rm="${esc(JSON.stringify(it))}" aria-label="Treu la paraula">${ICON.close}</button>` : ""}
   </div>`;
 }
@@ -336,16 +384,17 @@ function vocabHTML(items) {
 }
 
 async function fillVocab(token, items) {
-  if (noTr()) return;
-  try {
-    const dictMissing = items.filter(it => it.k && !R.book.dict[it.k][P.lang] && !R.mem.word("d:" + it.k));
-    if (dictMissing.length) {
-      const res = await translateTexts(dictMissing.map(it => R.book.dict[it.k].w || it.k), src(), P.lang);
-      for (const [i, it] of dictMissing.entries()) await R.mem.setWord("d:" + it.k, res[i]);
-    }
-    const defs = R.mem.missing(items.filter(it => it.g).map(it => (glossById(it.g) || {}).def));
-    if (defs.length) await R.mem.setAuto(defs, await translateTexts(defs, src(), P.lang));
-  } catch (e) { console.warn(e); }
+  for (const l of langsAll()) {
+    try {
+      const dictMissing = items.filter(it => it.k && !itemTr(it, l));
+      if (dictMissing.length) {
+        const res = await tr(dictMissing.map(it => R.book.dict[it.k].w || it.k), l);
+        for (const [i, it] of dictMissing.entries()) await mem(l).setWord("d:" + it.k, res[i]);
+      }
+      const defs = mem(l).missing(items.filter(it => it.g).map(it => (glossById(it.g) || {}).def));
+      if (defs.length) await mem(l).setAuto(defs, await tr(defs, l));
+    } catch (e) { console.warn(e); }
+  }
   if (token !== R.token) return;
   $$(".vocab .vitem").forEach((el, i) => {
     const html = vitemHTML(items[i]);
@@ -398,8 +447,8 @@ function entryTools(it, sayText) {
     <button type="button" class="ibtn" data-close aria-label="Tanca">${ICON.close}</button></div>`;
 }
 
-const trRow = (id, value) => noTr() ? "" :
-  `<div><dt>${esc(langInfo(P.lang).native)}</dt><dd class="trd${value ? "" : " pending"}" id="${id}" ${trAttrs()}>${value ? esc(value) : "…"}</dd></div>`;
+const trRow = (id, l, value) =>
+  `<div><dt>${esc(trName(l))}</dt><dd class="trd${value ? "" : " pending"}" id="${id}" ${trAttrs(l)}>${value ? esc(value) : "…"}</dd></div>`;
 
 /** Opens the popover for a word of the text. */
 async function openWord(el) {
@@ -412,41 +461,46 @@ async function openWord(el) {
   const parts = [];
   const pending = [];
 
+  // every word shows both languages (main and second)
+  const langs = langsAll();
+  const rows = (base, kind, extra, knownFn) => langs.map(l => {
+    const known = knownFn(l);
+    const id = `${base}-${l}`;
+    if (!known) pending.push(Object.assign({ id, kind, l }, extra));
+    return trRow(id, l, known);
+  }).join("");
+
   ks.forEach((k, i) => {
     const e = R.book.dict[k];
-    const known = noTr() ? null : e[P.lang] || R.mem.word("d:" + k);
-    if (!known && !noTr()) pending.push({ id: "pt-d" + i, kind: "d", k, text: e.w || k });
     parts.push(`<div class="${i ? "alt" : ""}"><div class="head"><div><div class="hw" lang="ca">${esc(headword(k))}</div><div class="pos">${esc(e.p)}</div>
       ${form.toLowerCase() !== (e.w || k).toLowerCase() && !/^nom propi/.test(e.p) ? `<div class="form">Al text: <b>${esc(form)}</b></div>` : ""}</div>
       ${i === 0 ? entryTools({ k }, e.w || k) : ""}</div>
-      <dl><div><dt>Què vol dir</dt><dd lang="ca">${esc(e.d)}</dd></div>${trRow("pt-d" + i, known)}</dl></div>`);
+      <dl><div><dt>Què vol dir</dt><dd lang="ca">${esc(e.d)}</dd></div>${rows("pt-d" + i, "d", { k, text: e.w || k }, l => itemTr({ k }, l))}</dl></div>`);
   });
   if (g) {
-    const known = noTr() ? null : R.mem.get(g.def);
-    if (!known && !noTr()) pending.push({ id: "pt-g", kind: "g", text: g.def });
     parts.push(`<div class="${parts.length ? "alt" : ""}"><div class="head"><div><div class="hw" lang="ca">${esc(g.term)}</div><div class="pos">Glossari del llibre</div></div>
       ${parts.length ? "" : entryTools({ g: g.id }, g.term)}</div>
-      <dl><div><dt>Què vol dir</dt><dd lang="ca">${esc(g.def)}</dd></div>${trRow("pt-g", known)}</dl></div>`);
+      <dl><div><dt>Què vol dir</dt><dd lang="ca">${esc(g.def)}</dd></div>${rows("pt-g", "g", { text: g.def }, l => mem(l).get(g.def))}</dl></div>`);
   }
   if (!parts.length) {
-    const known = noTr() ? null : R.mem.word("w:" + lw);
-    if (!known && !noTr()) pending.push({ id: "pt-w", kind: "w", text: form });
+    const known = langs.map(l => mem(l).word("w:" + lw)).find(Boolean);
     parts.push(`<div><div class="head"><div><div class="hw" lang="ca">${esc(known && known.lemma || form)}</div>
       ${known && known.lemma && known.lemma.toLowerCase() !== lw ? `<div class="form">Al text: <b>${esc(form)}</b></div>` : ""}</div>${entryTools({ form: lw }, form)}</div>
       <dl>${known && known.d ? `<div><dt>Què vol dir</dt><dd lang="ca">${esc(known.d)}</dd></div>` : `<div id="pt-wd" hidden></div>`}
-      ${trRow("pt-w", known && known.t)}</dl>
-      ${noTr() ? "" : `<div class="note">Traducció automàtica${known && known.by ? " · " + esc(providerLabel(known.by)) : ""}.</div>`}</div>`);
+      ${rows("pt-w", "w", {}, l => (mem(l).word("w:" + lw) || {}).t)}</dl>
+      ${langs.length ? `<div class="note">Traducció automàtica${known && known.by ? " · " + esc(providerLabel(known.by)) : ""}.</div>` : ""}</div>`);
   }
   showPop(parts.join("") + (ks.length > 1 ? `<div class="note">Aquesta paraula pot tenir més d’un significat.</div>` : ""), el);
 
   for (const p of pending) {
     try {
       let value;
-      if (p.kind === "d") { [value] = await translateTexts([p.text], src(), P.lang); await R.mem.setWord("d:" + p.k, value); }
-      else if (p.kind === "g") { [value] = await translateTexts([p.text], src(), P.lang); await R.mem.setAuto([p.text], [value]); }
+      const m = mem(p.l);
+      if (p.kind === "d") { [value] = await tr([p.text], p.l); await m.setWord("d:" + p.k, value); }
+      else if (p.kind === "g") { [value] = await tr([p.text], p.l); await m.setAuto([p.text], [value]); }
       else {
-        const r = await translateWord(form, sentence, src(), P.lang);
-        await R.mem.setWord("w:" + lw, r);
+        const r = await translateWord(form, sentence, src(), p.l);
+        await m.setWord("w:" + lw, r);
         value = r.t;
         const wd = $("#pt-wd");
         if (wd && r.d) { wd.outerHTML = `<div><dt>Què vol dir</dt><dd lang="ca">${esc(r.d)}</dd></div>`; }
@@ -480,11 +534,12 @@ async function openExplain(row) {
     <div class="tools"><button type="button" class="ibtn" data-close aria-label="Tanca">${ICON.close}</button></div></div>
     <dl id="explain"><div><dd class="pending">…</dd></div></dl>`, row.querySelector(".explain"));
   try {
-    const r = await explainSentence(text, src(), noTr() ? "en" : P.lang);
+    const l = langsAll()[0];
+    const r = await explainSentence(text, src(), l || "en");
     const box = $("#explain");
     if (box) box.innerHTML = `<div><dt>Més fàcil</dt><dd lang="ca">${esc(r.simple_ca)}</dd></div>
-      ${noTr() ? "" : `<div><dt>${esc(langInfo(P.lang).native)}</dt><dd ${trAttrs()} class="trd">${esc(r.translation)}</dd></div>
-      <div><dt>Nota</dt><dd ${trAttrs()} class="trd">${esc(r.note)}</dd></div>`}`;
+      ${!l ? "" : `<div><dt>${esc(trName(l))}</dt><dd ${trAttrs(l)} class="trd">${esc(r.translation)}</dd></div>
+      <div><dt>Nota</dt><dd ${trAttrs(l)} class="trd">${esc(r.note)}</dd></div>`}`;
   } catch (e) {
     const box = $("#explain");
     if (box) box.innerHTML = `<div><dd class="err">${esc(e.message)}</dd></div>`;
@@ -544,8 +599,9 @@ function readPage() {
     const r = rows[i++]; r.classList.add("speaking");
     r.scrollIntoView({ block: "nearest", behavior: "smooth" });
     const text = R.rowTexts[+r.dataset.i];
-    const tr = !noTr() && P.voiceTr && R.mem.get(text);
-    speech.speak(text, src(), { slow: P.slow, onend: tr ? () => reading && speech.speak(tr, P.lang, { slow: P.slow, onend: step }) : step });
+    const l = langsShown()[0];
+    const t = l && P.voiceTr && mem(l).get(text);
+    speech.speak(text, src(), { slow: P.slow, onend: t ? () => reading && speech.speak(t, l, { slow: P.slow, onend: step }) : step });
   };
   speech.stop();
   step();
@@ -579,10 +635,10 @@ function textPanel() {
 }
 
 function toolsPanel() {
-  const l = langInfo(P.lang);
-  const has = !noTr();
+  const names = langsAll().map(l => langInfo(l).name.toLowerCase());
+  const has = names.length > 0;
   return `<button type="button" class="mi" data-tool="teacher" aria-pressed="${R.teacher}">${ICON.edit}<span>Mode docent: corregeix la traducció</span></button>
-    <button type="button" class="mi" data-tool="translateAll" ${has ? "" : "disabled"}>${ICON.globe}<span>Tradueix tot el llibre${has ? " a " + esc(l.name.toLowerCase()) : ""}</span></button>
+    <button type="button" class="mi" data-tool="translateAll" ${has ? "" : "disabled"}>${ICON.globe}<span>Tradueix tot el llibre${has ? " a " + esc(names.join(" i ")) : ""}</span></button>
     <button type="button" class="mi" data-tool="share">${ICON.link}<span>Comparteix amb l’alumnat…</span></button>
     <hr>
     <button type="button" class="mi" data-tool="exportTr" ${has ? "" : "disabled"}>${ICON.download}<span>Desa la traducció (fitxer)</span></button>
@@ -617,13 +673,15 @@ async function runTool(t) {
   } else if (t === "translateAll") translateAll();
   else if (t === "share") shareDialog();
   else if (t === "exportTr") {
-    downloadJSON(translationPack(R.book, R.mem), `${slug(R.book.title)}.${P.lang}.traduccio.json`);
-    toast("Traducció desada");
+    for (const l of langsAll()) downloadJSON(translationPack(R.book, mem(l)), `${slug(R.book.title)}.${l}.traduccio.json`);
+    toast(langsAll().length > 1 ? "Traduccions desades (un fitxer per llengua)" : "Traducció desada");
   } else if (t === "importTr") pickFile(".json", async f => {
     try {
       const r = await importPack(JSON.parse(await f.text()));
       if (r.kind !== "translation" || r.book.id !== R.book.id) throw new Error("Aquest fitxer no és una traducció d’aquest llibre.");
-      P.lang = r.lang; savePrefs(); await loadMemory(); render();
+      if (!langsAll().includes(r.lang)) { P.lang = r.lang; savePrefs(); }
+      delete R.mems[r.lang];
+      await loadMemory(); fillChrome(); render();
       toast(`Traducció carregada: ${langInfo(r.lang).name}`);
     } catch (e) { toast(e.message, 5000); }
   });
@@ -643,48 +701,54 @@ export function pickFile(accept, fn) {
 }
 
 async function translateAll() {
-  const texts = R.mem.missing(allTexts(R.book));
-  const l = langInfo(P.lang);
-  if (!texts.length) { toast(`Tot el llibre ja està traduït a ${l.name.toLowerCase()}.`); return; }
-  const provider = providerLabel(await resolveProvider(src(), P.lang));
+  const all = allTexts(R.book);
+  const jobs = langsAll().map(l => ({ l, texts: mem(l).missing(all) })).filter(j => j.texts.length);
+  const names = langsAll().map(l => langInfo(l).name.toLowerCase()).join(" i ");
+  if (!jobs.length) { toast(`Tot el llibre ja està traduït a ${names}.`); return; }
+  const total = jobs.reduce((a, j) => a + j.texts.length, 0);
+  const provider = providerLabel(await resolveProvider(src(), jobs[0].l));
   const ctrl = new AbortController();
   let done = 0, failed = null;
   const p = dialog(`<h2>Tradueix tot el llibre</h2>
-    <p>${texts.length} frases a ${esc(l.name.toLowerCase())} amb <b>${esc(provider)}</b>. Pots continuar llegint mentre es tradueix; el que ja estigui traduït es desa.</p>
-    <div class="progress big"><div class="track"><div class="fill" id="taFill"></div></div><small id="taText">0 de ${texts.length}</small></div>
+    <p>${total} frases a ${esc(names)} amb <b>${esc(provider)}</b>. Pots continuar llegint mentre es tradueix; el que ja estigui traduït es desa.</p>
+    <div class="progress big"><div class="track"><div class="fill" id="taFill"></div></div><small id="taText">0 de ${total}</small></div>
     <div class="dlg-actions"><button type="button" class="btn" data-close="stop">Atura</button></div>`);
   p.then(() => ctrl.abort());
-  for (let i = 0; i < texts.length && !ctrl.signal.aborted; i += 40) {
-    const part = texts.slice(i, i + 40);
-    try {
-      await R.mem.setAuto(part, await translateTexts(part, src(), P.lang, { signal: ctrl.signal }));
-      done += part.length;
-    } catch (e) { if (!ctrl.signal.aborted) failed = e; break; }
-    const f = $("#taFill"), tx = $("#taText");
-    if (f) f.style.width = (done / texts.length * 100) + "%";
-    if (tx) tx.textContent = `${done} de ${texts.length}`;
+  outer: for (const { l, texts } of jobs) {
+    for (let i = 0; i < texts.length; i += 40) {
+      if (ctrl.signal.aborted) break outer;
+      const part = texts.slice(i, i + 40);
+      try {
+        await mem(l).setAuto(part, await tr(part, l, { signal: ctrl.signal }));
+        done += part.length;
+      } catch (e) { if (!ctrl.signal.aborted) failed = e; break outer; }
+      const f = $("#taFill"), tx = $("#taText");
+      if (f) f.style.width = (done / total * 100) + "%";
+      if (tx) tx.textContent = `${done} de ${total}`;
+    }
   }
   const d = $(".dlg[open]");
   if (failed) {
     if (d) d.querySelector("p").innerHTML = `<b>S’ha aturat:</b> ${esc(failed.message)} · S’han traduït ${done} frases.`;
   } else if (d) d.close("done");
-  if (!failed && done) toast(`Llibre traduït a ${l.name.toLowerCase()}. Revisa’l amb el mode docent i comparteix-lo.`, 4000);
+  if (!failed && done) toast(`Llibre traduït a ${names}. Revisa’l amb el mode docent i comparteix-lo.`, 4000);
   render();
 }
 
 function shareDialog() {
   const base = location.origin + location.pathname;
   const b = R.book;
-  const langQ = noTr() ? "" : `&llengua=${encodeURIComponent(P.lang)}`;
+  const [l1, l2] = langsAll();
+  const langQ = (l1 ? `&llengua=${encodeURIComponent(l1)}` : "") + (l2 ? `&llengua2=${encodeURIComponent(l2)}` : "");
   const direct = b.origin === "bundled" ? `${base}?llibre=${encodeURIComponent(b.id)}${langQ}` : b.origin === "url" && b.source ? `${base}?llibre=${encodeURIComponent(b.source)}${langQ}` : null;
   dialog(`<h2>Comparteix amb l’alumnat</h2>
-    ${direct ? `<h3>Enllaç directe</h3><p>Obre aquest llibre${noTr() ? "" : ` amb la traducció a ${esc(langInfo(P.lang).name.toLowerCase())}`} a qualsevol dispositiu.</p>
+    ${direct ? `<h3>Enllaç directe</h3><p>Obre aquest llibre${l1 ? ` amb la traducció a ${esc(langsAll().map(l => langInfo(l).name.toLowerCase()).join(" i "))}` : ""} a qualsevol dispositiu.</p>
       <div class="copyrow"><input type="text" readonly value="${esc(direct)}" id="shLink"><button type="button" class="btn" data-copy="#shLink">Copia</button></div>
-      ${b.origin === "bundled" && !noTr() ? `<p class="muted">Les traduccions automàtiques o corregides en aquest navegador no viatgen amb l’enllaç: cada dispositiu les torna a fer. Per compartir la teva traducció revisada, fes servir un fitxer.</p>` : ""}` : ""}
+      ${b.origin === "bundled" && l1 ? `<p class="muted">Les traduccions automàtiques o corregides en aquest navegador no viatgen amb l’enllaç: cada dispositiu les torna a fer. Per compartir la teva traducció revisada, fes servir un fitxer.</p>` : ""}` : ""}
     <h3>Amb un fitxer</h3>
     <p>Desa el llibre amb totes les traduccions i envia’l (Classroom, Drive, correu…). L’alumne l’obre a <b>Afegeix un llibre → Tria un fitxer</b>.</p>
     <div class="dlg-actions left"><button type="button" class="btn primary" data-act="book">${ICON.download} Desa el llibre i les traduccions</button>
-    ${noTr() ? "" : `<button type="button" class="btn" data-act="tr">${ICON.download} Només la traducció</button>`}</div>
+    ${l1 ? `<button type="button" class="btn" data-act="tr">${ICON.download} Només la traducció</button>` : ""}</div>
     <h3>Amb un enllaç a un fitxer publicat</h3>
     <p>Si penges el fitxer del llibre en un lloc públic (per exemple, a la carpeta <code>data/books</code> d’un repositori de GitHub o en un Gist), enganxa’n l’adreça i obtindràs un enllaç que l’obre directament.</p>
     <div class="copyrow"><input type="url" id="shUrl" placeholder="https://…/llibre.lecturafacil.json"><button type="button" class="btn" data-act="mk">Crea l’enllaç</button></div>
@@ -714,9 +778,10 @@ function glossaryDialog() {
     <div class="dlg-actions"><button type="button" class="btn" data-close>Tanca</button></div>`, {
     wide: true,
     onOpen: async d => {
-      if (noTr()) return;
-      const defs = R.mem.missing(R.book.glossary.map(g => g.def));
-      try { if (defs.length) await R.mem.setAuto(defs, await translateTexts(defs, src(), P.lang)); } catch (e) { toast(e.message); }
+      for (const l of langsAll()) {
+        const defs = mem(l).missing(R.book.glossary.map(g => g.def));
+        try { if (defs.length) await mem(l).setAuto(defs, await tr(defs, l)); } catch (e) { toast(e.message); }
+      }
       $$(".vitem", d).forEach((el, i) => { el.outerHTML = vitemHTML(items[i]); });
     }
   });
@@ -740,7 +805,14 @@ export function bindReader() {
     const ratio = R.page / Math.max(1, R.pages.length - 1);
     R.level = b.dataset.v; R.pages = buildPages(); R.page = Math.round(ratio * (R.pages.length - 1)); render();
   });
-  $("#trLang").addEventListener("change", async e => { P.lang = e.target.value; savePrefs(); trError = null; await loadMemory(); render(); });
+  const langChanged = async (key, value) => {
+    P[key] = value;
+    if (key === "lang2" && value !== "none") P.show = "both"; // a new second language: show both
+    savePrefs(); trError = null;
+    await loadMemory(); render();
+  };
+  $("#trLang").addEventListener("change", e => langChanged("lang", e.target.value));
+  $("#trLang2").addEventListener("change", e => langChanged("lang2", e.target.value));
   $("#hideBtn").addEventListener("click", () => { P.hide = !P.hide; savePrefs(); render(); });
   $("#wordsBtn").addEventListener("click", () => toggleDrawer());
   $("#readBtn").addEventListener("click", readPage);
@@ -781,6 +853,8 @@ export function bindReader() {
     const rm = t.closest("[data-rm]"); if (rm) { e.stopPropagation(); toggleSave(JSON.parse(rm.dataset.rm)); return; }
     const vi = t.closest(".vitem"); if (vi && !t.closest(".dlg")) { openItem(vi); return; }
     if (t.closest("[data-retry]")) { trError = null; render(); return; }
+    const sw = t.closest("[data-show]");
+    if (sw) { P.show = sw.dataset.show; savePrefs(); render(); return; }
     const g = t.closest("[data-go]");
     if (g) { if (g.dataset.go === "restart") R.page = 0; else { R.sec++; R.page = 0; } render(); scrollTo(0, 0); return; }
     if (t.closest(".pop") || t.closest(".trt[contenteditable]")) return;
@@ -790,10 +864,11 @@ export function bindReader() {
   // teacher corrections are saved when the cell loses focus
   document.addEventListener("focusout", async e => {
     const c = e.target;
-    if (!c.matches || !c.matches(".trt[contenteditable]") || !R.mem) return;
+    if (!c.matches || !c.matches(".trt[contenteditable]") || !mem(c.dataset.lang)) return;
+    const m = mem(c.dataset.lang);
     const v = c.innerText.trim();
-    if (v === (R.mem.get(c.dataset.src) || "")) return;
-    await R.mem.setReviewed(c.dataset.src, v);
+    if (v === (m.get(c.dataset.src) || "")) return;
+    await m.setReviewed(c.dataset.src, v);
     c.classList.remove("auto");
     toast(v ? "Traducció corregida i desada" : "Correcció esborrada");
   });
@@ -809,6 +884,8 @@ export function bindReader() {
     if (e.target.matches("input, select, textarea, [contenteditable]")) return;
     if (e.key === "ArrowRight") go(1);
     if (e.key === "ArrowLeft") go(-1);
+    // T: main language → second language → both
+    if ((e.key === "t" || e.key === "T") && langsAll().length > 1) { P.show = { 1: "2", 2: "both", both: "1" }[P.show] || "1"; savePrefs(); render(); }
   });
   let tx = null, ty = null;
   $("#spread").addEventListener("touchstart", e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });

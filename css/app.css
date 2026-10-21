@@ -76,6 +76,8 @@ code { font-size: .92em; background: var(--mark-soft); padding: 0 4px; border-ra
 .seg button:disabled { opacity: .4; cursor: not-allowed; }
 select, input, textarea { font: inherit; font-size: 15px; color: var(--ink); background: var(--page); border: 1px solid var(--line); border-radius: 8px; }
 select { max-width: 260px; padding: 6px 8px; }
+.bar select { max-width: 196px; }
+.bar #chap { max-width: 230px; }
 input, textarea { padding: 8px 10px; width: 100%; }
 textarea { line-height: 1.5; resize: vertical; }
 .btn { border: 1px solid var(--line); background: var(--page); border-radius: 8px; padding: 6px 11px; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
@@ -165,6 +167,12 @@ textarea { line-height: 1.5; resize: vertical; }
 .ca .txt { font-size: var(--fs); line-height: var(--lh); }
 .trt { font-family: var(--f-tr); font-size: calc(var(--fs) * .92); line-height: var(--lh-tr); white-space: pre-line; }
 .trt[dir="rtl"] { text-align: right; }
+/* second language, below the main one */
+.trt.sec { font-size: calc(var(--fs) * .78); color: var(--muted); margin-top: 3px; padding-top: 3px; border-top: 1px dotted var(--line); }
+.chead .trt.sec { font-size: var(--fs); }
+.trswitch { position: absolute; top: 10px; right: 56px; z-index: 2; }
+.trswitch button { padding: 4px 10px; font-size: 13px; }
+.tr-below .trswitch { right: 16px; }
 .tr-below .trt { color: var(--muted); }
 .trt.pending { color: var(--muted); }
 .trt.fail { font-size: 14px; }
@@ -223,6 +231,7 @@ textarea { line-height: 1.5; resize: vertical; }
 .vdef { color: var(--muted); font-size: 14.5px; grid-column: 1; }
 .vtr { font-family: var(--f-tr); grid-column: 1; font-size: 16px; line-height: var(--lh-tr); }
 .vtr.pending { color: var(--muted); }
+.vtr.sec { font-size: 14.5px; color: var(--muted); }
 .vitem .ibtn { grid-column: 2; grid-row: 1 / span 3; align-self: center; }
 .endnav { display: flex; gap: 10px; margin: 26px 56px 0 64px; flex-wrap: wrap; align-items: center; }
 .credits { margin: 22px 56px 0 64px; font-size: 13px; border-top: 1px solid var(--line); padding-top: 10px; }
@@ -283,6 +292,10 @@ textarea { line-height: 1.5; resize: vertical; }
 .dlg .two { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
 .dlg-actions { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; margin-top: 16px; }
 .dlg-actions.left { justify-content: flex-start; margin-top: 4px; }
+.checklist { margin: 8px 0 4px; padding-left: 20px; font-size: 14px; }
+.checklist li { margin-bottom: 4px; }
+.checklist li.ok::marker { content: "✓  "; color: var(--accent); }
+.checklist li.bad::marker { content: "✗  "; color: var(--danger); }
 .warn { background: var(--mark-soft); border-radius: 8px; padding: 8px 12px; font-size: 14px; }
 .copyrow { display: flex; gap: 8px; margin: 6px 0 10px; }
 .copyrow input { flex: 1; min-width: 0; }
@@ -321,18 +334,19 @@ textarea { line-height: 1.5; resize: vertical; }
   .bar { position: static; }
   .ctl.spacer > .lbl { display: none; }
   .controls { width: 100%; }
-  select { max-width: 100%; }
+  select, .bar select, .bar #chap { max-width: 100%; }
   .card { grid-template-columns: 84px minmax(0, 1fr); padding: 12px; gap: 12px; }
   .dlg .two { grid-template-columns: 1fr; }
   .menu, .menu.right { position: fixed; left: 12px; right: 12px; top: auto; bottom: 12px; max-height: 75vh; overflow-y: auto; min-width: 0; }
   .legend { display: none; }
+  .trswitch { position: static; margin: 0 16px 12px; align-self: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 
 /* ---------- print: the chapter, bilingual, without the app around it ---------- */
 @media print {
   :root { --bg: #fff; --page: #fff; --ink: #000; --muted: #333; --line: #bbb; --fs: 14pt; }
-  .bar, .pager, .legend, .acts, .pop, .drawer, .toast, .endnav, .folio, .badge, .skip { display: none !important; }
+  .bar, .pager, .legend, .acts, .pop, .drawer, .toast, .endnav, .folio, .badge, .skip, .trswitch { display: none !important; }
   #readerMain { padding: 0; }
   .spread { box-shadow: none; background: #fff; min-height: 0; padding: 0; }
   .row { break-inside: avoid; }

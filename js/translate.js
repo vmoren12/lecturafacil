@@ -10,7 +10,7 @@ import { lang as langInfo } from "./languages.js";
 
 export const PROVIDERS = {
   auto: "Automàtic (el millor disponible)",
-  browser: "Traductor del navegador (Chrome, sense enviar res)",
+  browser: "Traductor de Chrome (sense enviar res; no té català, tradueix des de l’anglès)",
   mymemory: "MyMemory (gratuït, en línia, amb límit diari)",
   libre: "LibreTranslate (servidor propi o de pagament)",
   claude: "Claude (Anthropic, amb clau API pròpia)"
@@ -31,20 +31,22 @@ export class TranslateError extends Error {
 }
 
 /* ---------- browser (Translator API) ---------- */
+/* Languages of Chrome's built-in translator (developer.chrome.com/docs/ai/translator-api).
+   Catalan is not one of them, so Catalan books are translated from an existing
+   English, Spanish or French version of each sentence ("pivot"). The API itself
+   cannot be asked: for privacy it answers "downloadable" for every pair. */
+export const BROWSER_LANGS = new Set(["ar", "bg", "bn", "cs", "da", "de", "el", "en", "es", "fi", "fr", "he", "hi", "hr", "hu", "id", "it", "ja", "kn", "ko", "lt", "mr", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta", "te", "th", "tr", "uk", "vi", "zh", "zh-Hant"]);
+export const hasBrowserTranslator = () => "Translator" in globalThis && globalThis.isSecureContext !== false;
+
 const translators = new Map();
-async function browserAvailability(src, tgt) {
-  const T = globalThis.Translator;
-  if (!T) return "unavailable";
-  try { return await T.availability({ sourceLanguage: src, targetLanguage: tgt }); } catch { return "unavailable"; }
-}
-/** Creating a translator may download a language model; it gives up after
-    20 s without any download progress (e.g. no user gesture, no network). */
+/** Creating a translator may download a language pack; it gives up after
+    20 s without any download progress (e.g. no click before, no network). */
 async function browserTranslator(src, tgt, onStatus) {
   const key = src + ">" + tgt;
   if (!translators.has(key)) {
     let timer, arm;
     const stall = new Promise((_, reject) => {
-      arm = () => { clearTimeout(timer); timer = setTimeout(() => reject(new TranslateError("El traductor del navegador no respon.")), 20000); };
+      arm = () => { clearTimeout(timer); timer = setTimeout(() => reject(new TranslateError("El traductor de Chrome no respon. Prepara’l a «Traductor → Comprova i prepara».")), 20000); };
       arm();
     });
     const created = globalThis.Translator.create({
@@ -52,9 +54,12 @@ async function browserTranslator(src, tgt, onStatus) {
       monitor(m) {
         m.addEventListener("downloadprogress", e => {
           arm();
-          if (onStatus) onStatus(`Baixant el traductor ${src}→${tgt}: ${Math.round(e.loaded * 100)} %`);
+          if (onStatus) onStatus(`Baixant la llengua ${src}→${tgt}: ${Math.round(e.loaded * 100)} %`);
         });
       }
+    }).catch(e => {
+      if (e && e.name === "NotAllowedError") throw new TranslateError("Chrome necessita un clic per baixar aquesta llengua: obre «Traductor → Comprova i prepara».");
+      throw new TranslateError(`El traductor de Chrome no pot traduir ${src}→${tgt}${e && e.message ? ` (${e.message})` : ""}.`);
     });
     translators.set(key, Promise.race([created, stall])
       .finally(() => clearTimeout(timer))
@@ -62,28 +67,46 @@ async function browserTranslator(src, tgt, onStatus) {
   }
   return translators.get(key);
 }
-/** Direct pair, or through English when the direct pair does not exist. */
-async function browserRoute(src, tgt) {
-  if ((await browserAvailability(src, tgt)) !== "unavailable") return [[src, tgt]];
-  if (src !== "en" && tgt !== "en" &&
-      (await browserAvailability(src, "en")) !== "unavailable" &&
-      (await browserAvailability("en", tgt)) !== "unavailable") return [[src, "en"], ["en", tgt]];
-  return null;
-}
+
 const browserProvider = {
-  async available(src, tgt) { return !!(await browserRoute(src, tgt)); },
-  async translate(texts, src, tgt, { onStatus } = {}) {
-    const route = await browserRoute(src, tgt);
-    if (!route) throw new TranslateError(`El traductor del navegador no té ${langInfo(tgt).name.toLowerCase()}.`);
+  async available(src, tgt) { return hasBrowserTranslator() && BROWSER_LANGS.has(src) && BROWSER_LANGS.has(tgt); },
+  /** opts.pivot(texts) -> [{lang, text} | null]: existing translations to start from when src is not supported. */
+  async translate(texts, src, tgt, { onStatus, pivot } = {}) {
+    if (!hasBrowserTranslator()) throw new TranslateError("Aquest navegador no té traductor integrat (cal Chrome 138 o més nou, d’ordinador).");
+    if (!BROWSER_LANGS.has(tgt)) throw new TranslateError(`El traductor de Chrome no té ${langInfo(tgt).name.toLowerCase()}.`);
+    let from = texts.map(t => ({ lang: src, text: t }));
+    if (!BROWSER_LANGS.has(src)) {
+      const piv = pivot ? await pivot(texts) : [];
+      if (!piv.length || piv.some(p => !p)) {
+        throw new TranslateError(`El traductor de Chrome no admet el ${langInfo(src).name.toLowerCase()}. Només pot traduir a partir d’una traducció a l’anglès, al castellà o al francès que ja existeixi; tria un altre servei o tradueix primer a una d’aquestes llengües.`);
+      }
+      from = piv;
+    }
     const out = [];
-    for (const t of texts) {
-      let r = t.replace(/\n/g, " ");
-      for (const [a, b] of route) r = await (await browserTranslator(a, b, onStatus)).translate(r);
-      out.push(r);
+    for (const f of from) {
+      out.push(f.lang === tgt ? f.text : await (await browserTranslator(f.lang, tgt, onStatus)).translate(f.text.replace(/\n/g, " ")));
     }
     return out;
   }
 };
+
+/** Settings check: creates (and downloads, if needed) en→target translators.
+    Must run from a click. Reports each step through onLine(text, ok). */
+export async function prepareBrowser(targets, onLine) {
+  if (!("Translator" in globalThis)) { onLine("Aquest navegador no té l’API de traducció (cal Chrome 138 o més nou, d’ordinador; no funciona al mòbil).", false); return; }
+  if (!globalThis.isSecureContext) { onLine("La pàgina s’ha d’obrir amb https:// o des de localhost.", false); return; }
+  onLine("L’API de traducció de Chrome està disponible.", true);
+  onLine("El català no és una de les seves llengües: traduirà a partir de la versió anglesa, castellana o francesa de cada frase quan existeixi.", null);
+  for (const l of targets) {
+    if (l === "en") continue;
+    if (!BROWSER_LANGS.has(l)) { onLine(`${langInfo(l).name}: Chrome no la té.`, false); continue; }
+    try {
+      const t = await browserTranslator("en", l, msg => onLine(`${langInfo(l).name}: ${msg}`, null));
+      const sample = await t.translate("Good morning");
+      onLine(`${langInfo(l).name}: a punt (prova: “Good morning” → “${sample}”).`, true);
+    } catch (e) { onLine(`${langInfo(l).name}: ${e.message}`, false); }
+  }
+}
 
 /* ---------- MyMemory ---------- */
 const MM_CODE = { zh: "zh-CN", rif: "ber", zgh: "ber" };
@@ -118,9 +141,13 @@ const mymemoryProvider = {
   async available() { return navigator.onLine !== false; },
   async translate(texts, src, tgt, { signal } = {}) {
     const out = new Array(texts.length);
-    let next = 0;
+    let next = 0, failed = false;
     const worker = async () => {
-      while (next < texts.length) { const i = next++; out[i] = await mmOne(texts[i].replace(/\n/g, " "), src, tgt, signal); }
+      while (next < texts.length && !failed) {
+        const i = next++;
+        try { out[i] = await mmOne(texts[i].replace(/\n/g, " "), src, tgt, signal); }
+        catch (e) { failed = true; throw e; } // the other workers stop too (e.g. daily quota used up)
+      }
     };
     await Promise.all([worker(), worker(), worker()]);
     return out;
@@ -217,7 +244,7 @@ const IMPL = { browser: browserProvider, mymemory: mymemoryProvider, libre: libr
 
 const browserFailed = new Set(); // pairs the built-in translator could not handle this session
 
-/** Provider id that will be used for a language pair. */
+/** Provider id that will normally be used for a language pair. */
 export async function resolveProvider(src, tgt) {
   const p = settings().provider;
   if (p !== "auto") return p;
@@ -227,19 +254,29 @@ export async function resolveProvider(src, tgt) {
   return "mymemory";
 }
 
-/** Translates a list of texts. Throws TranslateError. */
+/** Translates a list of texts. Throws TranslateError.
+    opts: { signal, onStatus, pivot } (pivot: see the browser provider). */
 export async function translateTexts(texts, src, tgt, opts = {}) {
   if (!texts.length) return [];
-  const id = await resolveProvider(src, tgt);
-  if (id === "browser" && settings().provider === "auto") {
-    try { return await IMPL.browser.translate(texts, src, tgt, opts); }
-    catch (e) {
+  const chosen = settings().provider;
+  if (chosen !== "auto") return IMPL[chosen].translate(texts, src, tgt, opts);
+  if (await claudeProvider.available()) return claudeProvider.translate(texts, src, tgt, opts);
+  // Chrome's translator: directly, or from existing English/Spanish/French versions
+  const key = src + ">" + tgt;
+  if (!browserFailed.has(key) && hasBrowserTranslator() && BROWSER_LANGS.has(tgt)) {
+    try {
+      if (BROWSER_LANGS.has(src)) return await browserProvider.translate(texts, src, tgt, opts);
+      if (opts.pivot) {
+        const piv = await opts.pivot(texts);
+        if (piv.every(Boolean)) return await browserProvider.translate(texts, src, tgt, Object.assign({}, opts, { pivot: async () => piv }));
+      }
+    } catch (e) {
       console.warn("Traductor del navegador:", e);
-      browserFailed.add(src + ">" + tgt);
-      return translateTexts(texts, src, tgt, opts);
+      browserFailed.add(key);
     }
   }
-  return IMPL[id].translate(texts, src, tgt, opts);
+  if (await libreProvider.available()) return libreProvider.translate(texts, src, tgt, opts);
+  return mymemoryProvider.translate(texts, src, tgt, opts);
 }
 
 /** Word lookup: translation (and, with Claude, a simple explanation in Catalan). */
@@ -254,8 +291,8 @@ export async function translateWord(word, context, src, tgt) {
       { maxTokens: 2000 });
     return { t: r.translation, lemma: r.lemma, d: r.explanation_ca, by: "claude" };
   }
-  const [t] = await IMPL[id].translate([word], src, tgt);
-  return { t, by: id };
+  const [t] = await translateTexts([word], src, tgt);
+  return { t, by: id === "browser" && !BROWSER_LANGS.has(src) ? "mymemory" : id };
 }
 
 /** Claude only: rewrites a sentence more simply and explains it. */

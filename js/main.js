@@ -5,9 +5,9 @@ import { $, $$, esc, toast, ICON, dialog } from "./ui.js";
 import { kv } from "./store.js";
 import { listBooks, getBook, buildBook, saveBook, deleteBook, importPack, importFromUrl, translatedLanguages } from "./books.js";
 import { importFile, importText, ACCEPT } from "./importers.js";
-import { PROVIDERS, CLAUDE_MODELS, settings, saveSettings, resolveProvider, providerLabel } from "./translate.js";
+import { PROVIDERS, CLAUDE_MODELS, settings, saveSettings, resolveProvider, providerLabel, prepareBrowser } from "./translate.js";
 import { lang as langInfo } from "./languages.js";
-import { P, savePrefs, openBook, bindReader, setExitHandler, fillLangSelect, pickFile, applyTheme, closeMenus } from "./reader.js";
+import { P, savePrefs, openBook, bindReader, setExitHandler, fillLangSelect, pickFile, applyTheme, closeMenus, langsAll } from "./reader.js";
 
 /* ---------- views ---------- */
 function show(view) {
@@ -44,7 +44,8 @@ const openRoute = id => { location.hash = "#/llibre/" + encodeURIComponent(id); 
 
 /* ---------- library ---------- */
 async function renderLibrary() {
-  fillLangSelect($("#libLang"));
+  fillLangSelect($("#libLang"), "lang");
+  fillLangSelect($("#libLang2"), "lang2");
   const list = $("#bookList");
   list.innerHTML = `<p class="muted">Carregant…</p>`;
   const items = await listBooks();
@@ -169,12 +170,14 @@ async function openUrl(url, lang) {
 async function settingsDialog() {
   const s = settings();
   const current = providerLabel(await resolveProvider("ca", P.lang === "none" ? "en" : P.lang));
-  const browserOk = "Translator" in globalThis;
   const res = await dialog(`<form method="dialog" class="settings">
     <h2>Configura el traductor</h2>
     <p>Les frases es tradueixen automàticament quan l’alumne tria una llengua i es desen en aquest navegador. Ara s’està fent servir: <b>${esc(current)}</b>.</p>
     <label>Servei de traducció<select name="provider">${Object.entries(PROVIDERS).map(([k, v]) => `<option value="${k}" ${s.provider === k ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label>
-    <p class="muted">${browserOk ? "Aquest navegador té traductor integrat: tradueix dins l’ordinador, sense enviar el text." : "Aquest navegador no té traductor integrat (el tenen les versions recents de Chrome per a ordinador)."}</p>
+    <fieldset><legend>Traductor de Chrome</legend>
+      <p class="muted">Tradueix dins l’ordinador, sense enviar el text. Cal Chrome 138 o més nou d’ordinador (no funciona al mòbil). <b>No té català</b>: tradueix a partir de la versió anglesa, castellana o francesa de cada frase quan ja existeix. Cada llengua es baixa el primer cop, i Chrome només ho permet després d’un clic.</p>
+      <div class="dlg-actions left"><button type="button" class="btn" id="prepBrowser">Comprova i prepara les meves llengües</button></div>
+      <ul class="checklist" id="prepOut" aria-live="polite"></ul></fieldset>
     <fieldset><legend>MyMemory</legend>
       <label>Correu electrònic (opcional, amplia la quota diària gratuïta)<input name="email" type="email" value="${esc(s.email)}" autocomplete="email"></label></fieldset>
     <fieldset><legend>LibreTranslate</legend>
@@ -186,7 +189,21 @@ async function settingsDialog() {
       <label>Model<select name="claudeModel">${Object.entries(CLAUDE_MODELS).map(([k, v]) => `<option value="${k}" ${s.claudeModel === k ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label></div></fieldset>
     <p class="warn">Les claus es desen només en aquest navegador. No les introdueixis en ordinadors compartits ni en els dispositius de l’alumnat: tradueix el llibre des del teu ordinador i comparteix la traducció.</p>
     <div class="dlg-actions"><button type="button" class="btn" data-close="cancel">Cancel·la</button><button class="btn primary" value="ok">Desa</button></div>
-  </form>`, { wide: true, onOpen: d => d.querySelector("form").addEventListener("submit", () => { formValue = Object.fromEntries(new FormData(d.querySelector("form"))); }) });
+  </form>`, {
+    wide: true,
+    onOpen: d => {
+      d.querySelector("form").addEventListener("submit", () => { formValue = Object.fromEntries(new FormData(d.querySelector("form"))); });
+      $("#prepBrowser", d).addEventListener("click", () => {
+        const out = $("#prepOut", d);
+        out.innerHTML = "";
+        const targets = langsAll().length ? langsAll() : ["ar"];
+        // called straight from the click: Chrome only downloads languages after a user gesture
+        prepareBrowser(targets, (text, ok) => {
+          out.insertAdjacentHTML("beforeend", `<li class="${ok === true ? "ok" : ok === false ? "bad" : ""}">${esc(text)}</li>`);
+        });
+      });
+    }
+  });
   if (res === "ok" && formValue) {
     saveSettings(Object.assign(s, formValue));
     toast("Configuració desada");
@@ -201,6 +218,7 @@ function helpDialog() {
     <h3>Per a l’alumnat</h3>
     <ul>
       <li>Tria la teva llengua i un llibre. Cada frase en català té la traducció al costat.</li>
+      <li>Pots triar una <b>2a llengua</b>. A la pàgina de la traducció tries quina vols veure, o les dues (tecla T).</li>
       <li>Clica una paraula per veure què vol dir. Desa-la amb el botó ${ICON.save} per repassar-la a <b>Paraules</b>.</li>
       <li>Escolta una frase amb ${ICON.speak} o tota la pàgina. A <b>Aa</b> pots fer la lletra més gran, la veu més lenta o amagar la traducció per practicar.</li>
     </ul>
@@ -220,6 +238,7 @@ async function boot() {
   setExitHandler(() => { location.hash = "#/"; });
 
   $("#libLang").addEventListener("change", e => { P.lang = e.target.value; savePrefs(); renderLibrary(); });
+  $("#libLang2").addEventListener("change", e => { P.lang2 = e.target.value; if (P.lang2 !== "none") P.show = "both"; savePrefs(); });
   $("#bookList").addEventListener("click", async e => {
     const o = e.target.closest("[data-open]");
     if (o) { openRoute(o.dataset.open); return; }
@@ -245,13 +264,15 @@ async function boot() {
 
   // shared links: ?llibre=<id or URL>&llengua=<code>&capitol=<n>
   const q = new URLSearchParams(location.search);
-  const bookParam = q.get("llibre"), langParam = q.get("llengua");
-  if (langParam) { P.lang = langParam; savePrefs(); }
+  const bookParam = q.get("llibre"), langParam = q.get("llengua"), lang2Param = q.get("llengua2");
+  if (langParam) P.lang = langParam;
+  if (lang2Param) { P.lang2 = lang2Param; P.show = "both"; }
+  if (langParam || lang2Param) savePrefs();
   if (bookParam) {
     history.replaceState(null, "", location.pathname + location.hash);
     if (/^https?:\/\//.test(bookParam)) await openUrl(bookParam);
     else history.replaceState(null, "", location.pathname + "#/llibre/" + encodeURIComponent(bookParam) + (q.get("capitol") ? "/" + (+q.get("capitol")) : ""));
-  } else if (langParam) history.replaceState(null, "", location.pathname + location.hash);
+  } else if (langParam || lang2Param) history.replaceState(null, "", location.pathname + location.hash);
 
   addEventListener("hashchange", route);
   await route();

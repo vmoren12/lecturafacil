@@ -1,7 +1,7 @@
 /* Service worker: network first, cache as a fallback, so the app keeps
    working without connection after the first visit. */
 
-const CACHE = "lecturafacil-v2";
+const CACHE = "lecturafacil-v3";
 const SHELL = [
   "./", "index.html", "css/app.css", "manifest.webmanifest", "icons/icon.svg",
   "js/main.js", "js/reader.js", "js/books.js", "js/importers.js", "js/text.js",

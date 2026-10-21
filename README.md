@@ -12,6 +12,7 @@ El professorat hi puja un text que ja ha adaptat (EPUB, Word, PDF, HTML o text).
 
 - **Llibre obert:** cada frase en català té la traducció al costat (o a sota, al mòbil). En passar el ratolí o tocar una frase, es marquen l’original i la traducció.
 - **Més de 35 llengües:** àrab, amazic, urdú, panjabi, bengalí, xinès, romanès, ucraïnès, anglès, francès… amb la tipografia adequada i escriptura de dreta a esquerra quan cal.
+- **Dues llengües alhora:** una traducció principal i una de secundària (per exemple, urdú i anglès). A la mateixa pàgina de traducció es pot triar veure la principal, la secundària o les dues (la secundària a sota); també amb la tecla **T**. Les paraules i el vocabulari surten sempre en les dues llengües.
 - **Què vol dir aquesta paraula?** Clica qualsevol paraula: es mostra la definició del glossari del llibre (si en té) i la traducció. Les paraules del glossari surten subratllades.
 - **Les meves paraules:** desa paraules per repassar-les. Al final de cada capítol hi ha la llista de paraules importants.
 - **Escolta:** una frase, o tota la pàgina en català (i, si es vol, també la traducció). Veu lenta opcional.
@@ -36,12 +37,19 @@ Serveis de traducció disponibles (menú **Traductor**):
 
 | Servei | Cost | Què s’envia | Notes |
 |---|---|---|---|
-| Traductor del navegador | Gratuït | Res: tradueix dins l’ordinador | Chrome/Edge recents d’escriptori. Algunes llengües no hi són. |
+| Traductor de Chrome | Gratuït | Res: tradueix dins l’ordinador | Chrome 138+ d’ordinador. **No té català**: tradueix a partir de la versió anglesa, castellana o francesa de cada frase quan ja existeix (vegeu més avall). |
 | MyMemory | Gratuït amb límit diari | Les frases, a `api.mymemory.translated.net` | Amb un correu a la configuració, la quota és més gran. |
 | LibreTranslate | Segons el servidor | Les frases, al servidor que configuris | Ideal si el centre en té un de propi. |
 | Claude (Anthropic) | De pagament, clau pròpia | Les frases, a l’API d’Anthropic | La millor qualitat, també per a llengües amb pocs recursos. Activa «Explica-m’ho fàcil» i el significat de qualsevol paraula en context. |
 
-En mode **Automàtic** s’usa Claude si hi ha clau; si no, el traductor del navegador; si no, LibreTranslate si està configurat; i si no, MyMemory.
+En mode **Automàtic** s’usa Claude si hi ha clau; si no, el traductor de Chrome (quan es pot fer servir); si no, LibreTranslate si està configurat; i si no, MyMemory.
+
+### El traductor de Chrome
+
+- Només funciona a **Chrome 138 o més nou d’ordinador** (Windows, macOS, Linux, ChromeOS), en pàgines `https://` o `localhost`. No funciona al mòbil.
+- **No cal instal·lar idiomes al sistema operatiu.** Chrome baixa un paquet per a cada parella de llengües el primer cop que es fa servir, i només ho permet després d’un clic: feu-ho a **Traductor → Comprova i prepara les meves llengües**. Els paquets instal·lats es poden veure a `chrome://on-device-translation-internals`.
+- **El català no és una de les seves llengües** (ni l’urdú, el panjabi, l’amazic…). Per això tradueix des de la traducció anglesa, castellana o francesa que ja tingui cada frase. Si encara no n’hi ha, l’app fa servir un altre servei.
+- Per escoltar el text en català cal una veu catalana al sistema. A Windows: *Configuració → Hora i idioma → Idioma i regió → Afegeix un idioma → Català*, marcant «Text a veu».
 
 > Les claus API es desen només al navegador on s’escriuen. No les poseu als dispositius de l’alumnat: traduïu el llibre des de l’ordinador del docent i compartiu-ne el fitxer.
 
@@ -65,7 +73,7 @@ Per fer servir una còpia pròpia només en local hi ha la carpeta `data/local/`
 
 Cada docent també pot carregar el seu EPUB des de l’aplicació: es processa i es desa només al seu navegador.
 
-La mostra publicada (`data/books/illa-del-tresor-mostra.json`) és una adaptació pròpia dels capítols 1 i 2 de l’obra de Stevenson, que és de domini públic.
+La mostra publicada (`data/books/illa-del-tresor-mostra.json`) és una adaptació pròpia de l’obra de Stevenson, que és de domini públic: els 34 capítols en dos nivells (fàcil i molt fàcil), amb traducció revisada a l’anglès i a l’urdú i un diccionari de més de 400 paraules.
 
 ## Desenvolupament
 

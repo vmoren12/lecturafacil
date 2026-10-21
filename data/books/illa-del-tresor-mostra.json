@@ -3,10 +3,10 @@
  "version": 1,
  "id": "illa-del-tresor-mostra",
  "title": "L’illa del tresor",
- "subtitle": "Mostra adaptada · capítols 1 i 2",
+ "subtitle": "Adaptació pròpia · 34 capítols",
  "author": "Robert Louis Stevenson",
  "lang": "ca",
- "description": "Adaptació pròpia en dos nivells (fàcil i molt fàcil) dels dos primers capítols, amb traducció revisada a l’anglès i a l’urdú i un diccionari de paraules amb definicions fàcils.",
+ "description": "Adaptació pròpia de l’obra de Stevenson en dos nivells (fàcil i molt fàcil), amb traducció revisada a l’anglès i a l’urdú i un diccionari de paraules amb definicions fàcils.",
  "credits": [
   "Obra original: Robert Louis Stevenson, Treasure Island (1883), domini públic.",
   "Adaptació a lectura fàcil, traduccions i diccionari: projecte Lectura fàcil."
@@ -358,6 +358,2220 @@
      }
     ]
    }
+  },
+  {
+   "kind": "chapter",
+   "n": 3,
+   "title": "La taca negra",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El capità va quedar molt dèbil i no podia sortir del llit.",
+       "Un dia em va cridar i em va parlar en veu baixa.",
+       "—Jim, ets l’únic amic que tinc —em va dir.",
+       "—Fa anys vaig navegar amb el capità Flint, un pirata molt dolent.",
+       "—Els seus homes volen el meu bagul.",
+       "—Si em donen la taca negra, avisa el doctor de seguida."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Aquells dies, el meu pare va morir.",
+       "La meva mare i jo estàvem molt tristos.",
+       "Jo treballava a la posada i no tenia temps per pensar en el capità."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "L’endemà de l’enterrament, feia fred i boira.",
+       "Llavors vaig veure un home que caminava pel camí.",
+       "Era cec i picava el terra amb un bastó: toc, toc, toc.",
+       "Portava una caputxa i semblava molt vell.",
+       "—Algú em pot dir on sóc? —va preguntar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Sou a la posada de l’Almirall Benbow —li vaig dir.",
+       "El cec em va agafar el braç molt fort, com amb unes tenalles.",
+       "—Porta’m on és el capità, noi, o et trencaré el braç!",
+       "Jo tenia tanta por que el vaig portar a la sala."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Quan el capità va veure el cec, es va posar blanc.",
+       "El cec li va posar un paper a la mà i se’n va anar.",
+       "Era la taca negra: un missatge dels pirates.",
+       "El paper deia: «Tens temps fins a les deu d’aquesta nit»."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—A les deu! —va cridar el capità—. Encara som a temps!",
+       "Es va aixecar d’un salt, però de sobte va caure a terra.",
+       "Vaig córrer a ajudar-lo, però ja era mort.",
+       "Jo no l’estimava gaire, però vaig plorar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "El capità està molt malalt.",
+       "—Uns pirates volen el meu bagul —em diu.",
+       "El meu pare mor.",
+       "La meva mare i jo estem tristos."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia arriba un home cec.",
+       "Pica el terra amb un bastó.",
+       "M’agafa el braç molt fort.",
+       "—Porta’m on és el capità! —diu."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El cec dona un paper al capità.",
+       "És la taca negra.",
+       "És un missatge dels pirates.",
+       "Diu: «Aquesta nit, a les deu»."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità s’aixeca.",
+       "Després cau a terra.",
+       "El capità és mort."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 4,
+   "title": "El bagul del mariner",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig explicar a la meva mare tot el que sabia.",
+       "—El capità ens devia diners —va dir ella—. Els agafarem del bagul.",
+       "Però teníem por: els pirates tornarien a les deu."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam córrer al poble a demanar ajuda.",
+       "Quan la gent va sentir el nom de Flint, es va espantar.",
+       "Ningú no ens va voler acompanyar.",
+       "—Doncs hi anirem nosaltres sols —va dir la meva mare, molt valenta."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam tornar a la posada a les fosques.",
+       "El capità era a terra, amb els ulls oberts.",
+       "Portava una clau penjada al coll amb un cordill.",
+       "Vaig agafar la clau i vam pujar a la seva habitació."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam obrir el bagul a poc a poc.",
+       "A dins hi havia roba, unes pistoles i una brúixola.",
+       "Al fons hi havia un paquet embolicat amb tela.",
+       "També hi havia una bossa plena de monedes d’or."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "La meva mare va començar a comptar les monedes.",
+       "—Només agafaré el que ens deu —va dir.",
+       "Llavors vam sentir un soroll fora: toc, toc, toc.",
+       "Era el bastó del cec, que s’acostava."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Després vam sentir un xiulet a la llunyania.",
+       "—Ja vénen! —vaig dir.",
+       "La meva mare va agafar algunes monedes i jo vaig agafar el paquet.",
+       "Vam sortir corrent de la posada."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Anem al poble a demanar ajuda.",
+       "La gent té por dels pirates.",
+       "Ningú no ens ajuda."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Tornem a la posada.",
+       "Agafo la clau del capità.",
+       "Obrim el bagul.",
+       "Hi ha roba, pistoles i monedes d’or.",
+       "També hi ha un paquet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "La mare compta les monedes.",
+       "Sentim el bastó del cec.",
+       "Els pirates arriben!",
+       "Agafo el paquet i fugim."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 5,
+   "title": "La fi del cec",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Quan vam arribar al pont, la meva mare es va desmaiar.",
+       "Amb molt d’esforç, la vaig arrossegar sota el pont.",
+       "Des d’allà podia veure la posada."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Van arribar set o vuit homes corrent pel camí.",
+       "El cec anava davant i cridava ordres.",
+       "—Trenqueu la porta! —deia.",
+       "Els pirates van entrar a la posada."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Al cap d’una estona, un pirata va treure el cap per la finestra.",
+       "—El bagul és obert! —va cridar—. Algú ha agafat el paquet!",
+       "—Ha estat el noi! —va dir el cec, furiós—. Busqueu-lo!"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, vam sentir el soroll de cavalls.",
+       "Eren uns guardes que vigilaven la costa.",
+       "Els pirates van fugir corrent i van deixar sol el cec."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El cec no veia res i corria pel mig del camí.",
+       "Un cavall li va passar per sobre.",
+       "El cec va caure i ja no es va moure més."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig explicar-ho tot al cap dels guardes.",
+       "—Què buscaven aquests pirates? —va preguntar.",
+       "—Crec que buscaven aquest paquet —vaig dir.",
+       "—Doncs l’hem de portar al doctor Livesey —va dir ell."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "La mare i jo ens amaguem sota un pont.",
+       "Arriben els pirates.",
+       "Entren a la posada.",
+       "Busquen el paquet, però no el troben."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Arriben uns guardes amb cavalls.",
+       "Els pirates fugen.",
+       "Un cavall atropella el cec.",
+       "El cec mor."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo tinc el paquet.",
+       "El porto al doctor Livesey."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 6,
+   "title": "Els papers del capità",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El doctor Livesey era a casa del senyor Trelawney.",
+       "El senyor Trelawney era un home ric, alt i molt parlador.",
+       "Els vaig explicar tota la història.",
+       "—Ets un noi molt valent, Jim —va dir el doctor."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El doctor va obrir el paquet amb molta cura.",
+       "A dins hi havia una llibreta i un paper doblegat.",
+       "A la llibreta, el capità havia apuntat els diners que havia robat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Després el doctor va desplegar el paper.",
+       "Era el mapa d’una illa!",
+       "Hi havia muntanyes, boscos, platges i tres creus vermelles.",
+       "Al costat d’una creu deia: «Aquí hi ha la major part del tresor»."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—És el mapa del tresor de Flint! —va cridar el senyor Trelawney.",
+       "—Aniré a Bristol i compraré un vaixell.",
+       "—Vós, doctor, sereu el metge del vaixell.",
+       "—I tu, Jim, vindràs amb nosaltres com a grumet!"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo estava molt content: aniria a buscar un tresor!",
+       "Però el doctor estava preocupat.",
+       "—Els pirates també volen aquest mapa —va dir.",
+       "—No en parleu amb ningú. És un secret."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig a casa del senyor Trelawney.",
+       "El doctor Livesey també hi és.",
+       "Obrim el paquet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Dins hi ha un mapa.",
+       "És el mapa d’una illa.",
+       "Una creu vermella diu on és el tresor."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Comprarem un vaixell! —diu el senyor Trelawney.",
+       "—Anirem a buscar el tresor.",
+       "Jo també hi aniré.",
+       "Estic molt content."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 7,
+   "title": "Me’n vaig a Bristol",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El senyor Trelawney va anar a Bristol a preparar el viatge.",
+       "Jo em vaig quedar a la posada amb la meva mare.",
+       "Cada dia mirava el mapa i somiava amb l’illa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un dia va arribar una carta del senyor Trelawney.",
+       "«He comprat un vaixell preciós. Es diu Hispaniola», deia.",
+       "«També he trobat un cuiner molt simpàtic: John Silver.»",
+       "«Li falta una cama, però és un bon mariner.»",
+       "«Ell m’ha ajudat a trobar els mariners del vaixell.»"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Abans de marxar, em vaig acomiadar de la meva mare.",
+       "Un noi del poble l’ajudaria a la posada.",
+       "Vaig plorar una mica quan vaig veure la posada per última vegada."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig viatjar tota la nit en una diligència.",
+       "Al matí vaig arribar a Bristol.",
+       "Al port hi havia molts vaixells i mariners de tot el món.",
+       "El senyor Trelawney m’esperava, vestit de capità.",
+       "—Demà sortirem cap a l’illa! —em va dir, content."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "El senyor Trelawney va a Bristol.",
+       "Compra un vaixell: la Hispaniola.",
+       "Troba un cuiner que es diu John Silver.",
+       "A John Silver li falta una cama."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo dic adeu a la meva mare.",
+       "Viatjo tota la nit.",
+       "Arribo a Bristol.",
+       "Al port hi ha molts vaixells."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 8,
+   "title": "A la taverna de l’Ullera",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El senyor Trelawney em va enviar a portar una nota a John Silver.",
+       "Silver tenia una taverna al port que es deia l’Ullera.",
+       "Dins hi havia molts mariners que bevien i parlaven fort."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "John Silver era alt i fort.",
+       "Li faltava la cama esquerra i caminava amb una crossa.",
+       "Però es movia molt de pressa, com un ocell.",
+       "Tenia la cara gran i somreia sempre."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo vaig pensar en el mariner amb una sola cama del capità.",
+       "Però Silver semblava un home bo i alegre.",
+       "—Tu deus ser el grumet —em va dir—. Benvingut!"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, vaig veure un home assegut en un racó.",
+       "Li faltaven dos dits de la mà: era Gos Negre!",
+       "—Atureu-lo! És un pirata! —vaig cridar.",
+       "Gos Negre va sortir corrent i va desaparèixer."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver es va enfadar molt.",
+       "—Un pirata a la meva taverna! No el conec de res! —va dir.",
+       "Després vam anar junts a veure el senyor Trelawney.",
+       "Silver li va explicar tot i ell va riure.",
+       "Jo vaig pensar que Silver era un bon home."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig a la taverna de John Silver.",
+       "Silver camina amb una crossa.",
+       "És simpàtic i somriu molt."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "A la taverna veig Gos Negre.",
+       "—És un pirata! —crido.",
+       "Gos Negre fuig."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver diu que no el coneix.",
+       "Jo crec que Silver és bo."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 9,
+   "title": "Pólvora i armes",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vam pujar a la Hispaniola per conèixer el capità del vaixell.",
+       "Es deia Smollett i era un home seriós i sever.",
+       "—No m’agrada aquest viatge —va dir el capità Smollett."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Per què? —va preguntar el senyor Trelawney, enfadat.",
+       "—Tots els mariners saben que anem a buscar un tresor.",
+       "—I saben que teniu un mapa. Això és perillós.",
+       "—A més, jo no he triat aquests mariners."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El doctor Livesey va escoltar el capità amb atenció.",
+       "—Què voleu que fem, capità? —va preguntar.",
+       "—Vull guardar la pólvora i les armes a prop de les nostres cabines.",
+       "—I els homes de confiança han de dormir a prop nostre."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El senyor Trelawney no estava content, però va acceptar.",
+       "Els seus tres criats, Redruth, Hunter i Joyce, eren de confiança.",
+       "Vam canviar la pólvora de lloc aquella mateixa nit.",
+       "Silver ho mirava tot amb un somriure."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "El capità del vaixell es diu Smollett.",
+       "És un home seriós.",
+       "No li agraden els mariners."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Tothom sap que busquem un tresor —diu.",
+       "—És perillós.",
+       "Guardem les armes a prop nostre."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 10,
+   "title": "El viatge",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Una matinada vam aixecar l’àncora i vam sortir del port.",
+       "Els mariners cantaven la cançó del bagul del mort.",
+       "Jo estava molt emocionat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El viatge va ser llarg, però el vaixell era bo.",
+       "Els mariners treballaven bé i obeïen el capità.",
+       "Tots estimaven John Silver, el cuiner.",
+       "Silver anava pel vaixell amb la crossa sense caure mai."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver tenia un lloro verd que es deia Capità Flint.",
+       "El lloro cridava tot el dia: «Peces de vuit! Peces de vuit!»",
+       "—Té més de dos-cents anys —em deia Silver, rient.",
+       "Jo passava moltes hores a la cuina amb ell."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Al vaixell hi havia un barril ple de pomes.",
+       "Tothom en podia agafar quan volia.",
+       "Una nit, a prop de l’illa, vaig tenir gana.",
+       "Vaig ficar-me dins del barril per agafar l’última poma.",
+       "Era fosc i em vaig adormir una mica."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "El vaixell surt del port.",
+       "El viatge és llarg.",
+       "Tothom estima John Silver."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver té un lloro.",
+       "El lloro crida: «Peces de vuit!»"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Al vaixell hi ha un barril de pomes.",
+       "Una nit, entro al barril.",
+       "Vull menjar una poma."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 11,
+   "title": "El que vaig sentir dins del barril",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "De sobte, algú es va asseure al costat del barril.",
+       "Era John Silver, i parlava amb un mariner jove, en Dick.",
+       "Jo no em vaig moure i vaig escoltar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Jo vaig navegar amb Flint —deia Silver—. Era el seu home de confiança.",
+       "—Vaig perdre la cama en una batalla.",
+       "—Ara tinc diners guardats i vull més."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Llavors vaig entendre la veritat i vaig tremolar.",
+       "Silver era un pirata, i molts mariners també ho eren!",
+       "—Vols venir amb nosaltres, Dick? —va preguntar Silver.",
+       "—Sí —va dir el jove—. Hi aniré."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Després va arribar un altre pirata, Israel Hands.",
+       "—Quan atacarem, Silver? Estic cansat d’esperar.",
+       "—Esperarem fins que trobin el tresor —va dir Silver.",
+       "—Després els matarem a tots. Els morts no parlen."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo tenia molta por dins del barril.",
+       "En aquell moment, un mariner va cridar des de dalt:",
+       "—Terra! Terra a la vista!",
+       "Tothom va córrer a veure l’illa i jo vaig sortir del barril."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Sóc dins del barril.",
+       "Silver parla amb un mariner.",
+       "Jo escolto."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver és un pirata!",
+       "Molts mariners també són pirates.",
+       "Volen el tresor.",
+       "Volen matar els meus amics."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Tinc molta por.",
+       "Un mariner crida: «Terra!»",
+       "Veiem l’illa."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 12,
+   "title": "Consell de guerra",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Tothom mirava l’illa des del vaixell.",
+       "Era verda i grisa, amb tres muntanyes.",
+       "—Algú coneix aquesta illa? —va preguntar el capità Smollett.",
+       "—Jo sí —va dir Silver—. Hi vaig estar fa anys."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità li va ensenyar un mapa de l’illa.",
+       "No era el mapa de veritat: era una còpia sense les creus del tresor.",
+       "Silver el va mirar amb ulls brillants."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo vaig dir al doctor en veu baixa: «He de parlar amb vosaltres».",
+       "Al cap d’una estona, em van cridar a la cabina.",
+       "Allà hi havia el capità, el doctor i el senyor Trelawney.",
+       "Els vaig explicar tot el que havia sentit dins del barril."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Teníeu raó, capità —va dir el senyor Trelawney, avergonyit.",
+       "El capità va comptar els homes de confiança.",
+       "—Som set, comptant el noi. Ells són dinou —va dir.",
+       "—Hem d’esperar i estar atents. En Jim ens pot ajudar molt."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Arribem a l’illa.",
+       "Silver diu que coneix l’illa.",
+       "El capità li ensenya un mapa fals."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo parlo amb els meus amics.",
+       "Els explico el secret de Silver.",
+       "Nosaltres som set.",
+       "Els pirates són dinou."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 13,
+   "title": "Comença la meva aventura a terra",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "L’endemà al matí, l’illa no semblava bonica.",
+       "Era grisa i trista, i feia una olor estranya.",
+       "Feia molta calor i no bufava gens de vent."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els mariners estaven nerviosos i de mal humor.",
+       "Ja no obeïen el capità com abans.",
+       "—Si no fem alguna cosa, es revoltaran —va dir el capità."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità va tenir una idea.",
+       "—Homes, avui podeu baixar a terra a descansar —va dir.",
+       "Els mariners es van posar molt contents.",
+       "Silver va organitzar les barques.",
+       "Tretze homes van anar a terra i sis es van quedar al vaixell."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Llavors vaig fer una cosa sense pensar.",
+       "Em vaig amagar en una de les barques.",
+       "Quan la barca va tocar la platja, vaig saltar i vaig córrer cap al bosc.",
+       "—Jim! Jim! —cridava Silver darrere meu.",
+       "Però jo no em vaig aturar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "L’illa és grisa i trista.",
+       "Fa molta calor.",
+       "Els mariners estan enfadats."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Podeu anar a terra —diu el capità.",
+       "Molts mariners van a l’illa en barca.",
+       "Jo m’amago en una barca."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Arribo a la platja.",
+       "Salto i corro cap al bosc.",
+       "Silver em crida, però jo no m’aturo."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 14,
+   "title": "El primer cop",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig caminar per l’illa tot sol, molt content.",
+       "Hi havia plantes estranyes, ocells i serps.",
+       "Una serp va fer un soroll: era una serp de cascavell.",
+       "Vaig fer un salt enrere i vaig continuar caminant."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, vaig sentir veus i em vaig amagar darrere d’un arbre.",
+       "Era Silver, que parlava amb un mariner honrat, en Tom.",
+       "—Vine amb nosaltres, Tom —deia Silver.",
+       "—No, Silver. Jo no seré mai un pirata —va respondre en Tom."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "En aquell moment, es va sentir un crit terrible a la llunyania.",
+       "—Què ha estat això? —va preguntar en Tom, espantat.",
+       "—Deu ser l’Alan —va dir Silver, molt tranquil.",
+       "L’Alan era un altre mariner honrat. Els pirates l’havien matat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "En Tom es va girar i va començar a caminar.",
+       "Llavors Silver va llançar la crossa amb molta força.",
+       "La crossa va picar l’esquena d’en Tom i ell va caure.",
+       "Silver va saltar sobre ell amb un ganivet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo vaig tancar els ulls i tremolava de por.",
+       "Quan els vaig obrir, en Tom era mort.",
+       "Vaig fugir pel bosc tan de pressa com vaig poder."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Camino per l’illa.",
+       "Veig ocells i serps.",
+       "Sento veus i m’amago."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver parla amb en Tom.",
+       "En Tom és un mariner bo.",
+       "—No vull ser pirata —diu en Tom."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver mata en Tom.",
+       "Jo tinc molta por.",
+       "Fujo pel bosc."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 15,
+   "title": "L’home de l’illa",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Mentre fugia, vaig veure una figura estranya entre els arbres.",
+       "Saltava d’un tronc a un altre, com un animal.",
+       "Vaig agafar la pistola, però la figura es va acostar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Era un home amb la pell cremada pel sol.",
+       "Portava roba vella i trencada.",
+       "—Em dic Ben Gunn —va dir—. Fa tres anys que visc sol en aquesta illa.",
+       "—Tens una mica de formatge? Fa tant de temps que no en menjo!"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Ben Gunn m’ho va explicar tot.",
+       "Ell també havia navegat amb el capità Flint.",
+       "Els seus companys l’havien abandonat a l’illa.",
+       "—Ara sóc ric, molt ric —va dir, amb un somriure estrany."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Li vaig explicar que Silver i els pirates volien el tresor.",
+       "—Silver? El de la cama de fusta? —va dir, espantat.",
+       "—Digues als teus amics que els ajudaré.",
+       "—Tinc una barca amagada sota una roca blanca."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, vam sentir un tret de canó molt fort.",
+       "—Ha començat la lluita! —vaig dir.",
+       "Vam córrer cap a la platja.",
+       "Entre els arbres vaig veure una bandera anglesa sobre una casa de fusta."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Al bosc veig un home estrany.",
+       "Es diu Ben Gunn.",
+       "Viu sol a l’illa des de fa tres anys."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Ben Gunn era un pirata de Flint.",
+       "Vol menjar formatge.",
+       "Diu que ens ajudarà."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Sentim un canó.",
+       "Veig una bandera sobre una casa de fusta."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 16,
+   "title": "El doctor explica: com vam deixar el vaixell",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Ara jo, el doctor Livesey, explicaré què va passar al vaixell.",
+       "Quan en Jim va desaparèixer, vam patir molt.",
+       "Sis pirates eren al vaixell amb nosaltres."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig anar a terra en una barca amb en Hunter.",
+       "Prop de la platja vam trobar una fortalesa.",
+       "Era una casa de fusta, a dalt d’un turó, amb una tanca al voltant.",
+       "A dins hi havia una font d’aigua fresca.",
+       "—Aquí estarem segurs —vaig pensar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig tornar al vaixell i vam fer un pla.",
+       "Vam carregar la barca amb menjar, pólvora i armes.",
+       "Un mariner, l’Abraham Gray, va voler venir amb nosaltres.",
+       "—Jo no sóc un pirata, capità —va dir."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam pujar tots a la barca i vam deixar la Hispaniola.",
+       "Els pirates del vaixell ens miraven, sorpresos.",
+       "Ara el vaixell era seu, però nosaltres teníem el mapa."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Ara parla el doctor.",
+       "El doctor va a l’illa.",
+       "Troba una casa de fusta amb aigua.",
+       "És una fortalesa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Posem menjar i armes a la barca.",
+       "Un mariner bo ve amb nosaltres.",
+       "Deixem el vaixell."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 17,
+   "title": "L’últim viatge de la barca",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "La barca anava massa carregada.",
+       "L’aigua gairebé entrava per les vores.",
+       "El corrent del mar ens empenyia lluny de la platja."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, el capità va mirar el vaixell.",
+       "—Ens volen disparar amb el canó! —va cridar.",
+       "Israel Hands preparava el canó del vaixell.",
+       "El senyor Trelawney va disparar, però no el va tocar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El canó va fer un soroll terrible.",
+       "La bola va caure molt a prop i la barca es va enfonsar.",
+       "Per sort, l’aigua no era gaire fonda.",
+       "Vam perdre gran part del menjar i de la pólvora."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam córrer cap a la fortalesa amb les armes que ens quedaven.",
+       "Els pirates de l’illa ens van atacar entre els arbres.",
+       "Vam disparar i ells van fugir.",
+       "Però en Redruth, el criat del senyor Trelawney, va caure ferit."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "La barca pesa massa.",
+       "Els pirates disparen el canó.",
+       "La barca s’enfonsa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Perdem el menjar.",
+       "Correm cap a la fortalesa.",
+       "Els pirates ataquen.",
+       "En Redruth està ferit."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 18,
+   "title": "La fi del primer dia de lluita",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vam portar en Redruth dins de la fortalesa.",
+       "El senyor Trelawney li agafava la mà i plorava.",
+       "En Redruth va morir aquella mateixa tarda."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità Smollett va penjar la bandera anglesa a la casa.",
+       "Els pirates disparaven el canó des del vaixell.",
+       "Les boles passaven per sobre de la fortalesa.",
+       "—No tingueu por —va dir el capità—. No ens poden tocar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità va comptar el menjar que ens quedava.",
+       "—Tenim menjar per a deu dies, si mengem poc —va dir.",
+       "Jo, el doctor, pensava en Ben Gunn, l’home de l’illa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Al vespre vam sentir una veu fora de la tanca.",
+       "—Doctor! Senyor Trelawney! Capità! Sóc jo!",
+       "Era en Jim, viu i sense cap ferida.",
+       "Vam córrer a obrir-li la porta, molt contents."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "En Redruth mor.",
+       "Tots estem tristos.",
+       "El capità penja una bandera."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els pirates disparen des del vaixell.",
+       "Tenim menjar per a pocs dies.",
+       "Al vespre, arriba en Jim.",
+       "Estem molt contents."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 19,
+   "title": "Jim torna a explicar: a la fortalesa",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Ara torno a explicar jo, en Jim.",
+       "Quan vaig veure la bandera, Ben Gunn es va aturar.",
+       "—Els teus amics són allà —em va dir—. Jo me’n vaig.",
+       "—Si em necessiten, que em busquin amb un mocador blanc a la mà."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig esperar que fos fosc i vaig córrer cap a la fortalesa.",
+       "Els meus amics em van rebre amb una gran alegria.",
+       "Els vaig explicar la història de Ben Gunn.",
+       "El doctor va escoltar amb molta atenció."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "A la fortalesa, tothom treballava.",
+       "Buscàvem llenya, fèiem guàrdia i cuinàvem.",
+       "La casa era plena de fum i de sorra.",
+       "El capità ho organitzava tot amb molt d’ordre."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "L’endemà al matí, algú va cridar des de fora.",
+       "Era John Silver, amb un mocador blanc lligat a un pal.",
+       "—Vinc a parlar en pau! —va cridar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Ben Gunn se’n va.",
+       "Jo vaig a la fortalesa.",
+       "Els meus amics estan contents de veure’m."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "A la fortalesa treballem molt.",
+       "Al matí arriba Silver.",
+       "Porta un mocador blanc.",
+       "Vol parlar."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 20,
+   "title": "L’ambaixada de Silver",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El capità va deixar entrar Silver dins de la tanca.",
+       "Silver es va asseure a terra, a la sorra.",
+       "—Bon dia, capità —va dir amb un somriure.",
+       "—Digues què vols —va respondre el capità, molt seriós."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Volem el mapa del tresor —va dir Silver.",
+       "—Si ens el doneu, us portarem a casa sans i estalvis.",
+       "—O us podem deixar a l’illa amb menjar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El capità va riure.",
+       "—No sabeu navegar sense mi, Silver.",
+       "—No trobareu mai el tresor ni tornareu a casa.",
+       "—Doneu-vos, i us portaré a Anglaterra perquè us jutgin."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver es va posar vermell de ràbia.",
+       "—Ningú no m’ajuda a aixecar-me? —va cridar.",
+       "Ningú no el va ajudar i es va aixecar tot sol, amb dificultat.",
+       "—D’aquí a una hora atacarem la fortalesa! —va dir abans de marxar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Silver parla amb el capità.",
+       "—Doneu-nos el mapa —diu Silver.",
+       "—No —diu el capità."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver s’enfada molt.",
+       "—Atacarem d’aquí a una hora! —crida.",
+       "Silver se’n va."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 21,
+   "title": "L’atac",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "El capità va preparar els homes per a la lluita.",
+       "Cadascú tenia un lloc a la casa i diverses armes.",
+       "Feia molta calor i tothom suava.",
+       "Esperàvem en silenci."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, els pirates van sortir del bosc cridant.",
+       "Van saltar la tanca i van córrer cap a la casa.",
+       "Nosaltres disparàvem per les finestres.",
+       "Hi havia fum, crits i soroll per tot arreu."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Un pirata va entrar per una finestra amb un ganivet.",
+       "—Sortiu! Lluiteu a fora! —va cridar el capità.",
+       "Jo vaig agafar un sabre i vaig sortir corrent.",
+       "Vaig ensopegar i vaig caure rodolant pel turó."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Quan em vaig aixecar, la lluita s’havia acabat.",
+       "Cinc pirates eren morts i els altres havien fugit.",
+       "Però nosaltres també havíem perdut amics.",
+       "En Joyce era mort, en Hunter estava molt greu i el capità estava ferit."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates ataquen la fortalesa.",
+       "Hi ha molt de soroll i fum.",
+       "Nosaltres disparem per les finestres."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Molts pirates moren.",
+       "Els altres fugen.",
+       "El capità està ferit.",
+       "Dos amics nostres també estan ferits."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 22,
+   "title": "Comença la meva aventura al mar",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "En Hunter va morir aquella nit.",
+       "Ara només érem cinc: el capità, el doctor, el senyor Trelawney, en Gray i jo.",
+       "El doctor va agafar el mapa i se’n va anar al bosc.",
+       "—Va a buscar Ben Gunn —va dir en Gray."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Feia molta calor dins de la fortalesa i jo m’avorria.",
+       "També tenia enveja del doctor, que caminava pel bosc fresc.",
+       "Llavors vaig tenir una idea boja."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig agafar dues pistoles, pólvora i galetes.",
+       "Quan ningú no mirava, vaig saltar la tanca i vaig fugir.",
+       "Sabia que estava malament, però volia trobar la barca de Ben Gunn."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig caminar per la platja fins a la roca blanca.",
+       "Sota la roca hi havia una barca petita feta de pells.",
+       "Era molt lleugera i la podia portar jo sol.",
+       "Llavors vaig pensar: «Aniré fins al vaixell»."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "En Hunter mor.",
+       "El doctor va a buscar Ben Gunn.",
+       "Jo m’avorreixo a la fortalesa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Agafo dues pistoles i menjar.",
+       "M’escapo sense dir res.",
+       "Trobo la barca de Ben Gunn.",
+       "És molt petita."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 23,
+   "title": "La marea baixa",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig esperar que fos de nit i vaig posar la barca a l’aigua.",
+       "Era molt difícil de dirigir: girava cap a tots els costats.",
+       "Per sort, la marea em va portar fins al vaixell."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "La Hispaniola estava lligada amb una corda gruixuda a l’àncora.",
+       "Vaig treure el ganivet i vaig començar a tallar la corda.",
+       "Era molt dura i vaig trigar molt."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Mentre tallava, sentia veus dins del vaixell.",
+       "Eren dos pirates, Israel Hands i un altre, que s’estaven barallant.",
+       "Tots dos havien begut massa rom.",
+       "Per fi la corda es va trencar i el vaixell va començar a moure’s."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El vaixell i la meva barca anaven a la deriva.",
+       "El corrent ens portava cap al mar obert.",
+       "Jo tenia molta por i em vaig estirar al fons de la barca.",
+       "Estava tan cansat que em vaig adormir."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "De nit, poso la barca a l’aigua.",
+       "Arribo al vaixell.",
+       "Tallo la corda de l’àncora."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El vaixell es mou sol.",
+       "Dins, dos pirates es barallen.",
+       "Tinc por.",
+       "M’adormo a la barca."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 24,
+   "title": "El viatge de la barqueta",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Quan em vaig despertar, ja era de dia.",
+       "Era a prop de la costa de l’illa, al sud.",
+       "Però les onades eren molt grans i trencaven contra les roques.",
+       "No podia arribar a terra."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Sobre les roques hi havia uns animals grossos que bramaven.",
+       "Eren lleons marins, però jo no ho sabia i em feien por.",
+       "Tenia molta set i el sol cremava."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, vaig veure la Hispaniola a prop meu.",
+       "Navegava de manera estranya, d’un costat a l’altre.",
+       "Ningú no portava el timó.",
+       "«Potser els pirates estan borratxos», vaig pensar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig remar amb totes les meves forces cap al vaixell.",
+       "Quan el vaixell va passar al meu costat, vaig saltar.",
+       "Em vaig agafar a una corda i vaig pujar a bord.",
+       "El vaixell va xocar contra la meva barqueta i la va enfonsar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Em desperto al mar.",
+       "Les onades són molt grans.",
+       "No puc arribar a terra.",
+       "Tinc set."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Veig el vaixell a prop meu.",
+       "Ningú no el porta.",
+       "Salto i pujo al vaixell."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 25,
+   "title": "Abaixo la bandera pirata",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "A la coberta del vaixell hi havia dos pirates.",
+       "Un era mort. L’altre era Israel Hands, ferit i molt pàl·lid.",
+       "—Aigua... —va dir amb una veu dèbil.",
+       "Li vaig donar aigua i una mica de menjar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "A dalt del pal hi havia la bandera negra dels pirates.",
+       "Tenia una calavera blanca.",
+       "Vaig abaixar la bandera i la vaig llançar al mar.",
+       "—Ara el vaixell és nostre! —vaig cridar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Israel Hands em mirava amb uns ulls estranys.",
+       "—Jo sé portar el vaixell —em va dir—. Tu no en saps.",
+       "—Si em cures la ferida, t’ajudaré a amagar-lo.",
+       "Vam fer un pacte."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Hands em deia com portar el timó.",
+       "Volíem portar el vaixell a una badia tranquil·la, al nord de l’illa.",
+       "El vent era bo i navegàvem de pressa.",
+       "Jo estava content, però no em refiava gens de Hands."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Al vaixell hi ha Israel Hands.",
+       "Està ferit.",
+       "Li dono aigua."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Abaixo la bandera dels pirates.",
+       "Hands m’ajuda a portar el vaixell.",
+       "Però jo no em refio d’ell."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 26,
+   "title": "Israel Hands",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "—Jim, porta’m una ampolla de vi de la cabina —em va demanar Hands.",
+       "Em va semblar estrany i vaig mirar d’amagat.",
+       "Hands es va aixecar i va agafar un ganivet llarg.",
+       "El va amagar sota la jaqueta."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig tornar com si no hagués vist res.",
+       "El vaixell va entrar a la badia i va tocar la sorra.",
+       "En aquell moment, Hands es va llançar sobre mi amb el ganivet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig fugir i vaig enfilar-me pel pal del vaixell.",
+       "Hands em seguia, amb el ganivet a la boca.",
+       "A dalt de tot, vaig carregar les pistoles amb pólvora seca.",
+       "—Un pas més i disparo! —vaig cridar."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Hands es va aturar i va llançar el ganivet.",
+       "El ganivet em va clavar l’espatlla contra el pal.",
+       "Amb el dolor, les meves pistoles es van disparar.",
+       "Hands va caure a l’aigua i ja no va tornar a sortir."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Hands amaga un ganivet.",
+       "Jo ho veig.",
+       "Hands m’ataca."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Pujo pel pal del vaixell.",
+       "Hands em llança el ganivet.",
+       "Em fa mal a l’espatlla.",
+       "Hands cau a l’aigua i mor."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 27,
+   "title": "«Peces de vuit!»",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vaig estirar l’espatlla i el ganivet va sortir.",
+       "Feia mal, però la ferida no era gaire fonda.",
+       "Vaig baixar del pal a poc a poc."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "El vaixell era segur a la badia.",
+       "Vaig saltar a l’aigua i vaig nedar fins a la platja.",
+       "Estava cansat, però molt content.",
+       "«Ara tornaré amb els meus amics i els donaré la bona notícia», pensava."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Era de nit quan vaig arribar a la fortalesa.",
+       "Tot estava fosc i en silenci.",
+       "Vaig entrar a la casa sense fer soroll.",
+       "Se sentien persones que dormien i roncaven."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, una veu aguda va cridar a la foscor:",
+       "—Peces de vuit! Peces de vuit! Peces de vuit!",
+       "Era el lloro de Silver!",
+       "Els pirates es van despertar i em van agafar."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Em trec el ganivet.",
+       "Nedo fins a la platja.",
+       "Torno a la fortalesa de nit."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Tot és fosc.",
+       "Un lloro crida: «Peces de vuit!»",
+       "És el lloro de Silver!",
+       "Els pirates m’agafen."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 28,
+   "title": "Al campament enemic",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates van encendre una torxa.",
+       "Eren sis, i Silver era el seu cap.",
+       "Els meus amics no hi eren.",
+       "—On són els meus amics? —vaig preguntar, espantat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Són vius —va dir Silver—. Ahir el doctor va venir a parlar amb nosaltres.",
+       "—Ens va donar la fortalesa i ells se’n van anar.",
+       "Jo no entenia per què ho havien fet."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vaig decidir dir la veritat, amb valentia.",
+       "—Jo era dins del barril de pomes i us vaig sentir.",
+       "—Jo vaig tallar la corda del vaixell i el vaig amagar.",
+       "—Si em mateu, no trobareu mai el vaixell."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els pirates es van enfadar molt i van treure els ganivets.",
+       "—Ningú no tocarà el noi! —va cridar Silver.",
+       "Els pirates van sortir a fora a parlar entre ells.",
+       "—Jim, tu i jo ens hem d’ajudar —em va dir Silver en veu baixa."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates són a la fortalesa.",
+       "Els meus amics no hi són.",
+       "Silver diu que són vius."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo dic la veritat als pirates.",
+       "Els pirates volen matar-me.",
+       "Silver em protegeix."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 29,
+   "title": "Una altra vegada la taca negra",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Al cap d’una estona, els pirates van tornar a entrar.",
+       "Un d’ells, en George Merry, va donar un paper a Silver.",
+       "Era la taca negra!",
+       "—Ja no ets el nostre capità —va dir en Merry."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver no es va espantar gens.",
+       "—Per què? —va preguntar, tranquil.",
+       "—Has protegit el noi i has deixat marxar els enemics —van dir."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Llavors Silver va treure un paper de la butxaca.",
+       "El va llançar a terra davant dels pirates.",
+       "Era el mapa del tresor, amb les tres creus vermelles!",
+       "El doctor l’hi havia donat."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els pirates van agafar el mapa, molt contents.",
+       "—Visca Silver! Visca el capità! —cridaven.",
+       "Silver tornava a ser el cap dels pirates.",
+       "Jo no entenia per què el doctor havia donat el mapa."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates donen la taca negra a Silver.",
+       "Ja no el volen com a cap."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver els ensenya el mapa del tresor.",
+       "Els pirates estan contents.",
+       "Silver torna a ser el cap."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 30,
+   "title": "Paraula d’honor",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "L’endemà al matí, el doctor va venir a la fortalesa.",
+       "Venia a curar els pirates malalts i ferits.",
+       "Quan em va veure, es va quedar parat.",
+       "Però va fer la seva feina amb calma."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Després, el doctor va parlar amb mi a la tanca.",
+       "Silver ens vigilava una mica lluny.",
+       "—Salta la tanca i fugim, Jim! —va dir el doctor.",
+       "—No puc —vaig respondre—. He donat la meva paraula d’honor a Silver."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Li vaig explicar al doctor on era el vaixell.",
+       "—Jim, ens has salvat la vida un altre cop! —va dir.",
+       "Després va cridar Silver.",
+       "—Silver, vigila el noi de prop —li va dir.",
+       "—I quan trobeu el tresor, aneu amb compte."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "El doctor ve a la fortalesa.",
+       "Cura els pirates malalts.",
+       "Parla amb mi."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Fugim! —diu el doctor.",
+       "—No puc. He fet una promesa a Silver —dic jo.",
+       "Explico al doctor on és el vaixell."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 31,
+   "title": "La cerca del tresor: l’esquelet",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Després d’esmorzar, els pirates van sortir a buscar el tresor.",
+       "Portaven pics, pales, armes i menjar.",
+       "Silver em portava lligat amb una corda, com un gos.",
+       "Jo pensava: «Quan trobin el tresor, què em passarà?»"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Al mapa hi havia unes paraules escrites per Flint.",
+       "«Un arbre alt, a l’espatlla del turó de la Ullera.»",
+       "Vam pujar a poc a poc per una muntanya plena d’arbres.",
+       "Feia molta calor i els pirates estaven cansats."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De sobte, un pirata va cridar de por.",
+       "A terra, entre les plantes, hi havia un esquelet.",
+       "Tenia els braços estirats per sobre del cap, com una fletxa.",
+       "—És un dels homes de Flint —va dir Silver—. Ens assenyala el camí."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els pirates tenien molta por.",
+       "—Flint el va matar i el va deixar aquí —deien en veu baixa.",
+       "—Flint és mort —va dir Silver—. Els morts no fan mal.",
+       "Però tothom caminava molt junt i en silenci."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates busquen el tresor.",
+       "Jo vaig lligat amb una corda.",
+       "Pugem per una muntanya."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Trobem un esquelet.",
+       "Els seus braços assenyalen un camí.",
+       "Els pirates tenen por."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 32,
+   "title": "La cerca del tresor: la veu entre els arbres",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates es van asseure a descansar a dalt del turó.",
+       "Des d’allà es veia tota l’illa i el mar.",
+       "Llavors, entre els arbres, una veu prima va començar a cantar:",
+       "«Quinze homes sobre el bagul del mort, i una ampolla de rom!»"
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els pirates es van posar blancs de por.",
+       "—És Flint! —va dir un—. És el seu fantasma!",
+       "La veu va cridar: «Darby, porta el rom!»",
+       "—Aquestes van ser les últimes paraules de Flint! —deien, tremolant."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver va escoltar amb atenció.",
+       "—Aquesta veu no és de Flint —va dir—. És de Ben Gunn!",
+       "—Ben Gunn és viu o mort, però no ens farà por!",
+       "Els pirates es van animar i van continuar caminant."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Per fi van arribar al lloc de la creu vermella.",
+       "Van córrer cridant d’alegria.",
+       "Però allà només hi havia un forat gran a la terra.",
+       "El forat era buit! Algú ja s’havia endut el tresor."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Sentim una veu entre els arbres.",
+       "Canta la cançó dels pirates.",
+       "Els pirates creuen que és un fantasma."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver diu que és Ben Gunn.",
+       "Arribem al lloc del tresor.",
+       "Hi ha un forat.",
+       "El forat és buit!"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 33,
+   "title": "La caiguda d’un cap",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates van mirar el forat buit, furiosos.",
+       "Només hi van trobar una moneda d’or.",
+       "Silver em va donar una pistola en secret.",
+       "—Prepara’t, Jim —em va dir a l’orella."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "—Ens has enganyat, Silver! —va cridar en George Merry.",
+       "Els pirates volien atacar Silver i a mi.",
+       "De sobte, van sonar uns trets des dels arbres.",
+       "En Merry va caure al forat i dos pirates van fugir corrents."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Del bosc van sortir el doctor, en Gray i Ben Gunn.",
+       "—Gràcies, doctor —va dir Silver—. Heu arribat a temps.",
+       "Llavors el doctor ens va explicar el secret."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Fa temps, Ben Gunn havia trobat el tresor de Flint.",
+       "L’havia portat a una cova, a poc a poc, durant molts mesos.",
+       "Per això el doctor havia donat el mapa als pirates: ja no servia per a res!",
+       "Vam anar tots a la cova de Ben Gunn."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Allà ens esperaven el capità i el senyor Trelawney.",
+       "Al fons de la cova brillava el tresor.",
+       "Hi havia muntanyes de monedes i barres d’or.",
+       "Aquella nit vam sopar tots junts, molt contents."
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Els pirates s’enfaden amb Silver.",
+       "Volen atacar-nos.",
+       "Arriben el doctor i Ben Gunn.",
+       "Els pirates fugen."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Ben Gunn tenia el tresor.",
+       "L’havia amagat en una cova.",
+       "Anem a la cova.",
+       "Hi ha molt d’or!"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "kind": "chapter",
+   "n": 34,
+   "title": "El final",
+   "levels": {
+    "facil": [
+     {
+      "type": "p",
+      "s": [
+       "Vam treballar molts dies per portar el tresor al vaixell.",
+       "Hi havia monedes de tots els països del món.",
+       "Jo m’ho passava molt bé ordenant-les."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Els tres pirates que quedaven es van amagar a l’illa.",
+       "Vam decidir deixar-los allà amb menjar, roba i eines.",
+       "Un matí, vam aixecar l’àncora i vam sortir de la badia.",
+       "Vaig veure l’illa per última vegada, cada cop més petita."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Vam parar en un port d’Amèrica del Sud.",
+       "Aquella nit, Silver va fugir del vaixell.",
+       "Es va endur un sac de monedes.",
+       "Crec que tots ens vam alegrar que se n’anés."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Per fi, la Hispaniola va arribar a Bristol.",
+       "Cadascú va rebre la seva part del tresor.",
+       "Ben Gunn es va gastar els seus diners en pocs dies.",
+       "Jo vaig tornar a casa amb la meva mare."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "De John Silver no n’hem sabut mai res més.",
+       "Encara queda tresor a l’illa, però jo no hi tornaré mai.",
+       "Algunes nits encara tinc malsons.",
+       "Sento la veu del lloro que crida: «Peces de vuit! Peces de vuit!»"
+      ]
+     }
+    ],
+    "molt": [
+     {
+      "type": "p",
+      "s": [
+       "Portem el tresor al vaixell.",
+       "Tres pirates es queden a l’illa.",
+       "Marxem de l’illa."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Silver fuig amb una mica d’or.",
+       "Tornem a Bristol.",
+       "Tots tenim una part del tresor."
+      ]
+     },
+     {
+      "type": "p",
+      "s": [
+       "Jo torno a casa amb la meva mare.",
+       "No tornaré mai a l’illa.",
+       "Però a vegades somio amb el lloro de Silver."
+      ]
+     }
+    ]
+   }
   }
  ],
  "dict": {
@@ -704,7 +2918,9 @@
    "en": "only, single, alone",
    "ur": "صرف ایک، اکیلا",
    "f": [
-    "sola"
+    "sola",
+    "sol",
+    "sols"
    ]
   },
   "sol_n": {
@@ -1595,7 +3811,8 @@
    "en": "to live",
    "ur": "رہنا",
    "f": [
-    "visc"
+    "visc",
+    "viu"
    ]
   },
   "voler": {
@@ -2385,6 +4602,1481 @@
     "vell",
     "vells"
    ]
+  },
+  "cec": {
+   "p": "nom m.",
+   "d": "Persona que no hi veu.",
+   "en": "blind man",
+   "ur": "اندھا",
+   "f": [
+    "cec"
+   ],
+   "k": 1
+  },
+  "bastó": {
+   "p": "nom m.",
+   "d": "Pal per caminar o per picar.",
+   "en": "stick",
+   "ur": "چھڑی",
+   "f": [
+    "bastó"
+   ],
+   "k": 1
+  },
+  "taca": {
+   "p": "nom f.",
+   "d": "Marca d’un color. La taca negra és un avís de mort dels pirates.",
+   "en": "spot, mark",
+   "ur": "دھبہ، نشان",
+   "f": [
+    "taca"
+   ],
+   "k": 1
+  },
+  "missatge": {
+   "p": "nom m.",
+   "d": "Una cosa que una persona diu o escriu a una altra.",
+   "en": "message",
+   "ur": "پیغام",
+   "f": [
+    "missatge"
+   ],
+   "k": 1
+  },
+  "dèbil": {
+   "p": "adj.",
+   "d": "Que no té força.",
+   "en": "weak",
+   "ur": "کمزور",
+   "f": [
+    "dèbil"
+   ],
+   "k": 1
+  },
+  "clau": {
+   "p": "nom f.",
+   "d": "Peça de metall per obrir un pany.",
+   "en": "key",
+   "ur": "چابی",
+   "f": [
+    "clau"
+   ],
+   "k": 1
+  },
+  "paquet": {
+   "p": "nom m.",
+   "d": "Coses embolicades juntes.",
+   "en": "packet, parcel",
+   "ur": "پیکٹ",
+   "f": [
+    "paquet"
+   ],
+   "k": 1
+  },
+  "pistola": {
+   "p": "nom f.",
+   "d": "Arma petita que dispara.",
+   "en": "pistol",
+   "ur": "پستول",
+   "f": [
+    "pistoles",
+    "pistola"
+   ],
+   "k": 1
+  },
+  "brúixola": {
+   "p": "nom f.",
+   "d": "Aparell que indica on és el nord.",
+   "en": "compass",
+   "ur": "قطب نما",
+   "f": [
+    "brúixola"
+   ],
+   "k": 1
+  },
+  "comptar": {
+   "p": "verb",
+   "d": "Dir els números per saber quantes coses hi ha.",
+   "en": "to count",
+   "ur": "گننا",
+   "f": [
+    "comptar",
+    "compta"
+   ],
+   "k": 1
+  },
+  "pont": {
+   "p": "nom m.",
+   "d": "Construcció per passar per sobre d’un riu.",
+   "en": "bridge",
+   "ur": "پل",
+   "f": [
+    "pont"
+   ],
+   "k": 1
+  },
+  "cavall": {
+   "p": "nom m.",
+   "d": "Animal gran que porta persones a sobre.",
+   "en": "horse",
+   "ur": "گھوڑا",
+   "f": [
+    "cavall",
+    "cavalls"
+   ],
+   "k": 1
+  },
+  "guarda": {
+   "p": "nom m.",
+   "d": "Persona que vigila un lloc.",
+   "en": "guard",
+   "ur": "محافظ",
+   "f": [
+    "guardes",
+    "guarda"
+   ],
+   "k": 1
+  },
+  "finestra": {
+   "p": "nom f.",
+   "d": "Obertura a la paret per on entra la llum.",
+   "en": "window",
+   "ur": "کھڑکی",
+   "f": [
+    "finestra"
+   ],
+   "k": 1
+  },
+  "furiós": {
+   "p": "adj.",
+   "d": "Molt enfadat.",
+   "en": "furious",
+   "ur": "غصے میں",
+   "f": [
+    "furiós"
+   ],
+   "k": 1
+  },
+  "mapa": {
+   "p": "nom m.",
+   "d": "Dibuix que mostra com és un lloc.",
+   "en": "map",
+   "ur": "نقشہ",
+   "f": [
+    "mapa",
+    "mapes"
+   ],
+   "k": 1
+  },
+  "vaixell": {
+   "p": "nom m.",
+   "d": "Barca gran per anar pel mar.",
+   "en": "ship",
+   "ur": "جہاز",
+   "f": [
+    "vaixell",
+    "vaixells"
+   ],
+   "k": 1
+  },
+  "creu": {
+   "p": "nom f.",
+   "d": "Signe fet amb dues ratlles: +.",
+   "en": "cross",
+   "ur": "صلیب کا نشان",
+   "f": [
+    "creu",
+    "creus"
+   ],
+   "k": 1
+  },
+  "grumet": {
+   "p": "nom m.",
+   "d": "Noi que ajuda els mariners en un vaixell.",
+   "en": "cabin boy",
+   "ur": "جہاز پر کام کرنے والا لڑکا",
+   "f": [
+    "grumet"
+   ],
+   "k": 1
+  },
+  "secret": {
+   "p": "nom m.",
+   "d": "Una cosa que no s’ha de dir a ningú.",
+   "en": "secret",
+   "ur": "راز",
+   "f": [
+    "secret"
+   ],
+   "k": 1
+  },
+  "carta": {
+   "p": "nom f.",
+   "d": "Paper escrit que s’envia a una persona.",
+   "en": "letter",
+   "ur": "خط",
+   "f": [
+    "carta"
+   ],
+   "k": 1
+  },
+  "cuiner": {
+   "p": "nom m.",
+   "d": "Persona que fa el menjar.",
+   "en": "cook",
+   "ur": "باورچی",
+   "f": [
+    "cuiner"
+   ],
+   "k": 1
+  },
+  "port": {
+   "p": "nom m.",
+   "d": "Lloc de la costa on paren els vaixells.",
+   "en": "port, harbour",
+   "ur": "بندرگاہ",
+   "f": [
+    "port"
+   ],
+   "k": 1
+  },
+  "viatjar": {
+   "p": "verb",
+   "d": "Anar d’un lloc a un altre lloc lluny.",
+   "en": "to travel",
+   "ur": "سفر کرنا",
+   "f": [
+    "viatjar",
+    "viatjo"
+   ],
+   "k": 1
+  },
+  "acomiadar": {
+   "p": "verb",
+   "d": "Dir adeu.",
+   "en": "to say goodbye",
+   "ur": "الوداع کہنا",
+   "f": [
+    "acomiadar"
+   ],
+   "k": 1
+  },
+  "taverna": {
+   "p": "nom f.",
+   "d": "Lloc on la gent va a beure i a menjar.",
+   "en": "tavern",
+   "ur": "شراب خانہ، سرائے",
+   "f": [
+    "taverna"
+   ],
+   "k": 1
+  },
+  "crossa": {
+   "p": "nom f.",
+   "d": "Bastó llarg per caminar quan falta una cama o fa mal.",
+   "en": "crutch",
+   "ur": "بیساکھی",
+   "f": [
+    "crossa"
+   ],
+   "k": 1
+  },
+  "somriure": {
+   "p": "verb",
+   "d": "Fer cara d’alegria amb la boca.",
+   "en": "to smile",
+   "ur": "مسکرانا",
+   "f": [
+    "somreia",
+    "somriu"
+   ],
+   "k": 1
+  },
+  "racó": {
+   "p": "nom m.",
+   "d": "Lloc on es troben dues parets.",
+   "en": "corner",
+   "ur": "کونا",
+   "f": [
+    "racó"
+   ],
+   "k": 1
+  },
+  "pólvora": {
+   "p": "nom f.",
+   "d": "Pols negra que explota. Serveix per disparar.",
+   "en": "gunpowder",
+   "ur": "بارود",
+   "f": [
+    "pólvora"
+   ],
+   "k": 1
+  },
+  "arma": {
+   "p": "nom f.",
+   "d": "Objecte per atacar o defensar-se.",
+   "en": "weapon",
+   "ur": "ہتھیار",
+   "f": [
+    "armes",
+    "arma"
+   ],
+   "k": 1
+  },
+  "perillós": {
+   "p": "adj.",
+   "d": "Que pot fer mal.",
+   "en": "dangerous",
+   "ur": "خطرناک",
+   "f": [
+    "perillós",
+    "perillosa"
+   ],
+   "k": 1
+  },
+  "confiança": {
+   "p": "nom f.",
+   "d": "Creure que una persona és bona i no et farà mal.",
+   "en": "trust",
+   "ur": "اعتماد",
+   "f": [
+    "confiança"
+   ],
+   "k": 1
+  },
+  "sever": {
+   "p": "adj.",
+   "d": "Molt seriós i estricte.",
+   "en": "strict",
+   "ur": "سخت",
+   "f": [
+    "sever"
+   ],
+   "k": 1
+  },
+  "àncora": {
+   "p": "nom f.",
+   "d": "Peça pesada de ferro que té el vaixell quiet.",
+   "en": "anchor",
+   "ur": "لنگر",
+   "f": [
+    "àncora"
+   ],
+   "k": 1
+  },
+  "lloro": {
+   "p": "nom m.",
+   "d": "Ocell de colors que pot repetir paraules.",
+   "en": "parrot",
+   "ur": "طوطا",
+   "f": [
+    "lloro"
+   ],
+   "k": 1
+  },
+  "barril": {
+   "p": "nom m.",
+   "d": "Recipient gran i rodó de fusta.",
+   "en": "barrel",
+   "ur": "ڈرم، پیپا",
+   "f": [
+    "barril"
+   ],
+   "k": 1
+  },
+  "poma": {
+   "p": "nom f.",
+   "d": "Fruita rodona, vermella o verda.",
+   "en": "apple",
+   "ur": "سیب",
+   "f": [
+    "poma",
+    "pomes"
+   ],
+   "k": 1
+  },
+  "cuina": {
+   "p": "nom f.",
+   "d": "Lloc on es fa el menjar.",
+   "en": "kitchen",
+   "ur": "باورچی خانہ",
+   "f": [
+    "cuina"
+   ],
+   "k": 1
+  },
+  "veritat": {
+   "p": "nom f.",
+   "d": "El que és real, no és mentida.",
+   "en": "truth",
+   "ur": "سچ",
+   "f": [
+    "veritat"
+   ],
+   "k": 1
+  },
+  "atacar": {
+   "p": "verb",
+   "d": "Començar una lluita contra algú.",
+   "en": "to attack",
+   "ur": "حملہ کرنا",
+   "f": [
+    "atacarem",
+    "atacar"
+   ],
+   "k": 1
+  },
+  "matar": {
+   "p": "verb",
+   "d": "Fer morir.",
+   "en": "to kill",
+   "ur": "مارنا، قتل کرنا",
+   "f": [
+    "matarem",
+    "matar"
+   ],
+   "k": 1
+  },
+  "batalla": {
+   "p": "nom f.",
+   "d": "Lluita entre dos grups.",
+   "en": "battle",
+   "ur": "لڑائی، جنگ",
+   "f": [
+    "batalla"
+   ],
+   "k": 1
+  },
+  "còpia": {
+   "p": "nom f.",
+   "d": "Una cosa igual que una altra, feta després.",
+   "en": "copy",
+   "ur": "نقل",
+   "f": [
+    "còpia"
+   ],
+   "k": 1
+  },
+  "cabina": {
+   "p": "nom f.",
+   "d": "Habitació petita d’un vaixell.",
+   "en": "cabin",
+   "ur": "کیبن، کمرہ",
+   "f": [
+    "cabina"
+   ],
+   "k": 1
+  },
+  "fals": {
+   "p": "adj.",
+   "d": "Que no és de veritat.",
+   "en": "false, fake",
+   "ur": "نقلی، جھوٹا",
+   "f": [
+    "fals"
+   ],
+   "k": 1
+  },
+  "avergonyit": {
+   "p": "adj.",
+   "d": "Que sent vergonya perquè ha fet una cosa malament.",
+   "en": "ashamed",
+   "ur": "شرمندہ",
+   "f": [
+    "avergonyit"
+   ],
+   "k": 1
+  },
+  "barca": {
+   "p": "nom f.",
+   "d": "Vaixell petit.",
+   "en": "boat",
+   "ur": "کشتی",
+   "f": [
+    "barca",
+    "barques"
+   ],
+   "k": 1
+  },
+  "bosc": {
+   "p": "nom m.",
+   "d": "Lloc amb molts arbres.",
+   "en": "wood, forest",
+   "ur": "جنگل",
+   "f": [
+    "bosc"
+   ],
+   "k": 1
+  },
+  "revoltar": {
+   "p": "verb",
+   "d": "Lluitar contra qui mana.",
+   "en": "to rebel, to mutiny",
+   "ur": "بغاوت کرنا",
+   "f": [
+    "revoltaran"
+   ],
+   "k": 1
+  },
+  "olor": {
+   "p": "nom f.",
+   "d": "El que notem amb el nas.",
+   "en": "smell",
+   "ur": "بو",
+   "f": [
+    "olor"
+   ],
+   "k": 1
+  },
+  "nerviós": {
+   "p": "adj.",
+   "d": "Que no està tranquil.",
+   "en": "nervous",
+   "ur": "بے چین، گھبرایا ہوا",
+   "f": [
+    "nerviosos",
+    "nerviós"
+   ],
+   "k": 1
+  },
+  "serp": {
+   "p": "nom f.",
+   "d": "Animal llarg sense potes que s’arrossega.",
+   "en": "snake",
+   "ur": "سانپ",
+   "f": [
+    "serps",
+    "serp"
+   ],
+   "k": 1
+  },
+  "arbre": {
+   "p": "nom m.",
+   "d": "Planta gran amb tronc i branques.",
+   "en": "tree",
+   "ur": "درخت",
+   "f": [
+    "arbre",
+    "arbres"
+   ],
+   "k": 1
+  },
+  "honrat": {
+   "p": "adj.",
+   "d": "Que és bo i no enganya ni roba.",
+   "en": "honest",
+   "ur": "ایماندار",
+   "f": [
+    "honrat"
+   ],
+   "k": 1
+  },
+  "esquena": {
+   "p": "nom f.",
+   "d": "Part del darrere del cos.",
+   "en": "back",
+   "ur": "کمر، پیٹھ",
+   "f": [
+    "esquena"
+   ],
+   "k": 1
+  },
+  "formatge": {
+   "p": "nom m.",
+   "d": "Menjar fet amb llet.",
+   "en": "cheese",
+   "ur": "پنیر",
+   "f": [
+    "formatge"
+   ],
+   "k": 1
+  },
+  "abandonar": {
+   "p": "verb",
+   "d": "Deixar algú sol i marxar.",
+   "en": "to abandon, to leave behind",
+   "ur": "چھوڑ دینا",
+   "f": [
+    "abandonat"
+   ],
+   "k": 1
+  },
+  "roca": {
+   "p": "nom f.",
+   "d": "Pedra molt gran.",
+   "en": "rock",
+   "ur": "چٹان",
+   "f": [
+    "roca",
+    "roques"
+   ],
+   "k": 1
+  },
+  "bandera": {
+   "p": "nom f.",
+   "d": "Tela de colors que representa un país o un grup.",
+   "en": "flag",
+   "ur": "جھنڈا",
+   "f": [
+    "bandera"
+   ],
+   "k": 1
+  },
+  "canó": {
+   "p": "nom m.",
+   "d": "Arma molt gran que dispara boles de ferro.",
+   "en": "cannon",
+   "ur": "توپ",
+   "f": [
+    "canó",
+    "canons"
+   ],
+   "k": 1
+  },
+  "fusta": {
+   "p": "nom f.",
+   "d": "Material que surt dels arbres.",
+   "en": "wood",
+   "ur": "لکڑی",
+   "f": [
+    "fusta"
+   ],
+   "k": 1
+  },
+  "fortalesa": {
+   "p": "nom f.",
+   "d": "Lloc tancat i fort per defensar-se.",
+   "en": "stockade, fort",
+   "ur": "قلعہ",
+   "f": [
+    "fortalesa"
+   ],
+   "k": 1
+  },
+  "turó": {
+   "p": "nom m.",
+   "d": "Muntanya petita.",
+   "en": "hill",
+   "ur": "ٹیلہ، پہاڑی",
+   "f": [
+    "turó"
+   ],
+   "k": 1
+  },
+  "tanca": {
+   "p": "nom f.",
+   "d": "Paret de fusta o de pals al voltant d’un lloc.",
+   "en": "fence",
+   "ur": "باڑ",
+   "f": [
+    "tanca"
+   ],
+   "k": 1
+  },
+  "font": {
+   "p": "nom f.",
+   "d": "Lloc on surt aigua de la terra.",
+   "en": "spring, fountain",
+   "ur": "چشمہ",
+   "f": [
+    "font"
+   ],
+   "k": 1
+  },
+  "segur": {
+   "p": "adj.",
+   "d": "Sense perill.",
+   "en": "safe",
+   "ur": "محفوظ",
+   "f": [
+    "segurs",
+    "segur"
+   ],
+   "k": 1
+  },
+  "disparar": {
+   "p": "verb",
+   "d": "Fer sortir una bala d’una arma.",
+   "en": "to shoot, to fire",
+   "ur": "گولی چلانا",
+   "f": [
+    "disparar",
+    "disparen",
+    "disparat"
+   ],
+   "k": 1
+  },
+  "enfonsar": {
+   "p": "verb",
+   "d": "Anar cap avall dins de l’aigua.",
+   "en": "to sink",
+   "ur": "ڈوبنا",
+   "f": [
+    "enfonsa"
+   ],
+   "k": 1
+  },
+  "corrent": {
+   "p": "nom m.",
+   "d": "Aigua del mar o d’un riu que es mou cap a un lloc.",
+   "en": "current",
+   "ur": "پانی کا بہاؤ",
+   "f": [
+    "corrent"
+   ],
+   "k": 1
+  },
+  "fondo": {
+   "p": "adj.",
+   "d": "Que va molt avall.",
+   "en": "deep",
+   "ur": "گہرا",
+   "f": [
+    "fonda",
+    "fondo"
+   ],
+   "k": 1
+  },
+  "penjar": {
+   "p": "verb",
+   "d": "Posar una cosa a dalt, que no toca a terra.",
+   "en": "to hang",
+   "ur": "لٹکانا، لہرانا",
+   "f": [
+    "penja",
+    "penjar"
+   ],
+   "k": 1
+  },
+  "bola": {
+   "p": "nom f.",
+   "d": "Cosa rodona. Les boles de canó són de ferro.",
+   "en": "ball, cannonball",
+   "ur": "گولا",
+   "f": [
+    "boles",
+    "bola"
+   ],
+   "k": 1
+  },
+  "ferida": {
+   "p": "nom f.",
+   "d": "Lloc del cos on hi ha un tall o un cop.",
+   "en": "wound",
+   "ur": "زخم",
+   "f": [
+    "ferida"
+   ],
+   "k": 1
+  },
+  "viu": {
+   "p": "adj.",
+   "d": "Que no és mort.",
+   "en": "alive",
+   "ur": "زندہ",
+   "f": [
+    "viu"
+   ],
+   "k": 1
+  },
+  "mocador": {
+   "p": "nom m.",
+   "d": "Tros de tela petit. Un mocador blanc vol dir pau.",
+   "en": "handkerchief",
+   "ur": "رومال",
+   "f": [
+    "mocador"
+   ],
+   "k": 1
+  },
+  "llenya": {
+   "p": "nom f.",
+   "d": "Fusta per fer foc.",
+   "en": "firewood",
+   "ur": "جلانے کی لکڑی",
+   "f": [
+    "llenya"
+   ],
+   "k": 1
+  },
+  "guàrdia": {
+   "p": "nom f.",
+   "d": "Fer guàrdia: vigilar un lloc.",
+   "en": "watch, guard",
+   "ur": "پہرہ",
+   "f": [
+    "guàrdia"
+   ],
+   "k": 1
+  },
+  "pau": {
+   "p": "nom f.",
+   "d": "Quan no hi ha guerra ni baralles.",
+   "en": "peace",
+   "ur": "امن، صلح",
+   "f": [
+    "pau"
+   ],
+   "k": 1
+  },
+  "fum": {
+   "p": "nom m.",
+   "d": "Gas gris que fa el foc.",
+   "en": "smoke",
+   "ur": "دھواں",
+   "f": [
+    "fum"
+   ],
+   "k": 1
+  },
+  "ràbia": {
+   "p": "nom f.",
+   "d": "Enfadament molt fort.",
+   "en": "anger, rage",
+   "ur": "غصہ",
+   "f": [
+    "ràbia"
+   ],
+   "k": 1
+  },
+  "sorra": {
+   "p": "nom f.",
+   "d": "Terra feta de grans molt petits, com a la platja.",
+   "en": "sand",
+   "ur": "ریت",
+   "f": [
+    "sorra"
+   ],
+   "k": 1
+  },
+  "estalvi": {
+   "p": "adj.",
+   "d": "Sa i estalvi: sense cap mal.",
+   "en": "safe and sound",
+   "ur": "صحیح سلامت",
+   "f": [
+    "estalvis"
+   ],
+   "k": 1
+  },
+  "lluita": {
+   "p": "nom f.",
+   "d": "Quan dues persones o grups es barallen.",
+   "en": "fight",
+   "ur": "لڑائی",
+   "f": [
+    "lluita"
+   ],
+   "k": 1
+  },
+  "sabre": {
+   "p": "nom m.",
+   "d": "Espasa corba.",
+   "en": "cutlass, sabre",
+   "ur": "تلوار",
+   "f": [
+    "sabre"
+   ],
+   "k": 1
+  },
+  "ensopegar": {
+   "p": "verb",
+   "d": "Picar amb el peu a una cosa i quasi caure.",
+   "en": "to trip",
+   "ur": "ٹھوکر کھانا",
+   "f": [
+    "ensopegar"
+   ],
+   "k": 1
+  },
+  "greu": {
+   "p": "adj.",
+   "d": "Molt seriós, perillós.",
+   "en": "serious, badly hurt",
+   "ur": "شدید، سنگین",
+   "f": [
+    "greu"
+   ],
+   "k": 1
+  },
+  "avorrir": {
+   "p": "verb",
+   "d": "No tenir res interessant per fer.",
+   "en": "to be bored",
+   "ur": "اکتا جانا",
+   "f": [
+    "avorria",
+    "avorreixo"
+   ],
+   "k": 1
+  },
+  "enveja": {
+   "p": "nom f.",
+   "d": "Voler el que té una altra persona.",
+   "en": "envy",
+   "ur": "حسد، رشک",
+   "f": [
+    "enveja"
+   ],
+   "k": 1
+  },
+  "galeta": {
+   "p": "nom f.",
+   "d": "Pa sec i petit que dura molt.",
+   "en": "biscuit",
+   "ur": "بسکٹ",
+   "f": [
+    "galetes"
+   ],
+   "k": 1
+  },
+  "lleuger": {
+   "p": "adj.",
+   "d": "Que pesa poc.",
+   "en": "light",
+   "ur": "ہلکا",
+   "f": [
+    "lleugera",
+    "lleuger"
+   ],
+   "k": 1
+  },
+  "boig": {
+   "p": "adj.",
+   "d": "Que no pensa bé.",
+   "en": "crazy",
+   "ur": "پاگل",
+   "f": [
+    "boja",
+    "boig"
+   ],
+   "k": 1
+  },
+  "marea": {
+   "p": "nom f.",
+   "d": "Quan l’aigua del mar puja o baixa cada dia.",
+   "en": "tide",
+   "ur": "جوار بھاٹا",
+   "f": [
+    "marea"
+   ],
+   "k": 1
+  },
+  "corda": {
+   "p": "nom f.",
+   "d": "Fils trenats que serveixen per lligar.",
+   "en": "rope",
+   "ur": "رسی",
+   "f": [
+    "corda"
+   ],
+   "k": 1
+  },
+  "tallar": {
+   "p": "verb",
+   "d": "Separar amb un ganivet o unes tisores.",
+   "en": "to cut",
+   "ur": "کاٹنا",
+   "f": [
+    "tallar",
+    "tallava",
+    "tallo"
+   ],
+   "k": 1
+  },
+  "deriva": {
+   "p": "nom f.",
+   "d": "Anar a la deriva: moure’s sense control, empès per l’aigua.",
+   "en": "drift",
+   "ur": "بغیر سمت کے بہنا",
+   "f": [
+    "deriva"
+   ],
+   "k": 1
+  },
+  "onada": {
+   "p": "nom f.",
+   "d": "Aigua del mar que puja i baixa i arriba a la platja.",
+   "en": "wave",
+   "ur": "لہر",
+   "f": [
+    "onades",
+    "onada"
+   ],
+   "k": 1
+  },
+  "set": {
+   "p": "nom f.",
+   "d": "Ganes de beure.",
+   "en": "thirst",
+   "ur": "پیاس",
+   "f": [
+    "set"
+   ],
+   "k": 1
+  },
+  "set_num": {
+   "p": "num.",
+   "d": "El número 7.",
+   "en": "seven",
+   "ur": "سات",
+   "f": [
+    "set"
+   ],
+   "k": 0,
+   "w": "set"
+  },
+  "timó": {
+   "p": "nom m.",
+   "d": "Peça que serveix per dirigir un vaixell.",
+   "en": "helm, rudder",
+   "ur": "پتوار",
+   "f": [
+    "timó"
+   ],
+   "k": 1
+  },
+  "remar": {
+   "p": "verb",
+   "d": "Moure una barca amb rems.",
+   "en": "to row, to paddle",
+   "ur": "چپو چلانا",
+   "f": [
+    "remar"
+   ],
+   "k": 1
+  },
+  "borratxo": {
+   "p": "adj.",
+   "d": "Que ha begut massa alcohol.",
+   "en": "drunk",
+   "ur": "نشے میں",
+   "f": [
+    "borratxos",
+    "borratxo"
+   ],
+   "k": 1
+  },
+  "coberta": {
+   "p": "nom f.",
+   "d": "El terra de dalt d’un vaixell.",
+   "en": "deck",
+   "ur": "عرشہ",
+   "f": [
+    "coberta"
+   ],
+   "k": 1
+  },
+  "calavera": {
+   "p": "nom f.",
+   "d": "Els ossos del cap d’una persona morta.",
+   "en": "skull",
+   "ur": "کھوپڑی",
+   "f": [
+    "calavera"
+   ],
+   "k": 1
+  },
+  "pacte": {
+   "p": "nom m.",
+   "d": "Acord entre dues persones.",
+   "en": "deal, agreement",
+   "ur": "سودا، معاہدہ",
+   "f": [
+    "pacte"
+   ],
+   "k": 1
+  },
+  "badia": {
+   "p": "nom f.",
+   "d": "Part del mar que entra a la terra.",
+   "en": "bay",
+   "ur": "خلیج",
+   "f": [
+    "badia"
+   ],
+   "k": 1
+  },
+  "refiar": {
+   "p": "verb",
+   "d": "Refiar-se: tenir confiança en algú.",
+   "en": "to trust",
+   "ur": "بھروسہ کرنا",
+   "f": [
+    "refiava",
+    "refio"
+   ],
+   "k": 1
+  },
+  "pal": {
+   "p": "nom m.",
+   "d": "Tros de fusta llarg. En un vaixell, el pal aguanta les veles.",
+   "en": "mast, stick",
+   "ur": "مستول، ڈنڈا",
+   "f": [
+    "pal"
+   ],
+   "k": 1
+  },
+  "enfilar": {
+   "p": "verb",
+   "d": "Enfilar-se: pujar agafant-se amb les mans.",
+   "en": "to climb",
+   "ur": "چڑھنا",
+   "f": [
+    "enfilar"
+   ],
+   "k": 1
+  },
+  "carregar": {
+   "p": "verb",
+   "d": "Posar pólvora i bala en una arma. També: posar pes.",
+   "en": "to load",
+   "ur": "بھرنا، لادنا",
+   "f": [
+    "carregar"
+   ],
+   "k": 1
+  },
+  "jaqueta": {
+   "p": "nom f.",
+   "d": "Peça de roba que es porta a sobre.",
+   "en": "jacket",
+   "ur": "جیکٹ",
+   "f": [
+    "jaqueta"
+   ],
+   "k": 1
+  },
+  "nedar": {
+   "p": "verb",
+   "d": "Moure’s dins de l’aigua amb els braços i les cames.",
+   "en": "to swim",
+   "ur": "تیرنا",
+   "f": [
+    "nedar",
+    "nedo"
+   ],
+   "k": 1
+  },
+  "notícia": {
+   "p": "nom f.",
+   "d": "Informació nova sobre una cosa que ha passat.",
+   "en": "news",
+   "ur": "خبر",
+   "f": [
+    "notícia"
+   ],
+   "k": 1
+  },
+  "roncar": {
+   "p": "verb",
+   "d": "Fer soroll amb el nas quan dorms.",
+   "en": "to snore",
+   "ur": "خراٹے لینا",
+   "f": [
+    "roncaven"
+   ],
+   "k": 1
+  },
+  "foscor": {
+   "p": "nom f.",
+   "d": "Quan no hi ha llum.",
+   "en": "darkness",
+   "ur": "اندھیرا",
+   "f": [
+    "foscor"
+   ],
+   "k": 1
+  },
+  "torxa": {
+   "p": "nom f.",
+   "d": "Pal amb foc a la punta per fer llum.",
+   "en": "torch",
+   "ur": "مشعل",
+   "f": [
+    "torxa"
+   ],
+   "k": 1
+  },
+  "campament": {
+   "p": "nom m.",
+   "d": "Lloc on viu un grup de gent durant un temps, a fora.",
+   "en": "camp",
+   "ur": "ڈیرہ، کیمپ",
+   "f": [
+    "campament"
+   ],
+   "k": 1
+  },
+  "valentia": {
+   "p": "nom f.",
+   "d": "Quan no tens por i fas el que cal.",
+   "en": "courage",
+   "ur": "ہمت، بہادری",
+   "f": [
+    "valentia"
+   ],
+   "k": 1
+  },
+  "protegir": {
+   "p": "verb",
+   "d": "Defensar algú perquè no li facin mal.",
+   "en": "to protect",
+   "ur": "حفاظت کرنا",
+   "f": [
+    "protegeix",
+    "protegir"
+   ],
+   "k": 1
+  },
+  "butxaca": {
+   "p": "nom f.",
+   "d": "Bossa petita cosida a la roba.",
+   "en": "pocket",
+   "ur": "جیب",
+   "f": [
+    "butxaca"
+   ],
+   "k": 1
+  },
+  "enemic": {
+   "p": "nom m.",
+   "d": "Persona que està contra tu.",
+   "en": "enemy",
+   "ur": "دشمن",
+   "f": [
+    "enemics",
+    "enemic"
+   ],
+   "k": 1
+  },
+  "cap_m": {
+   "p": "nom m.",
+   "d": "Persona que mana un grup. També: la part de dalt del cos.",
+   "en": "leader, chief; head",
+   "ur": "سردار؛ سر",
+   "f": [
+    "cap"
+   ],
+   "k": 1,
+   "w": "cap"
+  },
+  "honor": {
+   "p": "nom m.",
+   "d": "Paraula d’honor: promesa que no es pot trencar.",
+   "en": "honour",
+   "ur": "عزت، قول",
+   "f": [
+    "honor"
+   ],
+   "k": 1
+  },
+  "promesa": {
+   "p": "nom f.",
+   "d": "Quan dius que segur que faràs una cosa.",
+   "en": "promise",
+   "ur": "وعدہ",
+   "f": [
+    "promesa"
+   ],
+   "k": 1
+  },
+  "salvar": {
+   "p": "verb",
+   "d": "Ajudar algú perquè no mori o no prengui mal.",
+   "en": "to save",
+   "ur": "بچانا",
+   "f": [
+    "salvat"
+   ],
+   "k": 1
+  },
+  "compte": {
+   "p": "nom m.",
+   "d": "Anar amb compte: anar amb cura, amb atenció.",
+   "en": "care",
+   "ur": "احتیاط",
+   "f": [
+    "compte"
+   ],
+   "k": 1
+  },
+  "esquelet": {
+   "p": "nom m.",
+   "d": "Tots els ossos del cos.",
+   "en": "skeleton",
+   "ur": "ڈھانچہ",
+   "f": [
+    "esquelet"
+   ],
+   "k": 1
+  },
+  "pala": {
+   "p": "nom f.",
+   "d": "Eina per cavar o moure terra.",
+   "en": "shovel",
+   "ur": "بیلچہ",
+   "f": [
+    "pales",
+    "pala"
+   ],
+   "k": 1
+  },
+  "pic": {
+   "p": "nom m.",
+   "d": "Eina de ferro per trencar la terra o les pedres.",
+   "en": "pick, pickaxe",
+   "ur": "کدال",
+   "f": [
+    "pics",
+    "pic"
+   ],
+   "k": 1
+  },
+  "assenyalar": {
+   "p": "verb",
+   "d": "Mostrar amb el dit o amb la mà.",
+   "en": "to point",
+   "ur": "اشارہ کرنا",
+   "f": [
+    "assenyala",
+    "assenyalen"
+   ],
+   "k": 1
+  },
+  "lligar": {
+   "p": "verb",
+   "d": "Subjectar amb una corda.",
+   "en": "to tie",
+   "ur": "باندھنا",
+   "f": [
+    "lligat"
+   ],
+   "k": 1
+  },
+  "forat": {
+   "p": "nom m.",
+   "d": "Lloc buit a la terra o en una cosa.",
+   "en": "hole",
+   "ur": "گڑھا، سوراخ",
+   "f": [
+    "forat"
+   ],
+   "k": 1
+  },
+  "buit": {
+   "p": "adj.",
+   "d": "Que no té res a dins.",
+   "en": "empty",
+   "ur": "خالی",
+   "f": [
+    "buit"
+   ],
+   "k": 1
+  },
+  "animar": {
+   "p": "verb",
+   "d": "Animar-se: tornar a estar content i amb ganes.",
+   "en": "to cheer up",
+   "ur": "حوصلہ ملنا",
+   "f": [
+    "animar"
+   ],
+   "k": 1
+  },
+  "cova": {
+   "p": "nom f.",
+   "d": "Forat gran dins d’una muntanya.",
+   "en": "cave",
+   "ur": "غار",
+   "f": [
+    "cova"
+   ],
+   "k": 1
+  },
+  "enganyar": {
+   "p": "verb",
+   "d": "Fer creure una cosa que no és veritat.",
+   "en": "to trick, to deceive",
+   "ur": "دھوکا دینا",
+   "f": [
+    "enganyat"
+   ],
+   "k": 1
+  },
+  "tret": {
+   "p": "nom m.",
+   "d": "Quan una arma dispara.",
+   "en": "shot",
+   "ur": "گولی چلنا",
+   "f": [
+    "trets",
+    "tret"
+   ],
+   "k": 1
+  },
+  "brillar": {
+   "p": "verb",
+   "d": "Fer llum.",
+   "en": "to shine",
+   "ur": "چمکنا",
+   "f": [
+    "brillava"
+   ],
+   "k": 1
+  },
+  "país": {
+   "p": "nom m.",
+   "d": "Territori amb un govern, com Catalunya o el Marroc.",
+   "en": "country",
+   "ur": "ملک",
+   "f": [
+    "països",
+    "país"
+   ],
+   "k": 1
+  },
+  "eina": {
+   "p": "nom f.",
+   "d": "Objecte que serveix per fer una feina.",
+   "en": "tool",
+   "ur": "اوزار",
+   "f": [
+    "eines",
+    "eina"
+   ],
+   "k": 1
+  },
+  "sac": {
+   "p": "nom m.",
+   "d": "Bossa gran de tela.",
+   "en": "sack, bag",
+   "ur": "بوری، تھیلا",
+   "f": [
+    "sac"
+   ],
+   "k": 1
+  },
+  "part": {
+   "p": "nom f.",
+   "d": "Un tros d’una cosa.",
+   "en": "share, part",
+   "ur": "حصہ",
+   "f": [
+    "part"
+   ],
+   "k": 1
+  },
+  "gastar": {
+   "p": "verb",
+   "d": "Fer servir els diners per comprar coses.",
+   "en": "to spend",
+   "ur": "خرچ کرنا",
+   "f": [
+    "gastar"
+   ],
+   "k": 1
   }
  },
  "translations": {
@@ -2540,7 +6232,818 @@
    "1ul8v8kfbjy": "“If you drink it, you will die.”",
    "t6jjtrgtbo": "We carry the Captain to bed.",
    "1p7121rhac1": "The Captain sleeps.",
-   "klctxi32z1": "But the danger is not over."
+   "klctxi32z1": "But the danger is not over.",
+   "scm13b5vvz": "The black spot",
+   "lz0r9i0p6y": "The captain became very weak and could not get out of bed.",
+   "111o7z6m50k": "One day he called me and spoke to me in a low voice.",
+   "11oc9lfp9oj": "“Jim, you are the only friend I have,” he said.",
+   "1uocv8yfat6": "“Years ago I sailed with Captain Flint, a very evil pirate.",
+   "2dr0n17cyuf": "His men want my chest.",
+   "o1l2bx0c63": "If they give me the black spot, tell the doctor at once.”",
+   "1bz3opugr88": "In those days, my father died.",
+   "1r831esd5so": "My mother and I were very sad.",
+   "zmjimfkesf": "I worked at the inn and had no time to think about the captain.",
+   "1lt67a50f4q": "The day after the funeral, it was cold and foggy.",
+   "9amalthj53": "Then I saw a man walking along the road.",
+   "2ail0uflm80": "He was blind and tapped the ground with a stick: tap, tap, tap.",
+   "clwkzdt16d": "He wore a hood and looked very old.",
+   "147c05r5kqt": "“Can someone tell me where I am?” he asked.",
+   "5me1b5agtp": "“You are at the Admiral Benbow inn,” I told him.",
+   "14g560a6hby": "The blind man grabbed my arm very hard, like a pair of pliers.",
+   "18w2qdqj9u": "“Take me to the captain, boy, or I will break your arm!”",
+   "1ovtkpa5lhz": "I was so afraid that I took him to the room.",
+   "1g2awz3n85h": "When the captain saw the blind man, he turned white.",
+   "1ofv1m3x0k": "The blind man put a paper in his hand and left.",
+   "1fy58x4j402": "It was the black spot: a message from the pirates.",
+   "rdzbsvgvn9": "The paper said: “You have until ten o’clock tonight.”",
+   "4hxmr3rifb": "“At ten!” shouted the captain. “There is still time!”",
+   "h4qg4x6rp2": "He jumped up, but suddenly he fell to the floor.",
+   "2fzdachi4re": "I ran to help him, but he was already dead.",
+   "b7osw4zxom": "I did not love him much, but I cried.",
+   "z132bo61i7": "The captain is very ill.",
+   "n0akxsd8un": "“Some pirates want my chest,” he tells me.",
+   "1xktaez16u9": "My father dies.",
+   "rjlx6vdhd7": "My mother and I are sad.",
+   "1hlcqw3tkqg": "One day a blind man arrives.",
+   "1d01kthbp4t": "He taps the ground with a stick.",
+   "1ba4wqiyqkh": "He grabs my arm very hard.",
+   "25ouym9k06m": "“Take me to the captain!” he says.",
+   "1gv9pfi9js6": "The blind man gives the captain a paper.",
+   "1gdmdngvwqq": "It is the black spot.",
+   "9227cy6k63": "It is a message from the pirates.",
+   "fb8rub54u": "It says: “Tonight, at ten.”",
+   "1tpu7kvttc2": "The captain stands up.",
+   "pu3x47m3av": "Then he falls to the floor.",
+   "14jz9ro0riy": "The captain is dead.",
+   "16mowz6xhro": "The sea chest",
+   "185t4e81yas": "I told my mother everything I knew.",
+   "2ez3ao91yh7": "“The captain owed us money,” she said. “We will take it from the chest.”",
+   "1zwyiwiiz0e": "But we were afraid: the pirates would come back at ten.",
+   "lv6tfhf2x0": "We ran to the village to ask for help.",
+   "skj8h77bk7": "When people heard the name of Flint, they got scared.",
+   "2bndltr4m7r": "Nobody wanted to come with us.",
+   "1as5lyngxme": "“Then we will go alone,” said my mother, very brave.",
+   "22zgkodknii": "We went back to the inn in the dark.",
+   "1jdj0w4z9q1": "The captain lay on the floor with his eyes open.",
+   "2avb03nk4by": "He had a key hanging from his neck on a string.",
+   "1q7we8h8f3c": "I took the key and we went up to his room.",
+   "wp5d1lghoe": "We opened the chest slowly.",
+   "29a92zdc3ma": "Inside there were clothes, some pistols and a compass.",
+   "84gal3mu5h": "At the bottom there was a packet wrapped in cloth.",
+   "ghym13v2c3": "There was also a bag full of gold coins.",
+   "1pttndxorw9": "My mother began to count the coins.",
+   "wkibay9k2y": "“I will only take what he owes us,” she said.",
+   "1n9f2lm0avo": "Then we heard a noise outside: tap, tap, tap.",
+   "17olhmsbtiq": "It was the blind man’s stick, coming closer.",
+   "1sabgdvpgty": "Then we heard a whistle in the distance.",
+   "cyk3nvis5u": "“They are coming!” I said.",
+   "1auym5nhmts": "My mother took some coins and I took the packet.",
+   "ptofv3pdq3": "We ran out of the inn.",
+   "1byj5w3rfh": "We go to the village to ask for help.",
+   "2d83kbbgwg9": "The people are afraid of the pirates.",
+   "dcx1onj6al": "Nobody helps us.",
+   "1epgdsr2m0e": "We go back to the inn.",
+   "1qkov9m5xt8": "I take the captain’s key.",
+   "v4faojo2aj": "We open the chest.",
+   "3tk4f6mwuq": "There are clothes, pistols and gold coins.",
+   "15fahhj5ux7": "There is also a packet.",
+   "18ohfcaq973": "Mother counts the coins.",
+   "t52fbedt6e": "We hear the blind man’s stick.",
+   "24dpaj2b8g6": "The pirates are coming!",
+   "dp1mc46tij": "I take the packet and we run away.",
+   "1zmqxu28an": "The last of the blind man",
+   "9whwiyawro": "When we reached the bridge, my mother fainted.",
+   "9gofuiljh": "With great effort, I dragged her under the bridge.",
+   "2810pkrpy99": "From there I could see the inn.",
+   "1k134rm9ni2": "Seven or eight men came running along the road.",
+   "u9hui31bqa": "The blind man went in front and shouted orders.",
+   "1t89lz05d6c": "“Break down the door!” he said.",
+   "20zbqak5cbm": "The pirates went into the inn.",
+   "23vlbwxb8a3": "After a while, a pirate put his head out of the window.",
+   "nr8l8ztawm": "“The chest is open!” he shouted. “Someone has taken the packet!”",
+   "2alevzeevtd": "“It was the boy!” said the blind man, furious. “Find him!”",
+   "ae294y7olf": "Suddenly, we heard the sound of horses.",
+   "1t7jbgqs0h": "They were guards who watched the coast.",
+   "11nlcv8wkul": "The pirates ran away and left the blind man alone.",
+   "1s8axpunujk": "The blind man could see nothing and ran in the middle of the road.",
+   "27xdwiibyl1": "A horse ran over him.",
+   "1ab5522w8kp": "The blind man fell and did not move again.",
+   "1e96tj4k27v": "I told everything to the chief of the guards.",
+   "4rfmx9zpz7": "“What were these pirates looking for?” he asked.",
+   "pgu8lmtjdd": "“I think they were looking for this packet,” I said.",
+   "1y9sqc4tkte": "“Then we must take it to Doctor Livesey,” he said.",
+   "axmt1njf6z": "Mother and I hide under a bridge.",
+   "12x0u4kvv8q": "The pirates arrive.",
+   "1mrbxweu42k": "They go into the inn.",
+   "1qsf6h7k2e9": "They look for the packet, but they cannot find it.",
+   "1thgauloto3": "Some guards arrive on horses.",
+   "2f76en6u983": "The pirates run away.",
+   "16ttjgqx82": "A horse runs over the blind man.",
+   "13g87c65hjw": "The blind man dies.",
+   "mf82m9552w": "I have the packet.",
+   "jcy4ekcbh8": "I take it to Doctor Livesey.",
+   "1dtfnqt3hz0": "The captain’s papers",
+   "1yugdexwdpr": "Doctor Livesey was at Mr Trelawney’s house.",
+   "fzoz3jvjyg": "Mr Trelawney was a rich man, tall and very talkative.",
+   "vjosal6690": "I told them the whole story.",
+   "9riyewdhje": "“You are a very brave boy, Jim,” said the doctor.",
+   "1m0ym1f4qim": "The doctor opened the packet very carefully.",
+   "1in2p7hfpih": "Inside there was a notebook and a folded paper.",
+   "xz732wn71o": "In the notebook, the captain had written down the money he had stolen.",
+   "62gnur32jd": "Then the doctor unfolded the paper.",
+   "p3gyip03ci": "It was the map of an island!",
+   "ud1i4kb3t7": "There were mountains, woods, beaches and three red crosses.",
+   "zqhjmvcwp6": "Next to one cross it said: “Most of the treasure is here.”",
+   "1numsedgycj": "“It is Flint’s treasure map!” shouted Mr Trelawney.",
+   "1uaq777zq5u": "“I will go to Bristol and buy a ship.",
+   "1lkijl4xtvq": "You, doctor, will be the ship’s doctor.",
+   "gazzojyisd": "And you, Jim, will come with us as cabin boy!”",
+   "2dvo3jj49xa": "I was very happy: I would go and look for a treasure!",
+   "29zovhrxha6": "But the doctor was worried.",
+   "1hza4axxr9c": "“The pirates want this map too,” he said.",
+   "1ohz9n7f0kj": "“Do not talk about it with anyone. It is a secret.”",
+   "1hqqkyohsin": "I go to Mr Trelawney’s house.",
+   "1mms7hdx2p": "Doctor Livesey is there too.",
+   "e0qwij9gq": "We open the packet.",
+   "1q2bc0i50ys": "Inside there is a map.",
+   "1hhgq5iv8dv": "It is the map of an island.",
+   "1s18a3d81s3": "A red cross shows where the treasure is.",
+   "1a1bq8qxuks": "“We will buy a ship!” says Mr Trelawney.",
+   "215jom25acj": "“We will go and look for the treasure.”",
+   "sdzpqmyiul": "I will go too.",
+   "28v72i5h6zc": "I am very happy.",
+   "ypzf8znsll": "I go to Bristol",
+   "100dode1yy1": "Mr Trelawney went to Bristol to prepare the voyage.",
+   "1ndpmvuu4xl": "I stayed at the inn with my mother.",
+   "11t4qfow0fe": "Every day I looked at the map and dreamed about the island.",
+   "1nbhr6ta5cj": "One day a letter arrived from Mr Trelawney.",
+   "17sl1n48ua7": "“I have bought a beautiful ship. It is called the Hispaniola,” it said.",
+   "17o6r03s5tx": "“I have also found a very friendly cook: John Silver.”",
+   "blervegfc8": "“He is missing a leg, but he is a good sailor.”",
+   "1io60mghlxm": "“He has helped me find the sailors for the ship.”",
+   "1ljb6by5gx1": "Before leaving, I said goodbye to my mother.",
+   "1ifup24n2ku": "A boy from the village would help her at the inn.",
+   "fop8riaax0": "I cried a little when I saw the inn for the last time.",
+   "1mczgp6t6m1": "I travelled all night in a stagecoach.",
+   "vczcj08swj": "In the morning I arrived in Bristol.",
+   "2d4sjrx7ibg": "In the port there were many ships and sailors from all over the world.",
+   "27no6imnbz4": "Mr Trelawney was waiting for me, dressed as a captain.",
+   "1sws0lhwbje": "“Tomorrow we will set sail for the island!” he told me happily.",
+   "11xvs6b2ml9": "Mr Trelawney goes to Bristol.",
+   "2cuf35saui9": "He buys a ship: the Hispaniola.",
+   "24yq9r1etza": "He finds a cook called John Silver.",
+   "29i4mnzs84j": "John Silver is missing a leg.",
+   "yyblv1hz8j": "I say goodbye to my mother.",
+   "omv7gz87ah": "I travel all night.",
+   "fmiudcwvwj": "I arrive in Bristol.",
+   "ve1a9in0gn": "There are many ships in the port.",
+   "1d7lkqapa6i": "At the sign of the Spy-glass",
+   "1yj52mhdhd1": "Mr Trelawney sent me to take a note to John Silver.",
+   "21q2617dygd": "Silver had a tavern in the port called the Spy-glass.",
+   "2dnhb7yqht4": "Inside there were many sailors drinking and talking loudly.",
+   "opesiwas7v": "John Silver was tall and strong.",
+   "fwb736ybxx": "His left leg was missing and he walked with a crutch.",
+   "15wamtze4fk": "But he moved very fast, like a bird.",
+   "10bgnj8xx1b": "He had a big face and was always smiling.",
+   "148p3xhrsdv": "I thought about the captain’s sailor with one leg.",
+   "2c9kuybs0nf": "But Silver looked like a good and cheerful man.",
+   "18fctufvoqs": "“You must be the cabin boy,” he said. “Welcome!”",
+   "wxzr4od552": "Suddenly, I saw a man sitting in a corner.",
+   "5qrkbmr7hi": "Two fingers of his hand were missing: it was Black Dog!",
+   "166dkd07c9u": "“Stop him! He is a pirate!” I shouted.",
+   "hd1bk6f2l8": "Black Dog ran out and disappeared.",
+   "1bs4lpcdsia": "Silver got very angry.",
+   "2agm5qcg373": "“A pirate in my tavern! I do not know him at all!” he said.",
+   "1tcefalaatg": "Then we went together to see Mr Trelawney.",
+   "275c1pm7vx3": "Silver told him everything and he laughed.",
+   "1w6wu68g09o": "I thought that Silver was a good man.",
+   "1bhljvy4a2c": "I go to John Silver’s tavern.",
+   "d1rzs5gy46": "Silver walks with a crutch.",
+   "140xzdpz2se": "He is friendly and smiles a lot.",
+   "24u97bybeda": "In the tavern I see Black Dog.",
+   "1gw5pzv3w17": "“He is a pirate!” I shout.",
+   "p1rk3xis5q": "Black Dog runs away.",
+   "db0k0jxjnz": "Silver says he does not know him.",
+   "2dw9vokzaf1": "I think Silver is good.",
+   "24kt7vqgr0h": "Powder and arms",
+   "7vetrhyvz": "We went on board the Hispaniola to meet the ship’s captain.",
+   "p0zjpg7my3": "His name was Smollett and he was a serious, strict man.",
+   "akh4ehjm12": "“I do not like this voyage,” said Captain Smollett.",
+   "cvjvo65mf4": "“Why?” asked Mr Trelawney, angry.",
+   "1rq5cldg7wz": "“All the sailors know that we are going to look for a treasure.",
+   "ztdm02v1q0": "And they know that you have a map. That is dangerous.",
+   "2c9yg6bo863": "Besides, I did not choose these sailors.”",
+   "yvhayn8404": "Doctor Livesey listened to the captain carefully.",
+   "vrfx3shozy": "“What do you want us to do, captain?” he asked.",
+   "yjf9yebjty": "“I want to keep the gunpowder and the weapons near our cabins.",
+   "24je8zw62f8": "And the men we trust must sleep near us.”",
+   "r58qghtbu4": "Mr Trelawney was not happy, but he agreed.",
+   "1scqwssjfg": "His three servants, Redruth, Hunter and Joyce, could be trusted.",
+   "ubko1el3lg": "We moved the gunpowder that same night.",
+   "257j0jbalzq": "Silver watched everything with a smile.",
+   "islktsrdr4": "The ship’s captain is called Smollett.",
+   "90g03vepaz": "He is a serious man.",
+   "299eshwzmr0": "He does not like the sailors.",
+   "13chn2hiuiz": "“Everyone knows we are looking for a treasure,” he says.",
+   "xn2d111myl": "“It is dangerous.”",
+   "1krfdpou2nw": "We keep the weapons near us.",
+   "1hplyxezn7": "The voyage",
+   "1r10wpain80": "One early morning we raised the anchor and left the port.",
+   "2e0390ov9h8": "The sailors sang the song of the dead man’s chest.",
+   "ydz0g0zfxv": "I was very excited.",
+   "ozfowet906": "The voyage was long, but the ship was good.",
+   "1u7bc5ox5g5": "The sailors worked well and obeyed the captain.",
+   "14xbj5obafx": "Everyone loved John Silver, the cook.",
+   "1x4th3bgl9y": "Silver moved around the ship with his crutch without ever falling.",
+   "28q157itdnw": "Silver had a green parrot called Captain Flint.",
+   "22yfqvki0d8": "The parrot shouted all day: “Pieces of eight! Pieces of eight!”",
+   "2b1ve0hh19w": "“He is more than two hundred years old,” Silver told me, laughing.",
+   "w457m6km0s": "I spent many hours in the kitchen with him.",
+   "253v2uug6dz": "On the ship there was a barrel full of apples.",
+   "110xac8t78c": "Anyone could take some whenever they wanted.",
+   "1u6rvvcp45r": "One night, near the island, I was hungry.",
+   "2ae6svuhs8o": "I climbed into the barrel to take the last apple.",
+   "15qtm84w2op": "It was dark and I fell asleep for a little while.",
+   "xd7sb95m9k": "The ship leaves the port.",
+   "77r4lz0lbo": "The voyage is long.",
+   "1a94ikpcgse": "Everyone loves John Silver.",
+   "1ag88i63m0e": "Silver has a parrot.",
+   "42djvwe0bk": "The parrot shouts: “Pieces of eight!”",
+   "1eaulkqonrn": "On the ship there is a barrel of apples.",
+   "2bh0qxo0nib": "One night, I get into the barrel.",
+   "wrxngxw2ic": "I want to eat an apple.",
+   "1vc5a1qsc4z": "What I heard in the apple barrel",
+   "1kc50n6gllf": "Suddenly, someone sat down next to the barrel.",
+   "2918oovmfyh": "It was John Silver, and he was talking with a young sailor, Dick.",
+   "6kmbknyyvl": "I did not move and I listened.",
+   "1zaqfxps607": "“I sailed with Flint,” Silver said. “I was his right-hand man.",
+   "1s0twyjqut1": "I lost my leg in a battle.",
+   "1enu6oyb0qt": "Now I have money saved and I want more.”",
+   "1e0gutp5183": "Then I understood the truth and I trembled.",
+   "257ph3kf8xn": "Silver was a pirate, and many sailors were too!",
+   "1ufgg2q08hu": "“Do you want to join us, Dick?” Silver asked.",
+   "14bzogpe79o": "“Yes,” said the young man. “I am with you.”",
+   "1fr04zphqro": "Then another pirate came, Israel Hands.",
+   "7891lo3u0s": "“When will we attack, Silver? I am tired of waiting.”",
+   "4mqhsijqq9": "“We will wait until they find the treasure,” said Silver.",
+   "1vrhmms7stn": "“Then we will kill them all. Dead men do not talk.”",
+   "1f7oben5ef8": "I was very afraid inside the barrel.",
+   "24jmbcotakg": "At that moment, a sailor shouted from above:",
+   "1wth122qw95": "“Land! Land ahoy!”",
+   "h91adhuwli": "Everyone ran to see the island and I got out of the barrel.",
+   "2qehjc14t0": "I am inside the barrel.",
+   "3jud5rh8x6": "Silver is talking with a sailor.",
+   "24gu01mrn9a": "I listen.",
+   "n7xl0q1lh": "Silver is a pirate!",
+   "126wta8xo70": "Many sailors are pirates too.",
+   "2gmw6da80pp": "They want the treasure.",
+   "1a6htx5ddpw": "They want to kill my friends.",
+   "vchr3m69q3": "I am very afraid.",
+   "pkqnvhk3zr": "A sailor shouts: “Land!”",
+   "1pf6invitl": "We see the island.",
+   "1vsbjosgbgp": "Council of war",
+   "1itx97xi0vu": "Everyone looked at the island from the ship.",
+   "6k1divwr0s": "It was green and grey, with three hills.",
+   "csrop50t96": "“Does anyone know this island?” asked Captain Smollett.",
+   "1q3qv0xezg8": "“I do,” said Silver. “I was there years ago.”",
+   "1mtst1dn0k1": "The captain showed him a map of the island.",
+   "22pvfnjdsoh": "It was not the real map: it was a copy without the treasure crosses.",
+   "25cdjvmfumi": "Silver looked at it with shining eyes.",
+   "u6c70a8m0h": "I said to the doctor in a low voice: “I must talk to you.”",
+   "gc0ptq1np2": "After a while, they called me to the cabin.",
+   "1xavbggtgnj": "The captain, the doctor and Mr Trelawney were there.",
+   "1z9zn6nrn4y": "I told them everything I had heard inside the barrel.",
+   "bgw1x2camc": "“You were right, captain,” said Mr Trelawney, ashamed.",
+   "1y9uvih492f": "The captain counted the men they could trust.",
+   "1k40njkdh9p": "“We are seven, counting the boy. They are nineteen,” he said.",
+   "1i8f5qi67c4": "“We must wait and be careful. Jim can help us a lot.”",
+   "1za9mraonl3": "We arrive at the island.",
+   "12sgesdunxg": "Silver says he knows the island.",
+   "tqhl6uqpxx": "The captain shows him a false map.",
+   "2brz1bo2su5": "I talk with my friends.",
+   "21y6fqb74a0": "I tell them Silver’s secret.",
+   "1qrsxyp3rl0": "We are seven.",
+   "211278qv4m3": "The pirates are nineteen.",
+   "1y2khg678jb": "How my shore adventure began",
+   "2dvjc1k15hi": "The next morning, the island did not look beautiful.",
+   "116h250f1os": "It was grey and sad, and it had a strange smell.",
+   "w1jsasvne9": "It was very hot and there was no wind at all.",
+   "cglthhe4i": "The sailors were nervous and in a bad mood.",
+   "du7rplkhon": "They no longer obeyed the captain as before.",
+   "kqgt74mbdz": "“If we do not do something, they will rebel,” said the captain.",
+   "29t7vb6yvai": "The captain had an idea.",
+   "esmr379qzp": "“Men, today you can go ashore to rest,” he said.",
+   "88il2ja9uv": "The sailors were very happy.",
+   "1lgnqslopa6": "Silver organised the boats.",
+   "zb0kjdxna0": "Thirteen men went ashore and six stayed on the ship.",
+   "1gyuammmsm5": "Then I did something without thinking.",
+   "gji6y9edmg": "I hid in one of the boats.",
+   "1qv8138p5r4": "When the boat touched the beach, I jumped out and ran into the woods.",
+   "21x3b5ukuhf": "“Jim! Jim!” Silver shouted behind me.",
+   "1oqwygfqg66": "But I did not stop.",
+   "1eg8nttw4iy": "The island is grey and sad.",
+   "f2o2asbccp": "It is very hot.",
+   "4pk776ylop": "The sailors are angry.",
+   "2bv2x249jeu": "“You can go ashore,” says the captain.",
+   "2a84am22x3g": "Many sailors go to the island by boat.",
+   "jssmqgroqi": "I hide in a boat.",
+   "1i13dabfx2a": "I reach the beach.",
+   "2dfmkovbrpx": "I jump out and run to the woods.",
+   "1ajiwqiwour": "Silver calls me, but I do not stop.",
+   "c8w5cuowu8": "The first blow",
+   "10wm6uueyau": "I walked around the island all alone, very happy.",
+   "1yx1g1lfjhf": "There were strange plants, birds and snakes.",
+   "19i2q386e53": "A snake made a noise: it was a rattlesnake.",
+   "8hhori9xy8": "I jumped back and kept on walking.",
+   "1wgfdacs4v7": "Suddenly, I heard voices and hid behind a tree.",
+   "26f1gy936ag": "It was Silver, talking with an honest sailor, Tom.",
+   "733fjvliyi": "“Come with us, Tom,” Silver was saying.",
+   "1rthh35iy6i": "“No, Silver. I will never be a pirate,” Tom answered.",
+   "9skak6b233": "At that moment, a terrible scream was heard in the distance.",
+   "1sn9e7da63i": "“What was that?” asked Tom, frightened.",
+   "lunzhox5ry": "“That must be Alan,” said Silver, very calmly.",
+   "1onbc0tg0nh": "Alan was another honest sailor. The pirates had killed him.",
+   "oai4w32l74": "Tom turned round and began to walk away.",
+   "f2jkv70nks": "Then Silver threw his crutch very hard.",
+   "qlobpje14r": "The crutch hit Tom’s back and he fell.",
+   "20bw2zdzhvp": "Silver jumped on him with a knife.",
+   "1m77hn05r52": "I closed my eyes and shook with fear.",
+   "ptauptnn7j": "When I opened them, Tom was dead.",
+   "4fo2typ1c3": "I ran away through the woods as fast as I could.",
+   "1pfjkvyu7ju": "I walk around the island.",
+   "1xl4eu6fx8j": "I see birds and snakes.",
+   "2ev3dkz5w4s": "I hear voices and hide.",
+   "9elhs9cv59": "Silver is talking with Tom.",
+   "1i0q0sd9mri": "Tom is a good sailor.",
+   "1rxzi7ensgn": "“I do not want to be a pirate,” says Tom.",
+   "7z0q0g2ffh": "Silver kills Tom.",
+   "20xs4l3lrcc": "I run away through the woods.",
+   "1kuukbsjfvn": "The man of the island",
+   "14f3suwgbza": "As I ran away, I saw a strange figure among the trees.",
+   "29jb4s6t4bw": "It jumped from one tree trunk to another, like an animal.",
+   "93osyn4q7w": "I took my pistol, but the figure came closer.",
+   "15r7gfvtkjz": "It was a man with skin burnt by the sun.",
+   "2dgbfwa0ipf": "He wore old, torn clothes.",
+   "1jtvnbx2mgt": "“My name is Ben Gunn,” he said. “I have lived alone on this island for three years.”",
+   "16cs6yhr43r": "“Do you have a bit of cheese? It is so long since I ate any!”",
+   "8wlpkm0xu2": "Ben Gunn told me everything.",
+   "23mm3qn6832": "He had also sailed with Captain Flint.",
+   "1eeoqdwigq4": "His shipmates had abandoned him on the island.",
+   "1syaiuby2il": "“Now I am rich, very rich,” he said, with a strange smile.",
+   "e1iuhx8u11": "I told him that Silver and the pirates wanted the treasure.",
+   "uzog74zk2n": "“Silver? The one with the wooden leg?” he said, frightened.",
+   "aeef6nvljz": "“Tell your friends that I will help them.",
+   "1n15tsobiv2": "I have a boat hidden under a white rock.”",
+   "14n2h7ivu4t": "Suddenly, we heard a very loud cannon shot.",
+   "1hu2o5rf44e": "“The fighting has begun!” I said.",
+   "ka15okhv2z": "We ran towards the beach.",
+   "1mn4bzum5f": "Among the trees I saw an English flag over a wooden house.",
+   "9fup3luyqm": "In the woods I see a strange man.",
+   "10jqi8igfcn": "His name is Ben Gunn.",
+   "1ahpxngtkg5": "He has lived alone on the island for three years.",
+   "gxqjllrr4u": "Ben Gunn was one of Flint’s pirates.",
+   "fhsh893h16": "He wants to eat cheese.",
+   "25memcjn185": "He says he will help us.",
+   "yl9xiky4tm": "We hear a cannon.",
+   "1ib1noj84u9": "I see a flag over a wooden house.",
+   "o0ctcnnf3o": "The doctor’s story: how the ship was abandoned",
+   "1i1j6qt8qfl": "Now I, Doctor Livesey, will tell what happened on the ship.",
+   "2atd5o4xava": "When Jim disappeared, we were very worried.",
+   "1whlu9o1tgb": "Six pirates were on the ship with us.",
+   "rtn51rdjhh": "I went ashore in a boat with Hunter.",
+   "74zfikoyzp": "Near the beach we found a stockade.",
+   "tb8vcu1xkv": "It was a wooden house on top of a hill, with a fence around it.",
+   "27n3dv1t9z3": "Inside there was a spring of fresh water.",
+   "a3poffcyfz": "“We will be safe here,” I thought.",
+   "111n21o1ldj": "I went back to the ship and we made a plan.",
+   "5uj64rhih7": "We loaded the boat with food, gunpowder and weapons.",
+   "1nhlnjfdqg7": "A sailor, Abraham Gray, wanted to come with us.",
+   "1a2173scfwy": "“I am not a pirate, captain,” he said.",
+   "10xt4tr5k4n": "We all got into the boat and left the Hispaniola.",
+   "53bl5e1sut": "The pirates on the ship watched us, surprised.",
+   "1lxdvybgvfu": "Now the ship was theirs, but we had the map.",
+   "kh8yx6upgp": "Now the doctor speaks.",
+   "63upm4t4f4": "The doctor goes to the island.",
+   "scyx2t5g3k": "He finds a wooden house with water.",
+   "12ds7cfsjsa": "It is a stockade.",
+   "1t39ul4egzb": "We put food and weapons in the boat.",
+   "2648gzesg4n": "A good sailor comes with us.",
+   "mnrggs0zjq": "We leave the ship.",
+   "y2pytj8y1r": "The jolly-boat’s last trip",
+   "16z4uvsytut": "The boat was too heavily loaded.",
+   "q2gee8y3zw": "The water almost came in over the sides.",
+   "1dq6fltuo4l": "The sea current pushed us away from the beach.",
+   "2b0j9rgwe12": "Suddenly, the captain looked at the ship.",
+   "22h5t927fzg": "“They want to fire the cannon at us!” he shouted.",
+   "ehx98rac1j": "Israel Hands was preparing the ship’s cannon.",
+   "1md067sxevs": "Mr Trelawney fired, but did not hit him.",
+   "2g2mp0okona": "The cannon made a terrible noise.",
+   "hm11pygs7j": "The cannonball fell very close and the boat sank.",
+   "1anw5zf22my": "Luckily, the water was not very deep.",
+   "gtkuufrlvr": "We lost a large part of the food and the gunpowder.",
+   "1d45cvez3is": "We ran to the stockade with the weapons we had left.",
+   "exdf09m9tl": "The pirates on the island attacked us among the trees.",
+   "66u0yp0o7u": "We fired and they ran away.",
+   "wnd5muhuib": "But Redruth, Mr Trelawney’s servant, fell wounded.",
+   "rdtakcotsi": "The boat is too heavy.",
+   "19v9fqmeurg": "The pirates fire the cannon.",
+   "y0put460ds": "The boat sinks.",
+   "ojis1philf": "We lose the food.",
+   "139h2hsswsf": "We run to the stockade.",
+   "h2fg78j54w": "The pirates attack.",
+   "1gpexb4zj03": "Redruth is wounded.",
+   "vel713r34l": "End of the first day’s fighting",
+   "yrrvmyvvhw": "We carried Redruth into the stockade.",
+   "srsaqrard": "Mr Trelawney held his hand and cried.",
+   "1lb1f524p6y": "Redruth died that same afternoon.",
+   "180yhqblcrq": "Captain Smollett hung the English flag on the house.",
+   "12r3vuhbsy1": "The pirates fired the cannon from the ship.",
+   "1to36jw8fwe": "The cannonballs flew over the stockade.",
+   "12gv1tiwf03": "“Do not be afraid,” said the captain. “They cannot hit us.”",
+   "20sqnl5c1xm": "The captain counted the food we had left.",
+   "9lorz2nzt7": "“We have food for ten days, if we eat little,” he said.",
+   "1zxnir7nbej": "I, the doctor, was thinking about Ben Gunn, the man of the island.",
+   "1bwivf38o2u": "In the evening we heard a voice outside the fence.",
+   "2c792wc7d5l": "“Doctor! Mr Trelawney! Captain! It is me!”",
+   "11stfao1snb": "It was Jim, alive and without any wound.",
+   "v3sboixuhh": "We ran to open the door for him, very happy.",
+   "j2bhskpwuw": "Redruth dies.",
+   "16yi0oucpnn": "We are all sad.",
+   "107hcdwps5y": "The captain hangs up a flag.",
+   "1slqukno44i": "The pirates fire from the ship.",
+   "wz3tac22va": "We have food for a few days.",
+   "1p6gcm9vfde": "In the evening, Jim arrives.",
+   "1n1c3v1j793": "We are very happy.",
+   "zc5nipc085": "Jim tells again: the garrison in the stockade",
+   "1v9hdjcyu61": "Now I, Jim, am telling the story again.",
+   "1z0hgnkvi5f": "When I saw the flag, Ben Gunn stopped.",
+   "223jzxhkliv": "“Your friends are there,” he told me. “I am going.",
+   "mhsygtn7ly": "If they need me, they must look for me with a white handkerchief in their hand.”",
+   "xk2l3zqigw": "I waited until it was dark and ran to the stockade.",
+   "ua4nap00qz": "My friends welcomed me with great joy.",
+   "1xhmichct35": "I told them the story of Ben Gunn.",
+   "1ibl55z6csj": "The doctor listened very carefully.",
+   "imaazq7cxc": "In the stockade, everyone worked.",
+   "1szjfnqxzge": "We gathered firewood, kept watch and cooked.",
+   "15iexbrddbv": "The house was full of smoke and sand.",
+   "8t7jj8umu1": "The captain organised everything very well.",
+   "18pjv7obzpl": "The next morning, someone shouted from outside.",
+   "1wqekq7qs0i": "It was John Silver, with a white handkerchief tied to a stick.",
+   "25z2m84x1ae": "“I come to talk in peace!” he shouted.",
+   "fdmoqg34uc": "Ben Gunn goes away.",
+   "1g35clrenak": "I go to the stockade.",
+   "2a02fit70v0": "My friends are happy to see me.",
+   "1or7ba6marh": "In the stockade we work a lot.",
+   "226jv142wkm": "In the morning Silver arrives.",
+   "cc6wf8nd7n": "He carries a white handkerchief.",
+   "2cn2jmvzauk": "He wants to talk.",
+   "lh54dez5x": "Silver’s embassy",
+   "2ehih74b3o": "The captain let Silver come inside the fence.",
+   "263dkpuu79h": "Silver sat down on the ground, on the sand.",
+   "1cjzdlmj3lx": "“Good morning, captain,” he said with a smile.",
+   "1wq8p9hzef2": "“Say what you want,” answered the captain, very seriously.",
+   "1a3mzf6cpf1": "“We want the treasure map,” said Silver.",
+   "1w6dltmj316": "“If you give it to us, we will take you home safe and sound.",
+   "7p5tdt3wki": "Or we can leave you on the island with food.”",
+   "oj1i6trabt": "The captain laughed.",
+   "ja0d1ezzpk": "“You cannot sail without me, Silver.",
+   "2clptnlqdhi": "You will never find the treasure or get back home.",
+   "1btzxe7ige3": "Surrender, and I will take you to England to be judged.”",
+   "ljwnl8tw10": "Silver turned red with anger.",
+   "1l40l59hnu6": "“Will nobody help me get up?” he shouted.",
+   "qszyjmm3mc": "Nobody helped him and he got up by himself, with difficulty.",
+   "1c3bhhee66x": "“In one hour we will attack the stockade!” he said before leaving.",
+   "cjkgv9t1o0": "Silver talks with the captain.",
+   "r8si2rueu9": "“Give us the map,” says Silver.",
+   "2cyhgwijc0o": "“No,” says the captain.",
+   "3c3n7fm004": "Silver gets very angry.",
+   "biq42b2sox": "“We will attack in one hour!” he shouts.",
+   "2gn97rrotwp": "Silver leaves.",
+   "4yx8668qsd": "The attack",
+   "1oqs7iw7bt5": "The captain got the men ready for the fight.",
+   "k77o9j5gt2": "Each one had a place in the house and several weapons.",
+   "195rpiv7mg7": "It was very hot and everyone was sweating.",
+   "1ryjb1ieb99": "We waited in silence.",
+   "17zevt9ntdn": "Suddenly, the pirates came out of the woods shouting.",
+   "1k2gkfjaym2": "They jumped over the fence and ran towards the house.",
+   "11snx3gawze": "We fired through the windows.",
+   "1uu24vg0fmw": "There was smoke, shouting and noise everywhere.",
+   "gq7x9607hr": "A pirate came in through a window with a knife.",
+   "fzu9z1wqis": "“Get out! Fight outside!” shouted the captain.",
+   "2ezmrczgu0z": "I grabbed a cutlass and ran outside.",
+   "9lft413wnr": "I tripped and rolled down the hill.",
+   "1shu9fi51rp": "When I got up, the fight was over.",
+   "t6boggvroq": "Five pirates were dead and the others had run away.",
+   "2cmyb8f33n3": "But we had also lost friends.",
+   "1e28g6dnhh2": "Joyce was dead, Hunter was very badly hurt and the captain was wounded.",
+   "x9ncqehofy": "The pirates attack the stockade.",
+   "cjd38vkw8m": "There is a lot of noise and smoke.",
+   "1aykbhj30od": "We fire through the windows.",
+   "2eyrqbb2c3p": "Many pirates die.",
+   "1xk3aeep4fc": "The others run away.",
+   "31rf5v55er": "The captain is wounded.",
+   "riizb2deuj": "Two of our friends are also wounded.",
+   "ndd160384t": "How my sea adventure began",
+   "120amriac6z": "Hunter died that night.",
+   "descy0u135": "Now we were only five: the captain, the doctor, Mr Trelawney, Gray and I.",
+   "9ip2qbzdlj": "The doctor took the map and went off into the woods.",
+   "1c61e4m5yuz": "“He is going to find Ben Gunn,” said Gray.",
+   "1zpo7xozz0o": "It was very hot inside the stockade and I was bored.",
+   "r93cga3o7c": "I also envied the doctor, who was walking in the cool woods.",
+   "lqzfhz8bf2": "Then I had a crazy idea.",
+   "1iepdt19kz": "I took two pistols, gunpowder and biscuits.",
+   "tmezfb0h1x": "When nobody was looking, I jumped over the fence and ran away.",
+   "2aqfsco0rdb": "I knew it was wrong, but I wanted to find Ben Gunn’s boat.",
+   "26w3v94jklt": "I walked along the beach to the white rock.",
+   "1gfa4e29h6x": "Under the rock there was a small boat made of skins.",
+   "1jyvyale4jr": "It was very light and I could carry it by myself.",
+   "2b9o1xlgro8": "Then I thought: “I will go to the ship.”",
+   "11ndnnitpru": "Hunter dies.",
+   "hg73eb0ntp": "The doctor goes to look for Ben Gunn.",
+   "1xk45ig728f": "I am bored in the stockade.",
+   "1v76nkzz6f8": "I take two pistols and some food.",
+   "topuup654c": "I escape without saying anything.",
+   "1tijdpw3rik": "I find Ben Gunn’s boat.",
+   "1jg24mlmolt": "It is very small.",
+   "12sz9el75ry": "The ebb-tide runs",
+   "7pca2fz3mt": "I waited until it was night and put the boat in the water.",
+   "22tuvhymb88": "It was very hard to steer: it turned in every direction.",
+   "1q3xgx379sc": "Luckily, the tide carried me to the ship.",
+   "28t1acc8jfz": "The Hispaniola was tied to the anchor with a thick rope.",
+   "87ikk0bbly": "I took out my knife and began to cut the rope.",
+   "o5pt9vgwk3": "It was very hard and it took me a long time.",
+   "1gdyihouef0": "While I was cutting, I heard voices inside the ship.",
+   "vw51cqrgiw": "They were two pirates, Israel Hands and another one, who were fighting.",
+   "1808bdgiv3q": "Both of them had drunk too much rum.",
+   "1pu5foy34li": "At last the rope broke and the ship began to move.",
+   "20awvyo9l7n": "The ship and my boat were drifting.",
+   "1pjb3eph85k": "The current carried us towards the open sea.",
+   "1eq3n35lu1s": "I was very afraid and lay down at the bottom of the boat.",
+   "fn1ppi25ed": "I was so tired that I fell asleep.",
+   "1sxg99lgwmh": "At night, I put the boat in the water.",
+   "108hdyy4zv0": "I reach the ship.",
+   "2elsqbptksv": "I cut the anchor rope.",
+   "25znhq1lwix": "The ship moves by itself.",
+   "112mxzusyxo": "Inside, two pirates are fighting.",
+   "zuy5qcgzze": "I am afraid.",
+   "2bkm556rpnc": "I fall asleep in the boat.",
+   "sn6ljn3y0c": "The cruise of the coracle",
+   "t58bke55lg": "When I woke up, it was already day.",
+   "12zguka5zr7": "I was near the coast of the island, in the south.",
+   "ximv1slf90": "But the waves were very big and broke against the rocks.",
+   "1uwhikcsoc6": "I could not reach the land.",
+   "2dnyvanmcg3": "On the rocks there were some big animals roaring.",
+   "1atv8ycwfje": "They were sea lions, but I did not know it and they frightened me.",
+   "yrrxqsnptd": "I was very thirsty and the sun was burning.",
+   "1xcwty9h9xf": "Suddenly, I saw the Hispaniola near me.",
+   "1qaymvehrc7": "It was sailing in a strange way, from one side to the other.",
+   "7xo0smwcxo": "Nobody was at the helm.",
+   "zgu0ax62a6": "“Maybe the pirates are drunk,” I thought.",
+   "1uno3v8s5jm": "I paddled with all my strength towards the ship.",
+   "jvam9clc8i": "When the ship passed next to me, I jumped.",
+   "1zbwqqw81mu": "I grabbed a rope and climbed on board.",
+   "23hfkcja5o8": "The ship hit my little boat and sank it.",
+   "242a76kgtwa": "I wake up at sea.",
+   "rd8iyw0kos": "The waves are very big.",
+   "10f3s395fu6": "I cannot reach the land.",
+   "cribarcs17": "I am thirsty.",
+   "10uixzwp10p": "I see the ship near me.",
+   "2eukoc3ww73": "Nobody is steering it.",
+   "1oa2x1oqjkh": "I jump and climb onto the ship.",
+   "1bcrv0vsd3z": "I strike the Jolly Roger",
+   "1hivvh61s43": "On the deck of the ship there were two pirates.",
+   "l6u5ehpdft": "One was dead. The other was Israel Hands, wounded and very pale.",
+   "abn9fis1ki": "“Water...” he said in a weak voice.",
+   "zpdrkp9k7t": "I gave him water and a little food.",
+   "1znvgv5ldbb": "At the top of the mast there was the pirates’ black flag.",
+   "kpph60nydl": "It had a white skull on it.",
+   "svf18ro0o8": "I pulled down the flag and threw it into the sea.",
+   "du1swb6bk8": "“Now the ship is ours!” I shouted.",
+   "109hjcvi8li": "Israel Hands looked at me with strange eyes.",
+   "1cq16e1giat": "“I know how to sail the ship,” he told me. “You do not.",
+   "y2gxkbw2ib": "If you take care of my wound, I will help you hide it.”",
+   "iw3m06ail0": "We made a deal.",
+   "iz6uwwqje": "Hands told me how to steer.",
+   "z9o2gubnvy": "We wanted to take the ship to a quiet bay, in the north of the island.",
+   "892qq34g6u": "The wind was good and we sailed quickly.",
+   "2d58vuychr0": "I was happy, but I did not trust Hands at all.",
+   "1s5orl9oi1t": "Israel Hands is on the ship.",
+   "26mlac17ixz": "He is wounded.",
+   "11fcqlb309g": "I give him water.",
+   "o5ki07pwdh": "I pull down the pirates’ flag.",
+   "14bqdjuim21": "Hands helps me sail the ship.",
+   "8do5oihoqc": "But I do not trust him.",
+   "rc2n8vbwj": "Israel Hands",
+   "28ac0ds8f0z": "“Jim, bring me a bottle of wine from the cabin,” Hands asked me.",
+   "7uys3pqrmy": "It seemed strange to me and I watched secretly.",
+   "wcxqwuidg9": "Hands got up and picked up a long knife.",
+   "1324yiy2imx": "He hid it under his jacket.",
+   "ro5bngknep": "I came back as if I had seen nothing.",
+   "5d5gcslr9y": "The ship entered the bay and touched the sand.",
+   "xulvpwst9u": "At that moment, Hands threw himself at me with the knife.",
+   "rsf54kh0pk": "I ran away and climbed up the ship’s mast.",
+   "1s8nzkqe6hs": "Hands followed me, with the knife in his mouth.",
+   "1rr2i068jy9": "At the very top, I loaded the pistols with dry gunpowder.",
+   "4zjsbyrjjb": "“One more step and I will shoot!” I shouted.",
+   "3yx8yz7tqs": "Hands stopped and threw the knife.",
+   "mrpoyxzsyy": "The knife pinned my shoulder to the mast.",
+   "2cgkbv9jcr0": "With the pain, my pistols went off.",
+   "1xjo4s3j0qe": "Hands fell into the water and never came up again.",
+   "pxvjt5ll2n": "Hands hides a knife.",
+   "1g60h1n3g16": "I see it.",
+   "18clgaxvvv7": "Hands attacks me.",
+   "20xwwtm4tuh": "I climb up the ship’s mast.",
+   "2brrcn9krnc": "Hands throws the knife at me.",
+   "t0r7a53ozq": "It hurts my shoulder.",
+   "1kr8mfhf0a4": "Hands falls into the water and dies.",
+   "3zezd0ciay": "“Pieces of eight!”",
+   "11ptw5ykli7": "I pulled my shoulder and the knife came out.",
+   "5nsliqk91f": "It hurt, but the wound was not very deep.",
+   "1ovd6n2qz3a": "I came down the mast slowly.",
+   "j7x0sgqwhk": "The ship was safe in the bay.",
+   "1oczmpdsmq0": "I jumped into the water and swam to the beach.",
+   "19bx3cym4iz": "I was tired, but very happy.",
+   "1k4409e968e": "“Now I will go back to my friends and give them the good news,” I thought.",
+   "1t24dtuah99": "It was night when I reached the stockade.",
+   "179wzb2lfte": "Everything was dark and silent.",
+   "1pi2d4d0n5g": "I went into the house without making a noise.",
+   "8jhfde28vm": "I could hear people sleeping and snoring.",
+   "cpmqoacsgo": "Suddenly, a shrill voice shouted in the darkness:",
+   "hyf7lavemd": "“Pieces of eight! Pieces of eight! Pieces of eight!”",
+   "1wvro0b02kf": "It was Silver’s parrot!",
+   "1qc2szaew2f": "The pirates woke up and caught me.",
+   "1wdnjbhxeqc": "I pull out the knife.",
+   "9xsr874coc": "I swim to the beach.",
+   "1rp8lj26xkw": "I go back to the stockade at night.",
+   "1y846l24z56": "Everything is dark.",
+   "14s2yl6k3f0": "A parrot shouts: “Pieces of eight!”",
+   "2pqmnapflx": "It is Silver’s parrot!",
+   "hz3g7l9wyv": "The pirates catch me.",
+   "270i1uf8v5u": "In the enemy’s camp",
+   "ceud43jddg": "The pirates lit a torch.",
+   "ftg5uheh7w": "There were six of them, and Silver was their leader.",
+   "1l82c59ilf": "My friends were not there.",
+   "21lz2vu3wgu": "“Where are my friends?” I asked, frightened.",
+   "20s8pt8lbt0": "“They are alive,” said Silver. “Yesterday the doctor came to talk to us.",
+   "g3on5i8srn": "He gave us the stockade and they went away.”",
+   "fl5i3kb3os": "I did not understand why they had done it.",
+   "1fpzfjn2t6m": "I decided to tell the truth, bravely.",
+   "1xz6rhyaw3": "“I was inside the apple barrel and I heard you.",
+   "1ecyllvb3vm": "I cut the ship’s rope and hid it.",
+   "pwbbsoppf7": "If you kill me, you will never find the ship.”",
+   "1j9btm3872d": "The pirates got very angry and drew their knives.",
+   "20tp2y1u0ew": "“Nobody will touch the boy!” shouted Silver.",
+   "1kx8p6ysylq": "The pirates went outside to talk among themselves.",
+   "37u5b55nbb": "“Jim, you and I must help each other,” Silver told me in a low voice.",
+   "1h4eu44ixtn": "The pirates are in the stockade.",
+   "1gkkacwxg81": "My friends are not there.",
+   "silmo3ulyf": "Silver says they are alive.",
+   "vs2lygrsqs": "I tell the pirates the truth.",
+   "6tkvojpefb": "The pirates want to kill me.",
+   "qsxm7n7jpb": "Silver protects me.",
+   "28kzugepu9b": "The black spot again",
+   "p7ds6a2jt2": "After a while, the pirates came back in.",
+   "14t278c48go": "One of them, George Merry, gave Silver a paper.",
+   "245n82fvj3d": "It was the black spot!",
+   "1djr2t5hrde": "“You are no longer our captain,” said Merry.",
+   "1pmbkm6i13r": "Silver was not frightened at all.",
+   "1tlca3ilk60": "“Why?” he asked calmly.",
+   "15i0vro35p8": "“You have protected the boy and let the enemies go,” they said.",
+   "d5xdilidzq": "Then Silver took a paper out of his pocket.",
+   "t41an10tf1": "He threw it on the ground in front of the pirates.",
+   "ww7jnghryl": "It was the treasure map, with the three red crosses!",
+   "t7ykns32yb": "The doctor had given it to him.",
+   "2cmsqwg20hg": "The pirates grabbed the map, very happy.",
+   "2gbwch96lis": "“Hurrah for Silver! Hurrah for the captain!” they shouted.",
+   "sz82u6srhh": "Silver was the leader of the pirates again.",
+   "22d779ikv1i": "I did not understand why the doctor had given away the map.",
+   "iw54r15ylz": "The pirates give Silver the black spot.",
+   "yxdj855woq": "They do not want him as their leader any more.",
+   "1ytf3xw0q2o": "Silver shows them the treasure map.",
+   "2gocoh8fvm0": "The pirates are happy.",
+   "4oklm8tqaz": "Silver is the leader again.",
+   "1b2y7u7yuqv": "On parole",
+   "ex3nytvm6j": "The next morning, the doctor came to the stockade.",
+   "2fif9t09rd1": "He came to treat the sick and wounded pirates.",
+   "2ckb2hiuk85": "When he saw me, he was astonished.",
+   "lw4dnur5zl": "But he did his work calmly.",
+   "1rsrvw5kd0y": "Afterwards, the doctor spoke with me at the fence.",
+   "23hxex3osb1": "Silver watched us from a little way off.",
+   "1lv13up70mg": "“Jump over the fence and let’s run, Jim!” said the doctor.",
+   "25ou75l1o6z": "“I cannot,” I answered. “I have given Silver my word of honour.”",
+   "tvkfjafcuj": "I told the doctor where the ship was.",
+   "1c6662aoq73": "“Jim, you have saved our lives again!” he said.",
+   "1k0hjq8onrv": "Then he called Silver.",
+   "1a8dn40vk0o": "“Silver, keep the boy close,” he told him.",
+   "emp0po1x2h": "“And when you find the treasure, be careful.”",
+   "enqs9wq4h2": "The doctor comes to the stockade.",
+   "1nsjr8twn9m": "He treats the sick pirates.",
+   "1ybwek4rw43": "He talks with me.",
+   "131jaeky99e": "“Let’s run away!” says the doctor.",
+   "1vnyvnzzly7": "“I cannot. I have made a promise to Silver,” I say.",
+   "1cwv84c4rsj": "I tell the doctor where the ship is.",
+   "1r6x2z6vki7": "The treasure-hunt: Flint’s pointer",
+   "fty55ffwm0": "After breakfast, the pirates set out to look for the treasure.",
+   "g2k8v3jtjy": "They carried picks, shovels, weapons and food.",
+   "1afejym7pwc": "Silver led me tied with a rope, like a dog.",
+   "2gjb96lagn2": "I thought: “When they find the treasure, what will happen to me?”",
+   "a38trw95y0": "On the map there were some words written by Flint.",
+   "1jxce8ft72j": "“A tall tree, on the shoulder of Spy-glass Hill.”",
+   "2csusife24y": "We climbed slowly up a hill full of trees.",
+   "o8eiobjx9y": "It was very hot and the pirates were tired.",
+   "u3rdyotjvs": "Suddenly, a pirate screamed with fear.",
+   "trj5gwopaq": "On the ground, among the plants, there was a skeleton.",
+   "nofwt529t1": "Its arms were stretched out above its head, like an arrow.",
+   "179stjq44se": "“It is one of Flint’s men,” said Silver. “It is pointing the way for us.”",
+   "17qqaxt8foj": "The pirates were very afraid.",
+   "31nu7b73v6": "“Flint killed him and left him here,” they said quietly.",
+   "16zx00taplw": "“Flint is dead,” said Silver. “Dead men cannot hurt you.”",
+   "1d42efdg1ek": "But everyone walked very close together and in silence.",
+   "14gn4nmwb37": "The pirates look for the treasure.",
+   "uzk57up761": "I am tied with a rope.",
+   "162a8csi2y0": "We climb a hill.",
+   "1uol9kp72cq": "We find a skeleton.",
+   "18e4ex2j5uj": "Its arms point to a path.",
+   "2658xlay0zz": "The pirates are afraid.",
+   "1bynsp63m96": "The treasure-hunt: the voice among the trees",
+   "2irmn5640d": "The pirates sat down to rest on top of the hill.",
+   "1urr5s53gpf": "From there you could see the whole island and the sea.",
+   "m7dxdm00m7": "Then, among the trees, a thin voice began to sing:",
+   "2f7soope8gf": "The pirates turned white with fear.",
+   "1v34yz7z341": "“It is Flint!” said one. “It is his ghost!”",
+   "6tn0s714e9": "The voice shouted: “Darby, fetch the rum!”",
+   "54eymi392v": "“Those were Flint’s last words!” they said, trembling.",
+   "uib9m5unpd": "Silver listened carefully.",
+   "a9w0lmy5hk": "“That voice is not Flint’s,” he said. “It is Ben Gunn’s!”",
+   "121xzl0gxb9": "“Ben Gunn may be alive or dead, but he will not scare us!”",
+   "1fdbo05ruci": "The pirates cheered up and kept on walking.",
+   "bt67go7pgj": "At last they reached the place of the red cross.",
+   "ll5sbvb18r": "They ran, shouting with joy.",
+   "sy7dh37f6h": "But there was only a big hole in the ground.",
+   "d5wcdurm5q": "The hole was empty! Someone had already taken the treasure.",
+   "64coold0pe": "We hear a voice among the trees.",
+   "49jr6ralyq": "It sings the pirates’ song.",
+   "3mfnsgps6v": "The pirates think it is a ghost.",
+   "1rn7xufcfbn": "Silver says it is Ben Gunn.",
+   "nt4qdgskv5": "We reach the place of the treasure.",
+   "19tdtb9uaro": "There is a hole.",
+   "n1lzfc1sp6": "The hole is empty!",
+   "99m1n1o2gz": "The fall of a chieftain",
+   "jfd7ypj682": "The pirates looked at the empty hole, furious.",
+   "2exrww66wcb": "They found only one gold coin in it.",
+   "8rb1swbolm": "Silver secretly gave me a pistol.",
+   "mycaw4etfb": "“Get ready, Jim,” he whispered in my ear.",
+   "5kk5k97stl": "“You have tricked us, Silver!” shouted George Merry.",
+   "2crwfjcze93": "The pirates wanted to attack Silver and me.",
+   "664m34iuf7": "Suddenly, shots rang out from the trees.",
+   "7tw6mngfc0": "Merry fell into the hole and two pirates ran away.",
+   "uao5z1yc43": "Out of the woods came the doctor, Gray and Ben Gunn.",
+   "11mjx7o1vgq": "“Thank you, doctor,” said Silver. “You arrived just in time.”",
+   "2497ua29m70": "Then the doctor told us the secret.",
+   "wk9024w03s": "Long ago, Ben Gunn had found Flint’s treasure.",
+   "1a0lwtpxszm": "He had carried it to a cave, little by little, over many months.",
+   "16hwch5hwni": "That is why the doctor had given the map to the pirates: it was no longer any use!",
+   "5yet0wtfgg": "We all went to Ben Gunn’s cave.",
+   "mimi3dp6wa": "The captain and Mr Trelawney were waiting for us there.",
+   "pyk9zbt7mn": "At the back of the cave, the treasure was shining.",
+   "1kr4ta67629": "There were piles of coins and bars of gold.",
+   "3qrjhxccml": "That night we all had dinner together, very happy.",
+   "sb9bc61y7z": "The pirates get angry with Silver.",
+   "krocgylxfm": "They want to attack us.",
+   "1wx3k7slpmi": "The doctor and Ben Gunn arrive.",
+   "39djomfuwt": "Ben Gunn had the treasure.",
+   "1jvx5d1j8vu": "He had hidden it in a cave.",
+   "29wmqj420xr": "We go to the cave.",
+   "14v85yhadt1": "There is a lot of gold!",
+   "29r0ggwjel": "And last",
+   "1jqbz89sw0h": "We worked for many days to carry the treasure to the ship.",
+   "1kw2nw50mxd": "There were coins from every country in the world.",
+   "1sxo7n9avo1": "I enjoyed myself a lot sorting them.",
+   "mqllqo2yg": "The three pirates who were left hid on the island.",
+   "2437aaw54dd": "We decided to leave them there with food, clothes and tools.",
+   "266h03stqj2": "One morning, we raised the anchor and left the bay.",
+   "213tp3blwf4": "I saw the island for the last time, smaller and smaller.",
+   "qfnr15d69n": "We stopped at a port in South America.",
+   "8mnbi8golb": "That night, Silver escaped from the ship.",
+   "1mydhlb7epx": "He took a bag of coins with him.",
+   "14ctys6lr0a": "I think we were all glad that he had gone.",
+   "qy8qoykw5s": "At last, the Hispaniola arrived in Bristol.",
+   "1yehz0n6jf1": "Each one received his share of the treasure.",
+   "9k06lw6vl9": "Ben Gunn spent his money in a few days.",
+   "1h9uljye15u": "I went back home to my mother.",
+   "srnt9e46nj": "We have never heard anything more about John Silver.",
+   "4g87j09qpz": "There is still treasure on the island, but I will never go back.",
+   "1l5gml3opmx": "Some nights I still have nightmares.",
+   "1gryatn9rp6": "I hear the voice of the parrot shouting: “Pieces of eight! Pieces of eight!”",
+   "fn3yysy7h4": "We carry the treasure to the ship.",
+   "1j0icpwlhc3": "Three pirates stay on the island.",
+   "2e4sqpee0ds": "We leave the island.",
+   "1ggf3tmtrmu": "Silver escapes with a little gold.",
+   "1k50kbe88tb": "We go back to Bristol.",
+   "1clcheglkoc": "We all have a share of the treasure.",
+   "509eo0du4y": "I go back home to my mother.",
+   "12y7rwlmkwk": "I will never go back to the island.",
+   "21suogej1d8": "But sometimes I dream about Silver’s parrot."
   },
   "ur": {
    "rxlaqm39w1": "بوڑھا ملاح",
@@ -2554,7 +7057,7 @@
    "17uxfx13eef": "اس کے چہرے پر زخم کا ایک لمبا نشان تھا۔",
    "1vs4026d5x2": "اس کے پاس ایک بڑا اور بھاری صندوق تھا۔",
    "1pttt7oj6jy": "چلتے ہوئے وہ قزاقوں کا ایک گانا گا رہا تھا:",
-   "1fha1p1ax1g": "«مردے کے صندوق پر پندرہ آدمی، اور رم کی ایک بوتل!»",
+   "1fha1p1ax1g": "”مردے کے صندوق پر پندرہ آدمی، اور رم کی ایک بوتل!“",
    "1r1m0ujtip6": "ملاح نے کہا: ”مجھے یہ جگہ پسند ہے۔ کیا یہاں بہت لوگ آتے ہیں؟“",
    "bl1cfqa0qo": "میرے والد نے اسے بتایا کہ نہیں، یہاں کم لوگ آتے ہیں۔",
    "1an1u0tt7kf": "اس نے کہا: ”تو پھر میں یہیں رہوں گا۔ مجھے کپتان کہو۔“",
@@ -2679,7 +7182,7 @@
    "2eqgq19j2p4": "وہ پوچھتا ہے: ”میرا دوست بِل کہاں ہے؟“",
    "bk3z66rwkl": "بِل کپتان کا اصل نام ہے۔",
    "1a34do3xuyt": "بلیک ڈاگ دروازے کے پیچھے چھپ جاتا ہے۔",
-   "wgd84ou12v": "مجھے بہت ڈر لگ رہا ہے۔",
+   "wgd84ou12v": "مجھے بہت ڈر لگتا ہے۔",
    "l2e5yyek8u": "کپتان واپس آتا ہے۔",
    "1xk005acrki": "وہ بلیک ڈاگ کو دیکھتا ہے اور اس کا رنگ سفید ہو جاتا ہے۔",
    "v0moijcb9w": "دونوں آدمی میز پر بات کرتے ہیں۔",
@@ -2694,7 +7197,818 @@
    "1ul8v8kfbjy": "”اگر تم نے پی تو مر جاؤ گے۔“",
    "t6jjtrgtbo": "ہم کپتان کو بستر پر لے جاتے ہیں۔",
    "1p7121rhac1": "کپتان سو جاتا ہے۔",
-   "klctxi32z1": "لیکن خطرہ ختم نہیں ہوتا۔"
+   "klctxi32z1": "لیکن خطرہ ختم نہیں ہوتا۔",
+   "scm13b5vvz": "سیاہ نشان",
+   "lz0r9i0p6y": "کپتان بہت کمزور ہو گیا اور بستر سے نہیں اٹھ سکتا تھا۔",
+   "111o7z6m50k": "ایک دن اس نے مجھے بلایا اور دھیمی آواز میں بات کی۔",
+   "11oc9lfp9oj": "اس نے کہا: ”جم، تم میرے واحد دوست ہو۔“",
+   "1uocv8yfat6": "”کئی سال پہلے میں کپتان فلنٹ کے ساتھ جہاز پر تھا، جو بہت برا قزاق تھا۔",
+   "2dr0n17cyuf": "اس کے آدمی میرا صندوق چاہتے ہیں۔",
+   "o1l2bx0c63": "اگر وہ مجھے سیاہ نشان دیں تو فوراً ڈاکٹر کو بتانا۔“",
+   "1bz3opugr88": "انہی دنوں میرے والد فوت ہو گئے۔",
+   "1r831esd5so": "میری ماں اور میں بہت اداس تھے۔",
+   "zmjimfkesf": "میں سرائے میں کام کرتا تھا اور کپتان کے بارے میں سوچنے کا وقت نہیں تھا۔",
+   "1lt67a50f4q": "تدفین کے اگلے دن سردی اور دھند تھی۔",
+   "9amalthj53": "پھر میں نے ایک آدمی کو راستے پر چلتے دیکھا۔",
+   "2ail0uflm80": "وہ اندھا تھا اور چھڑی سے زمین پر ٹھک ٹھک مارتا تھا۔",
+   "clwkzdt16d": "اس نے ٹوپی والا لباس پہنا تھا اور بہت بوڑھا لگتا تھا۔",
+   "147c05r5kqt": "اس نے پوچھا: ”کوئی مجھے بتا سکتا ہے کہ میں کہاں ہوں؟“",
+   "5me1b5agtp": "میں نے کہا: ”آپ ایڈمرل بینبو سرائے میں ہیں۔“",
+   "14g560a6hby": "اندھے نے میرا بازو بہت زور سے پکڑ لیا، جیسے چمٹے سے۔",
+   "18w2qdqj9u": "”لڑکے، مجھے کپتان کے پاس لے چلو، ورنہ تمہارا بازو توڑ دوں گا!“",
+   "1ovtkpa5lhz": "میں اتنا ڈرا ہوا تھا کہ اسے کمرے میں لے گیا۔",
+   "1g2awz3n85h": "جب کپتان نے اندھے کو دیکھا تو اس کا رنگ سفید پڑ گیا۔",
+   "1ofv1m3x0k": "اندھے نے اس کے ہاتھ میں ایک کاغذ رکھا اور چلا گیا۔",
+   "1fy58x4j402": "یہ سیاہ نشان تھا: قزاقوں کا ایک پیغام۔",
+   "rdzbsvgvn9": "کاغذ پر لکھا تھا: ”تمہارے پاس آج رات دس بجے تک وقت ہے۔“",
+   "4hxmr3rifb": "کپتان چلایا: ”دس بجے! ابھی وقت ہے!“",
+   "h4qg4x6rp2": "وہ اچھل کر کھڑا ہوا، لیکن اچانک زمین پر گر پڑا۔",
+   "2fzdachi4re": "میں اس کی مدد کو دوڑا، لیکن وہ مر چکا تھا۔",
+   "b7osw4zxom": "مجھے اس سے زیادہ محبت نہیں تھی، پھر بھی میں رو پڑا۔",
+   "z132bo61i7": "کپتان بہت بیمار ہے۔",
+   "n0akxsd8un": "وہ مجھ سے کہتا ہے: ”کچھ قزاق میرا صندوق چاہتے ہیں۔“",
+   "1xktaez16u9": "میرے والد فوت ہو جاتے ہیں۔",
+   "rjlx6vdhd7": "میری ماں اور میں اداس ہیں۔",
+   "1hlcqw3tkqg": "ایک دن ایک اندھا آدمی آتا ہے۔",
+   "1d01kthbp4t": "وہ چھڑی سے زمین پر مارتا ہے۔",
+   "1ba4wqiyqkh": "وہ میرا بازو بہت زور سے پکڑتا ہے۔",
+   "25ouym9k06m": "وہ کہتا ہے: ”مجھے کپتان کے پاس لے چلو!“",
+   "1gv9pfi9js6": "اندھا کپتان کو ایک کاغذ دیتا ہے۔",
+   "1gdmdngvwqq": "یہ سیاہ نشان ہے۔",
+   "9227cy6k63": "یہ قزاقوں کا پیغام ہے۔",
+   "fb8rub54u": "اس پر لکھا ہے: ”آج رات، دس بجے۔“",
+   "1tpu7kvttc2": "کپتان کھڑا ہوتا ہے۔",
+   "pu3x47m3av": "پھر وہ زمین پر گر جاتا ہے۔",
+   "14jz9ro0riy": "کپتان مر چکا ہے۔",
+   "16mowz6xhro": "ملاح کا صندوق",
+   "185t4e81yas": "میں نے اپنی ماں کو سب کچھ بتا دیا جو میں جانتا تھا۔",
+   "2ez3ao91yh7": "انہوں نے کہا: ”کپتان پر ہمارا قرض تھا۔ ہم صندوق سے پیسے لیں گے۔“",
+   "1zwyiwiiz0e": "لیکن ہم ڈرے ہوئے تھے: قزاق دس بجے واپس آنے والے تھے۔",
+   "lv6tfhf2x0": "ہم مدد مانگنے گاؤں کی طرف دوڑے۔",
+   "skj8h77bk7": "جب لوگوں نے فلنٹ کا نام سنا تو وہ ڈر گئے۔",
+   "2bndltr4m7r": "کوئی بھی ہمارے ساتھ نہیں آنا چاہتا تھا۔",
+   "1as5lyngxme": "میری ماں نے بہت ہمت سے کہا: ”تو پھر ہم اکیلے جائیں گے۔“",
+   "22zgkodknii": "ہم اندھیرے میں سرائے واپس آئے۔",
+   "1jdj0w4z9q1": "کپتان زمین پر پڑا تھا، اس کی آنکھیں کھلی تھیں۔",
+   "2avb03nk4by": "اس کی گردن میں ایک ڈوری سے چابی لٹکی ہوئی تھی۔",
+   "1q7we8h8f3c": "میں نے چابی لی اور ہم اس کے کمرے میں گئے۔",
+   "wp5d1lghoe": "ہم نے آہستہ آہستہ صندوق کھولا۔",
+   "29a92zdc3ma": "اندر کپڑے، کچھ پستولیں اور ایک قطب نما تھا۔",
+   "84gal3mu5h": "نیچے کپڑے میں لپٹا ہوا ایک پیکٹ تھا۔",
+   "ghym13v2c3": "سونے کے سکوں سے بھرا ایک تھیلا بھی تھا۔",
+   "1pttndxorw9": "میری ماں سکے گننے لگیں۔",
+   "wkibay9k2y": "انہوں نے کہا: ”میں صرف اتنا لوں گی جتنا اس پر قرض تھا۔“",
+   "1n9f2lm0avo": "پھر ہم نے باہر آواز سنی: ٹھک، ٹھک، ٹھک۔",
+   "17olhmsbtiq": "یہ اندھے کی چھڑی تھی جو قریب آ رہی تھی۔",
+   "1sabgdvpgty": "پھر ہم نے دور سے ایک سیٹی سنی۔",
+   "cyk3nvis5u": "میں نے کہا: ”وہ آ رہے ہیں!“",
+   "1auym5nhmts": "میری ماں نے کچھ سکے لیے اور میں نے پیکٹ اٹھا لیا۔",
+   "ptofv3pdq3": "ہم دوڑتے ہوئے سرائے سے نکل گئے۔",
+   "1byj5w3rfh": "ہم مدد مانگنے گاؤں جاتے ہیں۔",
+   "2d83kbbgwg9": "لوگ قزاقوں سے ڈرتے ہیں۔",
+   "dcx1onj6al": "کوئی ہماری مدد نہیں کرتا۔",
+   "1epgdsr2m0e": "ہم سرائے واپس آتے ہیں۔",
+   "1qkov9m5xt8": "میں کپتان کی چابی لیتا ہوں۔",
+   "v4faojo2aj": "ہم صندوق کھولتے ہیں۔",
+   "3tk4f6mwuq": "اس میں کپڑے، پستولیں اور سونے کے سکے ہیں۔",
+   "15fahhj5ux7": "ایک پیکٹ بھی ہے۔",
+   "18ohfcaq973": "ماں سکے گنتی ہیں۔",
+   "t52fbedt6e": "ہم اندھے کی چھڑی کی آواز سنتے ہیں۔",
+   "24dpaj2b8g6": "قزاق آ رہے ہیں!",
+   "dp1mc46tij": "میں پیکٹ اٹھاتا ہوں اور ہم بھاگ جاتے ہیں۔",
+   "1zmqxu28an": "اندھے کا انجام",
+   "9whwiyawro": "جب ہم پل پر پہنچے تو میری ماں بے ہوش ہو گئیں۔",
+   "9gofuiljh": "بڑی مشکل سے میں انہیں گھسیٹ کر پل کے نیچے لے گیا۔",
+   "2810pkrpy99": "وہاں سے میں سرائے دیکھ سکتا تھا۔",
+   "1k134rm9ni2": "سات یا آٹھ آدمی راستے پر دوڑتے ہوئے آئے۔",
+   "u9hui31bqa": "اندھا آگے آگے تھا اور حکم چلا رہا تھا۔",
+   "1t89lz05d6c": "وہ کہہ رہا تھا: ”دروازہ توڑ دو!“",
+   "20zbqak5cbm": "قزاق سرائے میں داخل ہو گئے۔",
+   "23vlbwxb8a3": "کچھ دیر بعد ایک قزاق نے کھڑکی سے سر نکالا۔",
+   "nr8l8ztawm": "وہ چلایا: ”صندوق کھلا ہے! کسی نے پیکٹ لے لیا ہے!“",
+   "2alevzeevtd": "اندھے نے غصے سے کہا: ”یہ لڑکے کا کام ہے! اسے ڈھونڈو!“",
+   "ae294y7olf": "اچانک ہم نے گھوڑوں کی آواز سنی۔",
+   "1t7jbgqs0h": "یہ محافظ تھے جو ساحل کی نگرانی کرتے تھے۔",
+   "11nlcv8wkul": "قزاق بھاگ گئے اور اندھے کو اکیلا چھوڑ دیا۔",
+   "1s8axpunujk": "اندھا کچھ نہیں دیکھ سکتا تھا اور راستے کے بیچ میں دوڑ رہا تھا۔",
+   "27xdwiibyl1": "ایک گھوڑا اس کے اوپر سے گزر گیا۔",
+   "1ab5522w8kp": "اندھا گر پڑا اور پھر کبھی نہیں ہلا۔",
+   "1e96tj4k27v": "میں نے محافظوں کے سردار کو سب کچھ بتا دیا۔",
+   "4rfmx9zpz7": "اس نے پوچھا: ”یہ قزاق کیا ڈھونڈ رہے تھے؟“",
+   "pgu8lmtjdd": "میں نے کہا: ”میرا خیال ہے وہ یہ پیکٹ ڈھونڈ رہے تھے۔“",
+   "1y9sqc4tkte": "اس نے کہا: ”تو ہمیں یہ ڈاکٹر لیوسی کے پاس لے جانا چاہیے۔“",
+   "axmt1njf6z": "ماں اور میں ایک پل کے نیچے چھپ جاتے ہیں۔",
+   "12x0u4kvv8q": "قزاق آتے ہیں۔",
+   "1mrbxweu42k": "وہ سرائے میں داخل ہوتے ہیں۔",
+   "1qsf6h7k2e9": "وہ پیکٹ ڈھونڈتے ہیں لیکن انہیں نہیں ملتا۔",
+   "1thgauloto3": "کچھ محافظ گھوڑوں پر آتے ہیں۔",
+   "2f76en6u983": "قزاق بھاگ جاتے ہیں۔",
+   "16ttjgqx82": "ایک گھوڑا اندھے کو کچل دیتا ہے۔",
+   "13g87c65hjw": "اندھا مر جاتا ہے۔",
+   "mf82m9552w": "پیکٹ میرے پاس ہے۔",
+   "jcy4ekcbh8": "میں اسے ڈاکٹر لیوسی کے پاس لے جاتا ہوں۔",
+   "1dtfnqt3hz0": "کپتان کے کاغذات",
+   "1yugdexwdpr": "ڈاکٹر لیوسی مسٹر ٹریلانی کے گھر پر تھے۔",
+   "fzoz3jvjyg": "مسٹر ٹریلانی ایک امیر آدمی تھے، لمبے اور بہت باتونی۔",
+   "vjosal6690": "میں نے انہیں پوری کہانی سنائی۔",
+   "9riyewdhje": "ڈاکٹر نے کہا: ”جم، تم بہت بہادر لڑکے ہو۔“",
+   "1m0ym1f4qim": "ڈاکٹر نے بہت احتیاط سے پیکٹ کھولا۔",
+   "1in2p7hfpih": "اندر ایک نوٹ بک اور ایک تہہ کیا ہوا کاغذ تھا۔",
+   "xz732wn71o": "نوٹ بک میں کپتان نے وہ رقم لکھی تھی جو اس نے چرائی تھی۔",
+   "62gnur32jd": "پھر ڈاکٹر نے کاغذ کھولا۔",
+   "p3gyip03ci": "یہ ایک جزیرے کا نقشہ تھا!",
+   "ud1i4kb3t7": "اس پر پہاڑ، جنگل، ساحل اور تین سرخ صلیب کے نشان تھے۔",
+   "zqhjmvcwp6": "ایک نشان کے پاس لکھا تھا: ”خزانے کا بڑا حصہ یہاں ہے۔“",
+   "1numsedgycj": "مسٹر ٹریلانی چلائے: ”یہ فلنٹ کے خزانے کا نقشہ ہے!“",
+   "1uaq777zq5u": "”میں برسٹل جاؤں گا اور ایک جہاز خریدوں گا۔",
+   "1lkijl4xtvq": "آپ، ڈاکٹر صاحب، جہاز کے ڈاکٹر ہوں گے۔",
+   "gazzojyisd": "اور تم، جم، کیبن بوائے بن کر ہمارے ساتھ چلو گے!“",
+   "2dvo3jj49xa": "میں بہت خوش تھا: میں خزانہ ڈھونڈنے جاؤں گا!",
+   "29zovhrxha6": "لیکن ڈاکٹر پریشان تھے۔",
+   "1hza4axxr9c": "انہوں نے کہا: ”قزاق بھی یہ نقشہ چاہتے ہیں۔“",
+   "1ohz9n7f0kj": "”اس کے بارے میں کسی سے بات نہ کریں۔ یہ ایک راز ہے۔“",
+   "1hqqkyohsin": "میں مسٹر ٹریلانی کے گھر جاتا ہوں۔",
+   "1mms7hdx2p": "ڈاکٹر لیوسی بھی وہاں ہیں۔",
+   "e0qwij9gq": "ہم پیکٹ کھولتے ہیں۔",
+   "1q2bc0i50ys": "اندر ایک نقشہ ہے۔",
+   "1hhgq5iv8dv": "یہ ایک جزیرے کا نقشہ ہے۔",
+   "1s18a3d81s3": "ایک سرخ نشان بتاتا ہے کہ خزانہ کہاں ہے۔",
+   "1a1bq8qxuks": "مسٹر ٹریلانی کہتے ہیں: ”ہم ایک جہاز خریدیں گے!“",
+   "215jom25acj": "”ہم خزانہ ڈھونڈنے جائیں گے۔“",
+   "sdzpqmyiul": "میں بھی جاؤں گا۔",
+   "28v72i5h6zc": "میں بہت خوش ہوں۔",
+   "ypzf8znsll": "میں برسٹل جاتا ہوں",
+   "100dode1yy1": "مسٹر ٹریلانی سفر کی تیاری کے لیے برسٹل گئے۔",
+   "1ndpmvuu4xl": "میں اپنی ماں کے ساتھ سرائے میں رہا۔",
+   "11t4qfow0fe": "ہر روز میں نقشہ دیکھتا اور جزیرے کے خواب دیکھتا تھا۔",
+   "1nbhr6ta5cj": "ایک دن مسٹر ٹریلانی کا ایک خط آیا۔",
+   "17sl1n48ua7": "اس میں لکھا تھا: ”میں نے ایک خوبصورت جہاز خریدا ہے۔ اس کا نام ہسپانیولا ہے۔“",
+   "17o6r03s5tx": "”مجھے ایک بہت خوش مزاج باورچی بھی ملا ہے: جان سلور۔“",
+   "blervegfc8": "”اس کی ایک ٹانگ نہیں ہے، لیکن وہ اچھا ملاح ہے۔“",
+   "1io60mghlxm": "”اس نے جہاز کے ملاح ڈھونڈنے میں میری مدد کی ہے۔“",
+   "1ljb6by5gx1": "جانے سے پہلے میں نے اپنی ماں کو الوداع کہا۔",
+   "1ifup24n2ku": "گاؤں کا ایک لڑکا سرائے میں ان کی مدد کرنے والا تھا۔",
+   "fop8riaax0": "جب میں نے آخری بار سرائے دیکھی تو میں تھوڑا سا رویا۔",
+   "1mczgp6t6m1": "میں نے ساری رات ایک گھوڑا گاڑی میں سفر کیا۔",
+   "vczcj08swj": "صبح میں برسٹل پہنچ گیا۔",
+   "2d4sjrx7ibg": "بندرگاہ میں بہت سے جہاز اور دنیا بھر کے ملاح تھے۔",
+   "27no6imnbz4": "مسٹر ٹریلانی کپتان کے لباس میں میرا انتظار کر رہے تھے۔",
+   "1sws0lhwbje": "انہوں نے خوشی سے کہا: ”کل ہم جزیرے کی طرف روانہ ہوں گے!“",
+   "11xvs6b2ml9": "مسٹر ٹریلانی برسٹل جاتے ہیں۔",
+   "2cuf35saui9": "وہ ایک جہاز خریدتے ہیں: ہسپانیولا۔",
+   "24yq9r1etza": "انہیں جان سلور نام کا ایک باورچی ملتا ہے۔",
+   "29i4mnzs84j": "جان سلور کی ایک ٹانگ نہیں ہے۔",
+   "yyblv1hz8j": "میں اپنی ماں کو الوداع کہتا ہوں۔",
+   "omv7gz87ah": "میں ساری رات سفر کرتا ہوں۔",
+   "fmiudcwvwj": "میں برسٹل پہنچتا ہوں۔",
+   "ve1a9in0gn": "بندرگاہ میں بہت سے جہاز ہیں۔",
+   "1d7lkqapa6i": "دوربین والے شراب خانے میں",
+   "1yj52mhdhd1": "مسٹر ٹریلانی نے مجھے جان سلور کو ایک پرچہ دینے بھیجا۔",
+   "21q2617dygd": "سلور کا بندرگاہ پر ایک شراب خانہ تھا جس کا نام دوربین تھا۔",
+   "2dnhb7yqht4": "اندر بہت سے ملاح تھے جو پی رہے تھے اور اونچی آواز میں باتیں کر رہے تھے۔",
+   "opesiwas7v": "جان سلور لمبا اور طاقتور تھا۔",
+   "fwb736ybxx": "اس کی بائیں ٹانگ نہیں تھی اور وہ بیساکھی کے سہارے چلتا تھا۔",
+   "15wamtze4fk": "لیکن وہ پرندے کی طرح بہت تیزی سے چلتا تھا۔",
+   "10bgnj8xx1b": "اس کا چہرہ بڑا تھا اور وہ ہمیشہ مسکراتا رہتا تھا۔",
+   "148p3xhrsdv": "مجھے کپتان والا ایک ٹانگ کا ملاح یاد آیا۔",
+   "2c9kuybs0nf": "لیکن سلور ایک اچھا اور خوش مزاج آدمی لگتا تھا۔",
+   "18fctufvoqs": "اس نے کہا: ”تم کیبن بوائے ہو گے۔ خوش آمدید!“",
+   "wxzr4od552": "اچانک میں نے ایک آدمی کو کونے میں بیٹھے دیکھا۔",
+   "5qrkbmr7hi": "اس کے ہاتھ کی دو انگلیاں نہیں تھیں: یہ بلیک ڈاگ تھا!",
+   "166dkd07c9u": "میں چلایا: ”اسے روکو! یہ قزاق ہے!“",
+   "hd1bk6f2l8": "بلیک ڈاگ دوڑ کر باہر نکلا اور غائب ہو گیا۔",
+   "1bs4lpcdsia": "سلور کو بہت غصہ آیا۔",
+   "2agm5qcg373": "اس نے کہا: ”میرے شراب خانے میں قزاق! میں اسے بالکل نہیں جانتا!“",
+   "1tcefalaatg": "پھر ہم دونوں مسٹر ٹریلانی سے ملنے گئے۔",
+   "275c1pm7vx3": "سلور نے انہیں سب کچھ بتایا اور وہ ہنس پڑے۔",
+   "1w6wu68g09o": "میں نے سوچا کہ سلور ایک اچھا آدمی ہے۔",
+   "1bhljvy4a2c": "میں جان سلور کے شراب خانے جاتا ہوں۔",
+   "d1rzs5gy46": "سلور بیساکھی کے سہارے چلتا ہے۔",
+   "140xzdpz2se": "وہ خوش مزاج ہے اور بہت مسکراتا ہے۔",
+   "24u97bybeda": "شراب خانے میں مجھے بلیک ڈاگ نظر آتا ہے۔",
+   "1gw5pzv3w17": "میں چلاتا ہوں: ”یہ قزاق ہے!“",
+   "p1rk3xis5q": "بلیک ڈاگ بھاگ جاتا ہے۔",
+   "db0k0jxjnz": "سلور کہتا ہے کہ وہ اسے نہیں جانتا۔",
+   "2dw9vokzaf1": "میرا خیال ہے کہ سلور اچھا ہے۔",
+   "24kt7vqgr0h": "بارود اور ہتھیار",
+   "7vetrhyvz": "ہم جہاز کے کپتان سے ملنے ہسپانیولا پر گئے۔",
+   "p0zjpg7my3": "اس کا نام سمولیٹ تھا اور وہ ایک سنجیدہ اور سخت آدمی تھا۔",
+   "akh4ehjm12": "کپتان سمولیٹ نے کہا: ”مجھے یہ سفر پسند نہیں۔“",
+   "cvjvo65mf4": "مسٹر ٹریلانی نے غصے سے پوچھا: ”کیوں؟“",
+   "1rq5cldg7wz": "”سارے ملاح جانتے ہیں کہ ہم خزانہ ڈھونڈنے جا رہے ہیں۔",
+   "ztdm02v1q0": "اور وہ جانتے ہیں کہ آپ کے پاس نقشہ ہے۔ یہ خطرناک ہے۔",
+   "2c9yg6bo863": "اس کے علاوہ، یہ ملاح میں نے نہیں چنے۔“",
+   "yvhayn8404": "ڈاکٹر لیوسی نے کپتان کی بات غور سے سنی۔",
+   "vrfx3shozy": "انہوں نے پوچھا: ”کپتان، آپ کیا چاہتے ہیں کہ ہم کیا کریں؟“",
+   "yjf9yebjty": "”میں بارود اور ہتھیار اپنے کیبنوں کے قریب رکھنا چاہتا ہوں۔",
+   "24je8zw62f8": "اور قابل اعتماد آدمیوں کو ہمارے قریب سونا چاہیے۔“",
+   "r58qghtbu4": "مسٹر ٹریلانی خوش نہیں تھے، لیکن انہوں نے مان لیا۔",
+   "1scqwssjfg": "ان کے تین نوکر، ریڈرتھ، ہنٹر اور جوائس، قابل اعتماد تھے۔",
+   "ubko1el3lg": "ہم نے اسی رات بارود کی جگہ بدل دی۔",
+   "257j0jbalzq": "سلور مسکراتے ہوئے سب کچھ دیکھ رہا تھا۔",
+   "islktsrdr4": "جہاز کے کپتان کا نام سمولیٹ ہے۔",
+   "90g03vepaz": "وہ ایک سنجیدہ آدمی ہے۔",
+   "299eshwzmr0": "اسے ملاح پسند نہیں۔",
+   "13chn2hiuiz": "وہ کہتا ہے: ”سب جانتے ہیں کہ ہم خزانہ ڈھونڈ رہے ہیں۔“",
+   "xn2d111myl": "”یہ خطرناک ہے۔“",
+   "1krfdpou2nw": "ہم ہتھیار اپنے قریب رکھتے ہیں۔",
+   "1hplyxezn7": "سفر",
+   "1r10wpain80": "ایک صبح سویرے ہم نے لنگر اٹھایا اور بندرگاہ سے نکل گئے۔",
+   "2e0390ov9h8": "ملاح مردے کے صندوق والا گانا گا رہے تھے۔",
+   "ydz0g0zfxv": "میں بہت پرجوش تھا۔",
+   "ozfowet906": "سفر لمبا تھا، لیکن جہاز اچھا تھا۔",
+   "1u7bc5ox5g5": "ملاح اچھا کام کرتے تھے اور کپتان کا حکم مانتے تھے۔",
+   "14xbj5obafx": "سب جان سلور باورچی سے محبت کرتے تھے۔",
+   "1x4th3bgl9y": "سلور بیساکھی کے ساتھ جہاز پر گھومتا تھا اور کبھی نہیں گرتا تھا۔",
+   "28q157itdnw": "سلور کے پاس ایک ہرا طوطا تھا جس کا نام کپتان فلنٹ تھا۔",
+   "22yfqvki0d8": "طوطا سارا دن چلاتا تھا: ”آٹھ والے سکے! آٹھ والے سکے!“",
+   "2b1ve0hh19w": "سلور ہنستے ہوئے کہتا: ”یہ دو سو سال سے زیادہ کا ہے۔“",
+   "w457m6km0s": "میں اس کے ساتھ باورچی خانے میں کئی گھنٹے گزارتا تھا۔",
+   "253v2uug6dz": "جہاز پر سیبوں سے بھرا ایک ڈرم تھا۔",
+   "110xac8t78c": "کوئی بھی جب چاہے سیب لے سکتا تھا۔",
+   "1u6rvvcp45r": "ایک رات، جزیرے کے قریب، مجھے بھوک لگی۔",
+   "2ae6svuhs8o": "آخری سیب لینے کے لیے میں ڈرم کے اندر گھس گیا۔",
+   "15qtm84w2op": "اندھیرا تھا اور مجھے تھوڑی دیر کے لیے نیند آ گئی۔",
+   "xd7sb95m9k": "جہاز بندرگاہ سے نکلتا ہے۔",
+   "77r4lz0lbo": "سفر لمبا ہے۔",
+   "1a94ikpcgse": "سب جان سلور سے محبت کرتے ہیں۔",
+   "1ag88i63m0e": "سلور کے پاس ایک طوطا ہے۔",
+   "42djvwe0bk": "طوطا چلاتا ہے: ”آٹھ والے سکے!“",
+   "1eaulkqonrn": "جہاز پر سیبوں کا ایک ڈرم ہے۔",
+   "2bh0qxo0nib": "ایک رات میں ڈرم میں گھس جاتا ہوں۔",
+   "wrxngxw2ic": "میں ایک سیب کھانا چاہتا ہوں۔",
+   "1vc5a1qsc4z": "جو میں نے ڈرم کے اندر سنا",
+   "1kc50n6gllf": "اچانک کوئی ڈرم کے پاس بیٹھ گیا۔",
+   "2918oovmfyh": "یہ جان سلور تھا، اور وہ ایک نوجوان ملاح ڈک سے بات کر رہا تھا۔",
+   "6kmbknyyvl": "میں ہلا نہیں اور سنتا رہا۔",
+   "1zaqfxps607": "سلور کہہ رہا تھا: ”میں فلنٹ کے ساتھ جہاز پر تھا۔ میں اس کا قابل اعتماد آدمی تھا۔",
+   "1s0twyjqut1": "میری ٹانگ ایک لڑائی میں کٹ گئی۔",
+   "1enu6oyb0qt": "اب میرے پاس پیسے جمع ہیں اور مجھے اور چاہییں۔“",
+   "1e0gutp5183": "تب میں سچ سمجھ گیا اور کانپنے لگا۔",
+   "257ph3kf8xn": "سلور ایک قزاق تھا، اور بہت سے ملاح بھی قزاق تھے!",
+   "1ufgg2q08hu": "سلور نے پوچھا: ”ڈک، کیا تم ہمارے ساتھ آنا چاہتے ہو؟“",
+   "14bzogpe79o": "نوجوان نے کہا: ”ہاں، میں تمہارے ساتھ ہوں۔“",
+   "1fr04zphqro": "پھر ایک اور قزاق آیا، اسرائیل ہینڈز۔",
+   "7891lo3u0s": "”سلور، ہم کب حملہ کریں گے؟ میں انتظار سے تھک گیا ہوں۔“",
+   "4mqhsijqq9": "سلور نے کہا: ”ہم اس وقت تک انتظار کریں گے جب تک وہ خزانہ نہ ڈھونڈ لیں۔“",
+   "1vrhmms7stn": "”پھر ہم سب کو مار دیں گے۔ مردے بات نہیں کرتے۔“",
+   "1f7oben5ef8": "ڈرم کے اندر مجھے بہت ڈر لگ رہا تھا۔",
+   "24jmbcotakg": "اسی لمحے ایک ملاح نے اوپر سے آواز دی:",
+   "1wth122qw95": "”زمین! زمین نظر آ رہی ہے!“",
+   "h91adhuwli": "سب جزیرہ دیکھنے دوڑے اور میں ڈرم سے نکل آیا۔",
+   "2qehjc14t0": "میں ڈرم کے اندر ہوں۔",
+   "3jud5rh8x6": "سلور ایک ملاح سے بات کر رہا ہے۔",
+   "24gu01mrn9a": "میں سنتا ہوں۔",
+   "n7xl0q1lh": "سلور قزاق ہے!",
+   "126wta8xo70": "بہت سے ملاح بھی قزاق ہیں۔",
+   "2gmw6da80pp": "وہ خزانہ چاہتے ہیں۔",
+   "1a6htx5ddpw": "وہ میرے دوستوں کو مارنا چاہتے ہیں۔",
+   "vchr3m69q3": "مجھے بہت ڈر لگتا ہے۔",
+   "pkqnvhk3zr": "ایک ملاح چلاتا ہے: ”زمین!“",
+   "1pf6invitl": "ہمیں جزیرہ نظر آتا ہے۔",
+   "1vsbjosgbgp": "جنگی مشورہ",
+   "1itx97xi0vu": "سب جہاز سے جزیرے کو دیکھ رہے تھے۔",
+   "6k1divwr0s": "وہ ہرا اور سرمئی تھا، اس پر تین پہاڑیاں تھیں۔",
+   "csrop50t96": "کپتان سمولیٹ نے پوچھا: ”کیا کوئی اس جزیرے کو جانتا ہے؟“",
+   "1q3qv0xezg8": "سلور نے کہا: ”میں جانتا ہوں۔ میں کئی سال پہلے یہاں آیا تھا۔“",
+   "1mtst1dn0k1": "کپتان نے اسے جزیرے کا ایک نقشہ دکھایا۔",
+   "22pvfnjdsoh": "یہ اصلی نقشہ نہیں تھا: یہ خزانے کے نشانوں کے بغیر ایک نقل تھی۔",
+   "25cdjvmfumi": "سلور نے چمکتی آنکھوں سے اسے دیکھا۔",
+   "u6c70a8m0h": "میں نے آہستہ سے ڈاکٹر سے کہا: ”مجھے آپ سے بات کرنی ہے۔“",
+   "gc0ptq1np2": "کچھ دیر بعد انہوں نے مجھے کیبن میں بلایا۔",
+   "1xavbggtgnj": "وہاں کپتان، ڈاکٹر اور مسٹر ٹریلانی تھے۔",
+   "1z9zn6nrn4y": "میں نے انہیں سب کچھ بتایا جو میں نے ڈرم کے اندر سنا تھا۔",
+   "bgw1x2camc": "مسٹر ٹریلانی نے شرمندگی سے کہا: ”کپتان، آپ ٹھیک کہتے تھے۔“",
+   "1y9uvih492f": "کپتان نے قابل اعتماد آدمی گنے۔",
+   "1k40njkdh9p": "اس نے کہا: ”لڑکے سمیت ہم سات ہیں۔ وہ انیس ہیں۔“",
+   "1i8f5qi67c4": "”ہمیں انتظار کرنا اور ہوشیار رہنا ہوگا۔ جم ہماری بہت مدد کر سکتا ہے۔“",
+   "1za9mraonl3": "ہم جزیرے پر پہنچتے ہیں۔",
+   "12sgesdunxg": "سلور کہتا ہے کہ وہ جزیرے کو جانتا ہے۔",
+   "tqhl6uqpxx": "کپتان اسے ایک نقلی نقشہ دکھاتا ہے۔",
+   "2brz1bo2su5": "میں اپنے دوستوں سے بات کرتا ہوں۔",
+   "21y6fqb74a0": "میں انہیں سلور کا راز بتاتا ہوں۔",
+   "1qrsxyp3rl0": "ہم سات ہیں۔",
+   "211278qv4m3": "قزاق انیس ہیں۔",
+   "1y2khg678jb": "خشکی پر میری مہم کیسے شروع ہوئی",
+   "2dvjc1k15hi": "اگلی صبح جزیرہ خوبصورت نہیں لگ رہا تھا۔",
+   "116h250f1os": "وہ سرمئی اور اداس تھا، اور اس میں عجیب سی بو تھی۔",
+   "w1jsasvne9": "بہت گرمی تھی اور بالکل ہوا نہیں چل رہی تھی۔",
+   "cglthhe4i": "ملاح بے چین اور بدمزاج تھے۔",
+   "du7rplkhon": "اب وہ پہلے کی طرح کپتان کا حکم نہیں مانتے تھے۔",
+   "kqgt74mbdz": "کپتان نے کہا: ”اگر ہم نے کچھ نہ کیا تو وہ بغاوت کر دیں گے۔“",
+   "29t7vb6yvai": "کپتان کو ایک خیال آیا۔",
+   "esmr379qzp": "اس نے کہا: ”جوانو، آج تم آرام کے لیے خشکی پر جا سکتے ہو۔“",
+   "88il2ja9uv": "ملاح بہت خوش ہو گئے۔",
+   "1lgnqslopa6": "سلور نے کشتیوں کا انتظام کیا۔",
+   "zb0kjdxna0": "تیرہ آدمی خشکی پر گئے اور چھ جہاز پر رہے۔",
+   "1gyuammmsm5": "پھر میں نے بغیر سوچے ایک کام کیا۔",
+   "gji6y9edmg": "میں ایک کشتی میں چھپ گیا۔",
+   "1qv8138p5r4": "جب کشتی ساحل سے لگی تو میں کود کر جنگل کی طرف دوڑ گیا۔",
+   "21x3b5ukuhf": "سلور میرے پیچھے چلا رہا تھا: ”جم! جم!“",
+   "1oqwygfqg66": "لیکن میں رکا نہیں۔",
+   "1eg8nttw4iy": "جزیرہ سرمئی اور اداس ہے۔",
+   "f2o2asbccp": "بہت گرمی ہے۔",
+   "4pk776ylop": "ملاح غصے میں ہیں۔",
+   "2bv2x249jeu": "کپتان کہتا ہے: ”تم خشکی پر جا سکتے ہو۔“",
+   "2a84am22x3g": "بہت سے ملاح کشتی میں جزیرے پر جاتے ہیں۔",
+   "jssmqgroqi": "میں ایک کشتی میں چھپ جاتا ہوں۔",
+   "1i13dabfx2a": "میں ساحل پر پہنچتا ہوں۔",
+   "2dfmkovbrpx": "میں کودتا ہوں اور جنگل کی طرف دوڑتا ہوں۔",
+   "1ajiwqiwour": "سلور مجھے پکارتا ہے، لیکن میں نہیں رکتا۔",
+   "c8w5cuowu8": "پہلا وار",
+   "10wm6uueyau": "میں اکیلا جزیرے پر گھومتا رہا، بہت خوش۔",
+   "1yx1g1lfjhf": "وہاں عجیب پودے، پرندے اور سانپ تھے۔",
+   "19i2q386e53": "ایک سانپ نے آواز نکالی: یہ جھنجھنے والا سانپ تھا۔",
+   "8hhori9xy8": "میں پیچھے اچھلا اور چلتا رہا۔",
+   "1wgfdacs4v7": "اچانک میں نے آوازیں سنیں اور ایک درخت کے پیچھے چھپ گیا۔",
+   "26f1gy936ag": "یہ سلور تھا، جو ایک ایماندار ملاح ٹام سے بات کر رہا تھا۔",
+   "733fjvliyi": "سلور کہہ رہا تھا: ”ٹام، ہمارے ساتھ آ جاؤ۔“",
+   "1rthh35iy6i": "ٹام نے جواب دیا: ”نہیں سلور، میں کبھی قزاق نہیں بنوں گا۔“",
+   "9skak6b233": "اسی لمحے دور سے ایک خوفناک چیخ سنائی دی۔",
+   "1sn9e7da63i": "ٹام نے ڈر کر پوچھا: ”یہ کیا تھا؟“",
+   "lunzhox5ry": "سلور نے بڑے سکون سے کہا: ”یہ ایلن ہوگا۔“",
+   "1onbc0tg0nh": "ایلن بھی ایک ایماندار ملاح تھا۔ قزاقوں نے اسے مار دیا تھا۔",
+   "oai4w32l74": "ٹام مڑا اور جانے لگا۔",
+   "f2jkv70nks": "تب سلور نے پوری قوت سے اپنی بیساکھی پھینکی۔",
+   "qlobpje14r": "بیساکھی ٹام کی کمر پر لگی اور وہ گر پڑا۔",
+   "20bw2zdzhvp": "سلور چاقو لے کر اس پر کود پڑا۔",
+   "1m77hn05r52": "میں نے آنکھیں بند کر لیں اور ڈر سے کانپنے لگا۔",
+   "ptauptnn7j": "جب میں نے آنکھیں کھولیں تو ٹام مر چکا تھا۔",
+   "4fo2typ1c3": "میں جتنی تیزی سے ہو سکا جنگل میں بھاگ گیا۔",
+   "1pfjkvyu7ju": "میں جزیرے پر چلتا ہوں۔",
+   "1xl4eu6fx8j": "مجھے پرندے اور سانپ نظر آتے ہیں۔",
+   "2ev3dkz5w4s": "میں آوازیں سنتا ہوں اور چھپ جاتا ہوں۔",
+   "9elhs9cv59": "سلور ٹام سے بات کر رہا ہے۔",
+   "1i0q0sd9mri": "ٹام ایک اچھا ملاح ہے۔",
+   "1rxzi7ensgn": "ٹام کہتا ہے: ”میں قزاق نہیں بننا چاہتا۔“",
+   "7z0q0g2ffh": "سلور ٹام کو مار دیتا ہے۔",
+   "20xs4l3lrcc": "میں جنگل میں بھاگ جاتا ہوں۔",
+   "1kuukbsjfvn": "جزیرے کا آدمی",
+   "14f3suwgbza": "بھاگتے ہوئے میں نے درختوں کے بیچ ایک عجیب سی شکل دیکھی۔",
+   "29jb4s6t4bw": "وہ ایک تنے سے دوسرے تنے پر جانور کی طرح چھلانگیں لگا رہی تھی۔",
+   "93osyn4q7w": "میں نے پستول نکالی، لیکن وہ شکل قریب آ گئی۔",
+   "15r7gfvtkjz": "یہ ایک آدمی تھا جس کی جلد دھوپ سے جلی ہوئی تھی۔",
+   "2dgbfwa0ipf": "اس نے پرانے اور پھٹے ہوئے کپڑے پہنے تھے۔",
+   "1jtvnbx2mgt": "اس نے کہا: ”میرا نام بین گن ہے۔ میں تین سال سے اس جزیرے پر اکیلا رہتا ہوں۔“",
+   "16cs6yhr43r": "”کیا تمہارے پاس تھوڑا سا پنیر ہے؟ مجھے پنیر کھائے بہت عرصہ ہو گیا!“",
+   "8wlpkm0xu2": "بین گن نے مجھے سب کچھ بتایا۔",
+   "23mm3qn6832": "وہ بھی کپتان فلنٹ کے ساتھ جہاز پر رہا تھا۔",
+   "1eeoqdwigq4": "اس کے ساتھیوں نے اسے جزیرے پر چھوڑ دیا تھا۔",
+   "1syaiuby2il": "اس نے عجیب سی مسکراہٹ کے ساتھ کہا: ”اب میں امیر ہوں، بہت امیر۔“",
+   "e1iuhx8u11": "میں نے اسے بتایا کہ سلور اور قزاق خزانہ چاہتے ہیں۔",
+   "uzog74zk2n": "اس نے ڈر کر کہا: ”سلور؟ وہ لکڑی کی ٹانگ والا؟“",
+   "aeef6nvljz": "”اپنے دوستوں سے کہنا کہ میں ان کی مدد کروں گا۔",
+   "1n15tsobiv2": "میرے پاس ایک سفید چٹان کے نیچے ایک کشتی چھپی ہوئی ہے۔“",
+   "14n2h7ivu4t": "اچانک ہم نے توپ کا ایک بہت زور دار دھماکہ سنا۔",
+   "1hu2o5rf44e": "میں نے کہا: ”لڑائی شروع ہو گئی ہے!“",
+   "ka15okhv2z": "ہم ساحل کی طرف دوڑے۔",
+   "1mn4bzum5f": "درختوں کے بیچ میں نے لکڑی کے ایک گھر پر انگریزی جھنڈا دیکھا۔",
+   "9fup3luyqm": "جنگل میں مجھے ایک عجیب آدمی نظر آتا ہے۔",
+   "10jqi8igfcn": "اس کا نام بین گن ہے۔",
+   "1ahpxngtkg5": "وہ تین سال سے جزیرے پر اکیلا رہتا ہے۔",
+   "gxqjllrr4u": "بین گن فلنٹ کا ایک قزاق تھا۔",
+   "fhsh893h16": "وہ پنیر کھانا چاہتا ہے۔",
+   "25memcjn185": "وہ کہتا ہے کہ ہماری مدد کرے گا۔",
+   "yl9xiky4tm": "ہمیں توپ کی آواز آتی ہے۔",
+   "1ib1noj84u9": "مجھے لکڑی کے گھر پر ایک جھنڈا نظر آتا ہے۔",
+   "o0ctcnnf3o": "ڈاکٹر کی کہانی: ہم نے جہاز کیسے چھوڑا",
+   "1i1j6qt8qfl": "اب میں، ڈاکٹر لیوسی، بتاؤں گا کہ جہاز پر کیا ہوا۔",
+   "2atd5o4xava": "جب جم غائب ہوا تو ہم بہت پریشان ہوئے۔",
+   "1whlu9o1tgb": "چھ قزاق ہمارے ساتھ جہاز پر تھے۔",
+   "rtn51rdjhh": "میں ہنٹر کے ساتھ ایک کشتی میں خشکی پر گیا۔",
+   "74zfikoyzp": "ساحل کے قریب ہمیں ایک قلعہ ملا۔",
+   "tb8vcu1xkv": "یہ ایک ٹیلے کے اوپر لکڑی کا گھر تھا جس کے گرد باڑ تھی۔",
+   "27n3dv1t9z3": "اندر تازہ پانی کا ایک چشمہ تھا۔",
+   "a3poffcyfz": "میں نے سوچا: ”یہاں ہم محفوظ رہیں گے۔“",
+   "111n21o1ldj": "میں جہاز پر واپس آیا اور ہم نے ایک منصوبہ بنایا۔",
+   "5uj64rhih7": "ہم نے کشتی میں کھانا، بارود اور ہتھیار لادے۔",
+   "1nhlnjfdqg7": "ایک ملاح، ابراہام گرے، ہمارے ساتھ آنا چاہتا تھا۔",
+   "1a2173scfwy": "اس نے کہا: ”کپتان، میں قزاق نہیں ہوں۔“",
+   "10xt4tr5k4n": "ہم سب کشتی میں بیٹھے اور ہسپانیولا چھوڑ دیا۔",
+   "53bl5e1sut": "جہاز پر موجود قزاق حیرت سے ہمیں دیکھ رہے تھے۔",
+   "1lxdvybgvfu": "اب جہاز ان کا تھا، لیکن نقشہ ہمارے پاس تھا۔",
+   "kh8yx6upgp": "اب ڈاکٹر بات کرتے ہیں۔",
+   "63upm4t4f4": "ڈاکٹر جزیرے پر جاتے ہیں۔",
+   "scyx2t5g3k": "انہیں پانی والا لکڑی کا ایک گھر ملتا ہے۔",
+   "12ds7cfsjsa": "یہ ایک قلعہ ہے۔",
+   "1t39ul4egzb": "ہم کشتی میں کھانا اور ہتھیار رکھتے ہیں۔",
+   "2648gzesg4n": "ایک اچھا ملاح ہمارے ساتھ آتا ہے۔",
+   "mnrggs0zjq": "ہم جہاز چھوڑ دیتے ہیں۔",
+   "y2pytj8y1r": "کشتی کا آخری سفر",
+   "16z4uvsytut": "کشتی پر بہت زیادہ بوجھ تھا۔",
+   "q2gee8y3zw": "پانی تقریباً کناروں سے اندر آ رہا تھا۔",
+   "1dq6fltuo4l": "سمندر کی لہر ہمیں ساحل سے دور دھکیل رہی تھی۔",
+   "2b0j9rgwe12": "اچانک کپتان نے جہاز کی طرف دیکھا۔",
+   "22h5t927fzg": "وہ چلایا: ”وہ ہم پر توپ چلانا چاہتے ہیں!“",
+   "ehx98rac1j": "اسرائیل ہینڈز جہاز کی توپ تیار کر رہا تھا۔",
+   "1md067sxevs": "مسٹر ٹریلانی نے گولی چلائی، لیکن اسے نہیں لگی۔",
+   "2g2mp0okona": "توپ نے خوفناک آواز کی۔",
+   "hm11pygs7j": "گولہ بہت قریب گرا اور کشتی ڈوب گئی۔",
+   "1anw5zf22my": "خوش قسمتی سے پانی زیادہ گہرا نہیں تھا۔",
+   "gtkuufrlvr": "ہمارا بہت سا کھانا اور بارود ضائع ہو گیا۔",
+   "1d45cvez3is": "ہم بچے ہوئے ہتھیار لے کر قلعے کی طرف دوڑے۔",
+   "exdf09m9tl": "جزیرے پر موجود قزاقوں نے درختوں کے بیچ ہم پر حملہ کیا۔",
+   "66u0yp0o7u": "ہم نے گولیاں چلائیں اور وہ بھاگ گئے۔",
+   "wnd5muhuib": "لیکن مسٹر ٹریلانی کا نوکر ریڈرتھ زخمی ہو کر گر پڑا۔",
+   "rdtakcotsi": "کشتی بہت بھاری ہے۔",
+   "19v9fqmeurg": "قزاق توپ چلاتے ہیں۔",
+   "y0put460ds": "کشتی ڈوب جاتی ہے۔",
+   "ojis1philf": "ہمارا کھانا ضائع ہو جاتا ہے۔",
+   "139h2hsswsf": "ہم قلعے کی طرف دوڑتے ہیں۔",
+   "h2fg78j54w": "قزاق حملہ کرتے ہیں۔",
+   "1gpexb4zj03": "ریڈرتھ زخمی ہے۔",
+   "vel713r34l": "لڑائی کے پہلے دن کا اختتام",
+   "yrrvmyvvhw": "ہم ریڈرتھ کو قلعے کے اندر لے گئے۔",
+   "srsaqrard": "مسٹر ٹریلانی نے اس کا ہاتھ پکڑا ہوا تھا اور رو رہے تھے۔",
+   "1lb1f524p6y": "ریڈرتھ اسی دوپہر فوت ہو گیا۔",
+   "180yhqblcrq": "کپتان سمولیٹ نے گھر پر انگریزی جھنڈا لہرا دیا۔",
+   "12r3vuhbsy1": "قزاق جہاز سے توپ چلا رہے تھے۔",
+   "1to36jw8fwe": "گولے قلعے کے اوپر سے گزر رہے تھے۔",
+   "12gv1tiwf03": "کپتان نے کہا: ”ڈرو مت۔ وہ ہمیں نشانہ نہیں بنا سکتے۔“",
+   "20sqnl5c1xm": "کپتان نے بچا ہوا کھانا گنا۔",
+   "9lorz2nzt7": "اس نے کہا: ”اگر ہم کم کھائیں تو دس دن کا کھانا ہے۔“",
+   "1zxnir7nbej": "میں، ڈاکٹر، جزیرے کے آدمی بین گن کے بارے میں سوچ رہا تھا۔",
+   "1bwivf38o2u": "شام کو ہم نے باڑ کے باہر ایک آواز سنی۔",
+   "2c792wc7d5l": "”ڈاکٹر! مسٹر ٹریلانی! کپتان! میں ہوں!“",
+   "11stfao1snb": "یہ جم تھا، زندہ اور بغیر کسی زخم کے۔",
+   "v3sboixuhh": "ہم بہت خوشی سے اس کے لیے دروازہ کھولنے دوڑے۔",
+   "j2bhskpwuw": "ریڈرتھ مر جاتا ہے۔",
+   "16yi0oucpnn": "ہم سب اداس ہیں۔",
+   "107hcdwps5y": "کپتان ایک جھنڈا لہراتا ہے۔",
+   "1slqukno44i": "قزاق جہاز سے گولیاں چلاتے ہیں۔",
+   "wz3tac22va": "ہمارے پاس چند دنوں کا کھانا ہے۔",
+   "1p6gcm9vfde": "شام کو جم آ جاتا ہے۔",
+   "1n1c3v1j793": "ہم بہت خوش ہیں۔",
+   "zc5nipc085": "جم پھر بتاتا ہے: قلعے میں",
+   "1v9hdjcyu61": "اب میں، جم، دوبارہ کہانی سناتا ہوں۔",
+   "1z0hgnkvi5f": "جب میں نے جھنڈا دیکھا تو بین گن رک گیا۔",
+   "223jzxhkliv": "اس نے مجھ سے کہا: ”تمہارے دوست وہاں ہیں۔ میں جا رہا ہوں۔",
+   "mhsygtn7ly": "اگر انہیں میری ضرورت ہو تو ہاتھ میں سفید رومال لے کر مجھے ڈھونڈیں۔“",
+   "xk2l3zqigw": "میں نے اندھیرا ہونے کا انتظار کیا اور قلعے کی طرف دوڑا۔",
+   "ua4nap00qz": "میرے دوستوں نے بڑی خوشی سے میرا استقبال کیا۔",
+   "1xhmichct35": "میں نے انہیں بین گن کی کہانی سنائی۔",
+   "1ibl55z6csj": "ڈاکٹر نے بہت غور سے سنا۔",
+   "imaazq7cxc": "قلعے میں سب کام کرتے تھے۔",
+   "1szjfnqxzge": "ہم لکڑیاں اکٹھی کرتے، پہرہ دیتے اور کھانا پکاتے تھے۔",
+   "15iexbrddbv": "گھر دھوئیں اور ریت سے بھرا ہوا تھا۔",
+   "8t7jj8umu1": "کپتان ہر چیز کا بڑے نظم سے انتظام کرتا تھا۔",
+   "18pjv7obzpl": "اگلی صبح کسی نے باہر سے آواز دی۔",
+   "1wqekq7qs0i": "یہ جان سلور تھا، ایک ڈنڈے پر سفید رومال باندھے ہوئے۔",
+   "25z2m84x1ae": "وہ چلایا: ”میں صلح کی بات کرنے آیا ہوں!“",
+   "fdmoqg34uc": "بین گن چلا جاتا ہے۔",
+   "1g35clrenak": "میں قلعے جاتا ہوں۔",
+   "2a02fit70v0": "میرے دوست مجھے دیکھ کر خوش ہیں۔",
+   "1or7ba6marh": "قلعے میں ہم بہت کام کرتے ہیں۔",
+   "226jv142wkm": "صبح سلور آتا ہے۔",
+   "cc6wf8nd7n": "وہ سفید رومال اٹھائے ہوئے ہے۔",
+   "2cn2jmvzauk": "وہ بات کرنا چاہتا ہے۔",
+   "lh54dez5x": "سلور کی سفارت",
+   "2ehih74b3o": "کپتان نے سلور کو باڑ کے اندر آنے دیا۔",
+   "263dkpuu79h": "سلور زمین پر ریت میں بیٹھ گیا۔",
+   "1cjzdlmj3lx": "اس نے مسکراتے ہوئے کہا: ”صبح بخیر، کپتان۔“",
+   "1wq8p9hzef2": "کپتان نے بہت سنجیدگی سے جواب دیا: ”بتاؤ کیا چاہتے ہو۔“",
+   "1a3mzf6cpf1": "سلور نے کہا: ”ہمیں خزانے کا نقشہ چاہیے۔“",
+   "1w6dltmj316": "”اگر آپ ہمیں نقشہ دے دیں تو ہم آپ کو صحیح سلامت گھر پہنچا دیں گے۔",
+   "7p5tdt3wki": "یا ہم آپ کو کھانے کے ساتھ جزیرے پر چھوڑ سکتے ہیں۔“",
+   "oj1i6trabt": "کپتان ہنس پڑا۔",
+   "ja0d1ezzpk": "”سلور، تم میرے بغیر جہاز نہیں چلا سکتے۔",
+   "2clptnlqdhi": "تم نہ کبھی خزانہ ڈھونڈ سکو گے اور نہ گھر واپس جا سکو گے۔",
+   "1btzxe7ige3": "ہتھیار ڈال دو، اور میں تمہیں انگلینڈ لے جاؤں گا تاکہ تمہارا مقدمہ چلے۔“",
+   "ljwnl8tw10": "سلور غصے سے سرخ ہو گیا۔",
+   "1l40l59hnu6": "وہ چلایا: ”کوئی مجھے اٹھنے میں مدد نہیں کرے گا؟“",
+   "qszyjmm3mc": "کسی نے اس کی مدد نہیں کی اور وہ مشکل سے خود ہی اٹھا۔",
+   "1c3bhhee66x": "جانے سے پہلے اس نے کہا: ”ایک گھنٹے میں ہم قلعے پر حملہ کریں گے!“",
+   "cjkgv9t1o0": "سلور کپتان سے بات کرتا ہے۔",
+   "r8si2rueu9": "سلور کہتا ہے: ”ہمیں نقشہ دے دو۔“",
+   "2cyhgwijc0o": "کپتان کہتا ہے: ”نہیں۔“",
+   "3c3n7fm004": "سلور کو بہت غصہ آتا ہے۔",
+   "biq42b2sox": "وہ چلاتا ہے: ”ہم ایک گھنٹے میں حملہ کریں گے!“",
+   "2gn97rrotwp": "سلور چلا جاتا ہے۔",
+   "4yx8668qsd": "حملہ",
+   "1oqs7iw7bt5": "کپتان نے آدمیوں کو لڑائی کے لیے تیار کیا۔",
+   "k77o9j5gt2": "ہر ایک کی گھر میں ایک جگہ تھی اور کئی ہتھیار تھے۔",
+   "195rpiv7mg7": "بہت گرمی تھی اور سب کو پسینہ آ رہا تھا۔",
+   "1ryjb1ieb99": "ہم خاموشی سے انتظار کر رہے تھے۔",
+   "17zevt9ntdn": "اچانک قزاق چیختے ہوئے جنگل سے نکلے۔",
+   "1k2gkfjaym2": "انہوں نے باڑ پھلانگی اور گھر کی طرف دوڑے۔",
+   "11snx3gawze": "ہم کھڑکیوں سے گولیاں چلا رہے تھے۔",
+   "1uu24vg0fmw": "ہر طرف دھواں، چیخیں اور شور تھا۔",
+   "gq7x9607hr": "ایک قزاق چاقو لے کر کھڑکی سے اندر آیا۔",
+   "fzu9z1wqis": "کپتان چلایا: ”باہر نکلو! باہر لڑو!“",
+   "2ezmrczgu0z": "میں نے ایک تلوار اٹھائی اور دوڑ کر باہر نکلا۔",
+   "9lft413wnr": "میں ٹھوکر کھا کر ٹیلے سے لڑھکتا ہوا گرا۔",
+   "1shu9fi51rp": "جب میں اٹھا تو لڑائی ختم ہو چکی تھی۔",
+   "t6boggvroq": "پانچ قزاق مر چکے تھے اور باقی بھاگ گئے تھے۔",
+   "2cmyb8f33n3": "لیکن ہم نے بھی دوست کھو دیے تھے۔",
+   "1e28g6dnhh2": "جوائس مر چکا تھا، ہنٹر شدید زخمی تھا اور کپتان بھی زخمی تھا۔",
+   "x9ncqehofy": "قزاق قلعے پر حملہ کرتے ہیں۔",
+   "cjd38vkw8m": "بہت شور اور دھواں ہے۔",
+   "1aykbhj30od": "ہم کھڑکیوں سے گولیاں چلاتے ہیں۔",
+   "2eyrqbb2c3p": "بہت سے قزاق مر جاتے ہیں۔",
+   "1xk3aeep4fc": "باقی بھاگ جاتے ہیں۔",
+   "31rf5v55er": "کپتان زخمی ہے۔",
+   "riizb2deuj": "ہمارے دو دوست بھی زخمی ہیں۔",
+   "ndd160384t": "سمندر میں میری مہم کیسے شروع ہوئی",
+   "120amriac6z": "ہنٹر اسی رات فوت ہو گیا۔",
+   "descy0u135": "اب ہم صرف پانچ تھے: کپتان، ڈاکٹر، مسٹر ٹریلانی، گرے اور میں۔",
+   "9ip2qbzdlj": "ڈاکٹر نے نقشہ لیا اور جنگل میں چلے گئے۔",
+   "1c61e4m5yuz": "گرے نے کہا: ”وہ بین گن کو ڈھونڈنے جا رہے ہیں۔“",
+   "1zpo7xozz0o": "قلعے کے اندر بہت گرمی تھی اور میں اکتا گیا تھا۔",
+   "r93cga3o7c": "مجھے ڈاکٹر پر رشک بھی آ رہا تھا جو ٹھنڈے جنگل میں گھوم رہے تھے۔",
+   "lqzfhz8bf2": "تب مجھے ایک پاگل پن والا خیال آیا۔",
+   "1iepdt19kz": "میں نے دو پستولیں، بارود اور بسکٹ لیے۔",
+   "tmezfb0h1x": "جب کوئی نہیں دیکھ رہا تھا تو میں باڑ پھلانگ کر بھاگ گیا۔",
+   "2aqfsco0rdb": "میں جانتا تھا کہ یہ غلط ہے، لیکن میں بین گن کی کشتی ڈھونڈنا چاہتا تھا۔",
+   "26w3v94jklt": "میں ساحل کے ساتھ سفید چٹان تک چلا۔",
+   "1gfa4e29h6x": "چٹان کے نیچے کھالوں سے بنی ایک چھوٹی سی کشتی تھی۔",
+   "1jyvyale4jr": "وہ بہت ہلکی تھی اور میں اسے اکیلا اٹھا سکتا تھا۔",
+   "2b9o1xlgro8": "تب میں نے سوچا: ”میں جہاز تک جاؤں گا۔“",
+   "11ndnnitpru": "ہنٹر مر جاتا ہے۔",
+   "hg73eb0ntp": "ڈاکٹر بین گن کو ڈھونڈنے جاتے ہیں۔",
+   "1xk45ig728f": "میں قلعے میں اکتا جاتا ہوں۔",
+   "1v76nkzz6f8": "میں دو پستولیں اور کھانا لیتا ہوں۔",
+   "topuup654c": "میں کچھ کہے بغیر نکل جاتا ہوں۔",
+   "1tijdpw3rik": "مجھے بین گن کی کشتی مل جاتی ہے۔",
+   "1jg24mlmolt": "وہ بہت چھوٹی ہے۔",
+   "12sz9el75ry": "جوار اترتا ہے",
+   "7pca2fz3mt": "میں نے رات ہونے کا انتظار کیا اور کشتی پانی میں ڈال دی۔",
+   "22tuvhymb88": "اسے چلانا بہت مشکل تھا: وہ ہر طرف مڑ جاتی تھی۔",
+   "1q3xgx379sc": "خوش قسمتی سے جوار مجھے جہاز تک لے گیا۔",
+   "28t1acc8jfz": "ہسپانیولا ایک موٹی رسی سے لنگر کے ساتھ بندھا ہوا تھا۔",
+   "87ikk0bbly": "میں نے چاقو نکالا اور رسی کاٹنے لگا۔",
+   "o5pt9vgwk3": "وہ بہت سخت تھی اور مجھے بہت دیر لگی۔",
+   "1gdyihouef0": "کاٹتے ہوئے میں نے جہاز کے اندر آوازیں سنیں۔",
+   "vw51cqrgiw": "یہ دو قزاق تھے، اسرائیل ہینڈز اور ایک اور، جو آپس میں لڑ رہے تھے۔",
+   "1808bdgiv3q": "دونوں نے بہت زیادہ شراب پی رکھی تھی۔",
+   "1pu5foy34li": "آخرکار رسی ٹوٹ گئی اور جہاز چلنے لگا۔",
+   "20awvyo9l7n": "جہاز اور میری کشتی بغیر سمت کے بہہ رہے تھے۔",
+   "1pjb3eph85k": "لہر ہمیں کھلے سمندر کی طرف لے جا رہی تھی۔",
+   "1eq3n35lu1s": "میں بہت ڈرا ہوا تھا اور کشتی کے فرش پر لیٹ گیا۔",
+   "fn1ppi25ed": "میں اتنا تھکا ہوا تھا کہ سو گیا۔",
+   "1sxg99lgwmh": "رات کو میں کشتی پانی میں ڈالتا ہوں۔",
+   "108hdyy4zv0": "میں جہاز تک پہنچتا ہوں۔",
+   "2elsqbptksv": "میں لنگر کی رسی کاٹتا ہوں۔",
+   "25znhq1lwix": "جہاز خود بخود چلنے لگتا ہے۔",
+   "112mxzusyxo": "اندر دو قزاق لڑ رہے ہیں۔",
+   "zuy5qcgzze": "مجھے ڈر لگتا ہے۔",
+   "2bkm556rpnc": "میں کشتی میں سو جاتا ہوں۔",
+   "sn6ljn3y0c": "چھوٹی کشتی کا سفر",
+   "t58bke55lg": "جب میری آنکھ کھلی تو دن نکل چکا تھا۔",
+   "12zguka5zr7": "میں جزیرے کے جنوبی ساحل کے قریب تھا۔",
+   "ximv1slf90": "لیکن لہریں بہت بڑی تھیں اور چٹانوں سے ٹکرا رہی تھیں۔",
+   "1uwhikcsoc6": "میں خشکی تک نہیں پہنچ سکتا تھا۔",
+   "2dnyvanmcg3": "چٹانوں پر کچھ بڑے جانور دھاڑ رہے تھے۔",
+   "1atv8ycwfje": "یہ سمندری شیر تھے، لیکن مجھے معلوم نہیں تھا اور وہ مجھے ڈرا رہے تھے۔",
+   "yrrxqsnptd": "مجھے بہت پیاس لگی تھی اور دھوپ جلا رہی تھی۔",
+   "1xcwty9h9xf": "اچانک مجھے اپنے قریب ہسپانیولا نظر آیا۔",
+   "1qaymvehrc7": "وہ عجیب طرح سے ادھر ادھر چل رہا تھا۔",
+   "7xo0smwcxo": "کوئی پتوار نہیں سنبھال رہا تھا۔",
+   "zgu0ax62a6": "میں نے سوچا: ”شاید قزاق نشے میں ہیں۔“",
+   "1uno3v8s5jm": "میں نے پوری طاقت سے جہاز کی طرف چپو چلایا۔",
+   "jvam9clc8i": "جب جہاز میرے پاس سے گزرا تو میں کود گیا۔",
+   "1zbwqqw81mu": "میں نے ایک رسی پکڑی اور جہاز پر چڑھ گیا۔",
+   "23hfkcja5o8": "جہاز میری چھوٹی کشتی سے ٹکرایا اور اسے ڈبو دیا۔",
+   "242a76kgtwa": "میں سمندر میں جاگتا ہوں۔",
+   "rd8iyw0kos": "لہریں بہت بڑی ہیں۔",
+   "10f3s395fu6": "میں خشکی تک نہیں پہنچ سکتا۔",
+   "cribarcs17": "مجھے پیاس لگی ہے۔",
+   "10uixzwp10p": "مجھے اپنے قریب جہاز نظر آتا ہے۔",
+   "2eukoc3ww73": "کوئی اسے نہیں چلا رہا۔",
+   "1oa2x1oqjkh": "میں کودتا ہوں اور جہاز پر چڑھ جاتا ہوں۔",
+   "1bcrv0vsd3z": "میں قزاقوں کا جھنڈا اتارتا ہوں",
+   "1hivvh61s43": "جہاز کے عرشے پر دو قزاق تھے۔",
+   "l6u5ehpdft": "ایک مر چکا تھا۔ دوسرا اسرائیل ہینڈز تھا، زخمی اور بہت پیلا۔",
+   "abn9fis1ki": "اس نے کمزور آواز میں کہا: ”پانی...“",
+   "zpdrkp9k7t": "میں نے اسے پانی اور تھوڑا سا کھانا دیا۔",
+   "1znvgv5ldbb": "مستول کے اوپر قزاقوں کا سیاہ جھنڈا تھا۔",
+   "kpph60nydl": "اس پر ایک سفید کھوپڑی بنی تھی۔",
+   "svf18ro0o8": "میں نے جھنڈا اتارا اور سمندر میں پھینک دیا۔",
+   "du1swb6bk8": "میں چلایا: ”اب جہاز ہمارا ہے!“",
+   "109hjcvi8li": "اسرائیل ہینڈز عجیب نظروں سے مجھے دیکھ رہا تھا۔",
+   "1cq16e1giat": "اس نے مجھ سے کہا: ”میں جہاز چلانا جانتا ہوں۔ تم نہیں جانتے۔",
+   "y2gxkbw2ib": "اگر تم میرے زخم کی پٹی کرو تو میں اسے چھپانے میں تمہاری مدد کروں گا۔“",
+   "iw3m06ail0": "ہم نے ایک سودا کیا۔",
+   "iz6uwwqje": "ہینڈز مجھے بتاتا تھا کہ پتوار کیسے چلانا ہے۔",
+   "z9o2gubnvy": "ہم جہاز کو جزیرے کے شمال میں ایک پرسکون خلیج تک لے جانا چاہتے تھے۔",
+   "892qq34g6u": "ہوا اچھی تھی اور ہم تیزی سے چل رہے تھے۔",
+   "2d58vuychr0": "میں خوش تھا، لیکن مجھے ہینڈز پر بالکل بھروسہ نہیں تھا۔",
+   "1s5orl9oi1t": "جہاز پر اسرائیل ہینڈز ہے۔",
+   "26mlac17ixz": "وہ زخمی ہے۔",
+   "11fcqlb309g": "میں اسے پانی دیتا ہوں۔",
+   "o5ki07pwdh": "میں قزاقوں کا جھنڈا اتارتا ہوں۔",
+   "14bqdjuim21": "ہینڈز جہاز چلانے میں میری مدد کرتا ہے۔",
+   "8do5oihoqc": "لیکن مجھے اس پر بھروسہ نہیں۔",
+   "rc2n8vbwj": "اسرائیل ہینڈز",
+   "28ac0ds8f0z": "ہینڈز نے مجھ سے کہا: ”جم، کیبن سے شراب کی ایک بوتل لے آؤ۔“",
+   "7uys3pqrmy": "مجھے یہ عجیب لگا اور میں نے چھپ کر دیکھا۔",
+   "wcxqwuidg9": "ہینڈز اٹھا اور ایک لمبا چاقو اٹھا لیا۔",
+   "1324yiy2imx": "اس نے اسے اپنی جیکٹ کے نیچے چھپا لیا۔",
+   "ro5bngknep": "میں ایسے واپس آیا جیسے میں نے کچھ دیکھا ہی نہ ہو۔",
+   "5d5gcslr9y": "جہاز خلیج میں داخل ہوا اور ریت سے جا لگا۔",
+   "xulvpwst9u": "اسی لمحے ہینڈز چاقو لے کر مجھ پر جھپٹا۔",
+   "rsf54kh0pk": "میں بھاگا اور جہاز کے مستول پر چڑھ گیا۔",
+   "1s8nzkqe6hs": "ہینڈز چاقو منہ میں دبائے میرے پیچھے آ رہا تھا۔",
+   "1rr2i068jy9": "سب سے اوپر میں نے پستولوں میں خشک بارود بھرا۔",
+   "4zjsbyrjjb": "میں چلایا: ”ایک قدم اور بڑھایا تو گولی چلا دوں گا!“",
+   "3yx8yz7tqs": "ہینڈز رکا اور چاقو پھینکا۔",
+   "mrpoyxzsyy": "چاقو نے میرے کندھے کو مستول کے ساتھ گاڑ دیا۔",
+   "2cgkbv9jcr0": "درد سے میری پستولیں چل گئیں۔",
+   "1xjo4s3j0qe": "ہینڈز پانی میں گر گیا اور پھر کبھی باہر نہیں نکلا۔",
+   "pxvjt5ll2n": "ہینڈز ایک چاقو چھپاتا ہے۔",
+   "1g60h1n3g16": "میں یہ دیکھ لیتا ہوں۔",
+   "18clgaxvvv7": "ہینڈز مجھ پر حملہ کرتا ہے۔",
+   "20xwwtm4tuh": "میں جہاز کے مستول پر چڑھتا ہوں۔",
+   "2brrcn9krnc": "ہینڈز مجھ پر چاقو پھینکتا ہے۔",
+   "t0r7a53ozq": "میرے کندھے میں درد ہوتا ہے۔",
+   "1kr8mfhf0a4": "ہینڈز پانی میں گر کر مر جاتا ہے۔",
+   "3zezd0ciay": "”آٹھ والے سکے!“",
+   "11ptw5ykli7": "میں نے کندھا کھینچا اور چاقو نکل آیا۔",
+   "5nsliqk91f": "درد ہو رہا تھا، لیکن زخم زیادہ گہرا نہیں تھا۔",
+   "1ovd6n2qz3a": "میں آہستہ آہستہ مستول سے نیچے اترا۔",
+   "j7x0sgqwhk": "جہاز خلیج میں محفوظ تھا۔",
+   "1oczmpdsmq0": "میں پانی میں کودا اور تیر کر ساحل تک پہنچا۔",
+   "19bx3cym4iz": "میں تھکا ہوا تھا، لیکن بہت خوش۔",
+   "1k4409e968e": "میں سوچ رہا تھا: ”اب میں اپنے دوستوں کے پاس جاؤں گا اور انہیں اچھی خبر دوں گا۔“",
+   "1t24dtuah99": "جب میں قلعے پہنچا تو رات ہو چکی تھی۔",
+   "179wzb2lfte": "ہر طرف اندھیرا اور خاموشی تھی۔",
+   "1pi2d4d0n5g": "میں بغیر آواز کیے گھر میں داخل ہوا۔",
+   "8jhfde28vm": "لوگوں کے سونے اور خراٹوں کی آواز آ رہی تھی۔",
+   "cpmqoacsgo": "اچانک اندھیرے میں ایک تیز آواز چلائی:",
+   "hyf7lavemd": "”آٹھ والے سکے! آٹھ والے سکے! آٹھ والے سکے!“",
+   "1wvro0b02kf": "یہ سلور کا طوطا تھا!",
+   "1qc2szaew2f": "قزاق جاگ گئے اور مجھے پکڑ لیا۔",
+   "1wdnjbhxeqc": "میں چاقو نکالتا ہوں۔",
+   "9xsr874coc": "میں تیر کر ساحل تک جاتا ہوں۔",
+   "1rp8lj26xkw": "میں رات کو قلعے واپس جاتا ہوں۔",
+   "1y846l24z56": "سب اندھیرا ہے۔",
+   "14s2yl6k3f0": "ایک طوطا چلاتا ہے: ”آٹھ والے سکے!“",
+   "2pqmnapflx": "یہ سلور کا طوطا ہے!",
+   "hz3g7l9wyv": "قزاق مجھے پکڑ لیتے ہیں۔",
+   "270i1uf8v5u": "دشمن کے ڈیرے میں",
+   "ceud43jddg": "قزاقوں نے ایک مشعل جلائی۔",
+   "ftg5uheh7w": "وہ چھ تھے، اور سلور ان کا سردار تھا۔",
+   "1l82c59ilf": "میرے دوست وہاں نہیں تھے۔",
+   "21lz2vu3wgu": "میں نے ڈر کر پوچھا: ”میرے دوست کہاں ہیں؟“",
+   "20s8pt8lbt0": "سلور نے کہا: ”وہ زندہ ہیں۔ کل ڈاکٹر ہم سے بات کرنے آیا تھا۔",
+   "g3on5i8srn": "اس نے قلعہ ہمیں دے دیا اور وہ چلے گئے۔“",
+   "fl5i3kb3os": "میری سمجھ میں نہیں آیا کہ انہوں نے ایسا کیوں کیا۔",
+   "1fpzfjn2t6m": "میں نے ہمت سے سچ بتانے کا فیصلہ کیا۔",
+   "1xz6rhyaw3": "”میں سیبوں کے ڈرم کے اندر تھا اور میں نے تمہاری باتیں سنیں۔",
+   "1ecyllvb3vm": "میں نے جہاز کی رسی کاٹی اور اسے چھپا دیا۔",
+   "pwbbsoppf7": "اگر تم نے مجھے مارا تو تمہیں جہاز کبھی نہیں ملے گا۔“",
+   "1j9btm3872d": "قزاقوں کو بہت غصہ آیا اور انہوں نے چاقو نکال لیے۔",
+   "20tp2y1u0ew": "سلور چلایا: ”کوئی لڑکے کو ہاتھ نہیں لگائے گا!“",
+   "1kx8p6ysylq": "قزاق آپس میں بات کرنے باہر چلے گئے۔",
+   "37u5b55nbb": "سلور نے دھیمی آواز میں مجھ سے کہا: ”جم، ہمیں ایک دوسرے کی مدد کرنی ہوگی۔“",
+   "1h4eu44ixtn": "قزاق قلعے میں ہیں۔",
+   "1gkkacwxg81": "میرے دوست وہاں نہیں ہیں۔",
+   "silmo3ulyf": "سلور کہتا ہے کہ وہ زندہ ہیں۔",
+   "vs2lygrsqs": "میں قزاقوں کو سچ بتاتا ہوں۔",
+   "6tkvojpefb": "قزاق مجھے مارنا چاہتے ہیں۔",
+   "qsxm7n7jpb": "سلور میری حفاظت کرتا ہے۔",
+   "28kzugepu9b": "پھر سے سیاہ نشان",
+   "p7ds6a2jt2": "کچھ دیر بعد قزاق دوبارہ اندر آئے۔",
+   "14t278c48go": "ان میں سے ایک، جارج میری، نے سلور کو ایک کاغذ دیا۔",
+   "245n82fvj3d": "یہ سیاہ نشان تھا!",
+   "1djr2t5hrde": "میری نے کہا: ”اب تم ہمارے کپتان نہیں ہو۔“",
+   "1pmbkm6i13r": "سلور بالکل نہیں ڈرا۔",
+   "1tlca3ilk60": "اس نے سکون سے پوچھا: ”کیوں؟“",
+   "15i0vro35p8": "انہوں نے کہا: ”تم نے لڑکے کو بچایا اور دشمنوں کو جانے دیا۔“",
+   "d5xdilidzq": "تب سلور نے جیب سے ایک کاغذ نکالا۔",
+   "t41an10tf1": "اس نے اسے قزاقوں کے سامنے زمین پر پھینک دیا۔",
+   "ww7jnghryl": "یہ خزانے کا نقشہ تھا، تین سرخ نشانوں کے ساتھ!",
+   "t7ykns32yb": "ڈاکٹر نے یہ اسے دیا تھا۔",
+   "2cmsqwg20hg": "قزاقوں نے بہت خوشی سے نقشہ اٹھا لیا۔",
+   "2gbwch96lis": "وہ نعرے لگا رہے تھے: ”سلور زندہ باد! کپتان زندہ باد!“",
+   "sz82u6srhh": "سلور پھر سے قزاقوں کا سردار بن گیا۔",
+   "22d779ikv1i": "میری سمجھ میں نہیں آیا کہ ڈاکٹر نے نقشہ کیوں دے دیا۔",
+   "iw54r15ylz": "قزاق سلور کو سیاہ نشان دیتے ہیں۔",
+   "yxdj855woq": "وہ اب اسے سردار نہیں چاہتے۔",
+   "1ytf3xw0q2o": "سلور انہیں خزانے کا نقشہ دکھاتا ہے۔",
+   "2gocoh8fvm0": "قزاق خوش ہیں۔",
+   "4oklm8tqaz": "سلور پھر سے سردار بن جاتا ہے۔",
+   "1b2y7u7yuqv": "قول کا پاس",
+   "ex3nytvm6j": "اگلی صبح ڈاکٹر قلعے پر آئے۔",
+   "2fif9t09rd1": "وہ بیمار اور زخمی قزاقوں کا علاج کرنے آئے تھے۔",
+   "2ckb2hiuk85": "جب انہوں نے مجھے دیکھا تو حیران رہ گئے۔",
+   "lw4dnur5zl": "لیکن انہوں نے سکون سے اپنا کام کیا۔",
+   "1rsrvw5kd0y": "بعد میں ڈاکٹر نے باڑ کے پاس مجھ سے بات کی۔",
+   "23hxex3osb1": "سلور تھوڑا دور سے ہمیں دیکھ رہا تھا۔",
+   "1lv13up70mg": "ڈاکٹر نے کہا: ”جم، باڑ پھلانگو اور بھاگ چلیں!“",
+   "25ou75l1o6z": "میں نے جواب دیا: ”میں نہیں جا سکتا۔ میں نے سلور کو اپنا قول دیا ہے۔“",
+   "tvkfjafcuj": "میں نے ڈاکٹر کو بتایا کہ جہاز کہاں ہے۔",
+   "1c6662aoq73": "انہوں نے کہا: ”جم، تم نے پھر ہماری جان بچائی ہے!“",
+   "1k0hjq8onrv": "پھر انہوں نے سلور کو بلایا۔",
+   "1a8dn40vk0o": "انہوں نے اس سے کہا: ”سلور، لڑکے کو اپنے قریب رکھنا۔“",
+   "emp0po1x2h": "”اور جب خزانہ ملے تو احتیاط کرنا۔“",
+   "enqs9wq4h2": "ڈاکٹر قلعے پر آتے ہیں۔",
+   "1nsjr8twn9m": "وہ بیمار قزاقوں کا علاج کرتے ہیں۔",
+   "1ybwek4rw43": "وہ مجھ سے بات کرتے ہیں۔",
+   "131jaeky99e": "ڈاکٹر کہتے ہیں: ”بھاگ چلیں!“",
+   "1vnyvnzzly7": "میں کہتا ہوں: ”میں نہیں جا سکتا۔ میں نے سلور سے وعدہ کیا ہے۔“",
+   "1cwv84c4rsj": "میں ڈاکٹر کو بتاتا ہوں کہ جہاز کہاں ہے۔",
+   "1r6x2z6vki7": "خزانے کی تلاش: ڈھانچہ",
+   "fty55ffwm0": "ناشتے کے بعد قزاق خزانہ ڈھونڈنے نکلے۔",
+   "g2k8v3jtjy": "انہوں نے کدالیں، بیلچے، ہتھیار اور کھانا اٹھایا ہوا تھا۔",
+   "1afejym7pwc": "سلور مجھے کتے کی طرح رسی سے باندھ کر لے جا رہا تھا۔",
+   "2gjb96lagn2": "میں سوچ رہا تھا: ”جب انہیں خزانہ مل جائے گا تو میرا کیا ہوگا؟“",
+   "a38trw95y0": "نقشے پر فلنٹ کے لکھے ہوئے کچھ الفاظ تھے۔",
+   "1jxce8ft72j": "”دوربین والی پہاڑی کے کندھے پر ایک اونچا درخت۔“",
+   "2csusife24y": "ہم آہستہ آہستہ درختوں سے بھری ایک پہاڑی پر چڑھے۔",
+   "o8eiobjx9y": "بہت گرمی تھی اور قزاق تھکے ہوئے تھے۔",
+   "u3rdyotjvs": "اچانک ایک قزاق ڈر کے مارے چیخا۔",
+   "trj5gwopaq": "زمین پر پودوں کے بیچ ایک ڈھانچہ پڑا تھا۔",
+   "nofwt529t1": "اس کے بازو سر کے اوپر تیر کی طرح پھیلے ہوئے تھے۔",
+   "179stjq44se": "سلور نے کہا: ”یہ فلنٹ کے آدمیوں میں سے ایک ہے۔ یہ ہمیں راستہ دکھا رہا ہے۔“",
+   "17qqaxt8foj": "قزاق بہت ڈرے ہوئے تھے۔",
+   "31nu7b73v6": "وہ دھیمی آواز میں کہہ رہے تھے: ”فلنٹ نے اسے مارا اور یہاں چھوڑ دیا۔“",
+   "16zx00taplw": "سلور نے کہا: ”فلنٹ مر چکا ہے۔ مردے کسی کو نقصان نہیں پہنچاتے۔“",
+   "1d42efdg1ek": "لیکن سب ایک دوسرے کے بہت قریب اور خاموشی سے چل رہے تھے۔",
+   "14gn4nmwb37": "قزاق خزانہ ڈھونڈتے ہیں۔",
+   "uzk57up761": "میں رسی سے بندھا ہوا ہوں۔",
+   "162a8csi2y0": "ہم ایک پہاڑی پر چڑھتے ہیں۔",
+   "1uol9kp72cq": "ہمیں ایک ڈھانچہ ملتا ہے۔",
+   "18e4ex2j5uj": "اس کے بازو ایک راستے کی طرف اشارہ کرتے ہیں۔",
+   "2658xlay0zz": "قزاق ڈرتے ہیں۔",
+   "1bynsp63m96": "خزانے کی تلاش: درختوں کے بیچ آواز",
+   "2irmn5640d": "قزاق آرام کرنے کے لیے پہاڑی کے اوپر بیٹھ گئے۔",
+   "1urr5s53gpf": "وہاں سے پورا جزیرہ اور سمندر نظر آتا تھا۔",
+   "m7dxdm00m7": "تب درختوں کے بیچ ایک باریک آواز گانے لگی:",
+   "2f7soope8gf": "قزاق ڈر سے سفید پڑ گئے۔",
+   "1v34yz7z341": "ایک نے کہا: ”یہ فلنٹ ہے! یہ اس کا بھوت ہے!“",
+   "6tn0s714e9": "آواز چلائی: ”ڈاربی، رم لے آؤ!“",
+   "54eymi392v": "وہ کانپتے ہوئے کہنے لگے: ”یہ فلنٹ کے آخری الفاظ تھے!“",
+   "uib9m5unpd": "سلور نے غور سے سنا۔",
+   "a9w0lmy5hk": "اس نے کہا: ”یہ آواز فلنٹ کی نہیں۔ یہ بین گن کی ہے!“",
+   "121xzl0gxb9": "”بین گن زندہ ہو یا مردہ، ہمیں نہیں ڈرا سکتا!“",
+   "1fdbo05ruci": "قزاقوں کا حوصلہ بڑھا اور وہ چلتے رہے۔",
+   "bt67go7pgj": "آخرکار وہ سرخ نشان والی جگہ پر پہنچ گئے۔",
+   "ll5sbvb18r": "وہ خوشی سے چیختے ہوئے دوڑے۔",
+   "sy7dh37f6h": "لیکن وہاں صرف زمین میں ایک بڑا گڑھا تھا۔",
+   "d5wcdurm5q": "گڑھا خالی تھا! کوئی پہلے ہی خزانہ لے جا چکا تھا۔",
+   "64coold0pe": "ہمیں درختوں کے بیچ ایک آواز سنائی دیتی ہے۔",
+   "49jr6ralyq": "وہ قزاقوں کا گانا گاتی ہے۔",
+   "3mfnsgps6v": "قزاق سمجھتے ہیں کہ یہ بھوت ہے۔",
+   "1rn7xufcfbn": "سلور کہتا ہے کہ یہ بین گن ہے۔",
+   "nt4qdgskv5": "ہم خزانے کی جگہ پہنچتے ہیں۔",
+   "19tdtb9uaro": "وہاں ایک گڑھا ہے۔",
+   "n1lzfc1sp6": "گڑھا خالی ہے!",
+   "99m1n1o2gz": "ایک سردار کا زوال",
+   "jfd7ypj682": "قزاق غصے سے خالی گڑھے کو دیکھنے لگے۔",
+   "2exrww66wcb": "انہیں اس میں صرف ایک سونے کا سکہ ملا۔",
+   "8rb1swbolm": "سلور نے چپکے سے مجھے ایک پستول دے دی۔",
+   "mycaw4etfb": "اس نے میرے کان میں کہا: ”تیار ہو جاؤ، جم۔“",
+   "5kk5k97stl": "جارج میری چلایا: ”سلور، تم نے ہمیں دھوکا دیا!“",
+   "2crwfjcze93": "قزاق سلور اور مجھ پر حملہ کرنا چاہتے تھے۔",
+   "664m34iuf7": "اچانک درختوں کی طرف سے گولیاں چلیں۔",
+   "7tw6mngfc0": "میری گڑھے میں گر گیا اور دو قزاق بھاگ گئے۔",
+   "uao5z1yc43": "جنگل سے ڈاکٹر، گرے اور بین گن نکلے۔",
+   "11mjx7o1vgq": "سلور نے کہا: ”شکریہ ڈاکٹر۔ آپ بالکل وقت پر آئے۔“",
+   "2497ua29m70": "پھر ڈاکٹر نے ہمیں راز بتایا۔",
+   "wk9024w03s": "بہت پہلے بین گن کو فلنٹ کا خزانہ مل گیا تھا۔",
+   "1a0lwtpxszm": "اس نے کئی مہینوں میں تھوڑا تھوڑا کر کے اسے ایک غار میں پہنچا دیا تھا۔",
+   "16hwch5hwni": "اسی لیے ڈاکٹر نے نقشہ قزاقوں کو دے دیا تھا: اب وہ کسی کام کا نہیں تھا!",
+   "5yet0wtfgg": "ہم سب بین گن کے غار میں گئے۔",
+   "mimi3dp6wa": "وہاں کپتان اور مسٹر ٹریلانی ہمارا انتظار کر رہے تھے۔",
+   "pyk9zbt7mn": "غار کے آخر میں خزانہ چمک رہا تھا۔",
+   "1kr4ta67629": "سکوں کے ڈھیر اور سونے کی سلاخیں تھیں۔",
+   "3qrjhxccml": "اس رات ہم سب نے بہت خوشی سے مل کر کھانا کھایا۔",
+   "sb9bc61y7z": "قزاق سلور سے ناراض ہو جاتے ہیں۔",
+   "krocgylxfm": "وہ ہم پر حملہ کرنا چاہتے ہیں۔",
+   "1wx3k7slpmi": "ڈاکٹر اور بین گن آ جاتے ہیں۔",
+   "39djomfuwt": "خزانہ بین گن کے پاس تھا۔",
+   "1jvx5d1j8vu": "اس نے اسے ایک غار میں چھپا دیا تھا۔",
+   "29wmqj420xr": "ہم غار میں جاتے ہیں۔",
+   "14v85yhadt1": "وہاں بہت سا سونا ہے!",
+   "29r0ggwjel": "آخر میں",
+   "1jqbz89sw0h": "ہم نے خزانہ جہاز تک پہنچانے کے لیے کئی دن کام کیا۔",
+   "1kw2nw50mxd": "دنیا کے ہر ملک کے سکے تھے۔",
+   "1sxo7n9avo1": "مجھے انہیں ترتیب دینے میں بہت مزہ آتا تھا۔",
+   "mqllqo2yg": "باقی بچے تین قزاق جزیرے پر چھپ گئے۔",
+   "2437aaw54dd": "ہم نے انہیں کھانے، کپڑوں اور اوزاروں کے ساتھ وہیں چھوڑنے کا فیصلہ کیا۔",
+   "266h03stqj2": "ایک صبح ہم نے لنگر اٹھایا اور خلیج سے نکل گئے۔",
+   "213tp3blwf4": "میں نے آخری بار جزیرے کو دیکھا، جو چھوٹا ہوتا جا رہا تھا۔",
+   "qfnr15d69n": "ہم جنوبی امریکہ کی ایک بندرگاہ پر رکے۔",
+   "8mnbi8golb": "اس رات سلور جہاز سے بھاگ گیا۔",
+   "1mydhlb7epx": "وہ سکوں کی ایک بوری ساتھ لے گیا۔",
+   "14ctys6lr0a": "میرا خیال ہے کہ اس کے جانے سے ہم سب خوش ہوئے۔",
+   "qy8qoykw5s": "آخرکار ہسپانیولا برسٹل پہنچ گیا۔",
+   "1yehz0n6jf1": "ہر ایک کو خزانے میں سے اپنا حصہ ملا۔",
+   "9k06lw6vl9": "بین گن نے اپنے پیسے چند دنوں میں خرچ کر دیے۔",
+   "1h9uljye15u": "میں اپنی ماں کے پاس گھر واپس آ گیا۔",
+   "srnt9e46nj": "جان سلور کے بارے میں ہمیں پھر کبھی کچھ پتا نہیں چلا۔",
+   "4g87j09qpz": "جزیرے پر ابھی بھی خزانہ ہے، لیکن میں وہاں کبھی واپس نہیں جاؤں گا۔",
+   "1l5gml3opmx": "کچھ راتوں کو مجھے اب بھی ڈراؤنے خواب آتے ہیں۔",
+   "1gryatn9rp6": "میں طوطے کی آواز سنتا ہوں جو چلاتا ہے: ”آٹھ والے سکے! آٹھ والے سکے!“",
+   "fn3yysy7h4": "ہم خزانہ جہاز پر لے جاتے ہیں۔",
+   "1j0icpwlhc3": "تین قزاق جزیرے پر رہ جاتے ہیں۔",
+   "2e4sqpee0ds": "ہم جزیرے سے چلے جاتے ہیں۔",
+   "1ggf3tmtrmu": "سلور تھوڑا سا سونا لے کر بھاگ جاتا ہے۔",
+   "1k50kbe88tb": "ہم برسٹل واپس آتے ہیں۔",
+   "1clcheglkoc": "ہم سب کو خزانے کا حصہ ملتا ہے۔",
+   "509eo0du4y": "میں اپنی ماں کے پاس گھر واپس آتا ہوں۔",
+   "12y7rwlmkwk": "میں کبھی جزیرے پر واپس نہیں جاؤں گا۔",
+   "21suogej1d8": "لیکن کبھی کبھی میں سلور کے طوطے کا خواب دیکھتا ہوں۔"
   }
  }
 }
