@@ -86,6 +86,8 @@ textarea { line-height: 1.5; resize: vertical; }
 .btn[aria-pressed="true"], .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 .btn.danger { background: var(--danger); border-color: var(--danger); color: #fff; }
 .btn svg { width: 16px; height: 16px; flex: none; }
+.btn.icon { padding: 6px 8px; }
+.btn.icon svg { width: 18px; height: 18px; }
 .btn .aa { font-family: var(--f-display); font-size: 15px; }
 .ibtn { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--ink); flex: none; }
 .ibtn svg { width: 16px; height: 16px; }

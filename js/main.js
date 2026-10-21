@@ -8,7 +8,7 @@ import { importFile, importText, ACCEPT } from "./importers.js";
 import { aiDialog } from "./aidialog.js";
 import { PROVIDERS, CLAUDE_MODELS, settings, saveSettings, resolveProvider, providerLabel, prepareBrowser } from "./translate.js";
 import { lang as langInfo } from "./languages.js";
-import { P, savePrefs, openBook, bindReader, setExitHandler, fillLangSelect, pickFile, applyTheme, closeMenus, langsAll } from "./reader.js";
+import { P, savePrefs, openBook, bindReader, setExitHandler, fillLangSelect, pickFile, applyTheme, cycleTheme, closeMenus, langsAll } from "./reader.js";
 
 /* ---------- views ---------- */
 function show(view) {
@@ -258,6 +258,7 @@ async function boot() {
   $("#addAi").addEventListener("click", () => aiDialog(openRoute));
   $$(".settingsBtn").forEach(b => b.addEventListener("click", settingsDialog));
   $("#helpBtn").addEventListener("click", helpDialog);
+  $$(".themeBtn").forEach(b => b.addEventListener("click", cycleTheme));
   document.addEventListener("lf:settings", settingsDialog);
 
   const drop = $("#drop");

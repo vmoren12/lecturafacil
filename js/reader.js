@@ -902,7 +902,31 @@ function setActive(row) {
   if (row) row.classList.add("active");
 }
 
+const THEMES = {
+  auto: { icon: "contrast", label: "Colors automàtics (com el dispositiu)" },
+  light: { icon: "sun", label: "Colors clars" },
+  dark: { icon: "moon", label: "Colors foscos" }
+};
+
+/** Applies P.theme and shows it on the header buttons. */
 export function applyTheme() {
+  if (!THEMES[P.theme]) P.theme = "auto";
   if (P.theme === "auto") document.documentElement.removeAttribute("data-theme");
   else document.documentElement.setAttribute("data-theme", P.theme);
+  const t = THEMES[P.theme];
+  const next = THEMES[nextTheme()].label.toLowerCase();
+  $$(".themeBtn").forEach(b => {
+    b.innerHTML = ICON[t.icon];
+    b.setAttribute("aria-label", `${t.label}. Canvia a: ${next}`);
+    b.title = `${t.label} · clica per canviar`;
+  });
+}
+const nextTheme = () => ({ auto: "light", light: "dark", dark: "auto" })[P.theme] || "auto";
+
+/** Header button: automatic → light → dark. */
+export function cycleTheme() {
+  P.theme = nextTheme();
+  savePrefs();
+  applyTheme();
+  closeMenus(); // the Aa menu shows the theme too: reopen it to see the change
 }
