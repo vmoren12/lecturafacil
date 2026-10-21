@@ -41,7 +41,9 @@ export const ICON = {
   help: svg('<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14"/><path d="M12 17.5h.01"/>'),
   stop: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>',
   book: svg('<path d="M4 4h6a2 2 0 0 1 2 2v14a2 2 0 0 0-2-2H4z"/><path d="M20 4h-6a2 2 0 0 0-2 2v14a2 2 0 0 1 2-2h6z"/>'),
-  plus: svg('<path d="M12 5v14M5 12h14"/>')
+  plus: svg('<path d="M12 5v14M5 12h14"/>'),
+  ai: svg('<path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>'),
+  copy: svg('<rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>')
 };
 
 /** Opens a <dialog> with the given HTML; resolves with the dialog's returnValue. */
@@ -64,7 +66,12 @@ export function dialog(html, { wide = false, onOpen } = {}) {
 
 /** Downloads a JSON object as a file. */
 export function downloadJSON(obj, filename) {
-  const blob = new Blob([JSON.stringify(obj)], { type: "application/json" });
+  downloadText(JSON.stringify(obj), filename, "application/json");
+}
+
+/** Downloads text as a file. */
+export function downloadText(text, filename, type = "text/plain;charset=utf-8") {
+  const blob = new Blob([text], { type });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
   a.download = filename;

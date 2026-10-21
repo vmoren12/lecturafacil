@@ -114,10 +114,74 @@ export function buildBook(imp, extra = {}) {
 
 const uniqueId = title => slug(title) + "-" + Date.now().toString(36);
 
-function normalizeBook(b, extra = {}) {
+const KINDS = ["front", "chapter", "activities", "glossary", "back"];
+
+export function normalizeBook(b, extra = {}) {
   const book = Object.assign({ lang: "ca", sections: [], glossary: [], translations: {} }, b, extra);
-  book.sections.forEach((s, i) => { s.id = s.id || "s" + i; });
+  liftTranslations(book);
+  book.sections.forEach((s, i) => {
+    s.id = s.id || "s" + i;
+    if (!KINDS.includes(s.kind)) s.kind = "chapter";
+    if (s.kind === "chapter" && s.n != null) s.n = Number(s.n) || null;
+  });
+  // levels used by the sections but not declared (e.g. written by an AI)
+  const used = [...new Set(book.sections.flatMap(s => s.levels ? Object.keys(s.levels) : []))];
+  if (used.length && !(book.levels || []).length) book.levels = used.map(id => ({ id, label: LEVEL_LABEL[id] || id }));
+  (book.glossary || []).forEach((g, i) => {
+    g.id = g.id || "g" + i;
+    g.term = String(g.term || "").toLowerCase();
+    g.forms = (g.forms && g.forms.length ? g.forms : [g.term]).map(f => String(f).toLowerCase());
+  });
   return book;
+}
+const LEVEL_LABEL = { original: "Original", facil: "Fàcil", molt: "Molt fàcil" };
+
+/** Translations written next to the text ({ t, tr: { en: "…" } }, titleTr, …),
+    as an AI can produce them, become the book's built-in translations (by hash). */
+function liftTranslations(book) {
+  const add = (text, tr) => {
+    if (!text || !tr || typeof tr !== "object") return;
+    for (const [l, v] of Object.entries(tr)) if (typeof v === "string" && v.trim()) (book.translations[l] = book.translations[l] || {})[hashText(text)] = v.trim();
+  };
+  if (book.titleTr) { add(book.title, book.titleTr); delete book.titleTr; }
+  for (const s of book.sections) {
+    if (s.titleTr) { add(s.title, s.titleTr); delete s.titleTr; }
+    for (const blocks of s.levels ? Object.values(s.levels) : [s.blocks || []]) {
+      for (const b of blocks) {
+        if (b.type === "p") {
+          b.s = (b.s || []).map(x => {
+            if (x && typeof x === "object") { add(x.t, x.tr); return x.t; }
+            return x;
+          }).filter(x => typeof x === "string" && x.trim());
+        } else if (b.type === "h" && b.tr) { add(b.t, b.tr); delete b.tr; }
+      }
+    }
+  }
+  for (const g of book.glossary || []) if (g.defTr) { add(g.def, g.defTr); delete g.defTr; }
+}
+
+/** Adds the sections, translations and words of a part to a book already saved. */
+export function mergePart(base, part) {
+  const key = s => s.kind === "chapter" && s.n != null ? "c" + s.n : s.kind + ":" + s.title;
+  const sections = base.sections.slice();
+  for (const s of part.sections) {
+    const i = sections.findIndex(x => key(x) === key(s));
+    if (i >= 0) sections[i] = s; else sections.push(s);
+  }
+  const rank = s => KINDS.indexOf(s.kind) * 10000 + (s.kind === "chapter" ? s.n || 0 : 0);
+  sections.sort((a, b) => rank(a) - rank(b));
+  sections.forEach((s, i) => { s.id = "s" + i; });
+  const translations = Object.assign({}, base.translations);
+  for (const [l, map] of Object.entries(part.translations || {})) translations[l] = Object.assign({}, translations[l], map);
+  const terms = new Set((base.glossary || []).map(g => g.term));
+  const glossary = (base.glossary || []).concat((part.glossary || []).filter(g => !terms.has(g.term)));
+  glossary.forEach((g, i) => { g.id = "g" + i; });
+  return Object.assign({}, base, {
+    sections, translations, glossary,
+    dict: Object.assign({}, base.dict, part.dict),
+    credits: base.credits && base.credits.length ? base.credits : part.credits,
+    levels: base.levels || part.levels
+  });
 }
 
 export async function saveBook(book) {
@@ -225,8 +289,9 @@ export async function bookPack(book) {
   return Object.assign({}, rest, { format: FORMAT, version: FORMAT_VERSION, type: "book", translations });
 }
 
-/** Imports a pack (book or translation). Returns { kind, book, lang? }. */
-export async function importPack(obj, { sourceUrl } = {}) {
+/** Imports a pack (book or translation). Returns { kind, book, lang?, part? }.
+    renameOnConflict: a book with the id of a bundled book gets a new id (books made by an AI). */
+export async function importPack(obj, { sourceUrl, renameOnConflict = false } = {}) {
   if (!obj || obj.format !== FORMAT) throw new Error("Aquest fitxer no és un llibre ni una traducció de Lectura fàcil.");
   if (obj.version > FORMAT_VERSION) throw new Error("Aquest fitxer és d'una versió més nova de l'aplicació. Actualitza la pàgina.");
   if (obj.type === "translation") {
@@ -236,13 +301,19 @@ export async function importPack(obj, { sourceUrl } = {}) {
     await mem.importPack(obj);
     return { kind: "translation", book, lang: obj.lang };
   }
-  if (!Array.isArray(obj.sections)) throw new Error("Al fitxer hi falten els capítols.");
-  const existing = memory.get(obj.id) || await bookStore.get(obj.id);
-  if (existing && existing.origin === "bundled") throw new Error("Aquest llibre ja és a la biblioteca.");
-  const book = normalizeBook(Object.assign({}, obj, { origin: sourceUrl ? "url" : "local", source: sourceUrl || null, added: Date.now() }));
-  delete book.type;
+  if (!Array.isArray(obj.sections) || !obj.sections.length) throw new Error("Al fitxer hi falten els capítols.");
+  if (!obj.id) obj = Object.assign({}, obj, { id: uniqueId(obj.title || "llibre") });
+  const bundled = (await loadManifest()).has(obj.id);
+  if (bundled) {
+    if (!renameOnConflict) throw new Error("Aquest llibre ja és a la biblioteca.");
+    obj = Object.assign({}, obj, { id: obj.id + "-propi" });
+  }
+  const { part, type, ...data } = obj;
+  let book = normalizeBook(Object.assign({}, data, { origin: sourceUrl ? "url" : "local", source: sourceUrl || null, added: Date.now() }));
+  const existing = memory.get(book.id) || await bookStore.get(book.id);
+  if (part && existing && existing.origin !== "bundled") book = mergePart(existing, book);
   await saveBook(book);
-  return { kind: "book", book };
+  return { kind: "book", book, part: part || null };
 }
 
 /** Opens a pack published on the web (shared link ?llibre=https://...). */

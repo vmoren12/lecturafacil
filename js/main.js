@@ -5,6 +5,7 @@ import { $, $$, esc, toast, ICON, dialog } from "./ui.js";
 import { kv } from "./store.js";
 import { listBooks, getBook, buildBook, saveBook, deleteBook, importPack, importFromUrl, translatedLanguages } from "./books.js";
 import { importFile, importText, ACCEPT } from "./importers.js";
+import { aiDialog } from "./aidialog.js";
 import { PROVIDERS, CLAUDE_MODELS, settings, saveSettings, resolveProvider, providerLabel, prepareBrowser } from "./translate.js";
 import { lang as langInfo } from "./languages.js";
 import { P, savePrefs, openBook, bindReader, setExitHandler, fillLangSelect, pickFile, applyTheme, closeMenus, langsAll } from "./reader.js";
@@ -225,6 +226,7 @@ function helpDialog() {
     <h3>Per al professorat</h3>
     <ul>
       <li><b>Afegeix un llibre</b> ja adaptat (EPUB, Word, PDF, HTML o text). L’app detecta els capítols, les il·lustracions i el glossari.</li>
+      <li>Amb <b>Prepara’l amb una IA</b> obtens un prompt perquè una IA converteixi qualsevol document: còpia exacta, lectura fàcil o diversos nivells.</li>
       <li>La traducció és automàtica. Al menú ${ICON.tools} pots traduir tot el llibre, activar el <b>mode docent</b> per corregir-la i <b>compartir-la</b> amb un fitxer o un enllaç.</li>
       <li>Tot es desa en aquest navegador. Res no surt de l’ordinador si no fas servir un traductor en línia.</li>
     </ul>
@@ -253,6 +255,7 @@ async function boot() {
   $("#addFile").addEventListener("click", () => pickFile(ACCEPT, handleFile));
   $("#addPaste").addEventListener("click", pasteDialog);
   $("#addUrl").addEventListener("click", urlDialog);
+  $("#addAi").addEventListener("click", () => aiDialog(openRoute));
   $$(".settingsBtn").forEach(b => b.addEventListener("click", settingsDialog));
   $("#helpBtn").addEventListener("click", helpDialog);
   document.addEventListener("lf:settings", settingsDialog);

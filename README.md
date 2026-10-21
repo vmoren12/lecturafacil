@@ -24,6 +24,7 @@ El professorat hi puja un text que ja ha adaptat (EPUB, Word, PDF, HTML o text).
 
 - **Afegeix un llibre:** EPUB, DOCX, PDF, HTML, TXT o Markdown. Es detecten capítols, presentació, activitats, il·lustracions, portada, crèdits i el **glossari** dels EPUB que enllacen paraules a definicions. Abans de desar-lo es pot revisar què s’ha trobat.
 - **Enganxa un text** directament (`# Títol` per separar capítols) o **obre un enllaç** a un fitxer publicat.
+- **Prepara’l amb una IA:** genera un prompt per a Claude, ChatGPT o Gemini que converteix qualsevol document (PDF escanejat, llibre en prosa…) en un llibre per a l’app. Es tria si es vol una **còpia exacta**, una **adaptació a lectura fàcil** (A2 o A1) o **diversos nivells** (original, fàcil, molt fàcil), si ha d’incloure traduccions i paraules clau, i si ha de respondre per parts. La resposta s’enganxa a la mateixa finestra; les parts d’un llibre llarg s’ajunten soles.
 - **Tradueix tot el llibre** a una llengua d’una vegada.
 - **Mode docent:** clica una traducció per corregir-la. Les traduccions revisades tenen prioritat sobre les automàtiques.
 - **Comparteix:** desa el llibre amb totes les traduccions en un fitxer (`.lecturafacil.json`) per enviar-lo a l’alumnat, desa només la traducció per compartir-la amb altres docents, o crea un enllaç directe.
