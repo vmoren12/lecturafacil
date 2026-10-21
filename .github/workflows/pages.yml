@@ -38,7 +38,7 @@ jobs:
       - name: Prepara el lloc
         run: |
           mkdir _site
-          cp -r index.html sw.js manifest.webmanifest css js data icons _site/
+          cp -r index.html illa-del-tresor.html sw.js manifest.webmanifest css js data icons _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

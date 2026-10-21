@@ -23,7 +23,9 @@ function loadManifest() {
   if (!manifest) {
     manifest = (async () => {
       const m = new Map();
-      for (const file of ["data/library.json", "data/library.local.json"]) {
+      // local copies (not published) are only looked for on this computer
+      const local = ["localhost", "127.0.0.1", ""].includes(location.hostname);
+      for (const file of ["data/library.json", ...(local ? ["data/library.local.json"] : [])]) {
         try {
           const j = await fetchJSON(file);
           for (const e of j.books || []) m.set(e.id, Object.assign({ origin: "bundled" }, e));

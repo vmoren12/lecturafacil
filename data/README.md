@@ -22,7 +22,7 @@
 | `title`, `subtitle`, `author`, `description` | No | Substitueixen les dades del fitxer. |
 | `translations` | No | Traduccions revisades per llengua (fitxers desats amb *Desa la traducció*). Tenen prioritat sobre les automàtiques. |
 
-`library.local.json` té el mateix format i **no es publica** (és al `.gitignore`), igual que la carpeta `local/`. Serveix per a còpies de llibres amb drets d’autor que només s’han de fer servir en aquest ordinador.
+`library.local.json` té el mateix format, **no es publica** (és al `.gitignore`, igual que la carpeta `local/`) i només es llegeix quan l’app s’obre des de `localhost`. Serveix per a còpies de llibres amb drets d’autor que només s’han de fer servir en aquest ordinador.
 
 ## Format dels fitxers `.json`
 

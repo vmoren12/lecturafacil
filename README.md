@@ -56,7 +56,7 @@ En mode **Automàtic** s’usa Claude si hi ha clau; si no, el traductor del nav
 
 Moltes edicions de lectura fàcil són obres protegides. **No publiqueu al repositori ni a GitHub Pages llibres sense permís de l’editorial**: el lloc és públic.
 
-Per fer servir una còpia pròpia només en local hi ha la carpeta `data/local/` i el fitxer `data/library.local.json`, que el `.gitignore` exclou. Per exemple, l’edició de lectura fàcil de *L’illa del tresor* de Castellnou Edicions es pot llegir sencera en local així:
+Per fer servir una còpia pròpia només en local hi ha la carpeta `data/local/` i el fitxer `data/library.local.json`, que el `.gitignore` exclou i que l’app només llegeix quan s’obre des d’aquest ordinador (`npm start`, http://localhost:8080). Per exemple, l’edició de lectura fàcil de *L’illa del tresor* de Castellnou Edicions es pot llegir sencera en local així:
 
 ```json
 // data/library.local.json
